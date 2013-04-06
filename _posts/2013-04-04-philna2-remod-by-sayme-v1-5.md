@@ -16,4 +16,4 @@ tags: [PhilNa2, Themes]
 - 更新帅哥美女认证
 - 其它一些小地方更新
 
-[下载链接](https://github.com/vinntoe/PhilNa2_Sayme/archive/v1.5.zip)
+[下载链接](https://github.com/vinntoe/PhilNa2_Sayme/archive/v1.5.1.zip)
