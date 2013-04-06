@@ -4,6 +4,7 @@ title: PhilNa2自说Me话扩展版 v1.5
 wordpress_id: 254
 wordpress_url: http://ISayMe.com/?p=254
 date: 2013-04-04 04:05:58 +08:00
+tags: [PhilNa2, Themes]
 ---
 - 更新读者墙模板,使用我现在用的CSS3读者墙
 - 更新侧边栏,默认只有我现在用的侧边栏样式,其它想要添加的如日历 链接 等等可以在后台小工具中添加,或者直接去sidebar.php中修改

@@ -4,6 +4,7 @@ title: PhilNa2主题修改优化细节记录
 wordpress_id: 40
 wordpress_url: http://ISayMe.com/?p=40
 date: 2011-04-08 19:55:50 +08:00
+tags: [PhilNa2, Wordpress, 原创]
 ---
 一直都是把这个放在了 [关于](http://isayme.com/about) 页面里面,但是觉得放在那里面始终不是个办法.早点独立出来吧.
 

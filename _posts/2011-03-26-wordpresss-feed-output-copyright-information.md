@@ -4,6 +4,7 @@ title: wordpress的feed输出版权信息
 wordpress_id: 9
 wordpress_url: http://ISayMe.com/?p=9
 date: 2011-03-26 23:44:10 +08:00
+tags: [Wordpress]
 ---
 自从 使用上了wordpress 就在一直寻找优化,修改模板的文章.原来在blogger里面的文章版权也只是在模板里面加了一句话而已.
 

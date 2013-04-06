@@ -4,6 +4,7 @@ title: 初识 八皇后问题
 wordpress_id: 10
 wordpress_url: http://ISayMe.com/?p=10
 date: 2011-03-31 11:23:31 +08:00
+tags: [数据结构]
 ---
 数据结构课上老师讲到了 数据结构的习题.就是八皇后问题.
 

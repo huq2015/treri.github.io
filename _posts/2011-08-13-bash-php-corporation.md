@@ -4,6 +4,7 @@ title: bash搭配php批量下载图片
 wordpress_id: 202
 wordpress_url: http://ISayMe.com/?p=202
 date: 2011-08-13 23:57:46 +08:00
+tags: [Bash, Linux, PHP, Wget]
 ---
 看到一个图片网站,很多漂亮图片,所以想要保存下来.
 但是图片太多了.一个一个右键保存的话,不知道要保存到什么时候.

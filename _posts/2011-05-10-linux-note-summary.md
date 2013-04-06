@@ -4,6 +4,7 @@ title: Linux记录总结
 wordpress_id: 125
 wordpress_url: http://isayme.com/?p=125
 date: 2011-05-10 16:58:24 +08:00
+tags: [Linux, Ubuntu]
 ---
 ***非Linux用户可以不用看此文啦.***
 

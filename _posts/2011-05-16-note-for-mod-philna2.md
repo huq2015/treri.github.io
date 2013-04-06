@@ -4,6 +4,7 @@ title: 数数我对PhilNa2的Mod
 wordpress_id: 134
 wordpress_url: http://ISayMe.com/?p=134
 date: 2011-05-16 15:50:33 +08:00
+tags: [PhilNa2, 原创, 点滴]
 ---
 *服务器硬件升级之前,给我发了一封邮件,要求在升级完成之前,不要更新网站数据,可惜我没有看到,发了这篇文章.*
 

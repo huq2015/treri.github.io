@@ -4,6 +4,7 @@ title: 我起的名字很失败
 wordpress_id: 185
 wordpress_url: http://ISayMe.com/?p=185
 date: 2011-07-08 11:03:08 +08:00
+tags: [Blog, 点滴]
 ---
 来俺博客的朋友们,感谢你们的支持.但是,俺的博客名字叫 **自说Me话**,不是 自说自话
 

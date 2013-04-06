@@ -4,6 +4,7 @@ title: 转-如何让wordpress评论者收到回复通知邮件？
 wordpress_id: 6
 wordpress_url: http://isayme.com/?p=6
 date: 2011-03-30 10:56:02 +08:00
+tags: [Wordpress]
 ---
 注:本文转自[dboy~小真の365天](http://www.dboy365.com/)博客.原文地址请[点击](http://www.dboy365.com/archives/611).感谢dboy精简了这个插件.我按照他的说明设置之后,邮件回复功能正常.因此才转载这篇文章.希望更多的同学能够使用上邮件回复的功能.
 

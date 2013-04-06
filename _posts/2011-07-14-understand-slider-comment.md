@@ -4,6 +4,7 @@ title: 侧栏评论滑动显示的一点理解
 wordpress_id: 189
 wordpress_url: http://ISayMe.com/?p=189
 date: 2011-07-14 19:33:38 +08:00
+tags: [JavaScript, Study, Wordpress]
 ---
 前两天,我弄上了 loosky的 那个评论滑动显示的效果,也稍微写了一点东西,很多朋友很喜欢.
 

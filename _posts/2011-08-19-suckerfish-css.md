@@ -4,6 +4,7 @@ title: suckerfish下拉菜单
 wordpress_id: 206
 wordpress_url: http://ISayMe.com/?p=206
 date: 2011-08-19 14:44:13 +08:00
+tags: [CSS]
 ---
 在《精通CSS 高能Web标准解决方案》(第二版)中的一个例子,我将demo做出来了.顺便学习一下.
 

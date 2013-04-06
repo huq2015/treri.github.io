@@ -4,6 +4,7 @@ title: 解决-数据结构八皇后问题
 wordpress_id: 113
 wordpress_url: http://isayme.com/?p=113
 date: 2011-05-04 21:55:30 +08:00
+tags: [C, 原创, 数据结构]
 ---
 今天一天都没怎么上网,一直都在鼓捣数据结构问题.原来我就在一篇文章中写过 [初识八皇后问题](http://isayme.com/2011/03/10-eight-queens-problem/) 可惜当时什么都不会.只是写了写这个问题的要求是什么.
 今天终于把这个问题给解决了.

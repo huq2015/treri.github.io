@@ -4,6 +4,7 @@ title: Typecho移植版PhilNa2已经可用
 wordpress_id: 245
 wordpress_url: http://ISayMe.com/?p=245
 date: 2012-03-23 12:15:21 +08:00
+tags: [PhilNa2, Typecho]
 ---
 经过两天的鼓捣,移植版的philna2终于可以使用了.但是由于是移植版的,所以就完全按照原主题来了.现在还有好多功能没有做完.  另外由于typecho的功能毕竟没有wordpress的强悍,所以有些功能就根本无法实现了.
 

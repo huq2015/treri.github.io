@@ -4,6 +4,7 @@ title: fedora13安装chrome以及经典扩展程序推荐
 wordpress_id: 21
 wordpress_url: http://ISayMe.com/?p=21
 date: 2011-03-24 12:04:36 +08:00
+tags: [Chrome, Linux, 原创]
 ---
 此贴也是我首发在红联Linux论坛上的文章.
 

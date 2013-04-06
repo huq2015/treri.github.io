@@ -4,6 +4,7 @@ title: css3版读者墙
 wordpress_id: 179
 wordpress_url: http://ISayMe.com/?p=179
 date: 2011-06-29 16:58:45 +08:00
+tags: [CSS3, 读者墙]
 ---
 先说明一下,在看本篇文章之前,请确定你使用的是Chrome或者是firefox浏览器.IE家族效果不敢保证~~
 

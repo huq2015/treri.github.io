@@ -4,6 +4,7 @@ title: 还是决定恢复显示博主回复~~
 wordpress_id: 130
 wordpress_url: http://isayme.com/?p=130
 date: 2011-05-13 15:56:34 +08:00
+tags: [点滴]
 ---
 昨天弄的那个[侧边栏去掉博主回复](http://isayme.com/2011/05/remove-sidebar-admin-respond/)
 使用了一天.我最终还是决定 显示博主回复.而且恢复到主题的默认样式.不再搞两行显示了.

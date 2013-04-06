@@ -4,6 +4,7 @@ title: wordpress升级3.2成功
 wordpress_id: 187
 wordpress_url: http://ISayMe.com/?p=187
 date: 2011-07-09 12:57:27 +08:00
+tags: [Upgrade, Wordpress]
 ---
 今天看到了willinkan大师的文章.他说wp3.2代码改善的非常好,另外后台样式也变了,所以听了willinkan大师的建议.将wordpress升级到了3.2.
 

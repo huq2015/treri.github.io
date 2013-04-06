@@ -4,6 +4,7 @@ title: 自定义Ubuntu系统引导菜单
 wordpress_id: 17
 wordpress_url: http://ISayMe.com/?p=17
 date: 2011-03-24 11:57:09 +08:00
+tags: [Linux]
 ---
 [![null](http://i.imgur.com/4aOcS.png "Hosted by imgur.com")](http://i.imgur.com/4aOcS.png)
 

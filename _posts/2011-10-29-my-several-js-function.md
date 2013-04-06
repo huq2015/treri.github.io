@@ -4,6 +4,7 @@ title: 自己写的几个js函数
 wordpress_id: 232
 wordpress_url: http://ISayMe.com/?p=232
 date: 2011-10-29 00:34:51 +08:00
+tags: [JavaScript, jQuery]
 ---
 前两天看的那个《犀利开发 jquery内核详解与实践》,里面有讲了一个domextend的函数.
 我试验了一下,感觉挺好的.所以就拿来用了.

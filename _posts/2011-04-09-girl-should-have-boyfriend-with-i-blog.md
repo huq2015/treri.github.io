@@ -4,6 +4,7 @@ title: 转-女生应该找个有独立博客的男朋友
 wordpress_id: 44
 wordpress_url: http://ISayMe.com/?p=44
 date: 2011-04-09 21:53:18 +08:00
+tags: [转载]
 ---
 注:网上闲逛的时候看到了这篇文章.看后感觉很好玩.所以就转过来啦.原文地址点击[此处](http://www.binjoo.net/2011/02/girl-should-have-boyfriend-with-i-blog)
 

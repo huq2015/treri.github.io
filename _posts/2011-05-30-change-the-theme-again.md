@@ -4,6 +4,7 @@ title: 又一次更换主题
 wordpress_id: 157
 wordpress_url: http://ISayMe.com/?p=157
 date: 2011-05-30 15:27:52 +08:00
+tags: [Themes, 点滴]
 ---
 今天无意间看到了这个主题,大爱啊.哈哈.
 我就喜欢这样风格的主题.既简洁又功能强大.

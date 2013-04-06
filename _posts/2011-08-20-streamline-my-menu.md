@@ -4,6 +4,7 @@ title: 精简了导航部分
 wordpress_id: 207
 wordpress_url: http://ISayMe.com/?p=207
 date: 2011-08-20 20:23:51 +08:00
+tags: [CSS, PhilNa2, Wordpress]
 ---
 昨天写的是suckerfish下拉菜单的demo,今天我就试着弄 了一下,效果还行,本着折腾别人先折腾自己的精神,所以我就把本站的导航部分换掉了.
 

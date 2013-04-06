@@ -4,6 +4,7 @@ title: W1s自说Me话扩展版
 wordpress_id: 190
 wordpress_url: http://ISayMe.com/?p=190
 date: 2011-07-18 15:55:18 +08:00
+tags: [Themes, w1s, 原创]
 ---
 首先声明一点,写这篇文章或者分享此主题,并不是要对Winy或者是对winy的W1p主题怎么样.只是单纯的和大家分享.
 

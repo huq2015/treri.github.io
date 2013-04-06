@@ -4,6 +4,7 @@ title: 重装windows后修复Ubuntu引导项
 wordpress_id: 183
 wordpress_url: http://ISayMe.com/?p=183
 date: 2011-07-07 16:27:41 +08:00
+tags: [Linux, Ubuntu, Windows]
 ---
 大家都知道,当重装windows后,windows安装程序默认会清空MBR记录,使得所有的引导项都丢失,因此原来安装的Linux系统就都没有了
 

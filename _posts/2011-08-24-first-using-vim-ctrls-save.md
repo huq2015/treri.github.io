@@ -4,6 +4,7 @@ title: 初用vim,让vim能CTRL+S保存
 wordpress_id: 209
 wordpress_url: http://ISayMe.com/?p=209
 date: 2011-08-24 20:27:44 +08:00
+tags: [VIM]
 ---
 这两天一直在学习Linux中传说的编辑器之神VIM,初步使用感觉确实不错.虽然它的神处我还没有用到,但是界面给人的感觉很舒服.另外我使用了人网上淘来的字体,然后设置一个好的背景.打字看起来很惬意.呵呵.
 

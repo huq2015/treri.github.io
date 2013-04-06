@@ -4,6 +4,7 @@ title: 做一个懒惰的程序员
 wordpress_id: 14
 wordpress_url: http://ISayMe.com/?p=14
 date: 2011-03-27 11:52:09 +08:00
+tags: [Programmer]
 ---
 本文写给所有可爱的程序员，(我)你们都是一群可爱的，用双手建造世界的思想家。
 

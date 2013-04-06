@@ -4,6 +4,7 @@ title: 看书找到的一个ajax函数封装
 wordpress_id: 233
 wordpress_url: http://ISayMe.com/?p=233
 date: 2011-11-06 10:24:56 +08:00
+tags: [Ajax, JavaScript]
 ---
 几天好像又过去了,不知道写点什么东西.
 题目是一个ajax函数,就是看书找到的一个实现ajax过程的封装.

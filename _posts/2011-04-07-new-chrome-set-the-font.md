@@ -4,6 +4,7 @@ title: 解决Linux中chrome设置字体无效
 wordpress_id: 38
 wordpress_url: http://ISayMe.com/?p=38
 date: 2011-04-07 11:02:13 +08:00
+tags: [Chrome, Linux, Ubuntu]
 ---
 昨天本来要再弄点东西大,可惜回到宿舍的时候发现 ubuntu系统突然就进不去了.说是我的的/home目录有错误. :mad:
 可是我什么东西都没干啊.无奈了. 到网上找那些用修复磁盘的命令fsck神马的, 没有一个有效果.  检查磁盘的时候竟然问我.我的/home目录是不是 zero-length ,唉 我里面的东西 大大的有啊.所有调试wordpress的本地文件都在里面呢.看来没法要了.

@@ -4,6 +4,7 @@ title: 单PHP文件原生js版PhilnaSay
 wordpress_id: 250
 wordpress_url: http://ISayMe.com/?p=250
 date: 2012-11-16 22:00:53 +08:00
+tags: [PhilNa2, JavaScript]
 ---
 刚有个朋友问我博客右上角的PhilnaSay,想让我帮忙提取出来,所以弄了一下,先是给那位朋友弄了一个用jq库的.然后我又弄了一下,搞了一个原生js版单PHP文件版的
 

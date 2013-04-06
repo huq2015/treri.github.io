@@ -4,6 +4,7 @@ title: 安装完fedora13我要干的几件事
 wordpress_id: 20
 wordpress_url: http://ISayMe.com/?p=20
 date: 2011-03-24 12:02:39 +08:00
+tags: [Linux, 原创]
 ---
 此文章系本人发在 红联Linux论坛上的文章,现在把它转过来.
 

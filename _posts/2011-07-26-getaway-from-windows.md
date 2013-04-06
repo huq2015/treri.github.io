@@ -4,6 +4,7 @@ title: 终于决定放弃windows
 wordpress_id: 194
 wordpress_url: http://ISayMe.com/?p=194
 date: 2011-07-26 17:15:13 +08:00
+tags: [Linux, Windows]
 ---
 昨天晚上和今天一天一直在思考一个问题,我对windows还有多少依赖.
 首先,我对游戏基本上已经没有了任何兴趣.平时上网,也就是看看几个网页,偶尔听几个歌 看看电影.

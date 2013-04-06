@@ -4,6 +4,7 @@ title: 6月9日Google Doodle
 wordpress_id: 164
 wordpress_url: http://ISayMe.com/?p=164
 date: 2011-06-09 22:27:42 +08:00
+tags: [Doodle, Google]
 ---
 今天打开google主页,被惊艳的Doodle震住了.看到今天的doodle我只能说google太牛逼了.一个logo还可以做成这样!!!
 把鼠标放上去竟然还可以出声音.下午在谷奥看到好多人写的曲子.嘻嘻

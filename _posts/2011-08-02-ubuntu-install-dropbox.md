@@ -4,6 +4,7 @@ title: ubuntu安装dropbox失败 解决方法
 wordpress_id: 199
 wordpress_url: http://ISayMe.com/?p=199
 date: 2011-08-02 17:36:57 +08:00
+tags: [Dropbox, Ubuntu]
 ---
 dropbox响当当的大名,想必大家都知道吧? 好久之前,就听说了这个网盘.但是一直都没有尝试.前几天安装ubuntu的时候,就把dropbox装上试了一下.发现,速度很快,而且使用起来很好用.
 

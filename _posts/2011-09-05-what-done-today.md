@@ -4,6 +4,7 @@ title: 今日主题进展
 wordpress_id: 217
 wordpress_url: http://ISayMe.com/?p=217
 date: 2011-09-05 22:51:25 +08:00
+tags: [Themes]
 ---
 今天又是一直在鼓捣主题,把昨天没有完成的功能给补了一下.
 今天主要完成的功能

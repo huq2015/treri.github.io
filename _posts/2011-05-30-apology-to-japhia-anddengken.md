@@ -4,6 +4,7 @@ title: 嵌套评论的问题及向Japhia,邓肯致歉
 wordpress_id: 152
 wordpress_url: http://ISayMe.com/?p=152
 date: 2011-05-30 11:05:44 +08:00
+tags: [Apology, PhilNa2, 点滴]
 ---
 写这篇文章之前,首先要对[Japhia](http://japhia.info)以及[邓肯]http://dengken.name()两位朋友表示抱歉,因为我的一时小聪明,而连累到两位使用philna2主题的朋友.具体原因请往下看
 

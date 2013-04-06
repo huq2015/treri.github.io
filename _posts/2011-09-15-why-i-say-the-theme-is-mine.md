@@ -4,6 +4,7 @@ title: 为什么我认定是我的!!
 wordpress_id: 221
 wordpress_url: http://ISayMe.com/?p=221
 date: 2011-09-15 16:55:29 +08:00
+tags: [PhilNa2, Wordpress]
 ---
 对于一个对PhilN2主题基本上了如指掌的人,我来给你说说为什么我看了几眼就认定是我的修改版,OK?
 

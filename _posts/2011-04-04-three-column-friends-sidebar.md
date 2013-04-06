@@ -4,6 +4,7 @@ title: 侧栏友链3栏显示
 wordpress_id: 33
 wordpress_url: http://ISayMe.com/?p=33
 date: 2011-04-04 13:43:19 +08:00
+tags: [PhilNa2, Wordpress, 原创]
 ---
 **注:** 此文章针对我所使用的PhilNa2主题,不保证对所有主题有效. 喜欢钻研的童鞋可以再多问问google还有其他博客.
 

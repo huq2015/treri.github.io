@@ -4,6 +4,7 @@ title: WP3.1.2-完美自动保存,禁用版本控制
 wordpress_id: 122
 wordpress_url: http://isayme.com/?p=122
 date: 2011-05-10 20:57:06 +08:00
+tags: [Blog, Wordpress, 转载]
 ---
 前两天把wp的默认表情图片的路径改了一下,然后又看了下木木的文章[新窗口中打开评论者链接](http://immmmm.com/jquery-notes-open-comment-link-new-window.html) 感觉没有什么东西值得留恋的了.
 

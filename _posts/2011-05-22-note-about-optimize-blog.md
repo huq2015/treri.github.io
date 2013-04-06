@@ -4,6 +4,7 @@ title: 博客优化小记
 wordpress_id: 142
 wordpress_url: http://ISayMe.com/?p=142
 date: 2011-05-22 18:33:13 +08:00
+tags: [Blog, Wordpress, 点滴]
 ---
 昨天晚上班级在大海边吃烧烤,露营,,枕着海浪睡觉的感觉真不错. :lol: 哈哈,可惜睡袋有点薄,感觉有点冷..
 

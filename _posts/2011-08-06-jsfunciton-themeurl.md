@@ -4,6 +4,7 @@ title: 修改js获取主题地址函数
 wordpress_id: 200
 wordpress_url: http://ISayMe.com/?p=200
 date: 2011-08-06 09:25:26 +08:00
+tags: [JavaScript, Themes, Wordpress]
 ---
 囧文,很旧的东西了,只是我在使用的时候遇到了一点问题.所以尝试着解决了一下.另外这几天没有什么灵感了,所以随便找点东西吧.嘻嘻
 

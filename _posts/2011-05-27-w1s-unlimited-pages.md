@@ -4,6 +4,7 @@ title: W1免费版无限翻页
 wordpress_id: 147
 wordpress_url: http://ISayMe.com/?p=147
 date: 2011-05-27 19:02:51 +08:00
+tags: [Ajax, jQuery, w1s, Wordpress]
 ---
 效果我这里没有了,想要看的,去winy博客上看吧,很给力哟~~
 

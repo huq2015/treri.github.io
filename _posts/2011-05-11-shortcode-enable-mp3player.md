@@ -4,6 +4,7 @@ title: 短代码 mp3player
 wordpress_id: 127
 wordpress_url: http://isayme.com/?p=127
 date: 2011-05-11 16:43:42 +08:00
+tags: [Wordpress, 原创]
 ---
 代码来源
 

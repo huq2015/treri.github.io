@@ -4,6 +4,7 @@ title: PhilNa2首页Ajax加载文章
 wordpress_id: 141
 wordpress_url: http://ISayMe.com/?p=141
 date: 2011-05-20 18:31:09 +08:00
+tags: [Ajax, jQuery, PhilNa2, 原创]
 ---
 前几天弄出来的东西,没用几天就换主题了, :jiong: 但是还是和大家分享一下.免得时间长了,我自己也忘记了. 
 

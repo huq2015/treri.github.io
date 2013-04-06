@@ -4,6 +4,7 @@ title: 完善主题coda_za
 wordpress_id: 226
 wordpress_url: http://ISayMe.com/?p=226
 date: 2011-10-05 13:21:56 +08:00
+tags: [Wordpress, 点滴]
 ---
 这几天一直没弄什么东西.主题是在看课外书,学习,做作业等等.想弄点东西,但是肚子里没有材料还是不行的.所以先学习补充要紧.
 这几天也在一直看关于javascript的书.虽然刚上来不是太懂,但是看多了,自然也就会点了.

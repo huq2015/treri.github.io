@@ -4,6 +4,7 @@ title: 最近琐事多多
 wordpress_id: 208
 wordpress_url: http://ISayMe.com/?p=208
 date: 2011-08-23 14:31:24 +08:00
+tags: [点滴]
 ---
 这两天也没怎么闲着,光摆弄电脑了.
 

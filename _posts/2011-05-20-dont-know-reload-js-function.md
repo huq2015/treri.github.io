@@ -4,6 +4,7 @@ title: js函数重新加载,不会~
 wordpress_id: 140
 wordpress_url: http://ISayMe.com/?p=140
 date: 2011-05-20 11:12:07 +08:00
+tags: [Ajax, jQuery, PhilNa2]
 ---
 换上winysky的W1s的主题后,我就到winysky博客上去看关于修改W1s主题的文章,看到了一篇关于无限翻页的文章(已经放到我现在的主题上了),具体效果请到首页最下面,点击"MORE".
 

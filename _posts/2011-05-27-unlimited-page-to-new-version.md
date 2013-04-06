@@ -4,6 +4,7 @@ title: 停用无限翻页,准备换新版~
 wordpress_id: 146
 wordpress_url: http://ISayMe.com/?p=146
 date: 2011-05-27 10:58:53 +08:00
+tags: [Ajax, Wordpress, 点滴]
 ---
 经过我昨天的努力,对于philna2的ajax的php响应部分大体上有了一个了解.在本地测试一切正常.
 

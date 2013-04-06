@@ -4,6 +4,7 @@ title: 博客小记一篇
 wordpress_id: 102
 wordpress_url: http://ISayMe.com/?p=102
 date: 2011-04-22 09:25:32 +08:00
+tags: [Blog, 点滴]
 ---
 从使用上wordpress后就一直在鼓捣修改主题,想要加快速度,添加效果.最近感觉也有点疲倦了.所以以后不是很实用的功能,强迫自己不去沾,要不然又要花时间折腾....
 

@@ -4,6 +4,7 @@ title: 一个扩展DOM的函数
 wordpress_id: 230
 wordpress_url: http://ISayMe.com/?p=230
 date: 2011-10-25 18:51:34 +08:00
+tags: [DOM, JavaScript]
 ---
 这个函数是 《犀利开发 jquery内核详解与实践》这本书中的一段代码.
 作用是用来扩展DOM的.然后为DOM绑定自定义函数.不知道这个可不可以拿来用.

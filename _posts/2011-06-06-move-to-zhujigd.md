@@ -4,6 +4,7 @@ title: 搬家到主机格调
 wordpress_id: 162
 wordpress_url: http://ISayMe.com/?p=162
 date: 2011-06-06 15:11:24 +08:00
+tags: [Wordpress, 主机格调, 点滴]
 ---
 今天中午睡觉醒来,忽然就看到了邮箱中的一封邮件.我中奖啦.哈哈.我在万戈大神那里的T楼中奖啦.哈哈.
 

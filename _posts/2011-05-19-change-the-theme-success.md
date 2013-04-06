@@ -4,6 +4,7 @@ title: 换主题成功
 wordpress_id: 138
 wordpress_url: http://ISayMe.com/?p=138
 date: 2011-05-19 11:43:11 +08:00
+tags: [Themes, 点滴]
 ---
 昨天晚上开始想要换主题,今天中午的时候已经换完了.
 靠着原来折腾philna2主题的之后积累的一点知识,给W1s主题添加了一点功能.

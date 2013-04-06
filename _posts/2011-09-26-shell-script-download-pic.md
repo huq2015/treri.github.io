@@ -4,6 +4,7 @@ title: 一段shell程序下载图片
 wordpress_id: 224
 wordpress_url: http://ISayMe.com/?p=224
 date: 2011-09-26 22:59:56 +08:00
+tags: [Bash, Linux]
 ---
 一直都是用的一个原来写的php程序,通过给定一个网址,php程序去访问网址,然后用php中的正则表达式提取网页源代码中的图片地址,然后用鼠标把想要的一批图片地址复制到一个叫url的文件中.待所有的地址都提取好了后,再用一个shell脚本每次读取url文件的一行作为下载来源,用curl下载文件,并重命名
 

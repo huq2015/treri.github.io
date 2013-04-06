@@ -4,6 +4,7 @@ title: 艹,牛逼的校园网认证
 wordpress_id: 213
 wordpress_url: http://ISayMe.com/?p=213
 date: 2011-08-30 15:37:24 +08:00
+tags: [点滴]
 ---
 本想要安装一个Archlinux试试的,但是在安装后需要安装桌面环境,因此需要联网.
 

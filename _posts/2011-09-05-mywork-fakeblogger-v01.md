@@ -4,6 +4,7 @@ title: 移植主题FakeBlogger 0.1
 wordpress_id: 216
 wordpress_url: http://ISayMe.com/?p=216
 date: 2011-09-05 12:39:20 +08:00
+tags: [MyWorks, Themes, Wordpress]
 ---
 移植主题FakeBlogger 0.1
 昨天说过了,移植了一个主题.今天看着差不多完成了.所以先发发看吧.剩下的细节以后再说.

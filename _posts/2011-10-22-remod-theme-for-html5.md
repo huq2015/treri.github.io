@@ -4,6 +4,7 @@ title: 准备重构主题为html5
 wordpress_id: 229
 wordpress_url: http://ISayMe.com/?p=229
 date: 2011-10-22 21:50:52 +08:00
+tags: [HTML5, 点滴]
 ---
 额,又是几天了.同样没有什么可写的.因为课太多了,没有多少时间.而且也一直在看书.
 

@@ -4,6 +4,7 @@ title: debian6再安装小记
 wordpress_id: 197
 wordpress_url: http://ISayMe.com/?p=197
 date: 2011-07-30 09:00:23 +08:00
+tags: [Debian, Linux]
 ---
 曾经写过一篇debian6安装小记,感兴趣的可以点击[此处](http://isayme.com/2011/05/debian6-install-note/)
 
