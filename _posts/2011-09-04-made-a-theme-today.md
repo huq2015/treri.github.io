@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 今天移植了一个主题
-wordpress_id: 225
+wordpress_id: 215
 wordpress_url: http://ISayMe.com/?p=215
 date: 2011-09-04 21:15:27 +08:00
 ---

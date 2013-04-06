@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 完善主题coda_za
-wordpress_id: 236
+wordpress_id: 226
 wordpress_url: http://ISayMe.com/?p=226
 date: 2011-10-05 13:21:56 +08:00
 ---

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 最近杂事
-wordpress_id: 214
+wordpress_id: 204
 wordpress_url: http://ISayMe.com/?p=204
 date: 2011-08-16 19:37:49 +08:00
 ---

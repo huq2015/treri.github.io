@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 这两天博客不能评论的说明
-wordpress_id: 241
+wordpress_id: 231
 wordpress_url: http://ISayMe.com/?p=231
 date: 2011-10-27 13:30:34 +08:00
 ---

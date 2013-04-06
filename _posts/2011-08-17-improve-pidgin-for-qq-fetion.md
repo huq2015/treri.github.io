@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 让pidgin威力大增,添加QQ和Fetion
-wordpress_id: 215
+wordpress_id: 205
 wordpress_url: http://ISayMe.com/?p=205
 date: 2011-08-17 11:50:40 +08:00
 ---

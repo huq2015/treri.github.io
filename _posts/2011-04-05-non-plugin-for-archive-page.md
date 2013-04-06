@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 归档页面非插件化
-wordpress_id: 210
+wordpress_id: 36
 wordpress_url: http://ISayMe.com/?p=36
 date: 2011-04-05 14:16:40 +08:00
 ---

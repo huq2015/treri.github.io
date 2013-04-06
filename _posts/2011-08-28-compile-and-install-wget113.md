@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 折腾之编译安装wget 1.13
-wordpress_id: 222
+wordpress_id: 212
 wordpress_url: http://ISayMe.com/?p=212
 date: 2011-08-28 23:55:53 +08:00
 ---

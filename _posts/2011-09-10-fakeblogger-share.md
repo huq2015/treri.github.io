@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: FakeBlogger主题分享
-wordpress_id: 229
+wordpress_id: 219
 wordpress_url: http://ISayMe.com/?p=219
 date: 2011-09-10 10:56:48 +08:00
 ---

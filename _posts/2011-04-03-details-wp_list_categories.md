@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 转-wp_list_categories详细介绍
-wordpress_id: 206
+wordpress_id: 32
 wordpress_url: http://ISayMe.com/?p=32
 date: 2011-04-03 23:36:15 +08:00
 ---

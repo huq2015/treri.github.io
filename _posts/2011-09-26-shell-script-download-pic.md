@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 一段shell程序下载图片
-wordpress_id: 234
+wordpress_id: 224
 wordpress_url: http://ISayMe.com/?p=224
 date: 2011-09-26 22:59:56 +08:00
 ---

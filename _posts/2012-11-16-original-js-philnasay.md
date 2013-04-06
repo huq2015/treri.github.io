@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 单PHP文件原生js版PhilnaSay
-wordpress_id: 260
+wordpress_id: 250
 wordpress_url: http://ISayMe.com/?p=250
 date: 2012-11-16 22:00:53 +08:00
 ---

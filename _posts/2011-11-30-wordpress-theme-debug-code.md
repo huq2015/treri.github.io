@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 一段wordpress的Theme DEBUG程序
-wordpress_id: 248
+wordpress_id: 238
 wordpress_url: http://ISayMe.com/?p=238
 date: 2011-11-30 18:22:57 +08:00
 ---

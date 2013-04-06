@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Typecho版 css3读者墙
-wordpress_id: 253
+wordpress_id: 243
 wordpress_url: http://ISayMe.com/?p=243
 date: 2012-03-16 14:01:42 +08:00
 ---

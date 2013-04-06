@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Typecho移植版PhilNa2已经可用
-wordpress_id: 255
+wordpress_id: 245
 wordpress_url: http://ISayMe.com/?p=245
 date: 2012-03-23 12:15:21 +08:00
 ---

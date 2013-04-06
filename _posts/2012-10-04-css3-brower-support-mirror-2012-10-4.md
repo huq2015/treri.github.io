@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: CSS3 Brower Support mirror(2012-10-4)
-wordpress_id: 258
+wordpress_id: 248
 wordpress_url: http://ISayMe.com/?p=248
 date: 2012-10-04 10:21:57 +08:00
 ---

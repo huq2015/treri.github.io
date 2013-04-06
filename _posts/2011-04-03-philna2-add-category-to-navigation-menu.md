@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 把PhilNa2分类添加到导航菜单
-wordpress_id: 205
+wordpress_id: 30
 wordpress_url: http://ISayMe.com/?p=30
 date: 2011-04-03 00:25:08 +08:00
 ---

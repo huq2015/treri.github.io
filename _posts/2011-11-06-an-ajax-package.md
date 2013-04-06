@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 看书找到的一个ajax函数封装
-wordpress_id: 243
+wordpress_id: 233
 wordpress_url: http://ISayMe.com/?p=233
 date: 2011-11-06 10:24:56 +08:00
 ---

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "6\xE6\x9C\x8810\xE6\x97\xA5Google Doodle"
+title: 6月10日Google Doodle
 wordpress_id: 166
 wordpress_url: http://ISayMe.com/?p=166
 date: 2011-06-10 22:38:19 +08:00

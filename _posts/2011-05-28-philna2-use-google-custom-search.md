@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: PhilNa2使用google自定义搜索
-wordpress_id: 211
+wordpress_id: 150
 wordpress_url: http://ISayMe.com/?p=150
 date: 2011-05-28 19:31:28 +08:00
 ---

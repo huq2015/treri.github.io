@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 精简了导航部分
-wordpress_id: 217
+wordpress_id: 207
 wordpress_url: http://ISayMe.com/?p=207
 date: 2011-08-20 20:23:51 +08:00
 ---
