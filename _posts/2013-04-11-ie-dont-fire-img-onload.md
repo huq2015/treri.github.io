@@ -3,7 +3,7 @@ layout: post
 title: IE浏览器中Image对象onload失效的解决办法
 wordpress_id: 256
 wordpress_url: http://ISayMe.com/?p=256
-date: 2013-04-10 04:05:58 +08:00
+date: 2013-04-11 04:05:58 +08:00
 tags: [JavaScript]
 ---
 
