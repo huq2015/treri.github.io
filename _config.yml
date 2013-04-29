@@ -10,8 +10,8 @@ markdown: rdiscount
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 自说Me话
-tagline: I Say Me | 我说我自己 | 我说世界
+title : Vinntoe
+tagline: Individual Blog
 author :
   name : Vinntoe
   email : lwent90@gmail.com
@@ -27,7 +27,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://Vinntoe.github.com
+production_url : http://Vinntoe.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
