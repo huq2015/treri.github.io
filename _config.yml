@@ -7,6 +7,9 @@ auto: true
 pygments: true
 markdown: rdiscount
 paginate: 10
+copyright:
+    - Design by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>
+    - "&copy; Copyright 2011, PIZn. All Rights Reserved."
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -72,7 +75,7 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
+  archive_path: /archives.html
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
