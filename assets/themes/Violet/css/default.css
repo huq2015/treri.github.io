@@ -672,8 +672,13 @@ a:hover {
   color: #555;
 }
 .entry pre {
-    font-family: Monaco,serif;
-    color: #ababab;
+    font-family: Monaco,consolas,serif;
+    color: #fff;
+    padding: 8.5px;
+    line-height: 18px;
+    display: block;
+    font-size: 12px;
+    background-color:#505050;
     overflow: auto;
     -webkit-border-radius: 3px 3px 3px 3px;
     -moz-border-radius: 3px 3px 3px 3px;
