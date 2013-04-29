@@ -361,7 +361,7 @@ a:hover {
   text-align: left;
 }
 #contenter .entry p img{
-  width:100%;
+  max-width:100%;
 }
 /**
  *
