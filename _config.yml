@@ -9,7 +9,7 @@ markdown: rdiscount
 paginate: 10
 copyright:
     - Design by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>
-    - "&copy; Copyright 2011, PIZn. All Rights Reserved."
+    - "&copy; Copyright 2013, Vinntoe. All Rights Reserved."
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
