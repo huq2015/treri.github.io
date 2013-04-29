@@ -363,6 +363,83 @@ a:hover {
 #contenter .entry p img{
   max-width:100%;
 }
+
+#page{
+  text-align: left;
+}
+
+#page h1{
+  border: 0 none;
+  margin: 12px 0 0;
+  padding: 10px 0 0;
+  color: #383838;
+  font-size: 32px;
+  line-height: normal;
+}
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; 
+}
+
+.tag_box li {
+  line-height: 28px; 
+}
+
+.tag_box li i {
+  opacity: 0.9; 
+}
+
+.tag_box.inline li {
+  float: left; 
+}
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; 
+}
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; 
+}
+
+.tag_box a:hover {
+  background-color: #e5e5e5; 
+}
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; 
+}
+
+.tagpost  h2{
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 1.5em 0 1.5em 0;
+  font-weight: bold;
+}
+
+.tagpost ul{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+  padding-left: 1.5em;
+}
+
+.tagpost ul li{
+  margin: 5px;
+  font-size: 14px;
+  list-style-type: square;
+  list-style-position: outside;
+}
+
 /**
  *
  * footer
