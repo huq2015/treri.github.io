@@ -9,8 +9,8 @@
     <p>Maybe the link you want is <a id="link" href=""></a></p>
 <script type="text/javascript">
     var link = window.location.href;
-    link = link.replace(/\/?/,'');
-    link = link + '.html';
+    //alert(link);
+    link = link.replace(/^(http:\/(?:\/[^\/]*){4}).*$/,'$1.html');
     var a = document.getElementById('link');
     a.setAttribute('href',link);
     a.innerHTML = link;
