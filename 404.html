@@ -1,1 +1,20 @@
-Sorry this page does not exist =(
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorry Not Found</title>
+</head>
+<body>
+    <p>Sorry this page does not exist =( . </p>
+    <p>if you are finding http://isayme.com 's some website</p>
+    <p>Maybe the link you want is <a id="link" href=""></a></p>
+<script type="text/javascript">
+    var link = window.location.href;
+    link = link.replace(/\/?/,'');
+    link = link + '.html';
+    var a = document.getElementById('link');
+    a.setAttribute('href',link);
+    a.innerHTML = link;
+</script>
+</body>
+</html>
+
