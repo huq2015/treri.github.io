@@ -15,8 +15,9 @@ copyright:
 # so be sure to set them if your theme uses them.
 #
 title : Vinntoe
-description : Individual Blog
-tagline : Individual Blog
+keywords: "Vinntoe,Linux,Web,前端开发,自说Me话,Internet"
+description : "Vinntoe's Individual Blog. 一个前端开发新手的网络记录,同喜欢网络,Linux,前端开发,爱折腾的人共同分享,记录折腾心得还有学习过程."
+tagline : inntoe's Individual Blog
 author :
   name : Vinntoe
   email : lwent90@gmail.com
