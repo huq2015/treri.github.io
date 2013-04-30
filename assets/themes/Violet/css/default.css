@@ -205,8 +205,16 @@ a:hover {
   float: left;
   display: inline-block;
   font-size: 16px;
+  text-align: left;
   line-height: 30px;
   color: #fff;
+}
+#header .nav ul{
+  float:left;
+}
+
+#header .nav ul li{
+  float:left;
 }
 #header a {
   display: inline-block;
