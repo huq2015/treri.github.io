@@ -54,5 +54,16 @@
 {% if page.is_index %}
   <script type="text/javascript" src="{{ ASSET_PATH }}/js/plusone.js"></script>
 {% endif %}
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jQuery.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/main.js"></script>
+<div id="updown">
+  <div id="up" title="我要上天!"></div>
+{% if page.is_post %}
+  <div id="comt" title="查看评论"></div>
+  <div id="down" title="我要吐槽!"></div>
+{% else %}
+  <div id="down" title="我要入地!"></div>
+{% endif %}
+</div>
 </body>
 </html>
