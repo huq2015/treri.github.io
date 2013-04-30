@@ -10,7 +10,7 @@ categories: [WordPress]
 **注:** 此文章针对我所使用的PhilNa2主题,不保证对所有主题有效. 喜欢钻研的童鞋可以再多问问google还有其他博客.
 
 由于以前没有找到把分类目录还有归档放到导航栏上面的方法.所以一直都是在侧栏上显示.但是这两天这个问题已经解决了.
-分类目录放到导航的方法.可以看[把PhilNa2分类添加到导航菜单](http://isayme.com/2011/04/30-philna2-add-category-to-navigation-menu),把归档放到导航栏上的方法是使用了clean archive reload插件.然后新建了一个页面做成的,具体效果请看[归档](http://isayme.com/archive).
+分类目录放到导航的方法.可以看[把PhilNa2分类添加到导航菜单](/2011/04/30-philna2-add-category-to-navigation-menu.html),把归档放到导航栏上的方法是使用了clean archive reload插件.然后新建了一个页面做成的,具体效果请看[归档](http://isayme.com/archive).
 
 这两个问题解决了.所以侧栏上就空出了左右两个空位(使用PhilNa2主题的童鞋都知道是怎么回事吧),所以我就把友链放在了这里.同时学习了[醉酹寒香](http://japhia.info/博客的做法,把链接和友情分开来显示.但是我好像弄了太多了友情,链接里面只有两个wp官方的链接.所以具体效果就是左右两个侧栏不对称,一个很长,而另一个很短,严重影响美感.所以打算把所有的都放在一个链接目录里面,多栏显示.
 

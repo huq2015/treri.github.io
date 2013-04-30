@@ -29,7 +29,7 @@ categories: [Wordpress]
 6, blogName 已经不需要手动修改,自动判断博客标题
 
 *需要改动的地方*很少了,主要是一些我没怎么弄过的东西
-接[上次的文章](http://isayme.com/2011/06/philna2-remod-by-sayme/)此次修改后还需你改动如下地方
+接[上次的文章](/2011/06/philna2-remod-by-sayme.html)此次修改后还需你改动如下地方
 
 修改app/relateposts.php中的feed版权内容为你的博客标题以及网址(当然你不修改也没有问题.嘿嘿)
 
@@ -40,7 +40,7 @@ categories: [Wordpress]
 - - - 
 后台添加的选项如图所示(点击看清晰图片)
 
-[![后台选项](http://isayme.com/wp-content/uploads/2011/06/10-1.png)](http://isayme.com/wp-content/uploads/2011/06/10-1.png)
+[![后台选项](/uploads/2011/06/10-1.png)](/uploads/2011/06/10-1.png)
 
 <del datetime="2011-06-18T12:26:15+00:00">新版本地址,点击此处</del>
 请前往最新地址下载

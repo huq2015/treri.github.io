@@ -35,4 +35,4 @@ categories: [WordPress]
 
 做完这些.保存一下.然后再看看文章.是不是就有了版权信息呢?再看看feed输出.也有了版权信息了吧.呵呵
 
-**Update:**最终版详见[PhilNa2主题feed输出版权最终版](http://isayme.com/2011/04/42-final-version-feed-output-copyright-information/)
+**Update:**最终版详见[PhilNa2主题feed输出版权最终版](/2011/04/42-final-version-feed-output-copyright-information.html)

@@ -7,7 +7,7 @@ date: 2011-04-03 23:36:15 +08:00
 tags: [Wordpress]
 categories: [WordPress]
 ---
-今天网上闲逛,又看到了关于我说的那个[把PhilNa2分类添加到导航菜单](http://isayme.com/2011/04/30-philna2-add-category-to-navigation-menu)里面的wp\_list_categories()函数的一些文章.里面的很多参数 我都还不知道是 干嘛的.
+今天网上闲逛,又看到了关于我说的那个[把PhilNa2分类添加到导航菜单](/2011/04/30-philna2-add-category-to-navigation-menu.html)里面的wp\_list_categories()函数的一些文章.里面的很多参数 我都还不知道是 干嘛的.
 
 今天碰到了一个我自认为讲的很全的.所以先转过来.以后可能还要继续折腾一下.
 转载地址[SEO笔记](http://www.seonote.net/basic/details-wp_list_categories.html)

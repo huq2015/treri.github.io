@@ -7,11 +7,11 @@ date: 2011-05-13 15:56:34 +08:00
 tags: [点滴]
 categories: [唠唠叨叨]
 ---
-昨天弄的那个[侧边栏去掉博主回复](http://isayme.com/2011/05/remove-sidebar-admin-respond/)
+昨天弄的那个[侧边栏去掉博主回复](/2011/05/remove-sidebar-admin-respond.html)
 使用了一天.我最终还是决定 显示博主回复.而且恢复到主题的默认样式.不再搞两行显示了.
 原因是嘛呢,嘿嘿,看图就知道了.
 
-[![](http://isayme.com/wp-content/uploads/2011/05/13-1.png)](http://isayme.com/wp-content/uploads/2011/05/13-1.png)
+[![](/uploads/2011/05/13-1.png)](/uploads/2011/05/13-1.png)
 
 由于两行显示,占用的空间变大了.因此为了和最新文章,随机文章的长度相适应.我就要减少最新评论的输出条数.
 但是这样就造成侧栏的评论容易形成刷屏的效果.

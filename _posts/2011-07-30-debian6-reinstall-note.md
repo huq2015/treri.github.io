@@ -7,7 +7,7 @@ date: 2011-07-30 09:00:23 +08:00
 tags: [Debian, Linux]
 categories: [互联网络]
 ---
-曾经写过一篇debian6安装小记,感兴趣的可以点击[此处](http://isayme.com/2011/05/debian6-install-note/)
+曾经写过一篇debian6安装小记,感兴趣的可以点击[此处](/2011/05/debian6-install-note.html)
 
 昨天蛋疼得又将debian6安装上了,但是这次安装的和上次安装的不一样.这次是又从debian官网上下载的更新之后的debian.并且此次,将lamp安装成功了.
 
@@ -62,11 +62,11 @@ categories: [互联网络]
     #/etc/init.d/networking restart
 **3,乱码问题**
 
-可以参见 我 的那一篇安装笔记[此处](http://isayme.com/2011/05/debian6-install-note/)
+可以参见 我 的那一篇安装笔记[此处](/2011/05/debian6-install-note.html)
 
 **4,安装fcitx输入法**
 
-3.6X版本,可以看我的文章[我选择Fcitx 3.6.3](http://isayme.com/2011/07/i-prefer-fcitx-363/)
+3.6X版本,可以看我的文章[我选择Fcitx 3.6.3](/2011/07/i-prefer-fcitx-363.html)
 
 **5,**debian中的新立得软件管理软件
 

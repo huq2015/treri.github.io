@@ -23,7 +23,7 @@ categories: [学习笔记]
 都是一些基本的方法,所以写了就算是玩玩吧.我知道这些东西很简单,所以请大家多多指点我.
 下面是我写的一个js,大家指点一下.
 
-[js文件](http://isayme.com/wp-content/uploads/2011/10/domextend.js)
+[js文件](/uploads/2011/10/domextend.js)
 
 基本上用下面的函数可以完成这样的操作.
 

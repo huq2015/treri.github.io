@@ -56,7 +56,7 @@ categories: [WordPress]
 
 具体的看图
 
-[![](http://isayme.com/wp-content/uploads/2011/06/27-1.png)](http://isayme.com/wp-content/uploads/2011/06/27-1.png)
+[![](/uploads/2011/06/27-1.png)](/uploads/2011/06/27-1.png)
 
 由于不会说,就不说了.等着有空了,就直接更新到主题上~~加上这个功能
 另外,那个人体时钟我也去掉了.把 随便看看 的那个链接用木木讲的方法hook到了导航菜单上面.节省了空间了还不需要额外设置.呵呵.

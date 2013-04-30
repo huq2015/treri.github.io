@@ -13,7 +13,7 @@ categories: [互联网络]
 
 #### T恤图案：
 
-[![](http://isayme.com/wp-content/uploads/2011/06/Shirt.jpg)](http://isayme.com/wp-content/uploads/2011/06/Shirt.jpg)
+[![](/uploads/2011/06/Shirt.jpg)](/uploads/2011/06/Shirt.jpg)
 
 #### 设计思路：[野鹤](http://xianyunyehe.net/)
 > 这个T恤设计的大的框架是以中国地图为背景，这样也不会太局限于雷锋群，只要是玩博客的，就很适合！一些常用的博客系统特别的用红色来标识出来，突显主题：不管是用什么博客系统，我们都是一家人！  

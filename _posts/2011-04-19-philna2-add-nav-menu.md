@@ -12,7 +12,7 @@ categories: [Wordpress]
 
 再说方法之前,首先要万分感谢 此方法的发明者.[自由的风](http://loosky.net/),一位非常厉害的博主,大家可以去他的博客看看,自由的风大公无私的把自己修改的接近完美的私用PhilNa2主题贡献了出来. 
 
-当我在慢慢修改PhilNa2主题的时候无意间看到了 博主的主题,而且是功能异常强大的主题哟.侧栏可以关闭.而且还实现了我在[纠结于WP主题](http://isayme.com/2011/04/46-entangled-in-the-wp-theme/)中提到的想要把首页文章 隐藏以来,等到想要进一步看的时候才显示出来的效果.还有集成了[知更鸟](http://zmingcx.com/)的HotNews Pro 主题中侧栏上的最新文章,最近文章,热门文章的显示效果.还有好多新的页面模板.这些我们都可以积极学习一下哦.
+当我在慢慢修改PhilNa2主题的时候无意间看到了 博主的主题,而且是功能异常强大的主题哟.侧栏可以关闭.而且还实现了我在[纠结于WP主题](/2011/04/46-entangled-in-the-wp-theme.html)中提到的想要把首页文章 隐藏以来,等到想要进一步看的时候才显示出来的效果.还有集成了[知更鸟](http://zmingcx.com/)的HotNews Pro 主题中侧栏上的最新文章,最近文章,热门文章的显示效果.还有好多新的页面模板.这些我们都可以积极学习一下哦.
 
 好了,广告到此结束.有兴趣的同学可以去看看哦.你一定会喜欢的.
 
@@ -79,4 +79,4 @@ categories: [Wordpress]
 
 再次感谢 [自由的风](http://loosky.net/)
 
-最后再次做一下广告. [本人搭建的TwiTalker bot](http://isayme.com/2011/04/set-twitalker-bot/) ,免番羽墙发送推特,接收推特信息.欢迎大家Fo [@vinntoe](http://twitter.com/vinntoe)
+最后再次做一下广告. [本人搭建的TwiTalker bot](/2011/04/set-twitalker-bot.html) ,免番羽墙发送推特,接收推特信息.欢迎大家Fo [@vinntoe](http://twitter.com/vinntoe)

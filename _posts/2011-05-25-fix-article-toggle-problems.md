@@ -7,7 +7,7 @@ date: 2011-05-25 11:34:34 +08:00
 tags: [jQuery, PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---
-前面讲到过关于使用philna2收缩而进行的一些修改.具体请看[PhilNa2首页文章收缩及问题修复](http://isayme.com/2011/05/home-article-toggle-problems/)  那里面讲的是如何让文章页不收缩的方法,就是修改ID号了.
+前面讲到过关于使用philna2收缩而进行的一些修改.具体请看[PhilNa2首页文章收缩及问题修复](/2011/05/home-article-toggle-problems.html)  那里面讲的是如何让文章页不收缩的方法,就是修改ID号了.
 然后是解决文章页 点击上一页下一页导航失效的问题.
 
 其实那些问题完了之后还有一个问题,就是**首页点击下一页之后,文章收缩会失效**.当时不知道该怎么解决,所以就把ajax翻页去掉了.

@@ -45,4 +45,4 @@ categories: [WordPress]
 关键部分好像就是这么多了,我好像也没有说什么实质性的东西.呵呵.具体的剩余的其他代码,还请去看demo源代码.
 
 希望我的说的一些废话,能够给朋友们带来帮助.
-最后附上我认为是最简单的demo地址,[此处](http://isayme.com/demo/slider-comment/slider-comment-demo.html)
+最后附上我认为是最简单的demo地址,[此处](/demo/slider-comment/slider-comment-demo.html)

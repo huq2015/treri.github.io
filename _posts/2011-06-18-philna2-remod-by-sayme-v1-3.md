@@ -9,9 +9,9 @@ categories: [Wordpress]
 ---
 请先看旧版
 
-[PhilNa2自说Me话扩展版](http://isayme.com/2011/06/philna2-remod-by-sayme/)
+[PhilNa2自说Me话扩展版](/2011/06/philna2-remod-by-sayme.html)
 
-[PhilNa2自说Me话扩展版 v1.2](http://isayme.com/2011/06/philna2-remod-by-sayme-v1-2/)
+[PhilNa2自说Me话扩展版 v1.2](/2011/06/philna2-remod-by-sayme-v1-2.html)
 
 - - -
 今天裸考六级,考完试后要发泄一下,所以拿wp下手!!

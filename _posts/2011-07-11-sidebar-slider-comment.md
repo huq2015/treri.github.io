@@ -11,7 +11,7 @@ categories: [WordPress]
 到了 loosky那里找了一篇文章,然后弄了个效果
 
 具体效果就是本站侧栏上的最新评论的滑动显示.
-或者是点击[此处](http://isayme.com/demo/slider-comment/sidebar-slider-comment.html)看一下demo ,关键代码全部在源文件中,
+或者是点击[此处](/demo/slider-comment/sidebar-slider-comment.html)看一下demo ,关键代码全部在源文件中,
 loosky原文地址[WordPress最新评论高度自适应无缝滑动显示](http://loosky.net/?p=1871) 表示一下感谢.呵呵
 
 我没有新建一个页面专门放这些东西.我的想法就是尽最大可能美化已经存在的东西.所以,我把这个效果放在了侧栏的最新评论上.这样弄完,侧栏小工具的效果就丰富了.既有tab切换,还有滑动显示.

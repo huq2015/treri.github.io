@@ -21,6 +21,6 @@ categories: [唠唠叨叨]
 
 - - -
 
-**update(5-10):**经[oucfeng](http://isayme.com/2011/04/38-new-chrome-set-the-font/#comment-547)童鞋提醒,在不更改tab选项页的情况下也可以更改字体.
+**update(5-10):**经[oucfeng](/2011/04/38-new-chrome-set-the-font.html#comment-547)童鞋提醒,在不更改tab选项页的情况下也可以更改字体.
 
 修改方法:打开google，在搜索框中点击右键选择选拼写检查选项——语言设置——字体编码器 下面修改就可以了。

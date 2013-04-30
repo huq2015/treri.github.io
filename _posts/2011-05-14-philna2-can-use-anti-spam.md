@@ -13,7 +13,7 @@ categories: [WordPress]
 
 - - -
 - 
-最近两天不知道怎么搞的,来我这里的spam有点多,自从5月8号我写的[Anti Spam小墙貌似已经可以了](http://isayme.com/2011/05/anti-spam-works/),也就是我改造了一下自己的主题然后装上Anti Spam小墙后,这两天抓到了不少了spam.
+最近两天不知道怎么搞的,来我这里的spam有点多,自从5月8号我写的[Anti Spam小墙貌似已经可以了](/2011/05/anti-spam-works.html),也就是我改造了一下自己的主题然后装上Anti Spam小墙后,这两天抓到了不少了spam.
 后台垃圾评论中,被小墙过滤的spam如下.
 
 > 2011-05-08 下午 3:18 提交IP210.87.254.5  

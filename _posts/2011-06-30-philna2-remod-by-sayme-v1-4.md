@@ -9,11 +9,11 @@ categories: [WordPress]
 ---
 请先看旧版
 
-[PhilNa2自说Me话扩展版](http://isayme.com/2011/06/philna2-remod-by-sayme/)
+[PhilNa2自说Me话扩展版](/2011/06/philna2-remod-by-sayme.html)
 
-[PhilNa2自说Me话扩展版 v1.2](http://isayme.com/2011/06/philna2-remod-by-sayme-v1-2/)
+[PhilNa2自说Me话扩展版 v1.2](/2011/06/philna2-remod-by-sayme-v1-2.html)
 
-[PhilNa2自说Me话扩展版 v1.3](http://isayme.com/2011/06/philna2-remod-by-sayme-v1-3/)
+[PhilNa2自说Me话扩展版 v1.3](/2011/06/philna2-remod-by-sayme-v1-3.html)
 
 无事来做,更新一下我用的主题.这次这次没有什么大的东西,都是些小小不然的更新.主要是我想用的再方便一点吧.同时也是为了让大家能够更加个性化一点吧.
 
@@ -52,4 +52,4 @@ categories: [WordPress]
 
 **如果大家还有什么别的想法和需求,可以给我说说,在我能力范围之内的东西,有空就会给大家弄上.同时也是我学习进步的过程吧.呵呵**
 
-新版地址 点击[此处](http://isayme.com/wp-content/uploads/2011/06/philna2-SayMe-v1.4.zip)
+新版地址 点击[此处](/uploads/2011/06/philna2-SayMe-v1.4.zip)

@@ -20,6 +20,6 @@ categories: [也来推荐]
 
 使用方法,安装V2.0.1后,win+R,输入%appdata%,进入sublimetext2文件夹,将压缩包中的文件夹覆盖到sublimetext2中即可
 
-[Sublime\_Text2\_V2.0.1_zh-CN.zip](http://isayme.com/wp-content/uploads/2012/09/Sublime_Text2_V2.0.1_zh-CN.zip)
+[Sublime\_Text2\_V2.0.1_zh-CN.zip](/uploads/2012/09/Sublime_Text2_V2.0.1_zh-CN.zip)
 
-![sublimetext2](http://isayme.com/wp-content/uploads/2012/09/sublimetext2.jpg)
+![sublimetext2](/uploads/2012/09/sublimetext2.jpg)

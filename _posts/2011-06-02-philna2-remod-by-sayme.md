@@ -58,7 +58,7 @@ FAQ开始吧,(不知道可否叫FAQ)
 2.14 自动在文章结尾和feed中添加版权(非PhilNa2后台设置内容,请勿在后台重复设置)  
 2.15 slimbox图片灯箱效果,Ajax翻页后仍然有效 效果请点击下图(随便找了一张服务器上的图,哈哈)  
 
-[![](http://isayme.com/wp-content/uploads/2011/05/13-1.png)](http://isayme.com/wp-content/uploads/2011/05/13-1.png)
+[![](/uploads/2011/05/13-1.png)](/uploads/2011/05/13-1.png)
 
 2.16 图片Lazyload效果,理论上Ajax翻页后依旧有效  
 2.17 文章末尾自带社会化分享工具(由于Ajax翻页后,分享的内容为未翻页之前的内容,因此翻页后使之失效)  
@@ -130,6 +130,6 @@ mail to comment插件也是,简化版,我一直在用.据邓肯http://dengken.na
 
 文中提到的mail to commet插件以及wp-syntax插件(都是已经修改过的,请用的到的下载,否则不要浪费俺滴流量~~ :love: ) 
 
-wp-syntax 点击[此处](http://isayme.com/wp-content/uploads/2011/06/wp-syntax.zip)下载
+wp-syntax 点击[此处](/uploads/2011/06/wp-syntax.zip)下载
  
-mail to comment 点击[此处](http://isayme.com/2011/03/6-how-a-reply-notification-email/)查看
+mail to comment 点击[此处](/2011/03/6-how-a-reply-notification-email.html)查看

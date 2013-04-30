@@ -7,7 +7,7 @@ date: 2011-05-11 21:42:12 +08:00
 tags: [Wordpress, 原创, 转载]
 categories: [WordPress]
 ---
-接上一篇[短代码mp3player](http://isayme.com/2011/05/shortcode-enable-mp3player/)
+接上一篇[短代码mp3player](/2011/05/shortcode-enable-mp3player.html)
 
 **首先感谢荒野无灯分享的源代码,要不是这个源代码,我也不会修改的....太菜了,只能修改人家的东西,自己就是不会写..**
 

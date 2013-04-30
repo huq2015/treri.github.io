@@ -36,6 +36,6 @@ __问题__:
 - 评论部分,正常评论没有问题,但是回复别人,和正常评论没法区分.还没弄好.
 - 为了保持主题美观,评论部分去掉了头像显示.以后我看看怎么再加上吧.
 
-感兴趣的话,可以看看哦.呵呵.[下载](http://isayme.com/wp-content/uploads/2011/09/fakebloggerV0.1.zip)
+感兴趣的话,可以看看哦.呵呵.[下载](/uploads/2011/09/fakebloggerV0.1.zip)
 
 ![](http://i.imgur.com/6A40P.jpg)

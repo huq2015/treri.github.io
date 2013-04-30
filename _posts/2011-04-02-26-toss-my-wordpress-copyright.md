@@ -16,7 +16,7 @@ categories: [WordPress]
 
 但是在操作的过程中还是遇到了一点问题.
 
-我在文章最后添加版权使用的方法是我的文章[wordpress的feed输出版权信息](http://isayme.com/2011/03/9-wordpresss-feed-output-copyright-information)中提到的在functions.php里面添加一个函数实现的.具体方法请前往我的那篇文章.
+我在文章最后添加版权使用的方法是我的文章[wordpress的feed输出版权信息](/2011/03/9-wordpresss-feed-output-copyright-information.html)中提到的在functions.php里面添加一个函数实现的.具体方法请前往我的那篇文章.
 
 于是我把a标签换成上面说的那种格式.保存.额哦.进不去网站啦.我还以为是把什么标点删掉了.于是看了看,不是因为标点的问题.那问题是什么呢? 找了好一会才知道.原来就是新增加的这句话的问题.这句话导致整个网站进不去. 删掉链接就可以.
 

@@ -28,6 +28,6 @@ categories: [Wordpress]
 在想要显示欢迎信息的地方使用&lt;?php welcome_msg();?&gt;调用就好.
 如果可以的话,你还可以用css美化一下.就像我的这样.
 
-点击下载咯[welcome_msg.php.zip](http://isayme.com/wp-content/uploads/2011/06/welcome_msg.php.zip)
+点击下载咯[welcome_msg.php.zip](/uploads/2011/06/welcome_msg.php.zip)
 
 经过大家的提示,这个效果貌似会在有些浏览器里出现被搜索框挡住的情况,由于我对css方面一窍不通,所以我把这个效果撤下来了.等我有能力调整好再说吧.但是这个代码是非常有用的.以后要是你用到的话.就派上用场了.哈哈
