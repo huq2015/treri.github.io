@@ -687,6 +687,9 @@ a:hover {
     border: 1px solid #d0d0d0;
     _border: none;
 }
+.entry pre code{
+    font-family: Monaco,consolas,serif;
+}
 .entry .wp-caption {
   background: #f8f8f8;
   margin-bottom: 1.6em;
