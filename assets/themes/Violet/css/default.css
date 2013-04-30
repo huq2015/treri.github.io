@@ -145,7 +145,7 @@ a {
 }
 a:hover {
   color: #fefefe;
-  background: #800888;
+  background: #2272de;
 }
 
 /**
@@ -156,13 +156,7 @@ a:hover {
 #head {
   width: 100%;
   height: 30px;
-  background: #800888;
-  background: -moz-linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%);
-  background: -webkit-gradient(linear, top, top, color-stop(0%,#57025d), color-stop(30%, #800888), color-stop(100%,#800888));
-  background: -webkit-linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%);
-  background: -o-linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%);
-  background: -ms-linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%);
-  background: linear-gradient(top, #57025d 0%, #800888 30%, #800888 100%)
+  background: #397ddb;
 }
 #header {
   width: 780px;
@@ -224,13 +218,7 @@ a:hover {
 }
 #header a:hover {
   text-decoration: none;
-  background: #ac60b1;
-  background: -moz-linear-gradient(top, #57025d 0%, #a933b1 30%, #a933b1 100%);
-  background: -webkit-gradient(linear, top, top, color-stop(0%,#57025d), color-stop(30%, #a933b1), color-stop(100%,#a933b1));
-  background: -webkit-linear-gradient(top, #57025d 0%, #a933b1 30%, #a933b1 100%);
-  background: -o-linear-gradient(top, #57025d 0%, #a933b1 30%, #ac60b1 100%);
-  background: -ms-linear-gradient(top, #57025d 0%, #a933b1 30%, #a933b1 100%);
-  background: linear-gradient(top, #57025d 0%, #a933b1 30%, #a933b1 100%)
+  background: #2272de;
 }
 
 /**
@@ -238,10 +226,6 @@ a:hover {
  * contenter
  *
  */
-/*#prefile {
-  height: 200px;
-  background: url(../images/prefile.gif) no-repeat right 0;
-}*/
 #prefile h2 {
   float: left;
   width: 560px;
@@ -483,7 +467,7 @@ a:hover {
   padding: 0 10px;
   line-height: 24px;
   font-size: 14px;
-  background: #800888;
+  background: #2272de;
   color: #fff;
   -moz-border-radius: 3px 3px;
   -webkit-border-raidus: 3px 3px;
@@ -492,7 +476,8 @@ a:hover {
 }
 #footer .my-link a:hover {
   text-decoration: none;
-  background: #a933b1;
+  /*background: #a933b1;*/
+  background: #397ddb
 }
 #footer .copyright {
   float: right;
