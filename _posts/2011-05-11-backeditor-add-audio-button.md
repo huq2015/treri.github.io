@@ -5,6 +5,7 @@ wordpress_id: 128
 wordpress_url: http://isayme.com/?p=128
 date: 2011-05-11 21:42:12 +08:00
 tags: [Wordpress, 原创, 转载]
+categories: [WordPress]
 ---
 接上一篇[短代码mp3player](http://isayme.com/2011/05/shortcode-enable-mp3player/)
 

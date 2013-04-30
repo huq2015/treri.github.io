@@ -5,6 +5,7 @@ wordpress_id: 176
 wordpress_url: http://ISayMe.com/?p=176
 date: 2011-06-26 17:46:02 +08:00
 tags: [PHP, Study]
+categories: [学习笔记]
 ---
 前几天弄的那个帅哥认证,是看别人的php代码,自己尝试着写的.那时候一点php的知识都没学,完全是根据自己的理解还有C以及C++的基础理解的.
 今天看了一点PHP,把那天用到的函数看了一下.也算是真正学习了一遍吧.

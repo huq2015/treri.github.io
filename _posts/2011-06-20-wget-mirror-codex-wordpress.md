@@ -5,6 +5,7 @@ wordpress_id: 172
 wordpress_url: http://ISayMe.com/?p=172
 date: 2011-06-20 22:30:54 +08:00
 tags: [Linux, Wget, Wordpress]
+categories: [互联网络]
 ---
 **wget 使用实例一则**
 

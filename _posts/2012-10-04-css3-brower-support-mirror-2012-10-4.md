@@ -5,6 +5,7 @@ wordpress_id: 248
 wordpress_url: http://ISayMe.com/?p=248
 date: 2012-10-04 10:21:57 +08:00
 tags: [CSS3]
+categories: [学习笔记]
 ---
 CSS3 is not yet a W3C standard, but all the major browsers are already supporting many of the new features. 
 

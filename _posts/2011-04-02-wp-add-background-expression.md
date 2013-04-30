@@ -5,6 +5,7 @@ wordpress_id: 27
 wordpress_url: http://ISayMe.com/?p=27
 date: 2011-04-02 11:01:13 +08:00
 tags: [Wordpress, 原创]
+categories: [Wordpress]
 ---
 本文参考了[奚少收藏小窝](http://www.xishao.net/wp/547.html),增加多行表情的方法姑且算是我找到的吧.呵呵.
 

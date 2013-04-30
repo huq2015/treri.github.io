@@ -5,6 +5,7 @@ wordpress_id: 133
 wordpress_url: http://ISayMe.com/?p=133
 date: 2011-05-14 18:18:59 +08:00
 tags: [Wordpress, 转载]
+categories: [WordPress]
 ---
 一直都想找个方法将wp_syntax的代码能否自由的伸缩,可是一直都不会.原来在木木的一篇文章[WordPress 短代码之——Toggle 伸缩](http://immmmm.com/wordpress-shortcodes-toggle.html)中看到过用toggle伸缩的方法.本来想把那个放到代码伸缩上,可是效果一直都不好,所以只好作罢.
 

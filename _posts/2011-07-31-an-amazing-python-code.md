@@ -5,6 +5,7 @@ wordpress_id: 198
 wordpress_url: http://ISayMe.com/?p=198
 date: 2011-07-31 10:25:33 +08:00
 tags: [Linux, python]
+categories: [学习笔记]
 ---
 起因,在ubuntu中文论坛上乱逛,看到了一个帖子.具体需求就是楼主需要在一个包含数万个文件(具体多少不清楚,但是文件非常多)的文件夹中,寻找出所有的内容一样的文件.
 这内容一样的文件,具体是什么样的呢?

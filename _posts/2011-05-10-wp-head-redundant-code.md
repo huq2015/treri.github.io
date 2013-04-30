@@ -5,6 +5,7 @@ wordpress_id: 124
 wordpress_url: http://isayme.com/?p=124
 date: 2011-05-10 12:24:37 +08:00
 tags: [Wordpress, 转载]
+categories: [WordPress]
 ---
 今天没事啦.[Microhu's Blog](http://www.microhu.com/) 的新主题更新发布.下载下来看了一下.确实既简洁又好用,非常符合我的审美观.
 可是现在这主题鼓捣了这么长时间了,也不能说扔就扔啦.下载下来做个纪念,搞不好还可以从里面挖出来好多好东西.哈哈

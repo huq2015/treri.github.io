@@ -5,6 +5,7 @@ wordpress_id: 184
 wordpress_url: http://ISayMe.com/?p=184
 date: 2011-07-07 23:36:21 +08:00
 tags: [Movie]
+categories: [也来推荐]
 ---
 [![](http://img3.douban.com/mpic/s4614668.jpg)](http://img3.douban.com/mpic/s4614668.jpg)
 

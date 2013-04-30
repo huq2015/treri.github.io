@@ -5,6 +5,7 @@ wordpress_id: 41
 wordpress_url: http://ISayMe.com/?p=41
 date: 2011-04-08 22:35:00 +08:00
 tags: [Linux, Ubuntu]
+categories: [学习笔记]
 ---
 由于我平常使用的是ubunu10.04系统.安装的是大名鼎鼎的LAMP(Linux+Apache+MySQL+PHP),用来本地测试wordpress以及对wordpress的修改作试验.所以对于服务器上的wordpress的修改很少有出现错误的情况.
 

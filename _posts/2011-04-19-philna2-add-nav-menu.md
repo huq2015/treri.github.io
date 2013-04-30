@@ -5,6 +5,7 @@ wordpress_id: 86
 wordpress_url: http://ISayMe.com/?p=86
 date: 2011-04-19 21:41:43 +08:00
 tags: [PhilNa2, Wordpress]
+categories: [Wordpress]
 ---
 使用PhilNa2主题的人肯定一直都梦想着能够添加自定义导航菜单吧.这样我们就可以随便添加自己想要的栏目,不管是内链还是外链.据我所知,大部分童鞋使用的都是 新建一个页面,然后使用**page link to**插件改写那个页面的链接,然后连接到一个新的地方.
 今天我就给你们一个解放.

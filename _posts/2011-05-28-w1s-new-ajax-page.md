@@ -5,6 +5,7 @@ wordpress_id: 148
 wordpress_url: http://ISayMe.com/?p=148
 date: 2011-05-28 10:53:51 +08:00
 tags: [Ajax, w1s, Wordpress, 原创]
+categories: [WordPress]
 ---
 最近真的累了,鼓捣了这么多感到有点身心俱疲...,现在我越来越发现PhilNa2的省心了...神马都不用操心,yinheli童鞋都弄好了.
 有一种想要换回PhilNa2的冲动了.

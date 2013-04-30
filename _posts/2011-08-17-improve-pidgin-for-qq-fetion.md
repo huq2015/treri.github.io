@@ -5,6 +5,7 @@ wordpress_id: 205
 wordpress_url: http://ISayMe.com/?p=205
 date: 2011-08-17 11:50:40 +08:00
 tags: [Linux, Pidgin]
+categories: [互联网络]
 ---
 用Linux的人就是苦,想和人家聊天都不是容易的事,QQ for Linux相当的垃圾,没法用.还好有人开发了一个能用的QQ 好友列表可以获取完整,QQ群也有.是pidgin的插件形式.
 

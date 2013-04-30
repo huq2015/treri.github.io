@@ -5,6 +5,7 @@ wordpress_id: 165
 wordpress_url: http://ISayMe.com/?p=165
 date: 2011-06-10 19:52:25 +08:00
 tags: [PhilNa2, Wordpress, 原创]
+categories: [Wordpress]
 ---
 前几天给大家分享了我修改后的PhilNa2主题.但是当时由于时间有点急,有好多地方需要大家手动修改,很不方便.
 

@@ -5,6 +5,7 @@ wordpress_id: 163
 wordpress_url: http://ISayMe.com/?p=163
 date: 2011-06-09 11:23:35 +08:00
 tags: [PhilNa2, Wordpress]
+categories: [Wordpress]
 ---
 来我这里的朋友是否注意到这个小玩意了呢?嘻嘻,早就弄上了,
 

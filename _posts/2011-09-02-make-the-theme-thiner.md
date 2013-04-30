@@ -5,6 +5,7 @@ wordpress_id: 214
 wordpress_url: http://ISayMe.com/?p=214
 date: 2011-09-02 20:27:47 +08:00
 tags: [Themes, Wordpress]
+categories: [WordPress]
 ---
 最近对自己用的主题有点不满意了,于是处理一下.将一些用不着的功能去掉,也算是对主题载入速度加快一点吧.
 

@@ -5,6 +5,7 @@ wordpress_id: 83
 wordpress_url: http://ISayMe.com/?p=83
 date: 2011-04-16 10:53:28 +08:00
 tags: [PhilNa2, Wordpress]
+categories: [WordPress]
 ---
 唉 几天没写点东西啦. 
 昨天到网上又转了一圈 看到了这个jQuery 上下浮动滚动.原来也看到人家的博客上有,效果不错所以就给自己也整上了.感觉还不错.呵呵

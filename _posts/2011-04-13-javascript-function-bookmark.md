@@ -5,6 +5,7 @@ wordpress_id: 48
 wordpress_url: http://ISayMe.com/?p=48
 date: 2011-04-13 14:00:24 +08:00
 tags: [Blog, JavaScript]
+categories: [他山之石]
 ---
 最近不少人都在传一段用于快速填写 wp评论框信息的代码.我也一直都在使用 效果刚刚的.但是大家传的基本上都是适用于wordpress的代码.如果对方使用的不是wp的话,就会没有效果了.还好我在网上逛的时候看到了适用于其他的博客程序的代码.
 

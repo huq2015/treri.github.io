@@ -5,6 +5,7 @@ wordpress_id: 21
 wordpress_url: http://ISayMe.com/?p=21
 date: 2011-03-24 12:04:36 +08:00
 tags: [Chrome, Linux, 原创]
+categories: [学习笔记]
 ---
 此贴也是我首发在红联Linux论坛上的文章.
 

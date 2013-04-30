@@ -5,6 +5,7 @@ wordpress_id: 110
 wordpress_url: http://ISayMe.com/?p=110
 date: 2011-05-01 11:18:17 +08:00
 tags: [Blog, 转载]
+categories: [他山之石]
 ---
 呼呼,五一假期就是好.可以一直上网,没人打扰.因此嘛,我就多转转,找找好东西.这不,又看到了好东西.所以就直接拿来用了.
 

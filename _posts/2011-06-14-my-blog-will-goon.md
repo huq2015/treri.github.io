@@ -5,6 +5,7 @@ wordpress_id: 168
 wordpress_url: http://ISayMe.com/?p=168
 date: 2011-06-14 22:36:47 +08:00
 tags: [点滴]
+categories: [唠唠叨叨]
 ---
 从上一篇日志到现在,都好几天过去了.这和我刚开始博客的时候基本上每天一到两篇 严重不符.
 

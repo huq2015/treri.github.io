@@ -5,6 +5,7 @@ wordpress_id: 23
 wordpress_url: http://ISayMe.com/?p=23
 date: 2011-03-31 21:23:39 +08:00
 tags: [Wordpress]
+categories: [WordPress]
 ---
 最近发现,当我在查看评论者的网站链接的时候会是在当前窗口打开.
 

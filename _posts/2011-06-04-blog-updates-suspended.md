@@ -5,6 +5,7 @@ wordpress_id: 161
 wordpress_url: http://ISayMe.com/?p=161
 date: 2011-06-04 00:15:39 +08:00
 tags: [点滴]
+categories: [唠唠叨叨]
 ---
 端午期间要复习功课,端午回来后还有各种测试,所以这两天只能忍痛暂停更新了.要抓紧时间复习啊!!!
 

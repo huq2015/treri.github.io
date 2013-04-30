@@ -5,6 +5,7 @@ wordpress_id: 104
 wordpress_url: http://ISayMe.com/?p=104
 date: 2011-04-26 10:45:28 +08:00
 tags: [点滴]
+categories: [唠唠叨叨]
 ---
 经过了一两天的非正常状态之后,终于服务器商将服务器重装系统了.
 现在已经基本恢复了正常状态.

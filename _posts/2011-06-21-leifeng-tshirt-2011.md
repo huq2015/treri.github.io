@@ -5,6 +5,7 @@ wordpress_id: 173
 wordpress_url: http://ISayMe.com/?p=173
 date: 2011-06-21 12:24:39 +08:00
 tags: [Blog, 雷锋群]
+categories: [互联网络]
 ---
 原文地址:<http://laob.me/leifeng-tshirt-2011/>
 

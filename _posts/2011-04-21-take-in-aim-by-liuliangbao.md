@@ -5,6 +5,7 @@ wordpress_id: 100
 wordpress_url: http://ISayMe.com/?p=100
 date: 2011-04-21 20:06:59 +08:00
 tags: [点滴]
+categories: [唠唠叨叨]
 ---
 吃饱喝足了,也来码点东西.作为新时期的优秀青年,不能再每天闲的蛋疼了. :lol: 
 

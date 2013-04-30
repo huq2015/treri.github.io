@@ -5,6 +5,7 @@ wordpress_id: 105
 wordpress_url: http://ISayMe.com/?p=105
 date: 2011-04-28 11:34:20 +08:00
 tags: [PhilNa2, Wordpress]
+categories: [WordPress]
 ---
 先唠叨几句,这几天先是因为服务器的问题.导致连三天网站不能正常访问,昨天才刚刚恢复.可是又有一个英语测试,无奈本人英语能力实在是有限,所以只能加紧突击,希望能够碰上几个题目. 结果悲剧鸟,出来的问题还是不会....
 

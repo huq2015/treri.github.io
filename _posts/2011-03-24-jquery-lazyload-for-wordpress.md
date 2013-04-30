@@ -5,6 +5,7 @@ wordpress_id: 13
 wordpress_url: http://ISayMe.com/?p=13
 date: 2011-03-24 11:45:58 +08:00
 tags: [Wordpress]
+categories: [WordPress]
 ---
 本文参考了KuKi的懒懒窝,只不过在调用地址的地方.稍微修改了一下.呵呵
 

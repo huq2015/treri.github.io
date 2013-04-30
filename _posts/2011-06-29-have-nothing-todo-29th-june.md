@@ -5,6 +5,7 @@ wordpress_id: 178
 wordpress_url: http://ISayMe.com/?p=178
 date: 2011-06-29 12:46:50 +08:00
 tags: [点滴]
+categories: [唠唠叨叨]
 ---
 前两天看到大家说PR更新了.我就查了下我的小站.发现从原来的0一下子到了4,听大家说,PR是4就不错了.
 没想到开博客才3个月就能有这样的成绩,看来google很喜欢我的博客.HOHO~~

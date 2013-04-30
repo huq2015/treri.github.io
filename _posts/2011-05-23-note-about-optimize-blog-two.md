@@ -5,6 +5,7 @@ wordpress_id: 143
 wordpress_url: http://ISayMe.com/?p=143
 date: 2011-05-23 16:19:40 +08:00
 tags: [Blog, Wordpress, 优化, 点滴]
+categories: [唠唠叨叨, WordPress]
 ---
 昨天写了个优化博客的文章,将css中涉及到的背景图片什么的,用小工具合并在一起,这样就能够减少 服务器的HTTP请求,理论上可以加快载入速度.
 不知道是不是服务器给力了,还是优化真正起作用了,我总感觉从昨天开始,博客的速度就快了不少,也可能是心理原因吧.

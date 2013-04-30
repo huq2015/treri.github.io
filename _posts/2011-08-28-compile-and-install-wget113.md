@@ -5,6 +5,7 @@ wordpress_id: 212
 wordpress_url: http://ISayMe.com/?p=212
 date: 2011-08-28 23:55:53 +08:00
 tags: [Linux, Wget]
+categories: [学习笔记]
 ---
 **安装原因:**
 

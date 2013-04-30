@@ -5,6 +5,7 @@ wordpress_id: 84
 wordpress_url: http://ISayMe.com/?p=84
 date: 2011-04-17 00:37:20 +08:00
 tags: [C, 原创, 数据结构]
+categories: [学习笔记]
 ---
 最近几天一直在为 一段程序上火.上周四下午的数据结构实验课,题目是 **使用链表求两个多项式的乘法**.
 

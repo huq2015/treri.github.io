@@ -5,6 +5,7 @@ wordpress_id: 118
 wordpress_url: http://isayme.com/?p=118
 date: 2011-05-07 07:28:54 +08:00
 tags: [Wordpress, 转载]
+categories: [WordPress]
 ---
 不记得是怎么找到这篇文章的,但是很庆幸,又找到了好东西.哈哈
 

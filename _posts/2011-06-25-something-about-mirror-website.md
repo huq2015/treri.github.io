@@ -5,6 +5,7 @@ wordpress_id: 175
 wordpress_url: http://ISayMe.com/?p=175
 date: 2011-06-25 11:06:08 +08:00
 tags: [Linux, website, 原创]
+categories: [互联网络, 学习笔记]
 ---
 前两天想要镜像 两个网站 codex.wordpress.org和 w3school.
 但是在镜像的时候遇到了各种各样的问题.今天完整的总结一下

@@ -5,6 +5,7 @@ wordpress_id: 166
 wordpress_url: http://ISayMe.com/?p=166
 date: 2011-06-10 22:38:19 +08:00
 tags: [Doodle, Google]
+categories: [互联网络]
 ---
 __6月10日__Google Doodle再次更新 :love:  :love: 在www.google.com推出了带录音回放功能电吉他，按下原来的键盘图标就可以，弹完以后再按一次，点播放键。
 

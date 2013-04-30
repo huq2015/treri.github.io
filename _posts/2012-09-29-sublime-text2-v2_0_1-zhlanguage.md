@@ -5,6 +5,7 @@ wordpress_id: 247
 wordpress_url: http://ISayMe.com/?p=247
 date: 2012-09-29 07:25:01 +08:00
 tags: [SublimeText2]
+categories: [也来推荐]
 ---
 今天无聊网上逛发现原来用过的sublimetext2有了最新的正式版 V2.0.1,于是下载下来安装.
 又到网上找了XX方法,成功注册.

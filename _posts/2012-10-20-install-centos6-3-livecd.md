@@ -5,6 +5,7 @@ wordpress_id: 249
 wordpress_url: http://ISayMe.com/?p=249
 date: 2012-10-20 08:56:50 +08:00
 tags: [CentOS, Linux]
+categories: [学习笔记]
 ---
 #### 原因 ####
 一直用的是debian系统,时间长了就想换点新鲜的.曾经用过fedora一段时间,但是感觉不习惯rpm系的使用习惯,所以又换回了debian,这次决定使用centos系统试试.经过一番权衡,选用centos LiveCD版.因为这个感觉最清爽,没有多余的软件,想用什么可以自己安装

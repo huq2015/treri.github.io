@@ -5,6 +5,7 @@ wordpress_id: 256
 wordpress_url: http://ISayMe.com/?p=256
 date: 2013-04-11 04:05:58 +08:00
 tags: [JavaScript]
+categories: [学习笔记]
 ---
 
 接昨天的上篇文章,设置图片的宽高到窗口的宽高.

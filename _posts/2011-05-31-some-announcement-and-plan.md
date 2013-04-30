@@ -5,6 +5,7 @@ wordpress_id: 158
 wordpress_url: http://ISayMe.com/?p=158
 date: 2011-05-31 22:23:32 +08:00
 tags: [PhilNa2, Themes, 原创]
+categories: [唠唠叨叨]
 ---
 现在使用的这款主题叫做 SimpleDark 作者[Justice](http://lync.in/) 也在继续更新中.
 

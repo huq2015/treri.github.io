@@ -5,6 +5,7 @@ wordpress_id: 119
 wordpress_url: http://isayme.com/?p=119
 date: 2011-05-07 16:39:06 +08:00
 tags: [Blog, Wordpress]
+categories: [唠唠叨叨]
 ---
 由于当初我的域名不是现在使用的这个,建博客的时候,原域名使用的是wp默认的wp\_前缀,但是后来感觉那个域名(lueeon.com)不好记,所以就送人了,换了现在的域名,在建博客的时候没用遗留的数据库,新建了一个数据库,名字是wp2,前缀改成了wp2_ 
 

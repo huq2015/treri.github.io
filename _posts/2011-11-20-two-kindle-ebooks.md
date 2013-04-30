@@ -5,6 +5,7 @@ wordpress_id: 236
 wordpress_url: http://ISayMe.com/?p=236
 date: 2011-11-20 21:52:46 +08:00
 tags: [Kindle]
+categories: [学习笔记]
 ---
 从买来kindle后,就一直在网上寻找资源.当然,找到了很多很多.
 但是即使多,也不可能完全满足自己的需要,毕竟自己的需要不可能是所有的人的需要.所以还是要学习着自己给自己做电子书才行.

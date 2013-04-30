@@ -5,6 +5,7 @@ wordpress_id: 223
 wordpress_url: http://ISayMe.com/?p=223
 date: 2011-09-23 22:27:58 +08:00
 tags: [Themes, Wordpress]
+categories: [WordPress]
 ---
 一直就在做这个主题,但是都没有给大家说说这个主题是怎么回事.
 说来我认识这个主题也挺早的.当时在wp中文论坛上逛,就看到过这个主题.而且也发了疯的在论坛和网上找过,但是无奈,论坛里的下载链接失效了.网上也没有人放出这个主题.

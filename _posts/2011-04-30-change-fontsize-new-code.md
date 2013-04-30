@@ -5,6 +5,7 @@ wordpress_id: 108
 wordpress_url: http://ISayMe.com/?p=108
 date: 2011-04-30 17:34:04 +08:00
 tags: [PhilNa2, Wordpress]
+categories: [WordPress]
 ---
 原来刚刚建立博客的时候字体用的是12号.过了几天有童鞋反应我的字体太小.强烈要求我增大字体.当时我很纠结,到底是增大还是继续保持呢?因为我本身比较喜欢小一点的字体.所以就一直使用的是12号字体,可是也不能不照顾大家吧.
 

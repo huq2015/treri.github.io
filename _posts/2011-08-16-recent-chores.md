@@ -5,6 +5,7 @@ wordpress_id: 204
 wordpress_url: http://ISayMe.com/?p=204
 date: 2011-08-16 19:37:49 +08:00
 tags: [点滴]
+categories: [唠唠叨叨]
 ---
 12号早上回到学校,宿舍悲剧的没电.只好收拾了一下,然后就困的不行了.睡了一天
 

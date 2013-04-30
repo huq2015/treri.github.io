@@ -5,6 +5,7 @@ wordpress_id: 131
 wordpress_url: http://isayme.com/?p=131
 date: 2011-05-13 23:44:19 +08:00
 tags: [PhilNa2, Wordpress]
+categories: [WordPress]
 ---
 **update:**刚刚在网上转了一圈,发现这个玩意已经被人用烂了,无奈我一直没有看到....
 想看的就凑活着看,反正我是不想看了....一点新意都没有了....

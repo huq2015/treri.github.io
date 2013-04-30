@@ -5,6 +5,7 @@ wordpress_id: 177
 wordpress_url: http://ISayMe.com/?p=177
 date: 2011-06-27 00:32:05 +08:00
 tags: [Widget, Wordpress]
+categories: [WordPress]
 ---
 又想着更新一下我的修改的philna2,但是找不到哪里可以更新,于是我就四处逛一逛.发现了一个值得鼓捣的地方.
 

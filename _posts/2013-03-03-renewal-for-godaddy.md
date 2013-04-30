@@ -5,6 +5,7 @@ wordpress_id: 253
 wordpress_url: http://ISayMe.com/?p=253
 date: 2013-03-03 04:05:58 +08:00
 tags: [GoDaddy]
+categories: [互联网络]
 ---
 - 优惠码
     如果你不是第一次买域名的话,你的邮箱中肯定已经有了很多godaddy发给你的邮件,这其中可能就有优惠额度很大的优惠码.或者去网上搜索一个那种续费需要8.49美元的优惠码.

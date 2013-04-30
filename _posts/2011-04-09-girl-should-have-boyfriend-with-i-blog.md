@@ -5,6 +5,7 @@ wordpress_id: 44
 wordpress_url: http://ISayMe.com/?p=44
 date: 2011-04-09 21:53:18 +08:00
 tags: [转载]
+categories: [他山之石]
 ---
 注:网上闲逛的时候看到了这篇文章.看后感觉很好玩.所以就转过来啦.原文地址点击[此处](http://www.binjoo.net/2011/02/girl-should-have-boyfriend-with-i-blog)
 

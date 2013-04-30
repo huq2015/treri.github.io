@@ -5,6 +5,7 @@ wordpress_id: 243
 wordpress_url: http://ISayMe.com/?p=243
 date: 2012-03-16 14:01:42 +08:00
 tags: [CSS3, Typecho, 读者墙]
+categories: [学习笔记]
 ---
 昨天换上typecho没有怎么弄就去玩跑跑了,留下好多工作没有做完,所以今天要解决掉.
 第一个任务就是做完使用wordpress时候弄的css3读者墙.

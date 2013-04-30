@@ -5,6 +5,7 @@ wordpress_id: 244
 wordpress_url: http://ISayMe.com/?p=244
 date: 2012-03-21 12:04:49 +08:00
 tags: [PhilNa2, Typecho]
+categories: [唠唠叨叨]
 ---
 前两天换到了typecho,由于对typecho不了解,用的不舒服,所以又换回来了.
 

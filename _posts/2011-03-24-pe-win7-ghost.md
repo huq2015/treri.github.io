@@ -5,6 +5,7 @@ wordpress_id: 16
 wordpress_url: http://ISayMe.com/?p=16
 date: 2011-03-24 11:55:48 +08:00
 tags: [Windows, 原创]
+categories: [学习笔记]
 ---
 以下为本人发在 深度论坛 上的文章,看到有很多人对这个感兴趣,所以在这里再发一遍.
 

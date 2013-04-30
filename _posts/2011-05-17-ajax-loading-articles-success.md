@@ -5,6 +5,7 @@ wordpress_id: 136
 wordpress_url: http://ISayMe.com/?p=136
 date: 2011-05-17 18:36:41 +08:00
 tags: [Ajax, jQuery, 点滴]
+categories: [WordPress, 唠唠叨叨]
 ---
 经过一中午的鼓捣,终于弄好了首页的Ajax加载,感觉嘛,也什么感觉.难度嘛,也不难,会了不难,难了不会.嘿嘿.
 主要就是jquery的选择器 对应好相应的元素就好了.

@@ -5,6 +5,7 @@ wordpress_id: 43
 wordpress_url: http://ISayMe.com/?p=43
 date: 2011-04-09 10:46:39 +08:00
 tags: [PhilNa2, Wordpress, 原创]
+categories: [WordPress]
 ---
 对于这个主题的页面模板,我只能说对我的挑战很大啊.当初刚使用这个主题时候就遇到了多多的问题,
 首先是新建contact页面的时候,再编辑器里面输入的内容经过发布,看不到任何内容,只有空空的一个标题.然后是links页面,输入内容后也是如此,发布后有链接,但是连点说明都没法加.

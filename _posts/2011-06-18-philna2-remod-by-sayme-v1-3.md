@@ -5,6 +5,7 @@ wordpress_id: 170
 wordpress_url: http://ISayMe.com/?p=170
 date: 2011-06-18 20:00:59 +08:00
 tags: [PhilNa2, Wordpress, 原创]
+categories: [Wordpress]
 ---
 请先看旧版
 

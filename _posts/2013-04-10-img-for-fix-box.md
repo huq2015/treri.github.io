@@ -5,6 +5,7 @@ wordpress_id: 255
 wordpress_url: http://ISayMe.com/?p=255
 date: 2013-04-10 04:05:58 +08:00
 tags: [JavaScript, CSS]
+categories: [学习笔记]
 ---
 今天写一个页面的时候遇到的一个问题。
 

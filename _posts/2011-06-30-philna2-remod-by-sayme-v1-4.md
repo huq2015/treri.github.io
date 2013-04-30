@@ -5,6 +5,7 @@ wordpress_id: 180
 wordpress_url: http://ISayMe.com/?p=180
 date: 2011-06-30 12:36:30 +08:00
 tags: [PhilNa2, Wordpress, 原创]
+categories: [WordPress]
 ---
 请先看旧版
 

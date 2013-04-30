@@ -2,15 +2,16 @@
 layout: page
 title: Categories
 header: Posts By Category
+group: navigation
 ---
 {% include JB/setup %}
-
+<h1>Categories</h1>
 <ul class="tag_box inline">
   {% assign categories_list = site.categories %}
   {% include JB/categories_list %}
 </ul>
 
-
+<div class="catpost">
 {% for category in site.categories %} 
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
   <ul>
@@ -18,4 +19,4 @@ header: Posts By Category
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
-
+</div>

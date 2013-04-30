@@ -369,21 +369,21 @@ a:hover {
   line-height: normal;
 }
 
-.tagpost  h2{
+.tagpost  h2,.catpost  h2{
   font-size: 16px;
   line-height: 1.5em;
   margin: 1.5em 0 1.5em 0;
   /*font-weight: bold;*/
 }
 
-.tagpost ul,#page ul.pages{
+.catpost ul,.tagpost ul,#page ul.pages{
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   line-height: 1.5em;
   padding-left: 1.5em;
 }
 
-.tagpost ul li,#page ul.pages li{
+.catpost ul li,.tagpost ul li,#page ul.pages li{
   margin: 5px;
   font-size: 14px;
   list-style-type: square;

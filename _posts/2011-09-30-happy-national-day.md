@@ -5,6 +5,7 @@ wordpress_id: 225
 wordpress_url: http://ISayMe.com/?p=225
 date: 2011-09-30 17:22:32 +08:00
 tags: [点滴]
+categories: [唠唠叨叨]
 ---
 首先祝各位国庆快乐了,呵呵.假期好好玩~~
 

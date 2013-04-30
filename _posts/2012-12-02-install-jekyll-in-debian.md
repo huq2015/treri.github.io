@@ -5,6 +5,7 @@ wordpress_id: 252
 wordpress_url: http://ISayMe.com/?p=252
 date: 2012-12-02 09:58:38 +08:00
 tags: [GitHub, Jekyll]
+categories: [也来推荐, 互联网络]
 ---
 首先简单介绍一下jekyll是什么东西.
 Jekyll是一个静态网站生成工具。它允许用户使用HTML、Markdown或Textile来建立静态页面，然后通过模板引擎Liquid（Liquid Templating Engine）来运行.

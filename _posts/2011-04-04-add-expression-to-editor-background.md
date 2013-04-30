@@ -5,6 +5,7 @@ wordpress_id: 34
 wordpress_url: http://ISayMe.com/?p=34
 date: 2011-04-04 15:42:56 +08:00
 tags: [PhilNa2, Wordpress]
+categories: [WordPress]
 ---
 今天又弄了个侧边栏3栏显示,感觉不错. 但是我发现我在编辑的时候喜欢加点表情,觉得只有表情才能表达某个时刻的心情.
 

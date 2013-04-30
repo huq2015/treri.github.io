@@ -5,6 +5,7 @@ wordpress_id: 123
 wordpress_url: http://isayme.com/?p=123
 date: 2011-05-09 22:43:53 +08:00
 tags: [PhilNa2, Wordpress, 原创]
+categories: [WordPress]
 ---
 先唠叨几句啦.下午的时候本来就写好了.可是就在粘贴到编辑器里面的时候,学校的网突然就断了,我连草稿都没存,估计又浪费了一个文章ID....
 学校的网络都TM垃圾.一天一块钱,可是网速慢的像屎 :twisted: .....还动不动就就掉线....日子真不好过.... :roll: 

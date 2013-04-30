@@ -5,6 +5,7 @@ wordpress_id: 171
 wordpress_url: http://ISayMe.com/?p=171
 date: 2011-06-19 08:10:38 +08:00
 tags: [Tag, Wordpress]
+categories: [WordPress]
 ---
 第一种:网上流传的 一种使用最广泛的 非插件版彩色标签云 为下面这种
 

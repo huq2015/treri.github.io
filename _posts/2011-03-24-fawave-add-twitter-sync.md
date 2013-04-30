@@ -5,6 +5,7 @@ wordpress_id: 22
 wordpress_url: http://ISayMe.com/?p=22
 date: 2011-03-24 12:12:39 +08:00
 tags: [Twitter]
+categories: [互联网络, 学习笔记]
 ---
 [发微(FaWave)](https://chrome.google.com/extensions/detail/aicelmgbddfgmpieedjiggifabdpcnln?hl=zh-cn)，一款Chrome上的微博插件，支持多微博，真正的实时同步发送微博，多微博发送不再烦。目前支持的微博有腾讯微博(qq)、新浪微博(sina)、搜狐微博(sohu)、饭否、做啥、嘀咕(digu)、人间网、雷猴、豆瓣、Google Buzz、网易微博(163)。 
 

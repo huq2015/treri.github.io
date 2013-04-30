@@ -5,6 +5,7 @@ wordpress_id: 179
 wordpress_url: http://ISayMe.com/?p=179
 date: 2011-06-29 16:58:45 +08:00
 tags: [CSS3, 读者墙]
+categories: [WordPress]
 ---
 先说明一下,在看本篇文章之前,请确定你使用的是Chrome或者是firefox浏览器.IE家族效果不敢保证~~
 
@@ -17,5 +18,23 @@ tags: [CSS3, 读者墙]
 ~~所以换完浏览器再来看吧.
 
 大前端原文地址:点击[此处](http://www.daqianduan.com/css3-wordpress-wall/)
+
+<pre>
+<style>
+/*readerwall*/
+body{overflow-x: hidden;}
+.readerwall{padding:12px 0 12px 15px; font-size:12px;overflow:visible;}
+.readerwall li{width:40px;height:40px;margin:0;padding:5px 0 5px 5px;float:left;list-style:none;border: 1px solid #DFDFDF;-moz-border-radius:2px;-khtml-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;}
+.readerwall .active-bg{width:40px;height:2px;_font-size:0;margin:-3px 0 0 -2px;background:#DFDFDF; }
+.readerwall .active-degree{background:red;width:40px;height:2px;_font-size:0;}
+.readerwall a{width:36px;height:36px;display:inline-block;position:relative;margin:0 0px 2px 0; text-decoration:none}
+.readerwall .pic{position:absolute;top:0;left:0;z-index:100;width:36px;height:36px;display:block;-webkit-transform-style:preserve-3d;-webkit-backface-visibility:hidden;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;border-radius:4px; text-indent:-9999px}
+.readerwall .num{position:absolute;top:0;left:0;z-index:99;width:34px;height:34px;line-height:34px;color:#E02523;font-size:18px;font-weight:bold;display:block;background:#fff;text-align:center;border:#bbb 1px solid;box-shadow:0 0 4px #ccc;-webkit-transform:rotateY(-180deg);-webkit-transform-style:preserve-3d;-webkit-backface-visibility:hidden;transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;border-radius:4px}
+.readerwall .name{position:absolute;top:0;left:0;color:#333;display:block;width:1px;height:1px;overflow:hidden;-webkit-transform-style:preserve-3d;-webkit-backface-visibility:hidden;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;text-align:center}
+.readerwall a:hover .pic{z-index:100;border-color:#eee;-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg)}
+.readerwall a:hover .num{z-index:101;-webkit-transform:rotateY(0deg);-moz-transform:rotateY(0deg);opacity:.8}
+.readerwall a:hover .name{top:-28px;left:-38px;z-index:101;padding:4px 6px;height:20px;line-height:20px;overflow:hidden;background:#fff;border-radius:2px;box-shadow:0 0 3px #000;min-width:100px;opacity:.8}
+</style>
+</pre>
 
 <div class="readerwall"><li><a target="_blank" href="http://www.qiyuuu.com"><span class="pic" style="background: url(http://www.gravatar.com/avatar/cab095b19fc8e1d184a553f506db0f93?s=36&d=monsterid&r=G) no-repeat;">pic</span><span class="num">125</span><span class="name">奇遇</span></a><div class='active-bg'><div class='active-degree' style='width:40px'></div></div></li><li><a target="_blank" href="http://japhia.info"><span class="pic" style="background: url(http://www.gravatar.com/avatar/671a44d0800580ad63c6eab82aa0c17e?s=36&d=monsterid&r=G) no-repeat;">pic</span><span class="num">108</span><span class="name">Japhia</span></a><div class='active-bg'><div class='active-degree' style='width:34.56px'></div></div></li><li><a target="_blank" href="http://dengken.name"><span class="pic" style="background: url(http://www.gravatar.com/avatar/27820dbbfb7b6672388ad71ec6249772?s=36&d=monsterid&r=G) no-repeat;">pic</span><span class="num">64</span><span class="name">邓肯</span></a><div class='active-bg'><div class='active-degree' style='width:20.48px'></div></div></li><li><a target="_blank" href="http://imluren.com"><span class="pic" style="background: url(http://www.gravatar.com/avatar/79c34a8e43c9c81dbb8e444ecdf1bb61?s=36&d=monsterid&r=G) no-repeat;">pic</span><span class="num">56</span><span class="name">IM路人</span></a><div class='active-bg'><div class='active-degree' style='width:17.92px'></div></div></li><li><a target="_blank" href="http://www.11reading.com"><span class="pic" style="background: url(http://www.gravatar.com/avatar/70bec75394c6154665a816268e2ee409?s=36&d=monsterid&r=G) no-repeat;">pic</span><span class="num">55</span><span class="name">spityaoyao</span></a><div class='active-bg'><div class='active-degree' style='width:17.6px'></div></div></li><div class="clear"></div></div>

@@ -5,6 +5,7 @@ wordpress_id: 11
 wordpress_url: http://ISayMe.com/?p=11
 date: 2011-03-25 11:27:24 +08:00
 tags: [Wordpress]
+categories: [WordPress]
 ---
 很早之前 [bentutu](http://bentutu.com) 童鞋就告诉我说可以实现图片的幻灯便效果.但是我一直都不知道是怎么回事.
 

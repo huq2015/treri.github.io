@@ -5,6 +5,7 @@ wordpress_id: 231
 wordpress_url: http://ISayMe.com/?p=231
 date: 2011-10-27 13:30:34 +08:00
 tags: [Wordpress, 点滴]
+categories: [唠唠叨叨]
 ---
 这两天来我博客的朋友,对不起了.因为我的一时疏忽,导致大家不能评论.
 

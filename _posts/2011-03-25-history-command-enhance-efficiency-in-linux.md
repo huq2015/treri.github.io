@@ -5,6 +5,7 @@ wordpress_id: 18
 wordpress_url: http://ISayMe.com/?p=18
 date: 2011-03-25 11:58:33 +08:00
 tags: [Linux]
+categories: [学习笔记, 系统相关]
 ---
 [![](http://i.imgur.com/RJCx0.png)](http://i.imgur.com/RJCx0.png)
 

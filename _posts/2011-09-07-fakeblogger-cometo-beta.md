@@ -5,6 +5,7 @@ wordpress_id: 218
 wordpress_url: http://ISayMe.com/?p=218
 date: 2011-09-07 20:51:12 +08:00
 tags: [Themes, Wordpress]
+categories: [WordPress]
 ---
 主题终于基本上算是完成了.上次给大家说的那个快完成的,我还是重新写了一遍.
 

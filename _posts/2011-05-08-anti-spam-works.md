@@ -5,6 +5,7 @@ wordpress_id: 121
 wordpress_url: http://isayme.com/?p=121
 date: 2011-05-08 19:54:45 +08:00
 tags: [spam, 点滴]
+categories: [唠唠叨叨]
 ---
 没事吐槽一下,o(∩_∩)o 哈哈. :evil: 
 
