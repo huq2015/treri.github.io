@@ -512,6 +512,9 @@ a:hover {
   font-family: helvetica,arial,freesans,clean,sans-serif;
   color: #353535;
 }
+.entry .tags,.entry .categories{
+  margin: 5px 0 0 0;
+}
 .entry h1,
 .entry h2,
 .entry h3,
