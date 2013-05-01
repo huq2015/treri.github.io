@@ -16,7 +16,7 @@ $(function(){
         clearTimeout(fq)
     }).click(function() {
         $body.animate({
-            scrollTop: $('#header').offset().top
+            scrollTop: 0
         }, 500)
     });
     $('#down').mouseover(function() {

@@ -139,6 +139,7 @@ body .fn-hide {
  */
 body {
   font-family: "Times New Roman", Times, serif;
+  overflow-y: scroll; 
 }
 a {
   color: #004d8d;
@@ -157,6 +158,10 @@ a:hover {
   width: 100%;
   height: 30px;
   background: #397ddb;
+  position: fixed;
+  top:0;left:0;
+  z-index: 99999;
+  box-shadow: 0 3px 3px 0px rgba(0,0,0,0.2)
 }
 #header {
   width: 780px;
@@ -165,6 +170,7 @@ a:hover {
   text-align: center;
 }
 #content {
+  margin-top: 30px;
   width: 100%;
 /*  min-height: 500px;*/
   height: auto;
