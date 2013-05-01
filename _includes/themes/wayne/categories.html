@@ -1,0 +1,26 @@
+<article>
+  {% if page.title %}
+  <section class="title">
+    <h2>{{ page.title }} </h2>
+  </section>
+  {% endif %}
+  <section class="post">
+    <div id='tag_cloud'>
+    {% for node in site.categories %}
+    <a href="#{{ node[0] }}-ref" title="{{ node[0] }}" rel="{{ node[1].size }}">{{ node[0] }}</a>
+    {% endfor %}
+    </div>
+
+    <ul class="listing">
+    {% for node in site.categories %}
+      <li class="listing-seperator" id="{{ node[0] }}-ref">{{ node[0] }}</li>
+    {% for post in node[1] %}
+      <li class="listing-item">
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+    {% endfor %}
+    </ul>
+  </section>
+</article>
