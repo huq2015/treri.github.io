@@ -1,7 +1,4 @@
-<section id="page">
-    <h2>All Pages</h2>
-    <ul class="pages">
-    {% assign pages_list = site.pages %}
-    {% include JB/pages_list %}
-    </ul>
+<section class="entry">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
 </section>
