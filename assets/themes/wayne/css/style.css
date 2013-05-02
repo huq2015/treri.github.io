@@ -52,7 +52,7 @@ ol, ul {
 #header {
   width: 680px;
   margin: 0 auto;
-  margin: 5em auto 4em auto;
+  /*margin: 5em auto 4em auto;*/
   text-align: center; }
   #header a {
     color: #999999;
