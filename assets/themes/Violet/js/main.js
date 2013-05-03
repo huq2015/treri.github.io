@@ -149,9 +149,9 @@ $(function(){
         J = new Image(),
         H, a, g, p, I, d, G, c, A, K;
     w(function() {
-        w("body").append(w([H = w('<div id="lbOverlay" />')[0], a = w('<div id="lbCenter" />')[0], G = w('<div id="lbBottomContainer" />')[0]]).css("display", "none"));
-        g = w('<div id="lbImage" />').appendTo(a).append(p = w('<div style="position: relative;" />').append([I = w('<a id="lbPrevLink" href="#" />').click(B)[0], d = w('<a id="lbNextLink" href="#" />').click(e)[0]])[0])[0];
-        c = w('<div id="lbBottom" />').appendTo(G).append([w('<a id="lbCloseLink" href="#" />').add(H).click(C)[0], A = w('<div id="lbCaption" />')[0], K = w('<div id="lbNumber" />')[0], w('<div style="clear: both;" />')[0]])[0]
+        w("body").append(w([H = w('<div id="lbOverlay"></div>')[0], a = w('<div id="lbCenter"></div>')[0], G = w('<div id="lbBottomContainer"></div>')[0]]).css("display", "none"));
+        g = w('<div id="lbImage"></div>').appendTo(a).append(p = w('<div style="position: relative;"></div>').append([I = w('<a id="lbPrevLink" href="#"></a>').click(B)[0], d = w('<a id="lbNextLink" href="#"></a>').click(e)[0]])[0])[0];
+        c = w('<div id="lbBottom"></div>').appendTo(G).append([w('<a id="lbCloseLink" href="#"></a>').click(C)[0], A = w('<div id="lbCaption"></div>')[0], K = w('<div id="lbNumber"></div>')[0], w('<div style="clear: both;"></div>')[0]])[0]
     });
     w.slimbox = function(O, N, M) {
         u = w.extend({
