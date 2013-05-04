@@ -23,10 +23,17 @@
   <body>
       <div id="main" role="main">
         <header>
-          <div id="header">
+          <div id="header" class="clearfix">
             <h1><a title="{{ site.title }}" class="" href="/">{{ site.title }}</a></h1>
+            <nav class="floatnav">
+              <span><a title="Archive" href="{{ site.JB.archive_path }}">Archive</a></span>
+              <span><a title="Tags" href="{{ site.JB.tags_path }}">Tags</a></span>
+              <span><a title="Categories" href="{{ site.JB.categories_path }}">Categories</a></span>
+              <span><a title="About" href="{{ site.JB.about_path }}">About</a></span>
+              <span><a title="Subscribe" href="{{ site.JB.rss_path }}">Feed</a></span>
+            </nav>
           </div>
-          <nav>
+          <nav class="fixnav">
             <span><a title="Home" class="icon-home" href="/"></a></span>
             <span><a title="Archive" class="icon-list-ul" href="{{ site.JB.archive_path }}"></a></span>
             <span><a title="Tags" class="icon-tags" href="{{ site.JB.tags_path }}"></a></span>
