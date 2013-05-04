@@ -336,7 +336,22 @@ div.fixnav a:hover {
 }
 
 .center {
+  clear:both;
   text-align: center;
+}
+
+#pagination{
+  text-align: center;
+}
+#pagination .num{
+  margin:0 5px;
+  color:#afafaf;
+}
+#pagination span.num{
+  color:#333;
+}
+#pagination a.num:hover{
+  color:#3399cc;
 }
 
 hr {

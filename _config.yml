@@ -6,7 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 markdown: rdiscount
-paginate: 10
+paginate: 3
 copyright:
     - Design by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>
     - "&copy; Copyright 2013, Vinntoe. All Rights Reserved."
