@@ -1,36 +1,36 @@
 <div class="article">
-  <div class="title">
-    <h2>{{ page.title }} </h2>
-  </div>
-  <div class="meta">
-  <span class="time">
-    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-  </span>
-  {% if page.tags %}
-  <span class="tags">
-    {% for tag in page.tags %}
-    <a href="{{site.JB.tags_path}}#{{ tag }}-ref" title="{{ tag }}">#{{ tag }}</a>
-    {% endfor %}
-  </span>
-  {% endif %}
-  </div>
-  <div class="post">
-  {{ content }}
-  </div>
-  {% if page.is_post %}
-  <div class="comment" id="comment">
-  {% include JB/comments %}
-  </div>
-  {% endif %}
+    <div class="title">
+        <h2>{{ page.title }} </h2>
+    </div>
+    <div class="meta">
+        <span class="time">
+            <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+        </span>
+        {% if page.tags %}
+        <span class="tags">
+            {% for tag in page.tags %}
+            <a href="{{site.JB.tags_path}}#{{ tag }}-ref" title="{{ tag }}">#{{ tag }}</a>
+            {% endfor %}
+        </span>
+        {% endif %}
+    </div>
+    <div class="post">
+        {{ content }}
+    </div>
+    {% if page.is_post %}
+    <div class="comment" id="comment">
+      {% include JB/comments %}
+    </div>
+    {% endif %}
 </div>
 
 {% if page.previous or page.next %}
 <div id="page_nav">
-  {% if page.previous %}
-  <a href='{{page.previous.url}}'>← Previous</a>
-  {% endif %}
-  {% if page.next %}
-  <a href='{{page.next.url}}'>Next →</a>
-  {% endif %}
+    {% if page.previous %}
+    <a href='{{page.previous.url}}'>← Previous</a>
+    {% endif %}
+    {% if page.next %}
+    <a href='{{page.next.url}}'>Next →</a>
+    {% endif %}
 </div>
 {% endif %}
