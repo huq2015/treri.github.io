@@ -347,13 +347,13 @@ div.fixnav a:hover {
   margin:0 5px;
   color:#afafaf;
 }
-#pagination span.num{
-  color:#333;
-}
 #pagination a.num:hover{
   color:#3399cc;
 }
-
+#pagination a.current{
+  color:#333 !important;
+  cursor: default;
+}
 hr {
   margin: 0.7em 0;
   border-top: 1px dashed #d0d0d0;
