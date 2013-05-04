@@ -19,7 +19,9 @@
   clear: both;
   visibility: hidden;
 }
-
+html,body{
+  overflow-x: hidden; 
+}
 .clearfix {
   display: inline-block;
 }
@@ -525,4 +527,29 @@ li[id*='dsq-like-'] {
 
 #lbCaption {
   font-weight: 700
+}
+
+#outer{
+  width:100%;
+  overflow: hidden;
+}
+#inner{
+  width: 2040px;
+  position: relative;
+  left:-680px;
+}
+
+ul.listing{
+  width:680px;
+  /*display: inline-block;*/
+  float:left;
+
+}
+ul.tmp{  margin-left:680px;}
+
+ul.left{
+  margin-left:0;
+}
+ul.right{
+  margin-left:1360px;
 }

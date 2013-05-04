@@ -180,6 +180,7 @@
             })
         }
     }
+
     function j(M) {
         if (M) {
             w("object").add(m ? "select" : "embed").each(function(O, P) {
@@ -196,17 +197,21 @@
         E[N]("scroll resize", z);
         w(document)[N]("keydown", o)
     }
+
     function o(O) {
         var N = O.keyCode,
             M = w.inArray;
         return (M(N, u.closeKeys) >= 0) ? C() : (M(N, u.nextKeys) >= 0) ? e() : (M(N, u.previousKeys) >= 0) ? B() : false
     }
+
     function B() {
         return b(x)
     }
+
     function e() {
         return b(D)
     }
+
     function b(M) {
         if (M >= 0) {
             F = M;
@@ -221,6 +226,7 @@
         }
         return false
     }
+
     function i() {
         a.className = "";
         w(g).css({
@@ -268,6 +274,7 @@
             }).fadeIn(u.imageFadeDuration, h)
         })
     }
+
     function h() {
         if (x >= 0) {
             w(I).show()
@@ -280,12 +287,14 @@
         }, u.captionAnimationDuration);
         G.style.visibility = ""
     }
+
     function q() {
         k.onload = null;
         k.src = t.src = J.src = n;
         w([a, g, c]).stop(true);
         w([I, d, g, G]).hide()
     }
+
     function C() {
         if (F >= 0) {
             q();
@@ -296,17 +305,19 @@
         return false
     }
 })(jQuery);
+
 function up() {
     $wd = $(window);
     $wd.scrollTop($wd.scrollTop() - 1);
     fq = setTimeout("up()", 40)
 }
+
 function dn() {
     $wd = $(window);
     $wd.scrollTop($wd.scrollTop() + 1);
     fq = setTimeout("dn()", 40)
 }
-$(function(){
+$(function() {
     $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
     $('#up').mouseover(function() {
         up()
@@ -331,11 +342,11 @@ $(function(){
             scrollTop: $('#comment').offset().top
         }, 500)
     });
+
     function assetsPath() {
         var i = 0,
-        got = -1,
-        url,
-        len = document.getElementsByTagName('link').length;
+            got = -1,
+            url, len = document.getElementsByTagName('link').length;
         while (i < len && got == -1) {
             url = document.getElementsByTagName('link')[i].href;
             got = url.indexOf('/style.css');
@@ -343,6 +354,7 @@ $(function(){
         }
         return url.replace(/\/css\/style.css.*/g, "")
     };
+
     function imgEffection() {
         $("img").lazyload({
             placeholder: assetsPath() + "/images/empty.gif",
@@ -350,7 +362,79 @@ $(function(){
         });
         $("div.article div.post a:has(img)").slimbox();
     }
-    imgEffection(); 
+    imgEffection();
 
+    window.slide = {
+        _nowObj: null,
+        _now: 0,
+        cache: {},
+        handle: null,
+        init: function(select, container) {
+            $('ul.listing').removeClass('tmp').css('margin-left','680px');
+            this._nowObj = $($('ul.listing')[0]);
+            this._now = parseInt($('#pagination a.current').text());
+            this.bindEvent(select, container);
+            this.cache[this._now] = this._nowObj;
+        },
+        bindEvent: function(select, container) {
+            var self = this;
+            $('body').on('click', select, function() {
+                var _this = this;
+                if ($(_this).text() == self._now) {
+                    return false;
+                }
+                $(_this).addClass('current').siblings().removeClass('current');
+                self.handle = parseInt($(_this).text());
+                if (self.cache[self.handle]) {
+                    self.handleData(self.cache[self.handle]);
+                } else {
+                    self.handle = $(_this).text();
+                    var link = $(_this).attr('href');
+                    $.ajax({
+                        url: link,
+                        dataType: 'html',
+                        type: 'GET',
+                        beforeSend: function() {
+
+                        },
+                        success: function(obj) {
+                            var $obj = $($.parseHTML(obj));
+                            var data = $($obj.find(container)[0]);
+                            self.handleData(data);
+                        },
+                        error: function() {
+                            console.log('error');
+                        }
+                    });
+                }
+                return false;
+            })
+        },
+        handleData: function(data) {
+            var self = this;
+            self.cache[self.handle] = data;
+            $data = $(data);
+            if (self.handle - self._now < 0) {
+                $(self._nowObj).css('margin-left','0px');
+                $data.removeClass('tmp').css('margin-left','0px').show().insertBefore($(self._nowObj)).animate({'margin-left':'680px'},300,function(){
+                    $(self._nowObj).hide();
+                    self._nowObj = $data;
+                    self._now = self.handle;
+                    $body.animate({scrollTop:0},300);
+                });
+            } else {
+                $data.css('margin-left','0px').removeClass('tmp').show().insertAfter($(self._nowObj));
+                $(self._nowObj).animate({
+                    'margin-left': "0px"
+                }, 300, function() {
+                    $(self._nowObj).hide();
+                    $($data).css('margin-left','680px');
+                    self._nowObj = $data;
+                    self._now = self.handle;
+                    $body.animate({scrollTop:0},300);
+                })
+            }
+        }
+    }
+    slide.init('#pagination a', '#inner ul.listing');
 });
-
