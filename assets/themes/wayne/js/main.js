@@ -1,59 +1,3 @@
-function up() {
-    $wd = $(window);
-    $wd.scrollTop($wd.scrollTop() - 1);
-    fq = setTimeout("up()", 40)
-}
-function dn() {
-    $wd = $(window);
-    $wd.scrollTop($wd.scrollTop() + 1);
-    fq = setTimeout("dn()", 40)
-}
-$(function(){
-    $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
-    $('#up').mouseover(function() {
-        up()
-    }).mouseout(function() {
-        clearTimeout(fq)
-    }).click(function() {
-        $body.animate({
-            scrollTop: 0
-        }, 500)
-    });
-    $('#down').mouseover(function() {
-        dn()
-    }).mouseout(function() {
-        clearTimeout(fq)
-    }).click(function() {
-        $body.animate({
-            scrollTop: $('#footer').offset().top
-        }, 500)
-    });
-    $('#reply').click(function() {
-        $body.animate({
-            scrollTop: $('#comment').offset().top
-        }, 500)
-    });
-    function assetsPath() {
-        var i = 0,
-        got = -1,
-        url,
-        len = document.getElementsByTagName('link').length;
-        while (i < len && got == -1) {
-            url = document.getElementsByTagName('link')[i].href;
-            got = url.indexOf('/style.css');
-            i++
-        }
-        return url.replace(/\/css\/style.css.*/g, "")
-    };
-    function imgEffection() {
-        $("img").lazyload({
-            placeholder: assetsPath() + "/images/empty.gif",
-            effect: "fadeIn"
-        });
-        $("div.article div.post a:has(img)").slimbox();
-    }
-    imgEffection(); 
-});
 (function($) {
     $.fn.lazyload = function(options) {
         var settings = {
@@ -352,3 +296,60 @@ $(function(){
         return false
     }
 })(jQuery);
+function up() {
+    $wd = $(window);
+    $wd.scrollTop($wd.scrollTop() - 1);
+    fq = setTimeout("up()", 40)
+}
+function dn() {
+    $wd = $(window);
+    $wd.scrollTop($wd.scrollTop() + 1);
+    fq = setTimeout("dn()", 40)
+}
+$(function(){
+    $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+    $('#up').mouseover(function() {
+        up()
+    }).mouseout(function() {
+        clearTimeout(fq)
+    }).click(function() {
+        $body.animate({
+            scrollTop: 0
+        }, 500)
+    });
+    $('#down').mouseover(function() {
+        dn()
+    }).mouseout(function() {
+        clearTimeout(fq)
+    }).click(function() {
+        $body.animate({
+            scrollTop: $('#footer').offset().top
+        }, 500)
+    });
+    $('#reply').click(function() {
+        $body.animate({
+            scrollTop: $('#comment').offset().top
+        }, 500)
+    });
+    function assetsPath() {
+        var i = 0,
+        got = -1,
+        url,
+        len = document.getElementsByTagName('link').length;
+        while (i < len && got == -1) {
+            url = document.getElementsByTagName('link')[i].href;
+            got = url.indexOf('/style.css');
+            i++
+        }
+        return url.replace(/\/css\/style.css.*/g, "")
+    };
+    function imgEffection() {
+        $("img").lazyload({
+            placeholder: assetsPath() + "/images/empty.gif",
+            effect: "fadeIn"
+        });
+        $("div.article div.post a:has(img)").slimbox();
+    }
+    imgEffection(); 
+});
+
