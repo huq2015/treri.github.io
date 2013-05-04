@@ -365,9 +365,9 @@ $(function(){
         _this.addClass('current').siblings().removeClass('current');
         //console.log('success:',arguments);
     });
-    $(document).on('pjax:complete', function() {
+    // $(document).on('pjax:complete', function() {
 
-        //console.log('complete:',arguments);
-    });
+    //     //console.log('complete:',arguments);
+    // });
 });
 
