@@ -31,7 +31,7 @@
         <div id="pagination">
             <div class="paginator-list">
                 {% for page in (1..paginator.total_pages) %}
-                <a class="num{% if page == paginator.page %} current{% endif %}" href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a>
+                <a id="page_{{ page }}" class="num{% if page == paginator.page %} current{% endif %}" href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a>
                 {% endfor %}
             </div>
         </div>
