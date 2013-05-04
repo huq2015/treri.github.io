@@ -374,7 +374,7 @@ $(function() {
         handle: null,
         init: function(select, container) {
             var self = this;
-            $('ul.listing').removeClass('tmp').css('margin-left','680px');
+            $('#inner ul.listing').removeClass('tmp').css('margin-left','680px');
             this._nowObj = $($('ul.listing')[0]);
             this._now = parseInt($('#pagination a.current').text());
             this.bindEvent(select, container);
@@ -389,7 +389,7 @@ $(function() {
                     page:_page
                 },_title,_link);
                 window.onpopstate=function(e){
-                    console.log(e);
+                    //console.log(e);
                     if(e.state){
                         self.pop = true;
                         var page = e.state.page;
@@ -408,7 +408,7 @@ $(function() {
                 var _link = $(_this).attr('href');
                 var _title = $(_this).text();
                 var _page = $(_this).attr('id');
-                console.log('_page',_page);
+                // console.log('_page',_page);
                 var state = {
                     title:'Vinntoe',
                     url:_link,
@@ -455,7 +455,7 @@ $(function() {
                     $(self._nowObj).hide();
                     self._nowObj = $data;
                     self._now = self.handle;
-                    //$body.animate({scrollTop:0},300);
+                    $body.animate({scrollTop:0},300);
                 });
             } else {
                 $data.css('margin-left','0px').removeClass('tmp').show().insertAfter($(self._nowObj));
@@ -466,7 +466,7 @@ $(function() {
                     $($data).css('margin-left','680px');
                     self._nowObj = $data;
                     self._now = self.handle;
-                    //$body.animate({scrollTop:0},300);
+                    $body.animate({scrollTop:0},300);
                 })
             }
             self.pop = false;

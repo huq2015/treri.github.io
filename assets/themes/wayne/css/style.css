@@ -169,6 +169,11 @@ div.fixnav a:hover {
   border-radius: 5px;
 }
 
+/*.article div.post ul.listing{
+  margin-left: 0 !important;
+  float:none !important;
+}*/
+
 #content a {
   color: #3399cc;
 }
@@ -539,7 +544,7 @@ li[id*='dsq-like-'] {
   left:-680px;
 }
 
-ul.listing{
+#inner ul.listing{
   width:680px;
   /*display: inline-block;*/
   float:left;
