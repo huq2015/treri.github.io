@@ -352,22 +352,5 @@ $(function(){
     }
     imgEffection(); 
 
-    // $(document).pjax('#pagination a','#listing',{fragment:'#listing'});
-    //  // $(document).pjax('#page_nav a','#content',{fragment:'#content'}) // no comment textarea
-    // $(document).on('pjax:beforeSend',function(e){
-    //     $('#listing').css('opacity',0.2);
-    //     //console.log('beforeSend:',arguments);
-    // });
-    // $(document).on('pjax:success',function(e){
-    //     $('#listing').css('opacity',1);
-    //     var _this = $(e.relatedTarget);
-    //     var page = _this.text();
-    //     _this.addClass('current').siblings().removeClass('current');
-    //     //console.log('success:',arguments);
-    // });
-    // $(document).on('pjax:complete', function() {
-
-    //     //console.log('complete:',arguments);
-    // });
 });
 
