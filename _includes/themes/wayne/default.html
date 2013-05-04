@@ -8,6 +8,16 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <link href="{{site.JB.atom_path}}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+    <!--[if lt IE 9]>
+      <script type = "text/javascript">
+        (function(elem) {
+          var i, element;
+          for (i = 0; i < elem.length; i++) {
+            element = elem[i];
+            document.createElement(element);
+          }
+        })(["header","nav","footer"]) </script>
+    <![endif]-->
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css">
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/github.css">
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/font-awesome.min.css">

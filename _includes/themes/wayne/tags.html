@@ -1,10 +1,10 @@
-<article>
+<div class="article">
   {% if page.title %}
-  <section class="title">
+  <div class="title">
     <h2>{{ page.title }} </h2>
-  </section>
+  </div>
   {% endif %}
-  <section class="post">
+  <div class="post">
     <div id='tag_cloud'>
     {% for tag in site.tags %}
     <a href="#{{ tag[0] }}-ref" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
@@ -35,5 +35,5 @@
         $('#tag_cloud a').tagcloud();
     });
     </script>-->
-  </section>
-</article>
+  </div>
+</div>

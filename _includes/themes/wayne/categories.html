@@ -1,10 +1,10 @@
-<article>
+<div class="article">
   {% if page.title %}
-  <section class="title">
+  <div class="title">
     <h2>{{ page.title }} </h2>
-  </section>
+  </div>
   {% endif %}
-  <section class="post">
+  <div class="post">
     <div id='tag_cloud'>
     {% for node in site.categories %}
     <a href="#{{ node[0] }}-ref" title="{{ node[0] }}" rel="{{ node[1].size }}">{{ node[0] }}</a>
@@ -22,5 +22,5 @@
     {% endfor %}
     {% endfor %}
     </ul>
-  </section>
-</article>
+  </div>
+</div>

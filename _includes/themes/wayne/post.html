@@ -1,8 +1,8 @@
-<article>
-  <section class="title">
+<div class="article">
+  <div class="title">
     <h2>{{ page.title }} </h2>
-  </section>
-  <section class="meta">
+  </div>
+  <div class="meta">
   <span class="time">
     <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
   </span>
@@ -13,24 +13,24 @@
     {% endfor %}
   </span>
   {% endif %}
-  </section>
-  <section class="post">
+  </div>
+  <div class="post">
   {{ content }}
-  </section>
+  </div>
   {% if page.is_post %}
-  <section class="comment">
+  <div class="comment">
   {% include JB/comments %}
-  </section>
+  </div>
   {% endif %}
-</article>
+</div>
 
 {% if page.previous or page.next %}
-<section id="page_nav">
+<div id="page_nav">
   {% if page.previous %}
   <a href='{{page.previous.url}}'>← Previous</a>
   {% endif %}
   {% if page.next %}
   <a href='{{page.next.url}}'>Next →</a>
   {% endif %}
-</section>
+</div>
 {% endif %}

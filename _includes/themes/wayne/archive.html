@@ -1,10 +1,10 @@
-<article>
+<div class="article">
   {% if page.title %}
-  <section class="title">
+  <div class="title">
     <h2>{{ page.title }} </h2>
-  </section>
+  </div>
   {% endif %}
-  <section class="post">
+  <div class="post">
       <ul class="listing">
     {% for post in site.posts %}
       {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -18,5 +18,5 @@
       </li>
     {% endfor %}
     </ul>
-  </section>
-</article>
+  </div>
+</div>

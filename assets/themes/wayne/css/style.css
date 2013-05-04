@@ -44,7 +44,8 @@ body {
 a {
   text-decoration: none;
   -webkit-transition: color 0.2s linear;
-  -moz-transition: color 0.2s linear; }
+  -moz-transition: color 0.2s linear;
+  transition: color 0.2s linear; }
 
 li {
   padding: 0.2em 0; }
@@ -111,7 +112,7 @@ nav.fixnav a:hover {
   margin: 0 auto;
   font-size: 1.1em;
   line-height: 1.7em; }
-  #content article {
+  #content .article {
     padding: 1.25em 24px;
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
@@ -228,7 +229,8 @@ nav.fixnav a:hover {
   -moz-border-radius: 0.4em;
   -webkit-border-radius: 0.4em;
   -webkit-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear; }
+  -moz-transition: background-color 0.2s linear;
+  border-radius: 0.4em; }
 
 .center {
   text-align: center; }
