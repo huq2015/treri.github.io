@@ -543,7 +543,7 @@ ul.listing{
   width:680px;
   /*display: inline-block;*/
   float:left;
-
+  position: relative;
 }
 ul.tmp{  margin-left:680px;}
 
@@ -552,4 +552,14 @@ ul.left{
 }
 ul.right{
   margin-left:1360px;
+}
+
+.overmap{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background:rgba(255,255,255,0.8);
 }

@@ -395,11 +395,12 @@ $(function() {
                         dataType: 'html',
                         type: 'GET',
                         beforeSend: function() {
-
+                            $(self._nowObj).find('.overmap').show();
                         },
                         success: function(obj) {
                             var $obj = $($.parseHTML(obj));
                             var data = $($obj.find(container)[0]);
+                            $('.overmap').hide();
                             self.handleData(data);
                         },
                         error: function() {
