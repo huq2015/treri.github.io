@@ -7,7 +7,7 @@
   <div class="post">
     <div id='tag_cloud'>
     {% for node in site.categories %}
-    <a href="#{{ node[0] }}-ref" title="{{ node[0] }}" rel="{{ node[1].size }}">{{ node[0] }}</a>
+    <a class="pjax" href="#{{ node[0] }}-ref" title="{{ node[0] }}" rel="{{ node[1].size }}">{{ node[0] }}</a>
     {% endfor %}
     </div>
 
@@ -17,7 +17,7 @@
     {% for post in node[1] %}
       <li class="listing-item">
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <a class="pjax" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </li>
     {% endfor %}
     {% endfor %}
