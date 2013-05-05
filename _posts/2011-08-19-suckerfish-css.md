@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: suckerfish下拉菜单
-wordpress_id: 206
+pid: 206
 comment: true
 tags: [CSS]
 categories: [学习笔记]

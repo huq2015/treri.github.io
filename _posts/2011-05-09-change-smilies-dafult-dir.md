@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: PhilNa2-更改默认表情图片位置
-wordpress_id: 123
+pid: 123
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

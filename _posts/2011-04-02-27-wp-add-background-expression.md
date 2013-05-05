@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: wp后台回复添加表情
-wordpress_id: 27
+pid: 27
 comment: true
 tags: [Wordpress, 原创]
 categories: [Wordpress]

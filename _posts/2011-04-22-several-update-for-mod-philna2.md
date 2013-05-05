@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 修改philna2主题之文章几处更新
-wordpress_id: 103
+pid: 103
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

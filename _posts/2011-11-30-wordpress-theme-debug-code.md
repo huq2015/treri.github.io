@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 一段wordpress的Theme DEBUG程序
-wordpress_id: 238
+pid: 238
 comment: true
 tags: [PhilNa2, Themes, Wordpress]
 categories: [学习笔记]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: IE浏览器中Image对象onload失效的解决办法
-wordpress_id: 256
+pid: 256
 comment: true
 tags: [JavaScript]
 categories: [学习笔记]

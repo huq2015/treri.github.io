@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: W1免费版无限翻页
-wordpress_id: 147
+pid: 147
 comment: true
 tags: [Ajax, jQuery, w1s, Wordpress]
 categories: [WordPress]

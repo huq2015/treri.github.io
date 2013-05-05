@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 友情链接页面修复
-wordpress_id: 47
+pid: 47
 comment: true
 tags: [Wordpress, 原创]
 categories: [WordPress]

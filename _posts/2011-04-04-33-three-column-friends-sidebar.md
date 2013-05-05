@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 侧栏友链3栏显示
-wordpress_id: 33
+pid: 33
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 逛了下wp论坛
-wordpress_id: 151
+pid: 151
 comment: true
 tags: [Blog, 点滴]
 categories: [唠唠叨叨]

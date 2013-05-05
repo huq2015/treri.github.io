@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 转-防止攻击 - WordPress登录邮件提醒
-wordpress_id: 109
+pid: 109
 comment: true
 tags: [转载]
 categories: [他山之石]

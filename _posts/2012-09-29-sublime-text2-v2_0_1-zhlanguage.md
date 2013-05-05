@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: sublime text2 v2.0.1汉化文件
-wordpress_id: 247
+pid: 247
 comment: true
 tags: [SublimeText2]
 categories: [也来推荐]

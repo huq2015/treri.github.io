@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 侧栏评论滑动显示的一点理解
-wordpress_id: 189
+pid: 189
 comment: true
 tags: [JavaScript, Study, Wordpress]
 categories: [WordPress]

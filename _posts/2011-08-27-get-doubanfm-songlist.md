@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 获取豆瓣FM加红心列表
-wordpress_id: 210
+pid: 210
 comment: true
 tags: [DoubanFM, python]
 categories: [互联网络]

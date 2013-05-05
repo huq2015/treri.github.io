@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Linux记录总结
-wordpress_id: 125
+pid: 125
 comment: true
 tags: [Linux, Ubuntu]
 categories: [学习笔记]

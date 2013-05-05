@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 短代码 mp3player
-wordpress_id: 127
+pid: 127
 comment: true
 tags: [Wordpress, 原创]
 categories: [Wordpress]

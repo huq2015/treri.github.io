@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 转-女生应该找个有独立博客的男朋友
-wordpress_id: 44
+pid: 44
 comment: true
 tags: [转载]
 categories: [他山之石]

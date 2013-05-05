@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: FakeBlogger主题初步完成
-wordpress_id: 218
+pid: 218
 comment: true
 tags: [Themes, Wordpress]
 categories: [WordPress]

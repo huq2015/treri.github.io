@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: debian6再安装小记
-wordpress_id: 197
+pid: 197
 comment: true
 tags: [Debian, Linux]
 categories: [互联网络]

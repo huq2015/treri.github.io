@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 6月23日吐槽
-wordpress_id: 174
+pid: 174
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

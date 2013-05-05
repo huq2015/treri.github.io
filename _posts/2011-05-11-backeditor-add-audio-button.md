@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 后台快速添加mp3按钮
-wordpress_id: 128
+pid: 128
 comment: true
 tags: [Wordpress, 原创, 转载]
 categories: [WordPress]

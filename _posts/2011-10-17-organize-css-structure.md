@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 组织好css代码文件的结构.
-wordpress_id: 228
+pid: 228
 comment: true
 tags: [CSS]
 categories: [学习笔记]

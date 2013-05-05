@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 嵌套评论的问题及向Japhia,邓肯致歉
-wordpress_id: 152
+pid: 152
 comment: true
 tags: [Apology, PhilNa2, 点滴]
 categories: [唠唠叨叨]

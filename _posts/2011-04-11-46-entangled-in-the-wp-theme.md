@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 纠结于WP主题
-wordpress_id: 46
+pid: 46
 comment: true
 tags: [PhilNa2]
 categories: [唠唠叨叨]

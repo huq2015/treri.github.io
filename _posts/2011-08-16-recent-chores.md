@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 最近杂事
-wordpress_id: 204
+pid: 204
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

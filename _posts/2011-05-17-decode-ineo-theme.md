@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 解密ineo1.0.2
-wordpress_id: 137
+pid: 137
 comment: true
 tags: [Linux, PHP, Themes, 点滴]
 categories: [唠唠叨叨]

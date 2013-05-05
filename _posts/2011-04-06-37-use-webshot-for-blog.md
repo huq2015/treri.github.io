@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 使用网页缩略图种种..
-wordpress_id: 37
+pid: 37
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 服务器恢复正常
-wordpress_id: 104
+pid: 104
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

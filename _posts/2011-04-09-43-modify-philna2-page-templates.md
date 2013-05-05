@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: PhilNa2主题页面模板修改
-wordpress_id: 43
+pid: 43
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

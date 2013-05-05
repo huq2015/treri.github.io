@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Editplus notepad++ Gedit UltraEdit简单对比(评测)
-wordpress_id: 193
+pid: 193
 comment: true
 tags: [Programmer, Software, 原创]
 categories: [互联网络]

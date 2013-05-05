@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: jQuery上下浮动滚动[4-22更新]
-wordpress_id: 83
+pid: 83
 comment: true
 tags: [PhilNa2, Wordpress]
 categories: [WordPress]

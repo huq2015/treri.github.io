@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 今天移植了一个主题
-wordpress_id: 215
+pid: 215
 comment: true
 tags: [Themes, Wordpress]
 categories: [WordPress]

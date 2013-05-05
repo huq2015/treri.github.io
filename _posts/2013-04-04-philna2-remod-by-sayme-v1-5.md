@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: PhilNa2自说Me话扩展版 v1.5
-wordpress_id: 254
+pid: 254
 comment: true
 tags: [PhilNa2, Themes]
 categories: [WordPress]

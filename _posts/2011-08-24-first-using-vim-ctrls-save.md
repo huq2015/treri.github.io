@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 初用vim,让vim能CTRL+S保存
-wordpress_id: 209
+pid: 209
 comment: true
 tags: [VIM]
 categories: [互联网络]

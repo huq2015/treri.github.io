@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 让pidgin威力大增,添加QQ和Fetion
-wordpress_id: 205
+pid: 205
 comment: true
 tags: [Linux, Pidgin]
 categories: [互联网络]

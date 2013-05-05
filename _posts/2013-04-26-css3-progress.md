@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: CSS3进度条
-wordpress_id: 257
+pid: 257
 comment: true
 tags: [CSS3]
 categories: [学习笔记]

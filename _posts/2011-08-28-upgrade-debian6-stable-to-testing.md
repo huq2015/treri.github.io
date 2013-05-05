@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: debian 6 stable蛋疼升级记
-wordpress_id: 211
+pid: 211
 comment: true
 tags: [debian, Linux, 原创]
 categories: [学习笔记 ]

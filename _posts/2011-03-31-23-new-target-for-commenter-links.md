@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 让评论者链接在新窗口打开
-wordpress_id: 23
+pid: 23
 comment: true
 tags: [Wordpress]
 categories: [WordPress]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 一段shell程序下载图片
-wordpress_id: 224
+pid: 224
 comment: true
 tags: [Bash, Linux]
 categories: [学习笔记]

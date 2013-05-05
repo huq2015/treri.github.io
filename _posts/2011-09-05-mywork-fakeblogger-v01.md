@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 移植主题FakeBlogger 0.1
-wordpress_id: 216
+pid: 216
 comment: true
 tags: [MyWorks, Themes, Wordpress]
 categories: [WordPress]

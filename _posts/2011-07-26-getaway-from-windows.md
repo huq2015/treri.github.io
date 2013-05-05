@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 终于决定放弃windows
-wordpress_id: 194
+pid: 194
 comment: true
 tags: [Linux, Windows]
 categories: [唠唠叨叨]

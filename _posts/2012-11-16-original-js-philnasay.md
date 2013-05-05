@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 单PHP文件原生js版PhilnaSay
-wordpress_id: 250
+pid: 250
 comment: true
 tags: [PhilNa2, JavaScript]
 categories: [学习笔记]

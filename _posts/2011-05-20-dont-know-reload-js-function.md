@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: js函数重新加载,不会~
-wordpress_id: 140
+pid: 140
 comment: true
 tags: [Ajax, jQuery, PhilNa2]
 categories: [唠唠叨叨]

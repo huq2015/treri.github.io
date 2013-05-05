@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 我的wordpress文章版权折腾记
-wordpress_id: 26
+pid: 26
 comment: true
 tags: [Wordpress, 原创]
 categories: [WordPress]

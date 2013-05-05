@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 对主题适当精简
-wordpress_id: 214
+pid: 214
 comment: true
 tags: [Themes, Wordpress]
 categories: [WordPress]

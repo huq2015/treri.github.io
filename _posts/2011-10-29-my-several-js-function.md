@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 自己写的几个js函数
-wordpress_id: 232
+pid: 232
 comment: true
 tags: [JavaScript, jQuery]
 categories: [学习笔记]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: wget中文乱码
-wordpress_id: 195
+pid: 195
 comment: true
 tags: [C, Linux, Wget]
 categories: [互联网络]

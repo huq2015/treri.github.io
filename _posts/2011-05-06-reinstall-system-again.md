@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 又一次重装系统
-wordpress_id: 116
+pid: 116
 comment: true
 tags: [Debian, Linux, 点滴]
 categories: [唠唠叨叨]

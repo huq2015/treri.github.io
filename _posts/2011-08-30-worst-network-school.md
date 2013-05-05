@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 艹,牛逼的校园网认证
-wordpress_id: 213
+pid: 213
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

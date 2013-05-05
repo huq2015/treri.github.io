@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 修改js获取主题地址函数
-wordpress_id: 200
+pid: 200
 comment: true
 tags: [JavaScript, Themes, Wordpress]
 categories: [WordPress]

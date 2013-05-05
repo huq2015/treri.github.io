@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 转-去除wp头部代码中不需要的
-wordpress_id: 124
+pid: 124
 comment: true
 tags: [Wordpress, 转载]
 categories: [WordPress]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 给wordpress添加图片渐显效果
-wordpress_id: 13
+pid: 13
 comment: true
 tags: [Wordpress]
 categories: [WordPress]

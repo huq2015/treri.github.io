@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 我所知道的两种彩色标签云
-wordpress_id: 171
+pid: 171
 comment: true
 tags: [Tag, Wordpress]
 categories: [WordPress]

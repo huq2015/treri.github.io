@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Debian6安装小记
-wordpress_id: 111
+pid: 111
 comment: true
 tags: [Debian, Linux, 原创]
 categories: [系统相关]

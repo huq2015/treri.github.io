@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: W1s 首页Ajax翻页新效果
-wordpress_id: 148
+pid: 148
 comment: true
 tags: [Ajax, w1s, Wordpress, 原创]
 categories: [WordPress]

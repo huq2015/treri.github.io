@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 纯css鼠标放上去图片变大
-wordpress_id: 39
+pid: 39
 comment: true
 tags: [Wordpress, CSS]
 categories: [WordPress]

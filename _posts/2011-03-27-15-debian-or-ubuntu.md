@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Debian or Ubuntu?
-wordpress_id: 15
+pid: 15
 comment: true
 tags: [Linux]
 categories: [系统相关]

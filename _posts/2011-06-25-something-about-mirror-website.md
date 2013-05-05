@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 镜像网站遇到的那些事儿
-wordpress_id: 175
+pid: 175
 comment: true
 tags: [Linux, website, 原创]
 categories: [互联网络, 学习笔记]

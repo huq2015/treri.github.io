@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 把PhilNa2分类添加到导航菜单
-wordpress_id: 30
+pid: 30
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

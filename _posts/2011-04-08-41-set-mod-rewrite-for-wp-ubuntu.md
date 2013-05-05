@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 本地wordpress设置固定链接无效的解决办法
-wordpress_id: 41
+pid: 41
 comment: true
 tags: [Linux, Ubuntu]
 categories: [学习笔记]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: "[PhilNa2]some chinese please"
-wordpress_id: 120
+pid: 120
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

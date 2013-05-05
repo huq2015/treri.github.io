@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 让PhilNa2用上Anti Spam小墙
-wordpress_id: 132
+pid: 132
 comment: true
 tags: [PhilNa2, spam, Wordpress, 原创]
 categories: [WordPress]

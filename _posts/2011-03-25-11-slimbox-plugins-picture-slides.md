@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: slimbox插件,实现图片的幻灯片效果
-wordpress_id: 11
+pid: 11
 comment: true
 tags: [Wordpress]
 categories: [WordPress]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 评论框编辑器修改小记
-wordpress_id: 35
+pid: 35
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

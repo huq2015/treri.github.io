@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 博客优化小记二
-wordpress_id: 143
+pid: 143
 comment: true
 tags: [Blog, Wordpress, 优化, 点滴]
 categories: [唠唠叨叨, WordPress]

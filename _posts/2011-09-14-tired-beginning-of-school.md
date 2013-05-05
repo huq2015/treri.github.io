@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 开学真累啊
-wordpress_id: 220
+pid: 220
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

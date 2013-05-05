@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 准备更换typecho
-wordpress_id: 244
+pid: 244
 comment: true
 tags: [PhilNa2, Typecho]
 categories: [唠唠叨叨]

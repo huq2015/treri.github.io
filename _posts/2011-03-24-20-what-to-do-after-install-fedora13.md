@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 安装完fedora13我要干的几件事
-wordpress_id: 20
+pid: 20
 comment: true
 tags: [Linux, 原创]
 categories: [学习笔记]

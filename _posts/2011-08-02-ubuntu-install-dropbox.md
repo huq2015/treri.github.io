@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: ubuntu安装dropbox失败 解决方法
-wordpress_id: 199
+pid: 199
 comment: true
 tags: [Dropbox, Ubuntu]
 categories: [互联网络]

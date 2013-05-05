@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: wordpress的feed输出版权信息
-wordpress_id: 9
+pid: 9
 comment: true
 tags: [Wordpress]
 categories: [WordPress]

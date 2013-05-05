@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: TwiTalker bot搭建成功
-wordpress_id: 85
+pid: 85
 comment: true
 tags: [Twitter]
 categories: [学习笔记]

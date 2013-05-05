@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 收拾行李,准备回家
-wordpress_id: 242
+pid: 242
 comment: true
 categories: [唠唠叨叨]
 ---

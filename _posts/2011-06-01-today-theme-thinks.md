@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 今日整理主题感想
-wordpress_id: 159
+pid: 159
 comment: true
 tags: [PhilNa2, 点滴]
 categories: [唠唠叨叨]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 更换主题后想说说
-wordpress_id: 139
+pid: 139
 comment: true
 tags: [Themes, 点滴]
 categories: [唠唠叨叨]

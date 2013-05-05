@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 看书找到的一个ajax函数封装
-wordpress_id: 233
+pid: 233
 comment: true
 tags: [Ajax, JavaScript]
 categories: [学习笔记]

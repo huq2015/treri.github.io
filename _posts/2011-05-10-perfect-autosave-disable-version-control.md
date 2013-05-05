@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: WP3.1.2-完美自动保存,禁用版本控制
-wordpress_id: 122
+pid: 122
 comment: true
 tags: [Blog, Wordpress, 转载]
 categories: [WordPress]

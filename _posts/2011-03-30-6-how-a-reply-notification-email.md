@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 转-如何让wordpress评论者收到回复通知邮件？
-wordpress_id: 6
+pid: 6
 comment: true
 tags: [Wordpress]
 categories: [WordPress]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Centos6.3 LiveCD安装手记
-wordpress_id: 249
+pid: 249
 comment: true
 tags: [CentOS, Linux]
 categories: [学习笔记]

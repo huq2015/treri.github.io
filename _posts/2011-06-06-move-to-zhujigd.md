@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 搬家到主机格调
-wordpress_id: 162
+pid: 162
 comment: true
 tags: [Wordpress, 主机格调, 点滴]
 categories: [唠唠叨叨]

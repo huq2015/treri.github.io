@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: PhilNa2侧栏tab切换
-wordpress_id: 105
+pid: 105
 comment: true
 tags: [PhilNa2, Wordpress]
 categories: [WordPress]

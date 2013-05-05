@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: PhilNa2主题feed输出版权最终版
-wordpress_id: 42
+pid: 42
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [Wordpress]

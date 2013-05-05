@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: W1s自说Me话扩展版
-wordpress_id: 190
+pid: 190
 comment: true
 tags: [Themes, w1s, 原创]
 categories: [WordPress]

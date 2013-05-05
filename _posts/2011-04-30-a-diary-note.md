@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 流水帐一篇[4.30]
-wordpress_id: 107
+pid: 107
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 博客暂停更新
-wordpress_id: 161
+pid: 161
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

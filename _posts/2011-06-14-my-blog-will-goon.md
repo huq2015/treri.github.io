@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 我还在坚持
-wordpress_id: 168
+pid: 168
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

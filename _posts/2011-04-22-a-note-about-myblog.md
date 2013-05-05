@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 博客小记一篇
-wordpress_id: 102
+pid: 102
 comment: true
 tags: [Blog, 点滴]
 categories: [唠唠叨叨]

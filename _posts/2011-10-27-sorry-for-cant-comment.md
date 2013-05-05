@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 这两天博客不能评论的说明
-wordpress_id: 231
+pid: 231
 comment: true
 tags: [Wordpress, 点滴]
 categories: [唠唠叨叨]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 给feed输出 添加评论条数
-wordpress_id: 131
+pid: 131
 comment: true
 tags: [PhilNa2, Wordpress]
 categories: [WordPress]

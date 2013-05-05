@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 准备重构主题为html5
-wordpress_id: 229
+pid: 229
 comment: true
 tags: [HTML5, 点滴]
 categories: [唠唠叨叨]

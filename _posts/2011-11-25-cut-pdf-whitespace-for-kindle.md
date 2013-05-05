@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 为kindle上的pdf切白边
-wordpress_id: 237
+pid: 237
 comment: true
 tags: [Kindle]
 categories: [学习笔记]

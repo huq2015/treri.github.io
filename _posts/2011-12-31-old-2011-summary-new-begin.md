@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 旧年总结,新年快乐
-wordpress_id: 241
+pid: 241
 comment: true
 categories: [唠唠叨叨]
 ---

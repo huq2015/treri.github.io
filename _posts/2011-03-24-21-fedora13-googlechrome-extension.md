@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: fedora13安装chrome以及经典扩展程序推荐
-wordpress_id: 21
+pid: 21
 comment: true
 tags: [Chrome, Linux, 原创]
 categories: [学习笔记]

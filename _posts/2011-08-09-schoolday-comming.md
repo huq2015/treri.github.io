@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 临开学小记
-wordpress_id: 201
+pid: 201
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

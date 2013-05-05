@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 做一个懒惰的程序员
-wordpress_id: 14
+pid: 14
 comment: true
 tags: [Programmer]
 categories: [互联网络]

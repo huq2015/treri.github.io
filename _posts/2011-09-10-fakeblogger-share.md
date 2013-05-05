@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: FakeBlogger主题分享
-wordpress_id: 219
+pid: 219
 comment: true
 tags: [Themes]
 categories: [WordPress]

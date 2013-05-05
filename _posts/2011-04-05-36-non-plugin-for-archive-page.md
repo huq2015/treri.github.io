@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 归档页面非插件化
-wordpress_id: 36
+pid: 36
 comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]

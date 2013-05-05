@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 决定去掉友情链接
-wordpress_id: 235
+pid: 235
 comment: true
 tags: [Wordpress, 点滴]
 categories: [唠唠叨叨]

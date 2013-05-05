@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: chrome扩展Super Google Reader一枚
-wordpress_id: 101
+pid: 101
 comment: true
 tags: [Chrome, Greader]
 categories: [互联网络]

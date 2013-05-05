@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Anti Spam小墙貌似已经可以了
-wordpress_id: 121
+pid: 121
 comment: true
 tags: [spam, 点滴]
 categories: [唠唠叨叨]

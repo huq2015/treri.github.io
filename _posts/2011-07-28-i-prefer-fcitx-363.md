@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 我选择Fcitx 3.6.3
-wordpress_id: 196
+pid: 196
 comment: true
 tags: [Fcitx, Linux]
 categories: [学习笔记]

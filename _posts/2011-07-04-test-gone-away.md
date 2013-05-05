@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 考试结束,新生活开始
-wordpress_id: 181
+pid: 181
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

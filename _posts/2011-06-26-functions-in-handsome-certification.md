@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 帅哥认证用到的两个函数
-wordpress_id: 176
+pid: 176
 comment: true
 tags: [PHP, Study]
 categories: [学习笔记]

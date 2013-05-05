@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 非插件实现Pagenavi 翻页
-wordpress_id: 8
+pid: 8
 comment: true
 tags: [Wordpress]
 categories: [WordPress]

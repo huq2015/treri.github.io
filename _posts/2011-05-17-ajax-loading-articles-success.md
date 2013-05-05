@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 首页Ajax加载文章成功
-wordpress_id: 136
+pid: 136
 comment: true
 tags: [Ajax, jQuery, 点滴]
 categories: [WordPress, 唠唠叨叨]

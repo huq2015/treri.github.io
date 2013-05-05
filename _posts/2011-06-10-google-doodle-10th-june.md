@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 6月10日Google Doodle
-wordpress_id: 166
+pid: 166
 comment: true
 tags: [Doodle, Google]
 categories: [互联网络]

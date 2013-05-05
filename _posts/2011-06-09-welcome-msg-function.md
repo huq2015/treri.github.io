@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 博客右侧欢迎信息
-wordpress_id: 163
+pid: 163
 comment: true
 tags: [PhilNa2, Wordpress]
 categories: [Wordpress]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 一段python代码显神通
-wordpress_id: 198
+pid: 198
 comment: true
 tags: [Linux, python]
 categories: [学习笔记]

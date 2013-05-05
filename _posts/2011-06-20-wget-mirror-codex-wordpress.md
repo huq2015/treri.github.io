@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: wget镜像codex.wordpress.org
-wordpress_id: 172
+pid: 172
 comment: true
 tags: [Linux, Wget, Wordpress]
 categories: [互联网络]

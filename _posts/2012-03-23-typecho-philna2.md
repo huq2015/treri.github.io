@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Typecho移植版PhilNa2已经可用
-wordpress_id: 245
+pid: 245
 comment: true
 tags: [PhilNa2, Typecho]
 categories: [唠唠叨叨]

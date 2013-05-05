@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 我起的名字很失败
-wordpress_id: 185
+pid: 185
 comment: true
 tags: [Blog, 点滴]
 categories: [唠唠叨叨]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 为什么我认定是我的!!
-wordpress_id: 221
+pid: 221
 comment: true
 tags: [PhilNa2, Wordpress]
 categories: [唠唠叨叨]

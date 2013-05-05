@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 侧栏最新评论滑动显示
-wordpress_id: 188
+pid: 188
 comment: true
 tags: [JavaScript, Wordpress]
 categories: [WordPress]

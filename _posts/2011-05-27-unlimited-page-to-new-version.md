@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 停用无限翻页,准备换新版~
-wordpress_id: 146
+pid: 146
 comment: true
 tags: [Ajax, Wordpress, 点滴]
 categories: [唠唠叨叨]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 今日主题进展
-wordpress_id: 217
+pid: 217
 comment: true
 tags: [Themes]
 categories: [唠唠叨叨]

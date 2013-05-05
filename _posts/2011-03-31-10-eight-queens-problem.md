@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 初识 八皇后问题
-wordpress_id: 10
+pid: 10
 comment: true
 tags: [数据结构]
 categories: [学习笔记]

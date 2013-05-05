@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 最近琐事多多
-wordpress_id: 208
+pid: 208
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

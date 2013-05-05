@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 对PhilNa2的Ajax的一丁点理解
-wordpress_id: 145
+pid: 145
 comment: true
 tags: [Ajax, jQuery, PhilNa2, 原创]
 categories: [唠唠叨叨]

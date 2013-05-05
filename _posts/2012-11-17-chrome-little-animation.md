@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Chrome下载页面小效果一个
-wordpress_id: 251
+pid: 251
 comment: true
 tags: [Chrome, JavaScript]
 categories: [互联网络]

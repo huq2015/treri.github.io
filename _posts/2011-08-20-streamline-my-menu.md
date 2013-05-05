@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 精简了导航部分
-wordpress_id: 207
+pid: 207
 comment: true
 tags: [CSS, PhilNa2, Wordpress]
 categories: [WordPress]

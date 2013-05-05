@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 还是决定恢复显示博主回复~~
-wordpress_id: 130
+pid: 130
 comment: true
 tags: [点滴]
 categories: [唠唠叨叨]

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 独立博客文化衫定制活动
-wordpress_id: 173
+pid: 173
 comment: true
 tags: [Blog, 雷锋群]
 categories: [互联网络]
