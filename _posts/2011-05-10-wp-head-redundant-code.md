@@ -2,8 +2,7 @@
 layout: post
 title: 转-去除wp头部代码中不需要的
 wordpress_id: 124
-wordpress_url: http://isayme.com/?p=124
-date: 2011-05-10 12:24:37 +08:00
+comment: true
 tags: [Wordpress, 转载]
 categories: [WordPress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: 文章页实时更改文字大小新代码
 wordpress_id: 108
-wordpress_url: http://ISayMe.com/?p=108
-date: 2011-04-30 17:34:04 +08:00
+comment: true
 tags: [PhilNa2, Wordpress]
 categories: [WordPress]
 ---

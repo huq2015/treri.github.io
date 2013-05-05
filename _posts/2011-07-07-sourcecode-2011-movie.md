@@ -2,8 +2,7 @@
 layout: post
 title: 源代码 Source Code (2011)
 wordpress_id: 184
-wordpress_url: http://ISayMe.com/?p=184
-date: 2011-07-07 23:36:21 +08:00
+comment: true
 tags: [Movie]
 categories: [也来推荐]
 ---

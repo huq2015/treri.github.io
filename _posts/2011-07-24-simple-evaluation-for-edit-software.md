@@ -2,8 +2,7 @@
 layout: post
 title: Editplus notepad++ Gedit UltraEdit简单对比(评测)
 wordpress_id: 193
-wordpress_url: http://ISayMe.com/?p=193
-date: 2011-07-24 10:46:42 +08:00
+comment: true
 tags: [Programmer, Software, 原创]
 categories: [互联网络]
 ---

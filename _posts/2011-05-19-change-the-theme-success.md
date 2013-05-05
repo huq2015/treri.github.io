@@ -2,8 +2,7 @@
 layout: post
 title: 换主题成功
 wordpress_id: 138
-wordpress_url: http://ISayMe.com/?p=138
-date: 2011-05-19 11:43:11 +08:00
+comment: true
 tags: [Themes, 点滴]
 categories: [唠唠叨叨]
 ---

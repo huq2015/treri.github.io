@@ -2,8 +2,7 @@
 layout: post
 title: 转-代码实现社会化分享工具
 wordpress_id: 110
-wordpress_url: http://ISayMe.com/?p=110
-date: 2011-05-01 11:18:17 +08:00
+comment: true
 tags: [Blog, 转载]
 categories: [他山之石]
 ---

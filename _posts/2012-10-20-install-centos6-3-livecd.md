@@ -2,8 +2,7 @@
 layout: post
 title: Centos6.3 LiveCD安装手记
 wordpress_id: 249
-wordpress_url: http://ISayMe.com/?p=249
-date: 2012-10-20 08:56:50 +08:00
+comment: true
 tags: [CentOS, Linux]
 categories: [学习笔记]
 ---

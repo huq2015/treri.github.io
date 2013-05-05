@@ -2,8 +2,7 @@
 layout: post
 title: 我所知道的两种彩色标签云
 wordpress_id: 171
-wordpress_url: http://ISayMe.com/?p=171
-date: 2011-06-19 08:10:38 +08:00
+comment: true
 tags: [Tag, Wordpress]
 categories: [WordPress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: 侧栏最新评论滑动显示
 wordpress_id: 188
-wordpress_url: http://ISayMe.com/?p=188
-date: 2011-07-11 13:37:36 +08:00
+comment: true
 tags: [JavaScript, Wordpress]
 categories: [WordPress]
 ---

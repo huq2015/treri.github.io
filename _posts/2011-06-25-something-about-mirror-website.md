@@ -2,8 +2,7 @@
 layout: post
 title: 镜像网站遇到的那些事儿
 wordpress_id: 175
-wordpress_url: http://ISayMe.com/?p=175
-date: 2011-06-25 11:06:08 +08:00
+comment: true
 tags: [Linux, website, 原创]
 categories: [互联网络, 学习笔记]
 ---

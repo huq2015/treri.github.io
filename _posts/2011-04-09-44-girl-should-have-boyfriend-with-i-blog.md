@@ -2,8 +2,7 @@
 layout: post
 title: 转-女生应该找个有独立博客的男朋友
 wordpress_id: 44
-wordpress_url: http://ISayMe.com/?p=44
-date: 2011-04-09 21:53:18 +08:00
+comment: true
 tags: [转载]
 categories: [他山之石]
 ---

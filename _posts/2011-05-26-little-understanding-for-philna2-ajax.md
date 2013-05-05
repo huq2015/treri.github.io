@@ -2,8 +2,7 @@
 layout: post
 title: 对PhilNa2的Ajax的一丁点理解
 wordpress_id: 145
-wordpress_url: http://ISayMe.com/?p=145
-date: 2011-05-26 13:41:29 +08:00
+comment: true
 tags: [Ajax, jQuery, PhilNa2, 原创]
 categories: [唠唠叨叨]
 ---

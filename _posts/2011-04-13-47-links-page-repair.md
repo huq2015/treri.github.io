@@ -2,8 +2,7 @@
 layout: post
 title: 友情链接页面修复
 wordpress_id: 47
-wordpress_url: http://ISayMe.com/?p=47
-date: 2011-04-13 00:12:47 +08:00
+comment: true
 tags: [Wordpress, 原创]
 categories: [WordPress]
 ---

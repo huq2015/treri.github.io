@@ -2,8 +2,7 @@
 layout: post
 title: 安装完fedora13我要干的几件事
 wordpress_id: 20
-wordpress_url: http://ISayMe.com/?p=20
-date: 2011-03-24 12:02:39 +08:00
+comment: true
 tags: [Linux, 原创]
 categories: [学习笔记]
 ---

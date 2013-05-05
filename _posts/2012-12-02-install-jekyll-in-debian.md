@@ -2,8 +2,7 @@
 layout: post
 title: 在Debian中安装jekyll
 wordpress_id: 252
-wordpress_url: http://ISayMe.com/?p=252
-date: 2012-12-02 09:58:38 +08:00
+comment: true
 tags: [GitHub, Jekyll]
 categories: [也来推荐, 互联网络]
 ---

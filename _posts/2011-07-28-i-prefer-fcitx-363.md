@@ -2,8 +2,7 @@
 layout: post
 title: 我选择Fcitx 3.6.3
 wordpress_id: 196
-wordpress_url: http://ISayMe.com/?p=196
-date: 2011-07-28 08:34:10 +08:00
+comment: true
 tags: [Fcitx, Linux]
 categories: [学习笔记]
 ---

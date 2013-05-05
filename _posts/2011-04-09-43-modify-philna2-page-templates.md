@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2主题页面模板修改
 wordpress_id: 43
-wordpress_url: http://ISayMe.com/?p=43
-date: 2011-04-09 10:46:39 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

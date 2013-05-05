@@ -2,8 +2,7 @@
 layout: post
 title: CSS3进度条
 wordpress_id: 257
-wordpress_url: http://ISayMe.com/?p=257
-date: 2013-04-26 04:05:58 +08:00
+comment: true
 tags: [CSS3]
 categories: [学习笔记]
 ---

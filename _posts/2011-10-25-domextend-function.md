@@ -2,8 +2,7 @@
 layout: post
 title: 一个扩展DOM的函数
 wordpress_id: 230
-wordpress_url: http://ISayMe.com/?p=230
-date: 2011-10-25 18:51:34 +08:00
+comment: true
 tags: [DOM, JavaScript]
 categories: [学习笔记]
 ---

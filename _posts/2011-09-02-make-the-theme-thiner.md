@@ -2,8 +2,7 @@
 layout: post
 title: 对主题适当精简
 wordpress_id: 214
-wordpress_url: http://ISayMe.com/?p=214
-date: 2011-09-02 20:27:47 +08:00
+comment: true
 tags: [Themes, Wordpress]
 categories: [WordPress]
 ---

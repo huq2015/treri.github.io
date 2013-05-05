@@ -2,8 +2,7 @@
 layout: post
 title: 还是决定恢复显示博主回复~~
 wordpress_id: 130
-wordpress_url: http://isayme.com/?p=130
-date: 2011-05-13 15:56:34 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: wordpress升级3.2成功
 wordpress_id: 187
-wordpress_url: http://ISayMe.com/?p=187
-date: 2011-07-09 12:57:27 +08:00
+comment: true
 tags: [Upgrade, Wordpress]
 categories: [WordPress]
 ---

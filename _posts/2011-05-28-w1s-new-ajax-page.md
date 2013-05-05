@@ -2,8 +2,7 @@
 layout: post
 title: W1s 首页Ajax翻页新效果
 wordpress_id: 148
-wordpress_url: http://ISayMe.com/?p=148
-date: 2011-05-28 10:53:51 +08:00
+comment: true
 tags: [Ajax, w1s, Wordpress, 原创]
 categories: [WordPress]
 ---

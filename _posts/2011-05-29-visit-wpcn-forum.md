@@ -2,8 +2,7 @@
 layout: post
 title: 逛了下wp论坛
 wordpress_id: 151
-wordpress_url: http://ISayMe.com/?p=151
-date: 2011-05-29 10:12:06 +08:00
+comment: true
 tags: [Blog, 点滴]
 categories: [唠唠叨叨]
 ---

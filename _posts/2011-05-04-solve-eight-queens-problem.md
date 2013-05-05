@@ -2,8 +2,7 @@
 layout: post
 title: 解决-数据结构八皇后问题
 wordpress_id: 113
-wordpress_url: http://isayme.com/?p=113
-date: 2011-05-04 21:55:30 +08:00
+comment: true
 tags: [C, 原创, 数据结构]
 categories: [学习笔记]
 ---

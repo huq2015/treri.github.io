@@ -2,8 +2,7 @@
 layout: post
 title: 独立博客文化衫定制活动
 wordpress_id: 173
-wordpress_url: http://ISayMe.com/?p=173
-date: 2011-06-21 12:24:39 +08:00
+comment: true
 tags: [Blog, 雷锋群]
 categories: [互联网络]
 ---

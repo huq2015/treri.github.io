@@ -2,8 +2,7 @@
 layout: post
 title: 一段python代码显神通
 wordpress_id: 198
-wordpress_url: http://ISayMe.com/?p=198
-date: 2011-07-31 10:25:33 +08:00
+comment: true
 tags: [Linux, python]
 categories: [学习笔记]
 ---

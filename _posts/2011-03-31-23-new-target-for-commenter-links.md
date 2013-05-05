@@ -2,8 +2,7 @@
 layout: post
 title: 让评论者链接在新窗口打开
 wordpress_id: 23
-wordpress_url: http://ISayMe.com/?p=23
-date: 2011-03-31 21:23:39 +08:00
+comment: true
 tags: [Wordpress]
 categories: [WordPress]
 ---

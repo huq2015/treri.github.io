@@ -2,8 +2,7 @@
 layout: post
 title: 6月23日吐槽
 wordpress_id: 174
-wordpress_url: http://ISayMe.com/?p=174
-date: 2011-06-23 12:20:33 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

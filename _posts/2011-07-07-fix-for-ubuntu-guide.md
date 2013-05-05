@@ -2,8 +2,7 @@
 layout: post
 title: 重装windows后修复Ubuntu引导项
 wordpress_id: 183
-wordpress_url: http://ISayMe.com/?p=183
-date: 2011-07-07 16:27:41 +08:00
+comment: true
 tags: [Linux, Ubuntu, Windows]
 categories: [学习笔记]
 ---

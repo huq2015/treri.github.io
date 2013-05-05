@@ -2,8 +2,7 @@
 layout: post
 title: 发微(FaWave)添加twitter同步
 wordpress_id: 22
-wordpress_url: http://ISayMe.com/?p=22
-date: 2011-03-24 12:12:39 +08:00
+comment: true
 tags: [Twitter]
 categories: [互联网络, 学习笔记]
 ---

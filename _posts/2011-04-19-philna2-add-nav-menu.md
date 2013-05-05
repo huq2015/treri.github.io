@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2增加自定义导航菜单
 wordpress_id: 86
-wordpress_url: http://ISayMe.com/?p=86
-date: 2011-04-19 21:41:43 +08:00
+comment: true
 tags: [PhilNa2, Wordpress]
 categories: [Wordpress]
 ---

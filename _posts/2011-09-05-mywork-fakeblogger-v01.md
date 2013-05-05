@@ -2,8 +2,7 @@
 layout: post
 title: 移植主题FakeBlogger 0.1
 wordpress_id: 216
-wordpress_url: http://ISayMe.com/?p=216
-date: 2011-09-05 12:39:20 +08:00
+comment: true
 tags: [MyWorks, Themes, Wordpress]
 categories: [WordPress]
 ---

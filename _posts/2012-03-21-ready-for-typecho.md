@@ -2,8 +2,7 @@
 layout: post
 title: 准备更换typecho
 wordpress_id: 244
-wordpress_url: http://ISayMe.com/?p=244
-date: 2012-03-21 12:04:49 +08:00
+comment: true
 tags: [PhilNa2, Typecho]
 categories: [唠唠叨叨]
 ---

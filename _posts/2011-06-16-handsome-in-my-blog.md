@@ -2,8 +2,7 @@
 layout: post
 title: 我瞎弄的帅哥认证
 wordpress_id: 169
-wordpress_url: http://ISayMe.com/?p=169
-date: 2011-06-16 20:46:09 +08:00
+comment: true
 tags: [Blog, Wordpress, 原创]
 categories: [WordPress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: W1免费版无限翻页
 wordpress_id: 147
-wordpress_url: http://ISayMe.com/?p=147
-date: 2011-05-27 19:02:51 +08:00
+comment: true
 tags: [Ajax, jQuery, w1s, Wordpress]
 categories: [WordPress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2首页文章收缩再修复
 wordpress_id: 144
-wordpress_url: http://ISayMe.com/?p=144
-date: 2011-05-25 11:34:34 +08:00
+comment: true
 tags: [jQuery, PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: slimbox插件,实现图片的幻灯片效果
 wordpress_id: 11
-wordpress_url: http://ISayMe.com/?p=11
-date: 2011-03-25 11:27:24 +08:00
+comment: true
 tags: [Wordpress]
 categories: [WordPress]
 ---

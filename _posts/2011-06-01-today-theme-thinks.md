@@ -2,8 +2,7 @@
 layout: post
 title: 今日整理主题感想
 wordpress_id: 159
-wordpress_url: http://ISayMe.com/?p=159
-date: 2011-06-01 17:23:53 +08:00
+comment: true
 tags: [PhilNa2, 点滴]
 categories: [唠唠叨叨]
 ---

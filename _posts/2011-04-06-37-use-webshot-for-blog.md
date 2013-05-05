@@ -2,8 +2,7 @@
 layout: post
 title: 使用网页缩略图种种..
 wordpress_id: 37
-wordpress_url: http://ISayMe.com/?p=37
-date: 2011-04-06 15:07:50 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

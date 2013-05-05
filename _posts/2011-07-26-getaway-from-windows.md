@@ -2,8 +2,7 @@
 layout: post
 title: 终于决定放弃windows
 wordpress_id: 194
-wordpress_url: http://ISayMe.com/?p=194
-date: 2011-07-26 17:15:13 +08:00
+comment: true
 tags: [Linux, Windows]
 categories: [唠唠叨叨]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: 侧栏评论滑动显示的一点理解
 wordpress_id: 189
-wordpress_url: http://ISayMe.com/?p=189
-date: 2011-07-14 19:33:38 +08:00
+comment: true
 tags: [JavaScript, Study, Wordpress]
 categories: [WordPress]
 ---

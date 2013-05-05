@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2首页文章收缩及问题修复
 wordpress_id: 117
-wordpress_url: http://isayme.com/?p=117
-date: 2011-05-06 20:22:28 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

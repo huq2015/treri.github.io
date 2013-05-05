@@ -2,8 +2,7 @@
 layout: post
 title: FakeBlogger主题初步完成
 wordpress_id: 218
-wordpress_url: http://ISayMe.com/?p=218
-date: 2011-09-07 20:51:12 +08:00
+comment: true
 tags: [Themes, Wordpress]
 categories: [WordPress]
 ---

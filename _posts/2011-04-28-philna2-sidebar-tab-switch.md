@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2侧栏tab切换
 wordpress_id: 105
-wordpress_url: http://ISayMe.com/?p=105
-date: 2011-04-28 11:34:20 +08:00
+comment: true
 tags: [PhilNa2, Wordpress]
 categories: [WordPress]
 ---

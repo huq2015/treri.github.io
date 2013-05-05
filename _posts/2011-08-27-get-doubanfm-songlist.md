@@ -2,8 +2,7 @@
 layout: post
 title: 获取豆瓣FM加红心列表
 wordpress_id: 210
-wordpress_url: http://ISayMe.com/?p=210
-date: 2011-08-27 09:45:28 +08:00
+comment: true
 tags: [DoubanFM, python]
 categories: [互联网络]
 ---

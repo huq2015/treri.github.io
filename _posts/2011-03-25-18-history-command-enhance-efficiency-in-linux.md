@@ -2,8 +2,7 @@
 layout: post
 title: Linux中使用history命令提升效率
 wordpress_id: 18
-wordpress_url: http://ISayMe.com/?p=18
-date: 2011-03-25 11:58:33 +08:00
+comment: true
 tags: [Linux]
 categories: [学习笔记, 系统相关]
 ---

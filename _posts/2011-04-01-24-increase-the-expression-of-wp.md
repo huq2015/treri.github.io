@@ -2,8 +2,7 @@
 layout: post
 title: 给WP增加多套表情
 wordpress_id: 24
-wordpress_url: http://ISayMe.com/?p=24
-date: 2011-04-01 16:50:53 +08:00
+comment: true
 tags: [Wordpress, 原创]
 categories: [WordPress]
 ---

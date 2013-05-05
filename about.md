@@ -1,6 +1,8 @@
 ---
 title: About
-layout: page
+layout: about
+pid: 7
+comment: true
 group: navigation
 ---
 {% include JB/setup %}

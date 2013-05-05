@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2自说Me话扩展版 v1.3
 wordpress_id: 170
-wordpress_url: http://ISayMe.com/?p=170
-date: 2011-06-18 20:00:59 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [Wordpress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: 非插件实现Pagenavi 翻页
 wordpress_id: 8
-wordpress_url: http://ISayMe.com/?p=8
-date: 2011-03-28 22:58:32 +08:00
+comment: true
 tags: [Wordpress]
 categories: [WordPress]
 ---

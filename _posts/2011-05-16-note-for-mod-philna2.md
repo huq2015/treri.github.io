@@ -2,8 +2,7 @@
 layout: post
 title: 数数我对PhilNa2的Mod
 wordpress_id: 134
-wordpress_url: http://ISayMe.com/?p=134
-date: 2011-05-16 15:50:33 +08:00
+comment: true
 tags: [PhilNa2, 原创, 点滴]
 categories: [唠唠叨叨]
 ---

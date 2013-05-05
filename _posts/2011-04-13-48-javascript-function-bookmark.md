@@ -2,8 +2,7 @@
 layout: post
 title: 咱也来段JavaScript功能书签(4.16更新)
 wordpress_id: 48
-wordpress_url: http://ISayMe.com/?p=48
-date: 2011-04-13 14:00:24 +08:00
+comment: true
 tags: [Blog, JavaScript]
 categories: [他山之石]
 ---

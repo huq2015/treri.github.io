@@ -2,8 +2,7 @@
 layout: post
 title: 关于Ajax加载首页文章的想法
 wordpress_id: 135
-wordpress_url: http://ISayMe.com/?p=135
-date: 2011-05-16 22:28:14 +08:00
+comment: true
 tags: [Ajax, Wordpress, 点滴]
 categories: [唠唠叨叨 ]
 ---

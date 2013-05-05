@@ -2,8 +2,7 @@
 layout: post
 title: 收拾行李,准备回家
 wordpress_id: 242
-wordpress_url: http://ISayMe.com/?p=242
-date: 2012-01-16 12:47:33 +08:00
+comment: true
 categories: [唠唠叨叨]
 ---
 考了一个星期的试,终于在上午结束了.

@@ -2,8 +2,7 @@
 layout: post
 title: debian 6 stable蛋疼升级记
 wordpress_id: 211
-wordpress_url: http://ISayMe.com/?p=211
-date: 2011-08-28 17:22:02 +08:00
+comment: true
 tags: [debian, Linux, 原创]
 categories: [学习笔记 ]
 ---

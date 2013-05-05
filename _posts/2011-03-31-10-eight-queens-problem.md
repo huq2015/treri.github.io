@@ -2,8 +2,7 @@
 layout: post
 title: 初识 八皇后问题
 wordpress_id: 10
-wordpress_url: http://ISayMe.com/?p=10
-date: 2011-03-31 11:23:31 +08:00
+comment: true
 tags: [数据结构]
 categories: [学习笔记]
 ---

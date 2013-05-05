@@ -2,8 +2,7 @@
 layout: post
 title: 博客小记一篇
 wordpress_id: 102
-wordpress_url: http://ISayMe.com/?p=102
-date: 2011-04-22 09:25:32 +08:00
+comment: true
 tags: [Blog, 点滴]
 categories: [唠唠叨叨]
 ---

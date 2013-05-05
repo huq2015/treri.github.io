@@ -2,8 +2,7 @@
 layout: post
 title: 博客右侧欢迎信息
 wordpress_id: 163
-wordpress_url: http://ISayMe.com/?p=163
-date: 2011-06-09 11:23:35 +08:00
+comment: true
 tags: [PhilNa2, Wordpress]
 categories: [Wordpress]
 ---

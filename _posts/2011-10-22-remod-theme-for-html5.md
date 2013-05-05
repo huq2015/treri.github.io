@@ -2,8 +2,7 @@
 layout: post
 title: 准备重构主题为html5
 wordpress_id: 229
-wordpress_url: http://ISayMe.com/?p=229
-date: 2011-10-22 21:50:52 +08:00
+comment: true
 tags: [HTML5, 点滴]
 categories: [唠唠叨叨]
 ---

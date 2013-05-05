@@ -2,8 +2,7 @@
 layout: post
 title: 解决Linux中chrome设置字体无效
 wordpress_id: 38
-wordpress_url: http://ISayMe.com/?p=38
-date: 2011-04-07 11:02:13 +08:00
+comment: true
 tags: [Chrome, Linux, Ubuntu]
 categories: [唠唠叨叨]
 ---

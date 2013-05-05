@@ -2,8 +2,7 @@
 layout: post
 title: wp后台回复添加表情
 wordpress_id: 27
-wordpress_url: http://ISayMe.com/?p=27
-date: 2011-04-02 11:01:13 +08:00
+comment: true
 tags: [Wordpress, 原创]
 categories: [Wordpress]
 ---

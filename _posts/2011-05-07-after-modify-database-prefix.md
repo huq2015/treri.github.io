@@ -2,8 +2,7 @@
 layout: post
 title: 修改数据库前缀之后
 wordpress_id: 119
-wordpress_url: http://isayme.com/?p=119
-date: 2011-05-07 16:39:06 +08:00
+comment: true
 tags: [Blog, Wordpress]
 categories: [唠唠叨叨]
 ---

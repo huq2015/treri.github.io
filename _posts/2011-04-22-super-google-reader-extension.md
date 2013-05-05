@@ -2,8 +2,7 @@
 layout: post
 title: chrome扩展Super Google Reader一枚
 wordpress_id: 101
-wordpress_url: http://ISayMe.com/?p=101
-date: 2011-04-22 08:06:55 +08:00
+comment: true
 tags: [Chrome, Greader]
 categories: [互联网络]
 ---

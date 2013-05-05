@@ -2,8 +2,7 @@
 layout: post
 title: 电脑系统之谈顺便推荐两个win7
 wordpress_id: 191
-wordpress_url: http://ISayMe.com/?p=191
-date: 2011-07-20 10:08:59 +08:00
+comment: true
 tags: [Windows, 原创]
 categories: [系统相关]
 ---

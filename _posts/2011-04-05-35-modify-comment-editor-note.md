@@ -2,8 +2,7 @@
 layout: post
 title: 评论框编辑器修改小记
 wordpress_id: 35
-wordpress_url: http://ISayMe.com/?p=35
-date: 2011-04-05 09:51:51 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

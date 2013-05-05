@@ -2,8 +2,7 @@
 layout: post
 title: wp后台编辑器添加表情
 wordpress_id: 34
-wordpress_url: http://ISayMe.com/?p=34
-date: 2011-04-04 15:42:56 +08:00
+comment: true
 tags: [PhilNa2, Wordpress]
 categories: [WordPress]
 ---

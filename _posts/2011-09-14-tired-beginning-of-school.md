@@ -2,8 +2,7 @@
 layout: post
 title: 开学真累啊
 wordpress_id: 220
-wordpress_url: http://ISayMe.com/?p=220
-date: 2011-09-14 17:53:53 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

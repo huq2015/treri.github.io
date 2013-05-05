@@ -1,0 +1,18 @@
+<div class="article">
+  {% if page.title %}
+  <div class="title">
+    <h2>{{ page.title }} </h2>
+  </div>
+  {% endif %}
+  <div class="post">
+  {{ content }}
+  </div>
+  <div class="comment" id="comment">
+    {% if page.comment %}
+    {% include JB/comments %}
+    {% else %}
+        <hr />
+        <p>评论已关闭</p>
+    {% endif %}
+    </div>
+</div>

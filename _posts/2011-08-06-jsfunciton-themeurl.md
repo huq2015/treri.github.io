@@ -2,8 +2,7 @@
 layout: post
 title: 修改js获取主题地址函数
 wordpress_id: 200
-wordpress_url: http://ISayMe.com/?p=200
-date: 2011-08-06 09:25:26 +08:00
+comment: true
 tags: [JavaScript, Themes, Wordpress]
 categories: [WordPress]
 ---

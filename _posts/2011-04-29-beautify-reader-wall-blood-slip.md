@@ -2,8 +2,7 @@
 layout: post
 title: 读者墙血条显示
 wordpress_id: 106
-wordpress_url: http://ISayMe.com/?p=106
-date: 2011-04-29 21:41:08 +08:00
+comment: true
 tags: [Wordpress, 转载]
 categories: [WordPress]
 ---

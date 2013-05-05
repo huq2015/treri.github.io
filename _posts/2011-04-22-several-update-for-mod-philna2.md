@@ -2,8 +2,7 @@
 layout: post
 title: 修改philna2主题之文章几处更新
 wordpress_id: 103
-wordpress_url: http://ISayMe.com/?p=103
-date: 2011-04-22 15:29:41 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

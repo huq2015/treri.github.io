@@ -2,8 +2,7 @@
 layout: post
 title: ubuntu安装dropbox失败 解决方法
 wordpress_id: 199
-wordpress_url: http://ISayMe.com/?p=199
-date: 2011-08-02 17:36:57 +08:00
+comment: true
 tags: [Dropbox, Ubuntu]
 categories: [互联网络]
 ---

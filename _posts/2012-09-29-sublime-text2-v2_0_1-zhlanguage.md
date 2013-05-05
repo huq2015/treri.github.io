@@ -2,8 +2,7 @@
 layout: post
 title: sublime text2 v2.0.1汉化文件
 wordpress_id: 247
-wordpress_url: http://ISayMe.com/?p=247
-date: 2012-09-29 07:25:01 +08:00
+comment: true
 tags: [SublimeText2]
 categories: [也来推荐]
 ---

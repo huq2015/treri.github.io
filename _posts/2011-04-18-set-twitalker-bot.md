@@ -2,8 +2,7 @@
 layout: post
 title: TwiTalker bot搭建成功
 wordpress_id: 85
-wordpress_url: http://ISayMe.com/?p=85
-date: 2011-04-18 22:30:53 +08:00
+comment: true
 tags: [Twitter]
 categories: [学习笔记]
 ---

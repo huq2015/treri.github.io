@@ -2,8 +2,7 @@
 layout: post
 title: 做一个懒惰的程序员
 wordpress_id: 14
-wordpress_url: http://ISayMe.com/?p=14
-date: 2011-03-27 11:52:09 +08:00
+comment: true
 tags: [Programmer]
 categories: [互联网络]
 ---

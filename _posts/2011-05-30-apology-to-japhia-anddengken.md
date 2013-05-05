@@ -2,8 +2,7 @@
 layout: post
 title: 嵌套评论的问题及向Japhia,邓肯致歉
 wordpress_id: 152
-wordpress_url: http://ISayMe.com/?p=152
-date: 2011-05-30 11:05:44 +08:00
+comment: true
 tags: [Apology, PhilNa2, 点滴]
 categories: [唠唠叨叨]
 ---

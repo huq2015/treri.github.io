@@ -2,8 +2,7 @@
 layout: post
 title: 博客优化小记二
 wordpress_id: 143
-wordpress_url: http://ISayMe.com/?p=143
-date: 2011-05-23 16:19:40 +08:00
+comment: true
 tags: [Blog, Wordpress, 优化, 点滴]
 categories: [唠唠叨叨, WordPress]
 ---

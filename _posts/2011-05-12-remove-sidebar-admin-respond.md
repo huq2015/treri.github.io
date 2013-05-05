@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2-侧栏去掉博主回复
 wordpress_id: 129
-wordpress_url: http://isayme.com/?p=129
-date: 2011-05-12 16:18:58 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: 为kindle上的pdf切白边
 wordpress_id: 237
-wordpress_url: http://ISayMe.com/?p=237
-date: 2011-11-25 20:03:56 +08:00
+comment: true
 tags: [Kindle]
 categories: [学习笔记]
 ---

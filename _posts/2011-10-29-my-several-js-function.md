@@ -2,8 +2,7 @@
 layout: post
 title: 自己写的几个js函数
 wordpress_id: 232
-wordpress_url: http://ISayMe.com/?p=232
-date: 2011-10-29 00:34:51 +08:00
+comment: true
 tags: [JavaScript, jQuery]
 categories: [学习笔记]
 ---

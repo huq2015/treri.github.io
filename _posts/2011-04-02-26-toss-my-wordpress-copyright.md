@@ -2,8 +2,7 @@
 layout: post
 title: 我的wordpress文章版权折腾记
 wordpress_id: 26
-wordpress_url: http://ISayMe.com/?p=26
-date: 2011-04-02 09:57:11 +08:00
+comment: true
 tags: [Wordpress, 原创]
 categories: [WordPress]
 ---

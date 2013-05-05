@@ -2,8 +2,7 @@
 layout: post
 title: wget中文乱码
 wordpress_id: 195
-wordpress_url: http://ISayMe.com/?p=195
-date: 2011-07-27 09:40:57 +08:00
+comment: true
 tags: [C, Linux, Wget]
 categories: [互联网络]
 ---

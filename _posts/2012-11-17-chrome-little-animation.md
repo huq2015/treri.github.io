@@ -2,8 +2,7 @@
 layout: post
 title: Chrome下载页面小效果一个
 wordpress_id: 251
-wordpress_url: http://ISayMe.com/?p=251
-date: 2012-11-17 09:58:38 +08:00
+comment: true
 tags: [Chrome, JavaScript]
 categories: [互联网络]
 ---

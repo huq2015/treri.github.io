@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2主题修改优化细节记录
 wordpress_id: 40
-wordpress_url: http://ISayMe.com/?p=40
-date: 2011-04-08 19:55:50 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [Wordpress]
 ---

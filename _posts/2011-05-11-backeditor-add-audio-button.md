@@ -2,8 +2,7 @@
 layout: post
 title: 后台快速添加mp3按钮
 wordpress_id: 128
-wordpress_url: http://isayme.com/?p=128
-date: 2011-05-11 21:42:12 +08:00
+comment: true
 tags: [Wordpress, 原创, 转载]
 categories: [WordPress]
 ---

@@ -17,11 +17,14 @@
     <div class="post">
         {{ content }}
     </div>
-    {% if page.is_post %}
     <div class="comment" id="comment">
-      {% include JB/comments %}
-    </div>
+    {% if page.comment %}
+    {% include JB/comments %}
+    {% else %}
+        <hr />
+        <p>评论已关闭</p>
     {% endif %}
+    </div>
 </div>
 
 {% if page.previous or page.next %}

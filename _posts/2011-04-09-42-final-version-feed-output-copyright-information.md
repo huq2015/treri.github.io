@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2主题feed输出版权最终版
 wordpress_id: 42
-wordpress_url: http://ISayMe.com/?p=42
-date: 2011-04-09 08:41:44 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [Wordpress]
 ---

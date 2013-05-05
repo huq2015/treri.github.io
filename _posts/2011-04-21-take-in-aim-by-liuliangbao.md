@@ -2,8 +2,7 @@
 layout: post
 title: 昨天无故被流量宝瞄上
 wordpress_id: 100
-wordpress_url: http://ISayMe.com/?p=100
-date: 2011-04-21 20:06:59 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

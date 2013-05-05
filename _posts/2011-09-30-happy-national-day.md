@@ -2,8 +2,7 @@
 layout: post
 title: 几天没上,祝各位国庆快乐~~
 wordpress_id: 225
-wordpress_url: http://ISayMe.com/?p=225
-date: 2011-09-30 17:22:32 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

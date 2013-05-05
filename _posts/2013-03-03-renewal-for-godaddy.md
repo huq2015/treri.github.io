@@ -2,8 +2,7 @@
 layout: post
 title: Godaddy域名续费小注意
 wordpress_id: 253
-wordpress_url: http://ISayMe.com/?p=253
-date: 2013-03-03 04:05:58 +08:00
+comment: true
 tags: [GoDaddy]
 categories: [互联网络]
 ---

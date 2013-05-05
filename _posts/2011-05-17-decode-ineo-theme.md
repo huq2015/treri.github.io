@@ -2,8 +2,7 @@
 layout: post
 title: 解密ineo1.0.2
 wordpress_id: 137
-wordpress_url: http://ISayMe.com/?p=137
-date: 2011-05-17 21:46:15 +08:00
+comment: true
 tags: [Linux, PHP, Themes, 点滴]
 categories: [唠唠叨叨]
 ---

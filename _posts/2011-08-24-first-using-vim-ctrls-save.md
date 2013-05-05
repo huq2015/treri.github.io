@@ -2,8 +2,7 @@
 layout: post
 title: 初用vim,让vim能CTRL+S保存
 wordpress_id: 209
-wordpress_url: http://ISayMe.com/?p=209
-date: 2011-08-24 20:27:44 +08:00
+comment: true
 tags: [VIM]
 categories: [互联网络]
 ---

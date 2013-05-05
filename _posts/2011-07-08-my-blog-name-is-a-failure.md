@@ -2,8 +2,7 @@
 layout: post
 title: 我起的名字很失败
 wordpress_id: 185
-wordpress_url: http://ISayMe.com/?p=185
-date: 2011-07-08 11:03:08 +08:00
+comment: true
 tags: [Blog, 点滴]
 categories: [唠唠叨叨]
 ---

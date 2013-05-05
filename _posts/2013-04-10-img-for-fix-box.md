@@ -2,8 +2,7 @@
 layout: post
 title: 固定大小的容器中图片宽高不一致处理办法
 wordpress_id: 255
-wordpress_url: http://ISayMe.com/?p=255
-date: 2013-04-10 04:05:58 +08:00
+comment: true
 tags: [JavaScript, CSS]
 categories: [学习笔记]
 ---

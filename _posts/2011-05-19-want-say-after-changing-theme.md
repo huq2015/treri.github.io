@@ -2,8 +2,7 @@
 layout: post
 title: 更换主题后想说说
 wordpress_id: 139
-wordpress_url: http://ISayMe.com/?p=139
-date: 2011-05-19 19:52:07 +08:00
+comment: true
 tags: [Themes, 点滴]
 categories: [唠唠叨叨]
 ---

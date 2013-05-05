@@ -2,8 +2,7 @@
 layout: post
 title: "[PhilNa2]some chinese please"
 wordpress_id: 120
-wordpress_url: http://isayme.com/?p=120
-date: 2011-05-08 09:43:12 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

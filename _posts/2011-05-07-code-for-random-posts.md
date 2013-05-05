@@ -2,8 +2,7 @@
 layout: post
 title: 代码访问随机日志
 wordpress_id: 118
-wordpress_url: http://isayme.com/?p=118
-date: 2011-05-07 07:28:54 +08:00
+comment: true
 tags: [Wordpress, 转载]
 categories: [WordPress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: debian6再安装小记
 wordpress_id: 197
-wordpress_url: http://ISayMe.com/?p=197
-date: 2011-07-30 09:00:23 +08:00
+comment: true
 tags: [Debian, Linux]
 categories: [互联网络]
 ---

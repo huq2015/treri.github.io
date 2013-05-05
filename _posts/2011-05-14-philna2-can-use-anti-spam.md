@@ -2,8 +2,7 @@
 layout: post
 title: 让PhilNa2用上Anti Spam小墙
 wordpress_id: 132
-wordpress_url: http://isayme.com/?p=132
-date: 2011-05-14 09:44:07 +08:00
+comment: true
 tags: [PhilNa2, spam, Wordpress, 原创]
 categories: [WordPress]
 ---

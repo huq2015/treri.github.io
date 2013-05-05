@@ -2,8 +2,7 @@
 layout: post
 title: W1s自说Me话扩展版
 wordpress_id: 190
-wordpress_url: http://ISayMe.com/?p=190
-date: 2011-07-18 15:55:18 +08:00
+comment: true
 tags: [Themes, w1s, 原创]
 categories: [WordPress]
 ---

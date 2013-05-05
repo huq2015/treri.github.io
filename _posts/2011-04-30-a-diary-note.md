@@ -2,8 +2,7 @@
 layout: post
 title: 流水帐一篇[4.30]
 wordpress_id: 107
-wordpress_url: http://ISayMe.com/?p=107
-date: 2011-04-30 11:49:59 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

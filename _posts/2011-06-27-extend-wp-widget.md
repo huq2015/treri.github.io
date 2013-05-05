@@ -2,8 +2,7 @@
 layout: post
 title: 扩展后台侧栏小工具初记
 wordpress_id: 177
-wordpress_url: http://ISayMe.com/?p=177
-date: 2011-06-27 00:32:05 +08:00
+comment: true
 tags: [Widget, Wordpress]
 categories: [WordPress]
 ---

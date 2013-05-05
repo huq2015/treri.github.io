@@ -2,8 +2,7 @@
 layout: post
 title: 服务器恢复正常
 wordpress_id: 104
-wordpress_url: http://ISayMe.com/?p=104
-date: 2011-04-26 10:45:28 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

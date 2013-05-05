@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2-自说Me话扩展版
 wordpress_id: 160
-wordpress_url: http://ISayMe.com/?p=160
-date: 2011-06-02 14:30:16 +08:00
+comment: true
 tags: [PhilNa2, Themes, Wordpress, 原创]
 categories: [WordPress]
 ---

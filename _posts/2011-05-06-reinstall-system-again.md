@@ -2,8 +2,7 @@
 layout: post
 title: 又一次重装系统
 wordpress_id: 116
-wordpress_url: http://isayme.com/?p=116
-date: 2011-05-06 05:15:16 +08:00
+comment: true
 tags: [Debian, Linux, 点滴]
 categories: [唠唠叨叨]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: Debian or Ubuntu?
 wordpress_id: 15
-wordpress_url: http://ISayMe.com/?p=15
-date: 2011-03-27 11:53:59 +08:00
+comment: true
 tags: [Linux]
 categories: [系统相关]
 ---

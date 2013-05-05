@@ -2,8 +2,7 @@
 layout: post
 title: wordpress的feed输出版权信息
 wordpress_id: 9
-wordpress_url: http://ISayMe.com/?p=9
-date: 2011-03-26 23:44:10 +08:00
+comment: true
 tags: [Wordpress]
 categories: [WordPress]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: bash搭配php批量下载图片
 wordpress_id: 202
-wordpress_url: http://ISayMe.com/?p=202
-date: 2011-08-13 23:57:46 +08:00
+comment: true
 tags: [Bash, Linux, PHP, Wget]
 categories: [互联网络]
 ---

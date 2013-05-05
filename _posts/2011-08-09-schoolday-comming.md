@@ -2,8 +2,7 @@
 layout: post
 title: 临开学小记
 wordpress_id: 201
-wordpress_url: http://ISayMe.com/?p=201
-date: 2011-08-09 16:47:19 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

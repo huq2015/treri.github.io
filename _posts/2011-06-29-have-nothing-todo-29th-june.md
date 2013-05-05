@@ -2,8 +2,7 @@
 layout: post
 title: 无事可做的唠叨
 wordpress_id: 178
-wordpress_url: http://ISayMe.com/?p=178
-date: 2011-06-29 12:46:50 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

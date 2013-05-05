@@ -2,8 +2,7 @@
 layout: post
 title: 又一次更换主题
 wordpress_id: 157
-wordpress_url: http://ISayMe.com/?p=157
-date: 2011-05-30 15:27:52 +08:00
+comment: true
 tags: [Themes, 点滴]
 categories: [唠唠叨叨]
 ---

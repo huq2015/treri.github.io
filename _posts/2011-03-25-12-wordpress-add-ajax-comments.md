@@ -2,8 +2,7 @@
 layout: post
 title: wordpress添加AJAX评论效果(非插件版)
 wordpress_id: 12
-wordpress_url: http://ISayMe.com/?p=12
-date: 2011-03-25 11:36:38 +08:00
+comment: true
 tags: [WordPress]
 ---
 **由于此 篇文章倍受  Spam喜爱,所以关闭 评论,如有问题,请在其他任何地方留言.谢谢**

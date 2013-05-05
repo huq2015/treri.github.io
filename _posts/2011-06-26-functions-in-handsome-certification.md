@@ -2,8 +2,7 @@
 layout: post
 title: 帅哥认证用到的两个函数
 wordpress_id: 176
-wordpress_url: http://ISayMe.com/?p=176
-date: 2011-06-26 17:46:02 +08:00
+comment: true
 tags: [PHP, Study]
 categories: [学习笔记]
 ---

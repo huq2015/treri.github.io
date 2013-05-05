@@ -2,8 +2,7 @@
 layout: post
 title: Debian6安装小记
 wordpress_id: 111
-wordpress_url: http://isayme.com/?p=111
-date: 2011-05-03 19:37:30 +08:00
+comment: true
 tags: [Debian, Linux, 原创]
 categories: [系统相关]
 ---

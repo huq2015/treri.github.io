@@ -2,8 +2,7 @@
 layout: post
 title: 给wordpress添加图片渐显效果
 wordpress_id: 13
-wordpress_url: http://ISayMe.com/?p=13
-date: 2011-03-24 11:45:58 +08:00
+comment: true
 tags: [Wordpress]
 categories: [WordPress]
 ---

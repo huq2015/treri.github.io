@@ -2,8 +2,7 @@
 layout: post
 title: 考试结束,新生活开始
 wordpress_id: 181
-wordpress_url: http://ISayMe.com/?p=181
-date: 2011-07-04 18:01:52 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

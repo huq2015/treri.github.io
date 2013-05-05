@@ -2,8 +2,7 @@
 layout: post
 title: 最近琐事多多
 wordpress_id: 208
-wordpress_url: http://ISayMe.com/?p=208
-date: 2011-08-23 14:31:24 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

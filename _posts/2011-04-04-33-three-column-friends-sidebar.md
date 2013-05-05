@@ -2,8 +2,7 @@
 layout: post
 title: 侧栏友链3栏显示
 wordpress_id: 33
-wordpress_url: http://ISayMe.com/?p=33
-date: 2011-04-04 13:43:19 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

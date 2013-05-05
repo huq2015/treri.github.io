@@ -2,8 +2,7 @@
 layout: post
 title: 决定去掉友情链接
 wordpress_id: 235
-wordpress_url: http://ISayMe.com/?p=235
-date: 2011-11-13 15:26:45 +08:00
+comment: true
 tags: [Wordpress, 点滴]
 categories: [唠唠叨叨]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: jQuery上下浮动滚动[4-22更新]
 wordpress_id: 83
-wordpress_url: http://ISayMe.com/?p=83
-date: 2011-04-16 10:53:28 +08:00
+comment: true
 tags: [PhilNa2, Wordpress]
 categories: [WordPress]
 ---

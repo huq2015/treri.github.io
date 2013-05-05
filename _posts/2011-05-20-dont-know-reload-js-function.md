@@ -2,8 +2,7 @@
 layout: post
 title: js函数重新加载,不会~
 wordpress_id: 140
-wordpress_url: http://ISayMe.com/?p=140
-date: 2011-05-20 11:12:07 +08:00
+comment: true
 tags: [Ajax, jQuery, PhilNa2]
 categories: [唠唠叨叨]
 ---

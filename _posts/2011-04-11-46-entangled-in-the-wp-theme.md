@@ -2,8 +2,7 @@
 layout: post
 title: 纠结于WP主题
 wordpress_id: 46
-wordpress_url: http://ISayMe.com/?p=46
-date: 2011-04-11 12:13:50 +08:00
+comment: true
 tags: [PhilNa2]
 categories: [唠唠叨叨]
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: WP-Syntax代码框增加滑动效果
 wordpress_id: 133
-wordpress_url: http://ISayMe.com/?p=133
-date: 2011-05-14 18:18:59 +08:00
+comment: true
 tags: [Wordpress, 转载]
 categories: [WordPress]
 ---

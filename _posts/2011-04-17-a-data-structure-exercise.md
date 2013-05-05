@@ -2,8 +2,7 @@
 layout: post
 title: 数据结构习题一则
 wordpress_id: 84
-wordpress_url: http://ISayMe.com/?p=84
-date: 2011-04-17 00:37:20 +08:00
+comment: true
 tags: [C, 原创, 数据结构]
 categories: [学习笔记]
 ---

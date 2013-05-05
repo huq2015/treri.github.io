@@ -2,8 +2,7 @@
 layout: post
 title: 纯css鼠标放上去图片变大
 wordpress_id: 39
-wordpress_url: http://ISayMe.com/?p=39
-date: 2011-04-08 19:39:51 +08:00
+comment: true
 tags: [Wordpress, CSS]
 categories: [WordPress]
 ---

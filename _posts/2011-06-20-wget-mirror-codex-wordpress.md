@@ -2,8 +2,7 @@
 layout: post
 title: wget镜像codex.wordpress.org
 wordpress_id: 172
-wordpress_url: http://ISayMe.com/?p=172
-date: 2011-06-20 22:30:54 +08:00
+comment: true
 tags: [Linux, Wget, Wordpress]
 categories: [互联网络]
 ---

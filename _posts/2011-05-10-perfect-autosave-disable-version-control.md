@@ -2,8 +2,7 @@
 layout: post
 title: WP3.1.2-完美自动保存,禁用版本控制
 wordpress_id: 122
-wordpress_url: http://isayme.com/?p=122
-date: 2011-05-10 20:57:06 +08:00
+comment: true
 tags: [Blog, Wordpress, 转载]
 categories: [WordPress]
 ---

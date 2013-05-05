@@ -2,8 +2,7 @@
 layout: post
 title: PhilNa2-更改默认表情图片位置
 wordpress_id: 123
-wordpress_url: http://isayme.com/?p=123
-date: 2011-05-09 22:43:53 +08:00
+comment: true
 tags: [PhilNa2, Wordpress, 原创]
 categories: [WordPress]
 ---

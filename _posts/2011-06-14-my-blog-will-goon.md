@@ -2,8 +2,7 @@
 layout: post
 title: 我还在坚持
 wordpress_id: 168
-wordpress_url: http://ISayMe.com/?p=168
-date: 2011-06-14 22:36:47 +08:00
+comment: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

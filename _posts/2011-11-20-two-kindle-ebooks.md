@@ -2,8 +2,7 @@
 layout: post
 title: 自制两个英文版kindle格式小说
 wordpress_id: 236
-wordpress_url: http://ISayMe.com/?p=236
-date: 2011-11-20 21:52:46 +08:00
+comment: true
 tags: [Kindle]
 categories: [学习笔记]
 ---

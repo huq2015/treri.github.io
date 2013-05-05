@@ -2,8 +2,7 @@
 layout: post
 title: 为什么我认定是我的!!
 wordpress_id: 221
-wordpress_url: http://ISayMe.com/?p=221
-date: 2011-09-15 16:55:29 +08:00
+comment: true
 tags: [PhilNa2, Wordpress]
 categories: [唠唠叨叨]
 ---

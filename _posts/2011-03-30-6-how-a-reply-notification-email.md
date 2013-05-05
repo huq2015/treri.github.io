@@ -2,8 +2,7 @@
 layout: post
 title: 转-如何让wordpress评论者收到回复通知邮件？
 wordpress_id: 6
-wordpress_url: http://isayme.com/?p=6
-date: 2011-03-30 10:56:02 +08:00
+comment: true
 tags: [Wordpress]
 categories: [WordPress]
 ---

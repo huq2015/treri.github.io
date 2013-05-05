@@ -2,8 +2,7 @@
 layout: post
 title: css3读者墙 源代码
 wordpress_id: 192
-wordpress_url: http://ISayMe.com/?p=192
-date: 2011-07-23 19:27:23 +08:00
+comment: true
 tags: [CSS3, PHP, 原创, 读者墙]
 categories: [WordPress]
 ---

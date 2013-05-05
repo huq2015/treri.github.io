@@ -2,8 +2,7 @@
 layout: post
 title: 首页Ajax加载文章成功
 wordpress_id: 136
-wordpress_url: http://ISayMe.com/?p=136
-date: 2011-05-17 18:36:41 +08:00
+comment: true
 tags: [Ajax, jQuery, 点滴]
 categories: [WordPress, 唠唠叨叨]
 ---
