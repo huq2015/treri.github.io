@@ -1,7 +1,7 @@
 ---
 layout: post
 title: pjax使用初体验
-pid: 201303050501
+pid: 2013050501
 description: ""
 category: [学习笔记]
 tags: [Ajax, jQuery]
