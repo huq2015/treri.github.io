@@ -7,7 +7,7 @@
   <div class="post">
     <div id='tag_cloud'>
     {% for tag in site.tags %}
-    <a data-fragment=".vcontent" class="pjax" href="#{{ tag[0] }}-ref" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+    <a data-fragment=".vcontent" href="#{{ tag[0] }}-ref" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
     {% endfor %}
     </div>
 
