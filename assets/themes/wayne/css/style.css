@@ -154,14 +154,26 @@ div.fixnav a:hover {
   color: #333333;
 }
 
-#content {
-  width: 680px;
+#vouter{
+  width:680px;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+#vinner{
+  width:2040px;
+  position: relative;
+  left:-680px;
+}
+
+.vcontent {
+  width: 680px;
+  margin-left: 680px;
   font-size: 1.1em;
   line-height: 1.7em;
 }
 
-#content .article {
+.vcontent .article {
   padding: 1.25em 24px;
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
@@ -174,74 +186,74 @@ div.fixnav a:hover {
   float:none !important;
 }*/
 
-#content a {
+.vcontent a {
   color: #3399cc;
 }
 
-#content a:hover {
+.vcontent a:hover {
   color: #55bbee;
 }
 
-#content .post img {
+.vcontent .post img {
   max-width: 630px;
   display: block;
   box-shadow: #999999 0px 8px 4px -4px;
   margin: 0.5em auto;
 }
 
-#content .post .image-700 {
+.vcontent .post .image-700 {
   margin-left: -28px;
   margin-right: -28px;
   display: block;
 }
 
-#content .post .image-800 {
+.vcontent .post .image-800 {
   margin-left: -28px;
   margin-right: -28px;
   display: block;
 }
 
-#content .post .image-900 {
+.vcontent .post .image-900 {
   margin-left: -28px;
   margin-right: -28px;
   display: block;
 }
 
-#content .post .image-1000 {
+.vcontent .post .image-1000 {
   margin-left: -28px;
   margin-right: -28px;
   display: block;
 }
 
-#content .post .image-1100 {
+.vcontent .post .image-1100 {
   margin-left: -28px;
   margin-right: -28px;
   display: block;
 }
 
-#content .post .image-1200 {
+.vcontent .post .image-1200 {
   margin-left: -28px;
   margin-right: -28px;
   display: block;
 }
 
-#content .post .image-1300 {
+.vcontent .post .image-1300 {
   margin-left: -28px;
   margin-right: -28px;
   display: block;
 }
 
-#content .post .image-1400 {
+.vcontent .post .image-1400 {
   margin-left: -28px;
   margin-right: -28px;
   display: block;
 }
 
-#content p {
+.vcontent p {
   padding: 0.7em 0;
 }
 
-#content pre code {
+.vcontent pre code {
   margin: 1em -25px 1em -25px;
   padding-left: 25px;
   padding-right: 25px;
@@ -253,7 +265,7 @@ div.fixnav a:hover {
   overflow: auto;
 }
 
-#content blockquote {
+.vcontent blockquote {
   display: block;
   text-align: justify;
   border-left: 4px solid #eeeeee;
@@ -261,48 +273,48 @@ div.fixnav a:hover {
   padding-left: 1.5em;
 }
 
-#content blockquote p {
+.vcontent blockquote p {
   margin: 0;
   padding: 0;
 }
 
-#content li.listing-item, #content li.listing-seperator {
+.vcontent li.listing-item, .vcontent li.listing-seperator {
   list-style-type: none;
   padding: 0;
 }
 
-#content li.listing-item a, #content li.listing-seperator a {
+.vcontent li.listing-item a, .vcontent li.listing-seperator a {
   padding: 0.2em 1em;
 }
 
-#content li.listing-item time, #content li.listing-seperator time {
+.vcontent li.listing-item time, .vcontent li.listing-seperator time {
   color: #999999;
 }
 
-#content li.listing-seperator {
+.vcontent li.listing-seperator {
   font-weight: bold;
 }
 
-#content .meta {
+.vcontent .meta {
   color: #c0c0c0;
   margin: 0.25em 0 1em;
 }
 
-#content .meta .tags a {
+.vcontent .meta .tags a {
   color: #c0c0c0;
   padding: .25em;
 }
 
-#content .meta .tags a:hover {
+.vcontent .meta .tags a:hover {
   color: #999999;
 }
 
-#content #page_nav {
+.vcontent #page_nav {
   text-align: center;
   margin: 2em 0;
 }
 
-#content #page_nav a {
+.vcontent #page_nav a {
   font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   font-size: .8em;
   padding: 0.25em 1em;
@@ -312,7 +324,7 @@ div.fixnav a:hover {
   text-transform: uppercase;
 }
 
-#content #page_nav a:hover {
+.vcontent #page_nav a:hover {
   background-color: #e6e6e6;
 }
 

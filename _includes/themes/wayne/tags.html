@@ -7,7 +7,7 @@
   <div class="post">
     <div id='tag_cloud'>
     {% for tag in site.tags %}
-    <a class="pjax" href="#{{ tag[0] }}-ref" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+    <a data-fragment=".vcontent" class="pjax" href="#{{ tag[0] }}-ref" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
     {% endfor %}
     </div>
 
@@ -17,23 +17,10 @@
     {% for post in tag[1] %}
       <li class="listing-item">
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-      <a class="pjax" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <a data-fragment=".vcontent" class="pjax" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </li>
     {% endfor %}
     {% endfor %}
     </ul>
-<!--
-    <script src="{{ ASSET_PATH }}wayne/js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script> 
-    <script src="{{ ASSET_PATH }}wayne/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
-    <script language="javascript">
-    $.fn.tagcloud.defaults = {
-        size: {start: 1, end: 1, unit: 'em'},
-          color: {start: '#f8e0e6', end: '#ff3333'}
-    };
-
-    $(function () {
-        $('#tag_cloud a').tagcloud();
-    });
-    </script>-->
   </div>
 </div>
