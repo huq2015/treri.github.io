@@ -4,8 +4,8 @@
         <meta charset="utf-8" />
         <meta name="author" content="{{ site.author.name }}" />
         <meta name="generator" content="Jekyll" />
-        <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+        <meta name="keywords" content="{% if page.keywords and page.keywords != '' %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
+        <meta name="description" content="{% if page.description and page.description != '' %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
         <link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css" />
         <link rel="stylesheet" href="{{ ASSET_PATH }}/css/github.css" />
