@@ -63,11 +63,13 @@ task :post do
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
+    post.puts "pid: #{date.gsub(/-/,'')}01"
+    post.puts 'comment: true'
     post.puts 'description: ""'
     post.puts "categories: []"
     post.puts "tags: []"
     post.puts "---"
-    post.puts "{% include JB/setup %}"
+    #post.puts "{% include JB/setup %}"
   end
 end # task :post
 
