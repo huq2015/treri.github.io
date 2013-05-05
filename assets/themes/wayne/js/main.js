@@ -45,7 +45,6 @@ $(function() {
         handle: null,
         init: function(select, container) {
             var self = this;
-            $('#inner ul.listing').removeClass('tmp').css('margin-left','680px');
             this._nowObj = $($('ul.listing')[0]);
             this._now = parseInt($('#pagination a.current').text());
             this.bindEvent(select, container);
@@ -79,7 +78,6 @@ $(function() {
                 var _link = $(_this).attr('href');
                 var _title = $(_this).text();
                 var _page = $(_this).attr('id');
-                // console.log('_page',_page);
                 var state = {
                     title:'Vinntoe',
                     url:_link,
@@ -122,14 +120,14 @@ $(function() {
             }
             if (self.handle - self._now < 0) {
                 $(self._nowObj).css('margin-left','0px');
-                $data.removeClass('tmp').css('margin-left','0px').show().insertBefore($(self._nowObj)).animate({'margin-left':'680px'},300,function(){
+                $data.css('margin-left','0px').show().insertBefore($(self._nowObj)).animate({'margin-left':'680px'},300,function(){
                     $(self._nowObj).hide();
                     self._nowObj = $data;
                     self._now = self.handle;
                     $body.animate({scrollTop:0},300);
                 });
             } else {
-                $data.css('margin-left','0px').removeClass('tmp').show().insertAfter($(self._nowObj));
+                $data.css('margin-left','0px').show().insertAfter($(self._nowObj));
                 $(self._nowObj).animate({
                     'margin-left': "0px"
                 }, 300, function() {

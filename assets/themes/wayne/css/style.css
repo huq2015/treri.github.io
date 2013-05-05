@@ -546,19 +546,10 @@ li[id*='dsq-like-'] {
 
 #inner ul.listing{
   width:680px;
-  /*display: inline-block;*/
   float:left;
   position: relative;
+  margin-left:680px;
 }
-ul.tmp{  margin-left:680px;}
-
-ul.left{
-  margin-left:0;
-}
-ul.right{
-  margin-left:1360px;
-}
-
 .overmap{
   display: none;
   position: absolute;
