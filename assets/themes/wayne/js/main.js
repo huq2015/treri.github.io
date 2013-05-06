@@ -50,23 +50,24 @@ var slide = {
         var hash = window.location.hash;
         var title = document.title;
         var fragment;
-        var state;
+        var obj;
         if($('#pagination').length > 0){
-            fragment = 'ul.listing';
+            fragment = 'ul.homelisting';
         }else{
             fragment = 'div.vcontent';
         }
-        state = {
+        obj = {
             url: url,
             title: title,
+            seed:(new Date()).getTime(),
             hash:hash,
             fragment:fragment
         };
-        self.cache['init'] = state;
-        self.cache['init'].data = $(fragment);
+        self.cache[obj.seed] = obj;
+        self.cache[obj.seed].data = $(fragment);
         self._nowObj = $(fragment);
         if(supportPjax){
-            window.history.replaceState({url:url,title:title},title,url);
+            window.history.replaceState({url:url,title:title,seed:obj.seed},title,url);
             window.onpopstate = function(e){
                 if(e.state){
                     self._pop = true;
@@ -94,7 +95,8 @@ var slide = {
                 }else{
                     seed = "" + (new Date()).getTime();
                     $_this.addClass(seed).addClass('seed');
-                    $_this.addClass(seed).addClass(seed);
+                    console.log($_this);
+                    // $_this.addClass(seed).addClass(seed);
                     var url = $_this.attr('href');
                     console.log('url',url);
                     self._tmp['url'] = url;
@@ -123,14 +125,15 @@ var slide = {
     },
     _handlePop:function(state){
         var self = this;
-        if(state.seed){
-            // have elem for the history
-            $(state.seed).click();
-        }else{
-            // no elem for the history it's the first page
-            self._tmp = self.cache['init']
-            self._handleData();
-        }
+        console.log('state',state);
+        // if($(state.seed).length > 0){
+        //     console.log('has elem');
+        //     $(state.seed).click();
+        // }else{
+            // console.log('has no elem')
+            self._tmp = self.cache[state.seed];
+            self._handleData(); 
+        // }
     },
     _handleUrl:function(){
         var self = this;

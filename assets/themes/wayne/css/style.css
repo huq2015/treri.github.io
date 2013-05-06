@@ -557,11 +557,14 @@ li[id*='dsq-like-'] {
   left:-680px;
 }
 
-#inner ul.listing{
+#inner ul.homelisting{
   width:680px;
   float:left;
   position: relative;
   margin-left:680px;
+}
+#inner ul.listing{
+  width:680px;
 }
 .overmap{
   display: none;

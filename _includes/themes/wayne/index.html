@@ -1,6 +1,6 @@
 <div id="outer">
   <div id="inner">
-  <ul class="listing">
+  <ul class="homelisting">
   {% for post in paginator.posts %}
   <div class="content article">
     <div class="title">
@@ -31,7 +31,7 @@
         <div id="pagination">
             <div class="paginator-list">
                 {% for page in (1..paginator.total_pages) %}
-                <a data-fragment="ul.listing" class="pjax num{% if page == paginator.page %} current{% endif %}" href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a>
+                <a data-fragment="ul.homelisting" class="pjax num{% if page == paginator.page %} current{% endif %}" href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a>
                 {% endfor %}
             </div>
         </div>
