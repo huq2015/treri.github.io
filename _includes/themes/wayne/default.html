@@ -24,19 +24,19 @@
                 <div id="header" class="clearfix">
                     <h1><a title="{{ site.title }}" href="/">{{ site.title }}</a></h1>
                     <div class="floatnav">
-                        <span><a title="Archive" data-fragment=".vcontent" class="pjax" href="{{ site.JB.archive_path }}">Archive</a></span>
-                        <span><a title="Tags" data-fragment=".vcontent" class="pjax" href="{{ site.JB.tags_path }}">Tags</a></span>
-                        <span><a title="Categories" data-fragment=".vcontent" class="pjax" href="{{ site.JB.categories_path }}">Categories</a></span>
-                        <span><a title="About" data-fragment=".vcontent" class="pjax" href="{{ site.JB.about_path }}">About</a></span>
+                        <span><a title="Archive" data-fragment=".vcontent" id="index_archive_float" class="pjax" href="{{ site.JB.archive_path }}">Archive</a></span>
+                        <span><a title="Tags" data-fragment=".vcontent" id="index_tags_float" class="pjax" href="{{ site.JB.tags_path }}">Tags</a></span>
+                        <span><a title="Categories" data-fragment=".vcontent" id="index_cate_float" class="pjax" href="{{ site.JB.categories_path }}">Categories</a></span>
+                        <span><a title="About" data-fragment=".vcontent" id="index_about_float" class="pjax" href="{{ site.JB.about_path }}">About</a></span>
                         <span><a title="Subscribe" href="{{ site.JB.rss_path }}">Feed</a></span>
                     </div>
                 </div>
                 <div class="fixnav">
-                    <span><a title="Home" data-fragment=".vcontent" class="icon-home pjax" href="/"></a></span>
-                    <span><a title="Archive" data-fragment=".vcontent" class="icon-list-ul pjax" href="{{ site.JB.archive_path }}"></a></span>
-                    <span><a title="Tags" data-fragment=".vcontent" class="icon-tags pjax" href="{{ site.JB.tags_path }}"></a></span>
-                    <span><a title="Categories" data-fragment=".vcontent" class="icon-bookmark pjax" href="{{ site.JB.categories_path }}"></a></span>
-                    <span><a title="About" data-fragment=".vcontent" class="icon-user pjax" href="{{ site.JB.about_path }}"></a></span>
+                    <span><a title="Home" data-fragment=".vcontent" id="index_home_fix" class="icon-home pjax" href="/"></a></span>
+                    <span><a title="Archive" data-fragment=".vcontent" id="index_archive_fix" class="icon-list-ul pjax" href="{{ site.JB.archive_path }}"></a></span>
+                    <span><a title="Tags" data-fragment=".vcontent" id="index_tags_fix" class="icon-tags pjax" href="{{ site.JB.tags_path }}"></a></span>
+                    <span><a title="Categories" data-fragment=".vcontent" id="index_cate_fix" class="icon-bookmark pjax" href="{{ site.JB.categories_path }}"></a></span>
+                    <span><a title="About" data-fragment=".vcontent" id="index_about_fix" class="icon-user pjax" href="{{ site.JB.about_path }}"></a></span>
                     <span><a title="Subscribe" class="icon-rss" href="{{ site.JB.rss_path }}"></a></span>
                 </div>
             </div>

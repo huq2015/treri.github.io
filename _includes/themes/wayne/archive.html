@@ -14,7 +14,7 @@
       {% endif %}
       <li class="listing-item">
         <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a data-fragment=".vcontent" class="pjax" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <a data-fragment=".vcontent" id="archivepage_post_{{ post.pid }}" class="pjax" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </li>
     {% endfor %}
     </ul>

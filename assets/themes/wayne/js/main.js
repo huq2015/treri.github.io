@@ -59,15 +59,15 @@ var slide = {
         obj = {
             url: url,
             title: title,
-            seed:(new Date()).getTime(),
+            id:'init',
             hash:hash,
             fragment:fragment
         };
-        self.cache[obj.seed] = obj;
-        self.cache[obj.seed].data = $(fragment);
+        self.cache[obj.id] = obj;
+        self.cache[obj.id].data = $(fragment);
         self._nowObj = $(fragment);
         if(supportPjax){
-            window.history.replaceState({url:url,title:title,seed:obj.seed},title,url);
+            window.history.replaceState({url:url,title:title,id:obj.id},title,url);
             window.onpopstate = function(e){
                 if(e.state){
                     self._pop = true;
@@ -81,20 +81,21 @@ var slide = {
         var self = this;
         $body.on('click','.pjax',function(){
             var $_this = $(this);
+            var id = $_this.attr('id');
             var seed;
             if(($_this).hasClass('used')){
                 return false;
             }else{
-                if($_this.hasClass('seed')){
+                if($_this.hasClass('cached')){
                     console.log("$_this.attr('class')",$_this.attr('class'))
-                    seed = $_this.attr('class').match(/\D*(\d*)\D*/)[1];
+                    // id = $_this.attr('id');
                     // console.log(seed);
-                    self._tmp = self.cache[seed];
+                    self._tmp = self.cache[id];
                     console.log('self._tmp 90',self._tmp);
                     self._handleData();
                 }else{
-                    seed = "" + (new Date()).getTime();
-                    $_this.addClass(seed).addClass('seed');
+                    // seed = "" + (new Date()).getTime();
+                    $_this.addClass('cached');
                     console.log($_this);
                     // $_this.addClass(seed).addClass(seed);
                     var url = $_this.attr('href');
@@ -113,7 +114,7 @@ var slide = {
                     if(hash){
                         self._tmp['hash'] = hash;
                     }
-                    self._tmp['seed'] = seed;
+                    self._tmp['id'] = id;
                     console.log('self._tmp 115',self._tmp);
                     self._handleUrl();
                 }
@@ -126,13 +127,17 @@ var slide = {
     _handlePop:function(state){
         var self = this;
         console.log('state',state);
+        if($(state.id).length>0){
+            $(state.id).click();
+        }else{
+            self._tmp = self.cache['init'];
+            self._handleData(); 
+        }
         // if($(state.seed).length > 0){
         //     console.log('has elem');
         //     $(state.seed).click();
         // }else{
             // console.log('has no elem')
-            self._tmp = self.cache[state.seed];
-            self._handleData(); 
         // }
     },
     _handleUrl:function(){
@@ -166,7 +171,7 @@ var slide = {
         var state = {
             url:self._tmp['url'],
             title:self._tmp['title'],
-            seed:self._tmp['seed']?self._tmp['seed']:'',
+            id:self._tmp['id']?self._tmp['id']:'',
         }
         if(supportPjax && !self._pop){
             window.history.pushState(state,state.title,state.url);
@@ -187,7 +192,8 @@ var slide = {
                 self._tmp = {}; 
             })
         }
-        self.cache[self._tmp['seed']] = self._tmp;
+        self._nowObj = self._tmp['data'];
+        self.cache[self._tmp['id']] = self._tmp;
         console.log('self.cache',self.cache);
         self._pop = false;
     }
