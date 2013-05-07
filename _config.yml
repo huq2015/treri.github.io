@@ -91,9 +91,9 @@ JB :
   comments :
     provider : duoshuo
     disqus :
-      short_name : jekyllbootstrap
+      short_name : isayme
     duoshuo:
-      short_name : vinntoe
+      short_name : isayme
     livefyre :
       site_id : 123
     intensedebate :
