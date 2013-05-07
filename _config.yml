@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:title.html
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
@@ -111,7 +111,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-40505185-1'
+        tracking_id : 'UA-22264616-3'
     getclicky :
       site_id : 
     mixpanel :
