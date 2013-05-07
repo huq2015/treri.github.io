@@ -15,7 +15,7 @@ copyright:
 # so be sure to set them if your theme uses them.
 #
 title : 自说Me话
-keywords: "Vinntoe,Linux,Web,前端开发,自说Me话,Internet"
+keywords: "Vinntoe,Linux,Web,前端开发,自说Me话,ISayme,Internet"
 description : "Vinntoe's Individual Blog. 一个前端开发新手的网络记录,同喜欢网络,Linux,前端开发,爱折腾的人共同分享,记录折腾心得还有学习过程."
 tagline : "I Say Me | 我说我自己 | 我说世界"
 author :
@@ -33,7 +33,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://iSayme.com
+production_url : http://ISayme.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
