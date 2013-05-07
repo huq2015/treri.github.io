@@ -13,7 +13,7 @@
 
     <ul class="listing">
     {% for node in site.categories %}
-      <li class="listing-seperator" id="{{ node[0] }}-ref">{{ node[0] }}</li>
+      <div class="anchorouter"><a href="#{{ node[0] }}-ref" class="anchor"><span class="icon-hand-right anchor"></span></a><li class="listing-seperator" id="{{ node[0] }}-ref">{{ node[0] }}</li></div>
     {% for post in node[1] %}
       <li class="listing-item">
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
