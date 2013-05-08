@@ -575,3 +575,31 @@ li[id*='dsq-like-'] {
   bottom: 0;
   background:rgba(255,255,255,0.8);
 }
+
+div.anchorouter{
+  margin-left: -20px;
+  position: relative;
+}
+div.anchorouter li{
+  margin-left: 20px;
+}
+div.anchorouter a.anchor{
+  display: none;
+}
+div.anchorouter:hover a.anchor{
+  display: block;
+}
+a.anchor{
+  position: absolute;
+  top:0;
+  left:2px;
+  bottom: 0;
+  cursor: pointer;
+}
+span.anchor{
+  color:#555;
+  display: block;
+  font-size: 16px;
+  width:16px;
+  height:16px;
+}
