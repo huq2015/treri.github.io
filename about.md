@@ -12,7 +12,7 @@ a
 
 who involved in 
 
-> [github](https://github.com/Vinntoe)
+> [GitHub](https://github.com/VitoLau)
 
 mail 
 
@@ -20,6 +20,6 @@ mail
 
 or follow 
 
-> [@Vinntoe](https://twitter.com/#!/Vinntoe)
+> [@VitoLau](https://twitter.com/#!/VitoLau90)
 
 to reach me
