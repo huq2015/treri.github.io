@@ -6,6 +6,7 @@ comment: true
 group: navigation
 ---
 {% include JB/setup %}
+<br />
 ### Blog
 From 2011-03-24 to now
 
@@ -14,7 +15,7 @@ Using GAE(micolog) --> WordPress --> Jekyll
 ### VitoLau
 a
 
-> Front ender | Linuxer | Coder | Googler
+> Front ender | Linuxer | Coder
 
 who involved in 
 
