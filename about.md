@@ -6,20 +6,35 @@ comment: true
 group: navigation
 ---
 {% include JB/setup %}
+<br />
+### Blog
+From 2011-03-24 to now
+
+Using GAE(micolog) --> WordPress --> Jekyll
+
+### VitoLau
 a
 
 > Front ender | Linuxer | Coder
 
 who involved in 
 
-> [github](https://github.com/Vinntoe)
+> [GitHub](https://github.com/VitoLau)
+>
+> [douban](http://www.douban.com/people/lwent/)
+>
+> QQ 83692901
 
 mail 
 
+> VitoLau90#gmail.com
+>
 > lwent90#gmail.com
 
 or follow 
 
-> [@Vinntoe](https://twitter.com/#!/Vinntoe)
+> Twitter [@VitoLau](https://twitter.com/#!/VitoLau90)
+>
+> weibo [@VitoLau_](http://weibo.com/leftupme)
 
 to reach me
