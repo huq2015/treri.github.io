@@ -619,3 +619,19 @@ span.anchor{
   top:0;right:0;
   background: url(../images/forkme.png) right top no-repeat;
 }
+
+/* webkit scroller */
+::-webkit-scrollbar-thumb:vertical{
+  height:10px;
+  background-color:#ddd;
+}
+::-webkit-scrollbar-thumb:vertical:hover{
+  height:10px;
+  background-color:#ccc;
+}
+::-webkit-scrollbar{
+  width: 8px;
+  height: 5px;
+  background: #eee;
+  margin-right: 15px;
+}
