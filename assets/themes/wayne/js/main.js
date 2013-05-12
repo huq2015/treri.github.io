@@ -80,6 +80,12 @@ var slide = {
             requrl = mtch[1];
             // alert(requrl);
         }
+        is_post = /^\/\d{4}\/\d{2}\/.*\.html$/.test(requrl);
+        if(is_post || requrl == '/about.html') {
+            $('#reply').show();
+        }else{
+            $('#reply').hide();
+        }
         if(mtch && mtch[2]){
             anchor = mtch[2];
         }else{
@@ -92,7 +98,6 @@ var slide = {
             elem:elem,
         }
         self.cache[requrl] = obj;
-        self.nowObj = elem;
         if(supportPjax){
             window.history.replaceState({'url':url,'title':title,'anchor':anchor,'requrl':requrl},title,url);
             window.onpopstate = function(e){
@@ -154,7 +159,13 @@ var slide = {
             oldObj = $(self.fragment + '.nowshow'),
             newObj = data.elem,
             anchor = [],
+            is_post = /^\/\d{4}\/\d{2}\/.*\.html$/.test(data.requrl),
             topixel;
+        if(is_post || data.requrl == '/about.html') {
+            $('#reply').show();
+        }else{
+            $('#reply').hide();
+        }
         self.cache[data.requrl] = data;
         document.title = state.title || data.title;
         // loadComment();
