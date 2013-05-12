@@ -162,6 +162,7 @@ div.fixnav a:hover {
 }
 
 #vouter .overmap{
+  z-index: 99999;
   display: none;
   position: absolute;
   top:0;
@@ -596,6 +597,7 @@ span.anchor{
   background: rgba(255,255,255,0.6);
   margin-left:-100px;
   margin-top: 0px; 
+  z-index: 999999
 }
 #loading img{
   float:left;
