@@ -28,7 +28,7 @@
                         <span><a title="Tags" class="pjax" href="{{ site.JB.tags_path }}">Tags</a></span>
                         <span><a title="Categories" class="pjax" href="{{ site.JB.categories_path }}">Categories</a></span>
                         <span><a title="About" class="pjax" href="{{ site.JB.about_path }}">About</a></span>
-                        <span><a title="Subscribe" href="{{ site.JB.rss_path }}">Feed</a></span>
+                        <span><a title="Subscribe" target="_blank" href="{{ site.JB.rss_path }}">Feed</a></span>
                     </div>
                 </div>
                 <div class="fixnav">
@@ -37,7 +37,7 @@
                     <span><a title="Tags" class="icon-tags pjax" href="{{ site.JB.tags_path }}"></a></span>
                     <span><a title="Categories" class="icon-bookmark pjax" href="{{ site.JB.categories_path }}"></a></span>
                     <span><a title="About" class="icon-user pjax" href="{{ site.JB.about_path }}"></a></span>
-                    <span><a title="Subscribe" class="icon-rss" href="{{ site.JB.rss_path }}"></a></span>
+                    <span><a title="Subscribe" target="_blank" class="icon-rss" href="{{ site.JB.rss_path }}"></a></span>
                 </div>
             </div>
             <div id="vouter">
@@ -58,7 +58,7 @@
         <a id="forkme" title="Fork me on GitHub" target="_blank" href="https://github.com/VitoLau/VitoLau.github.io"></a>
         <div id="updown">
             <span><a class="icon-angle-up" id="up" title="up"></a></span>
-            {% if page.is_post %}<span><a class="icon-reply" id="reply" title="Reply"></a></span>{% endif %}
+            <span><a class="icon-reply" id="reply" title="Reply"></a></span>
             <span><a class="icon-angle-down" id="down" class="down"></a></span>
         </div>
         <script type="text/javascript" src="{{ ASSET_PATH }}/js/highlight.pack.js"></script>

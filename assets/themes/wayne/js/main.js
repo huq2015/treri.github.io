@@ -29,20 +29,28 @@ $(function() {
         }, 500)
     });
     $('#reply').click(function() {
-        $body.animate({
-            scrollTop: $('#comment').offset().top
-        }, 500)
+        if($('.comment:visible').length > 0){
+            $body.animate({
+                scrollTop: $('.comment:visible').offset().top
+            }, 500);
+        }
     });
 
     var supportPjax = window.history && window.history.pushState && window.history.replaceState && !navigator.userAgent.match(/((iPod|iPhone|iPad).+\bOS\s+[1-4]|WebApps\/.+CFNetwork)/);
-
+/**
+ * when the page is load and at the corrent position,
+ * load the duoshuo comment textarea
+ * @return {null} 
+ */
 function loadComment(){
     $('div.comment').each(function(){
         if( $(this).html() == '' && $(this).data('thread') && $(this).data('thread') != ''){
             var threadKey = $(this).data('thread');
             var el = document.createElement('div');//该div不需要设置class="ds-thread"
             el.setAttribute('data-thread-key', threadKey);//必选参数
-            el.setAttribute('data-url', window.location.href);//必选参数
+            if(supportPjax){
+                el.setAttribute('data-url', window.location.href);//必选参数
+            }
             DUOSHUO.EmbedThread(el);
             $(this).append(el);
         }
@@ -86,7 +94,7 @@ var slide = {
         self.cache[requrl] = obj;
         self.nowObj = elem;
         if(supportPjax){
-            window.history.replaceState({'url':url,'title':title,'anchor':anchor,requrl:requrl},title,url);
+            window.history.replaceState({'url':url,'title':title,'anchor':anchor,'requrl':requrl},title,url);
             window.onpopstate = function(e){
                 if(e.state){
                     self.pop = true;
@@ -99,9 +107,6 @@ var slide = {
     handlePop:function(state){
         var self = this,
             requrl = state.requrl;
-        if(state.init){ // 当后退到标签页再返回的时候,会出现当前div被隐藏的情况,所以这种情况下不处理
-            return false;
-        }
         if(self.cache[requrl]){
             // alerady have cache data for the url
             self.handleData(self.cache[requrl],state);
@@ -149,7 +154,7 @@ var slide = {
             oldObj = $(self.fragment + '.nowshow'),
             newObj = data.elem,
             anchor = [],
-            topixel = 0;
+            topixel;
         self.cache[data.requrl] = data;
         document.title = state.title || data.title;
         // loadComment();
@@ -214,7 +219,11 @@ var slide = {
                 rrequrl = rmtch[1];
                 // console.log(rrequrl)
             }
-            if(requrl == rrequrl){ // is now page, don't response
+            if(supportPjax && requrl == rrequrl){ 
+            // if supportPjax and is now page, don't response
+            // if dont support pjax, 
+            // the location url will dont change when load otherpage,
+            // if you want back, the location url is same,but should reload.
                 return false;
             }
             if(mtch && mtch[2]){
