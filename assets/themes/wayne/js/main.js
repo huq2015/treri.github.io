@@ -123,8 +123,11 @@ var slide = {
             url:state.requrl,
             type:'GET',
             dataType:'html',
-            beforeSend:function(){},
+            beforeSend:function(){
+                $('div.overmap,div#loading').show();
+            },
             success:function(htmlData){
+                $('div.overmap,div#loading').hide();
                 if( (mtch = regex.exec(htmlData)) && mtch[1]) {
                     state.title = mtch[1];
                 }

@@ -46,6 +46,7 @@
                     {{ content }}
                     </div>
                 </div>
+                <div class="overmap"></div>
             </div>
             <div id="footer">
                 <div>
@@ -53,6 +54,7 @@
                 </div>
             </div>
         </div> <!-- main -->
+        <div id="loading"><img src="{{ ASSET_PATH }}/images/loading2.gif" alt="loading"><span>正在加载,请请稍候...</span></div>
         <div id="updown">
             <span><a class="icon-angle-up" id="up" title="up"></a></span>
             {% if page.is_post %}<span><a class="icon-reply" id="reply" title="Reply"></a></span>{% endif %}

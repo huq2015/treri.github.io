@@ -160,6 +160,17 @@ div.fixnav a:hover {
   position: relative;
   overflow: hidden;
 }
+
+#vouter .overmap{
+  display: none;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0.7);
+}
+
 #vinner{
   width:2040px;
   position: relative;
@@ -573,4 +584,27 @@ span.anchor{
   font-size: 16px;
   width:16px;
   height:16px;
+}
+
+#loading{
+  display: none;
+  height:16px;
+  line-height: 16px;
+  position: fixed;
+  top:50%;
+  left:50%;
+  background: rgba(255,255,255,0.6);
+  margin-left:-100px;
+  margin-top: 0px; 
+}
+#loading img{
+  float:left;
+  line-height: 16px;
+}
+#loading span{
+  color:#333;
+  font-size: 14px;
+  margin-left: 2px;
+  float:left;
+  line-height: 16px;
 }
