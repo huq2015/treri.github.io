@@ -623,11 +623,11 @@ span.anchor{
 /* webkit scroller */
 ::-webkit-scrollbar-thumb:vertical{
   height:10px;
-  background-color:#ddd;
+  background-color:#ccc;
 }
 ::-webkit-scrollbar-thumb:vertical:hover{
   height:10px;
-  background-color:#ccc;
+  background-color:#bbb;
 }
 ::-webkit-scrollbar{
   width: 8px;
