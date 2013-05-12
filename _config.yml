@@ -7,9 +7,6 @@ auto: true
 pygments: true
 markdown: rdiscount
 paginate: 3
-copyright:
-    - Design by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>
-    - "&copy; Copyright 2013, Vinntoe. All Rights Reserved."
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -79,6 +76,7 @@ JB :
   #
   archive_path: /archives.html
   about_path: /about.html
+  links_path: /links.html
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
