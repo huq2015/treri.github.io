@@ -3,7 +3,6 @@ function up() {
     $wd.scrollTop($wd.scrollTop() - 1);
     fq = setTimeout("up()", 40)
 }
-console.log('history',window.history)
 function dn() {
     $wd = $(window);
     $wd.scrollTop($wd.scrollTop() + 1);
@@ -37,352 +36,206 @@ $(function() {
 
     var supportPjax = window.history && window.history.pushState && window.history.replaceState && !navigator.userAgent.match(/((iPod|iPhone|iPad).+\bOS\s+[1-4]|WebApps\/.+CFNetwork)/);
 
+function loadComment(){
+    $('div.comment').each(function(){
+        if( $(this).html() == '' && $(this).data('thread') && $(this).data('thread') != ''){
+            var threadKey = $(this).data('thread');
+            var el = document.createElement('div');//该div不需要设置class="ds-thread"
+            el.setAttribute('data-thread-key', threadKey);//必选参数
+            el.setAttribute('data-url', window.location.href);//必选参数
+            DUOSHUO.EmbedThread(el);
+            $(this).append(el);
+        }
+    })
+}
+loadComment();
 
 var slide = {
-    _nowObj : null,
-    _pop: false,
+    nowPage:0,
+    handlePage:0,
+    pop:false,
+    fragment:'',
     cache:{},
-    _handleObj:null,
-    _tmp:{},
-    init:function(){
-        var self = this;
-        var url = window.location.href;
-        var hash = window.location.hash;
-        var title = document.title;
-        var fragment;
-        var obj;
-        if($('#pagination').length > 0){
-            fragment = 'ul.homelisting';
-        }else{
-            fragment = 'div.vcontent';
+    init:function(fragment){
+        var self = this,
+            url = window.location.href,
+            regex = /^http:\/\/[^\/]*([^#]*)(#.*)?$/,
+            mtch,
+            requrl = '',
+            title = document.title,
+            anchor = '',
+            elem,
+            obj = null;
+        self.fragment = fragment;
+        mtch = regex.exec(url);
+        if(mtch && mtch[1]){
+            requrl = mtch[1];
+            // alert(requrl);
         }
+        if(mtch && mtch[2]){
+            anchor = mtch[2];
+        }else{
+            anchor = '';
+        }
+        elem = $(fragment).addClass('nowshow');
         obj = {
-            url: url,
-            title: title,
-            id:'init',
-            hash:hash,
-            fragment:fragment
-        };
-        self.cache[obj.id] = obj;
-        self.cache[obj.id].data = $(fragment);
-        self._nowObj = $(fragment);
+            title:title,
+            requrl:requrl,
+            elem:elem,
+        }
+        self.cache[requrl] = obj;
+        self.nowObj = elem;
         if(supportPjax){
-            window.history.replaceState({url:url,title:title,id:obj.id},title,url);
+            window.history.replaceState({'url':url,'title':title,'anchor':anchor,requrl:requrl},title,url);
             window.onpopstate = function(e){
                 if(e.state){
-                    self._pop = true;
-                    self._handlePop(e.state);
+                    self.pop = true;
+                    self.handlePop(e.state);
                 }
             }
         }
-        return self;
+        self.bindEvent();
+    },
+    handlePop:function(state){
+        var self = this,
+            requrl = state.requrl;
+        if(state.init){ // 当后退到标签页再返回的时候,会出现当前div被隐藏的情况,所以这种情况下不处理
+            return false;
+        }
+        if(self.cache[requrl]){
+            // alerady have cache data for the url
+            self.handleData(self.cache[requrl],state);
+        }else{
+            // no cache for the url, to request new html and parse data
+            self.handleState(state);
+        }
+    },
+    // request new html and parse data
+    handleState:function(state){ 
+        var self = this,
+            html,
+            doc,
+            elem,
+            data,
+            regex = /<title>(.*?)<\/title>/,
+            mtch;
+        $.ajax({
+            url:state.requrl,
+            type:'GET',
+            dataType:'html',
+            beforeSend:function(){},
+            success:function(htmlData){
+                if( (mtch = regex.exec(htmlData)) && mtch[1]) {
+                    state.title = mtch[1];
+                }
+                html = $.parseHTML(htmlData);
+                doc = $(html);
+                elem = doc.find(self.fragment);
+                data = {
+                    elem:elem,
+                    title:state.title,
+                    requrl:state.requrl,
+                };
+                self.handleData(data,state);
+            },
+            error:function(){}
+        });
+    },
+    handleData:function(data,state){
+        var self = this,
+            oldObj = $(self.fragment + '.nowshow'),
+            newObj = data.elem,
+            anchor = [],
+            topixel = 0;
+        self.cache[data.requrl] = data;
+        document.title = state.title || data.title;
+        // loadComment();
+        if(self.pop){// from left to right
+            oldObj.css('margin-left','0px');
+            newObj.css('margin-left','0px').show().insertBefore(oldObj).animate({'margin-left':'680px'},300,function(){
+                newObj.addClass('nowshow');
+                oldObj.hide().removeClass('nowshow');
+                if(state.anchor){
+                    anchor = $(state.anchor);
+                    topixel = anchor.offset().top;
+                }else{
+                    topixel = 0;
+                }
+                $body.animate({scrollTop:topixel},300);
+                loadComment();
+            })
+        }else{// form right to left
+            newObj.css('margin-left','0px').show().insertAfter(oldObj);
+            oldObj.animate({'margin-left':'0px'},300,function(){
+                newObj.css('margin-left','680px').addClass('nowshow');
+                oldObj.hide().removeClass('nowshow');
+                if(state.anchor){
+                    anchor = $(state.anchor);
+                    topixel = anchor.offset().top;
+                }else{
+                    topixel = 0;
+                }
+                $body.animate({scrollTop:topixel},300);
+                loadComment();
+            })
+        }
+        if(!self.pop && supportPjax){
+            window.history.pushState({url:state.url,title:state.title,anchor:state.anchor,requrl:state.requrl},state.title,state.url);
+        }
+        self.pop = false;
     },
     bindEvent:function(){
         var self = this;
-        $body.on('click','.pjax',function(){
-            var $_this = $(this);
-            var id = $_this.attr('id');
-            var seed;
-            if(($_this).hasClass('used')){
+        $('body').on('click','a.pjax',function(){
+            // alert('click')
+            var _this = this,
+                fragment = self.fragment,
+                url = $(this).attr('href'),
+                requrl,
+                anchor,
+                regex = /^([^#]*)(#.*)?$/,
+                mtch,
+                state,
+                rregex = /^http:\/\/[^\/]*([^#]*)(#.*)?$/,
+                rurl = window.location.href,
+                rrequrl,
+                rmtch;
+            mtch = regex.exec(url);
+            rmtch = rregex.exec(rurl);
+            // console.log(mtch);
+            if(mtch && mtch[1]){
+                requrl = mtch[1];
+                // console.log(requrl)
+            }
+            if(rmtch && rmtch[1]){
+                rrequrl = rmtch[1];
+                // console.log(rrequrl)
+            }
+            if(requrl == rrequrl){ // is now page, don't response
                 return false;
+            }
+            if(mtch && mtch[2]){
+                anchor = mtch[2];
             }else{
-                if($_this.hasClass('cached')){
-                    console.log("$_this.attr('class')",$_this.attr('class'))
-                    // id = $_this.attr('id');
-                    // console.log(seed);
-                    self._tmp = self.cache[id];
-                    console.log('self._tmp 90',self._tmp);
-                    self._handleData();
-                }else{
-                    // seed = "" + (new Date()).getTime();
-                    $_this.addClass('cached');
-                    console.log($_this);
-                    // $_this.addClass(seed).addClass(seed);
-                    var url = $_this.attr('href');
-                    console.log('url',url);
-                    self._tmp['url'] = url;
-                    var fragment = $_this.data('fragment');
-                    self._tmp['fragment'] = fragment;
-                    console.log(fragment);
-                    var ary = url.split('#');
-                    var link = ary[0];
-                    var hash;
-                    // console.log($_this);
-                    if(ary[1]) {
-                        var hash = '#' + ary[1];
-                    }
-                    if(hash){
-                        self._tmp['hash'] = hash;
-                    }
-                    self._tmp['id'] = id;
-                    console.log('self._tmp 115',self._tmp);
-                    self._handleUrl();
-                }
-                // console.log(seed);
-                return false;
+                anchor = '';
+            }
+            state = {
+                url:url,
+                anchor:anchor,
+                requrl:requrl
+            }
+            if(self.cache[requrl]){
+                // alert('has cached')
+                self.handleData(self.cache[requrl],state);
+            }else{
+                self.handleState(state);
             }
             return false;
-        })
-    },
-    _handlePop:function(state){
-        var self = this;
-        console.log('state',state);
-        if($(state.id).length>0){
-            $(state.id).click();
-        }else{
-            self._tmp = self.cache['init'];
-            self._handleData(); 
-        }
-        // if($(state.seed).length > 0){
-        //     console.log('has elem');
-        //     $(state.seed).click();
-        // }else{
-            // console.log('has no elem')
-        // }
-    },
-    _handleUrl:function(){
-        var self = this;
-        $.ajax({
-            url:self._tmp['url'],
-            dataType:'html',
-            type:'GET',
-            beforeSend:function(){},
-            success:function(htmlData){
-                var title;
-                var matches = htmlData.match(/<title>(.*?)<\/title>/);
-                if (matches) {
-                    title = matches[1];
-                }
-                var html = $.parseHTML(htmlData);
-                var $html = $(html);
-                var $data = $html.find(self._tmp['fragment']);
-                self._tmp['title'] = title;
-                self._tmp['data'] = $data;
-                console.log('self._tmp 151',self._tmp);
-                self._handleData();
-            },
-            error:function(){
-                console.log('error');
-            }
         });
-    },
-    _handleData:function(){
-        var self = this;
-        var state = {
-            url:self._tmp['url'],
-            title:self._tmp['title'],
-            id:self._tmp['id']?self._tmp['id']:'',
-        }
-        if(supportPjax && !self._pop){
-            window.history.pushState(state,state.title,state.url);
-        }
-        if(self._pop){
-            self._nowObj.css('margin-left','0px');
-            self._tmp['data'].css('margin-left','0').show().insertBefore(self._nowObj).animate({'margin-left':'680px'},3000,function(){
-                self._nowObj.hide();
-                self._nowObj = self._tmp['data'];
-                self._tmp = {}; 
-            })
-        }else{
-            self._tmp['data'].css('margin-left','0px').show().insertAfter(self._nowObj);
-            self._nowObj.animate({'margin-left':'0px'},3000,function(){
-                self._nowObj.hide();
-                self._tmp['data'].css('margin-left','680px');
-                self._nowObj = self._tmp['data'];
-                self._tmp = {}; 
-            })
-        }
-        self._nowObj = self._tmp['data'];
-        self.cache[self._tmp['id']] = self._tmp;
-        console.log('self.cache',self.cache);
-        self._pop = false;
     }
 
 }
-slide.init().bindEvent();
+slide.init('div.vcontent');
 
-
-
-
-
-// window.slide ={
-//     pop: false,
-//     _oldurl:'',
-//     cache:{},
-//     _nowPage: 0,
-//     _handlePage:0,
-//     init:function(){
-//         var self = this;
-//         var url = document.location.pathname;
-//         self._oldurl = url;
-//         console.log('url',url);
-//         var anchor = document.location.hash;
-//         var title = document.title;
-//         var fragment;
-//         var press;
-//         if($('#pagination').length > 0){
-//             fragment = 'ul.listing';
-//             self._nowPage = parseInt($('#pagination a.current').data('page'));
-//             press = $('#pagination a.current');
-//         }else{
-//             fragment = 'div.vcontent';
-//         }
-//         self.cache[url] = {
-//             'title': title,
-//             'data': $(fragment),
-//             'url':url,
-//             'fragment':fragment
-//         };
-//         if(anchor){
-//             self.cache[url]['anchor'] = anchor;
-//         }
-//         if(supportPjax){
-//             var state = {
-//                 url:url,
-//                 title:title,
-//                 page:self._nowPage
-//             };
-//             window.history.replaceState(state,state.title,state.url);
-//             console.log('history',window.history)
-//             window.onpopstate = function(e){
-//                 console.log(e);
-//                 if(e.state){
-//                     self._handlePop(e.state);
-//                 }
-//             }
-//         }
-//         return self;
-//     },
-//     bindEvent:function(select){
-//         var self = this;
-//         $('body').on('click',select,function(e){
-//             var $_this = $(this);
-//             var press = $_this;
-//             var url = $_this.attr('href');
-//             var fragment = $_this.data('fragment');
-//             // $_this.addClass('current').siblings().removeClass('current');
-//             self._handlePage = $_this.data('page') ? parseInt($_this.data('page')) : 9999999;
-//             self._handleUrl(url,fragment,press);
-//             return false;
-//         })
-//     },
-//     _handlePop:function(state){
-//         var self = this;
-//         self.pop = true;
-//         self._handlePage = state.page;
-//         console.log('_handlePop',state)
-//         self._handleUrl(state.url,state.fragment);
-//     },
-//     _handleUrl:function(url,fragment,press){
-//         console.log('_handleUrl ' ,url);
-//         var self = this;
-//         var pathname = document.location.pathname;
-//         //console.log(pathname);
-//         //console.log(url);
-//         if( url == self._oldurl ){
-//             console.log('same')
-//             return;
-//         }
-//         console.log('next')
-//         if(self.cache[url]){
-//             console.log('has cache');
-//             self._handleData(self.cache[url]);
-//         }else{
-//             console.log('get data');
-//             self._getData(url,fragment,press,function(data){
-//                 self._handleData(data);
-//             }) 
-//         }
-//     },
-//     _getData:function(url,fragment,press,callback){
-//         var ary = url.split('#');
-//         var link = ary[0];
-//         var anchor;
-//         if(ary[1]){
-//             anchor = '#' + ary[1];
-//         }
-//         $.ajax({
-//             'url': url,
-//             'dataType':'html',
-//             'type':'GET',
-//             beforeSend:function(){
-
-//             },
-//             success:function(htmldata){
-//                 var title;
-//                 var matches = htmldata.match(/<title>(.*?)<\/title>/);
-//                 if (matches) {
-//                     title = matches[1];
-//                 }
-//                 var html = $.parseHTML(htmldata);
-//                 var $html = $(html);
-//                 var $data = $html.find(fragment);
-//                 var obj = {
-//                     'title':title,
-//                     'data':$data,
-//                     'url':url,
-//                     'fragment':fragment,
-//                     'press':press
-//                 };
-//                 if(anchor){
-//                     obj.anchor = anchor;
-//                 }
-//                 callback(obj);
-//             },
-//             error:function(html){
-//                 console.log(html);
-//             }
-//         });
-//     },
-//     _handleData:function(data){
-//         var self = this;
-//         document.title = data.title;
-//         var anchor = data.anchor;
-//         var _goto;
-//         var state;
-//         if(data.press.length > 0){
-//             data.press.addClass('current').siblings().removeClass('current');
-//         }
-//         if(anchor && $(anchor).length > 0){
-//             _goto = $(anchor).offset().top;
-//         }else{
-//             _goto = 0;
-//         }
-//         if(supportPjax && !self.pop){
-//             state = {
-//                 title: data.title,
-//                 url:data.url,
-//                 page:self._handlePage
-//             }
-//             console.log('state',state);
-//             console.log('history 181',window.history)
-//                 window.history.pushState(state,state.title,state.url);
-//             console.log('history 183',window.history)
-//         }
-        
-//         var fragment = data.fragment;
-//         var $oldObj = $(fragment + ':visible');
-//         var $newObj = data.data;
-//         if(self._handlePage < self._nowPage){
-//             $oldObj.css('margin-left','0px');
-//             $newObj.css('margin-left','0px').show().insertBefore($oldObj).animate({'margin-left':'680px'},300,function(){
-//                 $oldObj.hide();
-//                 $body.animate({scrollTop:_goto},300);
-//             });
-//         }else{
-//             $newObj.css('margin-left','0px').show().insertAfter($oldObj);
-//             $oldObj.animate({'margin-left':'0px'},300,function(){
-//                 $oldObj.hide();
-//                 $newObj.css('margin-left','680px');
-//                 $body.animate({scrollTop:_goto},300);
-//             })
-//         }
-//         self.cache[data.url] = data;
-//         self._oldurl = data.url;
-//         self._nowPage = self._handlePage;
-//         self.pop = false;
-//     }
-// }
-// slide.init().bindEvent('#pagination a');
 
 });
