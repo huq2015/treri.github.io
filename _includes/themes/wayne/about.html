@@ -7,12 +7,9 @@
   <div class="post">
   {{ content }}
   </div>
-  <div class="comment" id="comment">
-    {% if page.comment %}
-    {% include JB/comments %}
-    {% else %}
-        <hr />
-        <p>评论已关闭</p>
-    {% endif %}
-    </div>
+  {% if page.comment %}
+      <div class="comment" data-thread="{{page.pid}}"></div>
+  {% else %}
+      <div class="comment"><hr /><p>评论已关闭</p></div>
+  {% endif %}
 </div>
