@@ -621,18 +621,18 @@ span.anchor{
 }
 
 /* webkit scroller */
-::-webkit-scrollbar-thumb:vertical{
+::-webkit-scrollbar-thumb{
   height:10px;
   background-color:#ccc;
 }
-::-webkit-scrollbar-thumb:vertical:hover{
+::-webkit-scrollbar-thumb:hover{
   height:10px;
   background-color:#bbb;
 }
 ::-webkit-scrollbar{
   width: 8px;
   height: 5px;
-  background: #eee;
+  background: #f8f8f8;
   margin-right: 15px;
 }
 body:before{
