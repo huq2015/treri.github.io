@@ -135,8 +135,8 @@ div.fixnav {
   padding: 1px 0;
   text-align: right;
   position: fixed;
-  top: 6em;
-  right: 2em;
+  top: 0em;
+  left: 2em;
 }
 
 div.fixnav span {
@@ -453,8 +453,8 @@ li[id*='dsq-like-'] {
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-left: -400px;
-  margin-top: -30px;
+  margin-left: 400px;
+  margin-top: -50px;
 }
 
 #updown span {
