@@ -28,44 +28,45 @@ categories: [学习笔记]
 	Date:2011-5-4
 	*****************************/
 	#include<stdio.h>
-	int queen[8][8];	//定义一个二维数组,存放棋盘
-	int m=1;	//定义解法个数
+	int queen[8][8];    //定义一个二维数组,存放棋盘
+	int m=1;    //定义解法个数
 	int check(int i,int j)
 	//检查函数,结果用k返回,如果k=0,则所有的检查位置都符合条件,可以放棋子
-	{	int k=0;int a,b;
-		for(a=0;a<i;a++)//检查同列是否有棋子
-			if(queen[a][j]==1)
-			k++;
-		for(a=i-1,b=j-1;a>=0&&b>=0;a--,b--)//检查左对角线元素
-			if(queen[a][b]==1)
-			k++;
-		for(a=i-1,b=j+1;a>=0&&b<8;a--,b++)//检查右对角线元素
-			if(queen[a][b]==1)
-			k++;
-		return k;
+	{   int k=0;int a,b;
+	    for(a=0;a<i;a++)//检查同列是否有棋子
+	        if(queen[a][j]==1)
+	        k++;
+	    for(a=i-1,b=j-1;a>=0&&b>=0;a--,b--)//检查左对角线元素
+	        if(queen[a][b]==1)
+	        k++;
+	    for(a=i-1,b=j+1;a>=0&&b<8;a--,b++)//检查右对角线元素
+	        if(queen[a][b]==1)
+	        k++;
+	    return k;
 	}
 	void put(int i)  //递归函数,放棋子
-	{	int j;
-		if(i>=8)   //当i大于等于8时,输出已经放好的棋子,i从0开始
-		{
-			printf("第%d种解法:n",m++);
-			for(i=0;i<8;i++)
-				{
-					for(j=0;j<8;j++)
-						if (queen[i][j]==1 )
-							printf("%d ",j);
-						else printf("- ");
-					printf("n");
-				}
-			printf("n");
-	 
-		}
-		else 		//递归放棋子
-			for(j=0;j<8;j++)
-			{	queen[i][j]=1;
-				if(check(i,j)==0) put(i+1);
-				queen[i][j]=0;
-			}
+	{   int j;
+	    if(i>=8)   //当i大于等于8时,输出已经放好的棋子,i从0开始
+	    {
+	        printf("第%d种解法:\n",m++);
+	        for(i=0;i<8;i++)
+	            {
+	                for(j=0;j<8;j++)
+	                    if (queen[i][j]==1 )
+	                        printf("%d ",j);
+	                    else printf("- ");
+	                printf("\n");
+	            }
+	        printf("\n");
+
+	    }
+	    else        //递归放棋子
+	        for(j=0;j<8;j++)
+	        {   queen[i][j]=1;
+	            if(check(i,j)==0) 
+	                put(i+1);
+	            queen[i][j]=0;
+	        }
 	}
 	int main()  //主函数
 	{put(0);
