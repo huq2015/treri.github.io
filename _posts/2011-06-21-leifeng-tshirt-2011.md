@@ -12,7 +12,7 @@ categories: [互联网络]
 
 #### T恤图案：
 
-[![](/uploads/2011/06/Shirt.jpg)](/uploads/2011/06/Shirt.jpg)
+![](/uploads/2011/06/Shirt.jpg)
 
 #### 设计思路：[野鹤](http://xianyunyehe.net/)
 > 这个T恤设计的大的框架是以中国地图为背景，这样也不会太局限于雷锋群，只要是玩博客的，就很适合！一些常用的博客系统特别的用红色来标识出来，突显主题：不管是用什么博客系统，我们都是一家人！  
@@ -39,7 +39,7 @@ categories: [互联网络]
 
 #### 联系方式：
 - 联系邮箱：soolby(at)gmail.com
-- 联系ＱＱ：[![](http://wpa.qq.com/pa?p=1:603135:41)](http://sighttp.qq.com/cgi-bin/check?sigkey=88bb2f3f27b3f2f9375f59161f070dd692729366c172b6a88171335e742680f2)
+- 联系ＱＱ：![](http://wpa.qq.com/pa?p=1:603135:41)
 
 我要声明：(转自[i 水手](http://www.sailor521.com/))
 

@@ -10,7 +10,7 @@ categories: [Wordpress]
 
 具体效果见此处 (点击看清晰图)
 
-[![欢迎信息](http://i.imgur.com/fTJxj.png)](http://i.imgur.com/fTJxj.png)
+![欢迎信息](http://i.imgur.com/fTJxj.png)
 
 这个东西的来历呢,应该还是从PhilNa2说起.在早期版本的PhilNa2中是有这个功能的.只是在后来的版本中去掉了这个功能,我不明白是什么原因.呵呵.
 
