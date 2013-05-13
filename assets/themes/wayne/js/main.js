@@ -37,6 +37,16 @@ $(function() {
         }
     });
 
+    (function(){
+        var hash = window.location.hash;
+        if(hash != '' && $(hash).length == 0 && $('.' + hash.substring(1) + ':visible').length > 0){
+            $body.animate({
+                scrollTop: $('.' + hash.substring(1) + ':visible').offset().top
+            },300);
+        }
+    })();
+
+
     var supportPjax = window.history && window.history.pushState && window.history.replaceState && !navigator.userAgent.match(/((iPod|iPhone|iPad).+\bOS\s+[1-4]|WebApps\/.+CFNetwork)/);
 
     /**
