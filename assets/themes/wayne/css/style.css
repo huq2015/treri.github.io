@@ -94,7 +94,7 @@ a:hover {
 body {
   font-size: 14px;
   font-family: "Overlock", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #555555;
+  color: #555;
   background-image: url("../images/bg.png");
 }
 
@@ -305,9 +305,13 @@ div.fixnav a:hover {
   margin: 1em -25px 1em -25px;
   padding-left: 25px;
   padding-right: 25px;
-  border-color: #e0e0e0 !important;
+  padding-top: .7em;
+  padding-bottom: .7em;
+  background: #f8f8f8;
+  color: #444;
+  border: 1px solid #e0e0e0;
   font-size: 13px;
-  font-family: Menlo, monospace;
+  font-family: Monaco, monospace;
   line-height: 1.6;
   display: block;
   overflow: auto;
