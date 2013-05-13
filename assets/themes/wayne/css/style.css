@@ -651,3 +651,13 @@ body:before{
   background-size: 100% 8px;
   background-repeat: no-repeat;
 }
+
+.copyright{
+  background:#f6f6f6;
+  border: 1px dashed #ccc;
+  color:#555;
+  padding: 5px;
+}
+.copyright p{
+  padding:0;
+}
