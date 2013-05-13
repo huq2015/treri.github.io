@@ -19,22 +19,22 @@ a
 
 who involved in 
 
-> [GitHub](https://github.com/VitoLau)
+> <i class="icon-github"></i>[GitHub](https://github.com/VitoLau)
 >
 > [douban](http://www.douban.com/people/lwent/)
 >
-> QQ 83692901
+> <i class="icon-qq"></i>QQ: 83692901
 
 mail 
 
-> VitoLau90#gmail.com
+> <i class="icon-gmail"></i> VitoLau90#gmail.com
 >
-> lwent90#gmail.com
+> <i class="icon-gmail"></i> lwent90#gmail.com
 
 or follow 
 
-> Twitter [@VitoLau](https://twitter.com/#!/VitoLau90)
+> <i class="icon-twitter"></i> [@VitoLau](https://twitter.com/#!/VitoLau90)
 >
-> weibo [@VitoLau_](http://weibo.com/leftupme)
+> <i class="icon-weibo"></i> [@VitoLau_](http://weibo.com/leftupme)
 
 to reach me

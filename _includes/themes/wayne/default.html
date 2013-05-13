@@ -14,7 +14,7 @@
         <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed" />
         <link rel="canonical" href="{% if page.is_index %}{{ site.production_url }}{% else %}{{ site.production_url }}{{ page.url }}{% endif %}" />
         <!--[if IE 7]>
-        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/font-awesome-ie7.min.css">
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/fontello-ie7.css">
         <![endif]-->
     </head>
     <body>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="fixnav">
                     <span><a title="Home" class="icon-home pjax" href="/"></a></span>
-                    <span><a title="Archive" class="icon-list-ul pjax" href="{{ site.JB.archive_path }}"></a></span>
+                    <span><a title="Archive" class="icon-list pjax" href="{{ site.JB.archive_path }}"></a></span>
                     <span><a title="Tags" class="icon-tags pjax" href="{{ site.JB.tags_path }}"></a></span>
                     <span><a title="Categories" class="icon-bookmark pjax" href="{{ site.JB.categories_path }}"></a></span>
                     <span><a title="Links" class="icon-link pjax" href="{{ site.JB.links_path }}"></a></span>
@@ -59,7 +59,7 @@
         <a id="forkme" title="Fork me on GitHub" target="_blank" href="https://github.com/VitoLau/VitoLau.github.io"></a>
         <div id="updown">
             <span><a class="icon-angle-up" id="up" title="up"></a></span>
-            <span><a class="icon-reply" id="reply" style="display:none;" title="Reply"></a></span>
+            <span><a class="icon-comment" id="reply" style="display:none;" title="Reply"></a></span>
             <span><a class="icon-angle-down" id="down" class="down"></a></span>
         </div>
         <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
