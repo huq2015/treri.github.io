@@ -1,6 +1,3 @@
-{% if site.safe %}
-<!--  site safe -->
-{% endif %}
 {% if site.safe and site.JB.analytics.provider and page.JB.analytics != false %}
 
 {% case site.JB.analytics.provider %}
