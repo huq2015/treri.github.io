@@ -37,14 +37,22 @@ $(function() {
         }
     });
 
-    (function(){
-        var hash = window.location.hash;
-        if(hash != '' && $(hash).length == 0 && $('.' + hash.substring(1) + ':visible').length > 0){
-            $body.animate({
-                scrollTop: $('.' + hash.substring(1) + ':visible').offset().top
-            },300);
+    function goAnchor(anchor){
+        var pos;
+        if(anchor){
+            if($(anchor).length > 0 ){
+                pos = $(anchor).offset().top;
+            }else if($('.' + anchor.substring(1) + ':visible').length > 0 ){
+                pos = $('.' + anchor.substring(1) + ':visible').offset().top;
+            }
+        }else{
+            pos = 0;
         }
-    })();
+        $body.animate({
+            scrollTop: pos
+        }, 300);
+    }
+    goAnchor(window.location.hash);
 
 
     var supportPjax = window.history && window.history.pushState && window.history.replaceState && !navigator.userAgent.match(/((iPod|iPhone|iPad).+\bOS\s+[1-4]|WebApps\/.+CFNetwork)/);
@@ -169,9 +177,7 @@ $(function() {
             var self = this,
                 oldObj = $(self.fragment + '.nowshow'),
                 newObj = data.elem,
-                anchor = [],
-                is_post = /^\/\d{4}\/\d{2}\/.*\.html$/.test(data.requrl),
-                topixel;
+                is_post = /^\/\d{4}\/\d{2}\/.*\.html$/.test(data.requrl);
             if (is_post || data.requrl == '/about.html') {
                 $('#reply').show();
             } else {
@@ -187,15 +193,7 @@ $(function() {
                 }, 300, function() {
                     newObj.addClass('nowshow');
                     oldObj.hide().removeClass('nowshow');
-                    if (state.anchor) {
-                        anchor = $(state.anchor);
-                        topixel = anchor.offset().top;
-                    } else {
-                        topixel = 0;
-                    }
-                    $body.animate({
-                        scrollTop: topixel
-                    }, 300);
+                    goAnchor(state.anchor);
                     loadComment();
                 })
             } else { // form right to left
@@ -205,15 +203,7 @@ $(function() {
                 }, 300, function() {
                     newObj.css('margin-left', '680px').addClass('nowshow');
                     oldObj.hide().removeClass('nowshow');
-                    if (state.anchor) {
-                        anchor = $(state.anchor);
-                        topixel = anchor.offset().top;
-                    } else {
-                        topixel = 0;
-                    }
-                    $body.animate({
-                        scrollTop: topixel
-                    }, 300);
+                    goAnchor(state.anchor);
                     loadComment();
                 })
             }
