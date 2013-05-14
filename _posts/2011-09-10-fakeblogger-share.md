@@ -24,6 +24,6 @@ categories: [WordPress]
 
 如果你对这主题感兴趣并且使用了的话,欢迎反馈信息,如果我可以解决您的问题的话,一定会竭尽全力.
 
-主题链接 <http://u.115.com/file/bhqkhg21>
+[主题链接](/uploads/2011/09/fakeblogger.zip)
 
 __要去学习了,少说多做,各位安好.__
