@@ -10,7 +10,7 @@ categories: [互联网络]
 
 下面是demo,仅限Chrome.鼠标放上去就可以看到效果了
 
-<img id="logo" src="http://i.imgur.com/g6bTI.png" alt="chrome" style="width: 123px;cursor: pointer;">
+<img id="logo" src="/uploads/2012/11/17_01.png" alt="chrome" style="width: 123px;cursor: pointer;">
 <script type="text/javascript">
 	var _pro1 = 0,
 		_logo = document.getElementById('logo');
