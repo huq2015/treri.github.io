@@ -21,4 +21,4 @@ categories: [也来推荐]
 
 [Sublime\_Text2\_V2.0.1_zh-CN.zip](/uploads/2012/09/Sublime_Text2_V2.0.1_zh-CN.zip)
 
-![sublimetext2](/uploads/2012/09/sublimetext2.jpg)
+![sublimetext2](/uploads/2012/09/29_01.jpg)

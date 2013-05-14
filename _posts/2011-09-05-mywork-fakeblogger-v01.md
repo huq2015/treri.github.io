@@ -37,4 +37,4 @@ __问题__:
 
 感兴趣的话,可以看看哦.呵呵.[下载](/uploads/2011/09/fakebloggerV0.1.zip)
 
-![](http://i.imgur.com/6A40P.jpg)
+![](/uploads/2011/09/05_01.jpg)

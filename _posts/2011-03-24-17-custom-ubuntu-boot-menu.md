@@ -18,21 +18,21 @@ grub2是ubuntu的默认引导工具,但是却不是最漂亮的引导工具.我�
 
     sudo add-apt-repository ppa:bean123ch/burg && sudo apt-get update
     
-![](http://i.imgur.com/Ey9UG.png)
+![](/uploads/2011/03/24_13.png)
 
 完成以后,打开新立德软件包管理器,搜索 burg,然后标记,以便安装.
 
-![](http://i.imgur.com/WQ0yP.png)
+![](/uploads/2011/03/24_14.png)
 
 **注意,建议使用新立德安装burg,以免使用终端安装时出现错误**
 
 在安装的过程中,你会遇到设置窗口.出现第一个窗口时,什么都不要做,直接下一步.
 
-![](http://i.imgur.com/ldBt8.png)
+![](/uploads/2011/03/24_15.png)
 
 第二个窗口时你需要告诉burg安装在什么地方.选择你的ubuntu的根驱动器,如果你有/boot目录的话,就选择/boot目录.
 
-![](http://i.imgur.com/HCf2T.png)
+![](/uploads/2011/03/24_16.png)
 
 最后一件事就是确保burg能够正常启动,打开终端输入如下命令.
 
@@ -40,7 +40,7 @@ grub2是ubuntu的默认引导工具,但是却不是最漂亮的引导工具.我�
 
 这样安装和设置就结束了.重启机器后 引导工具就会被burg替代.在引导菜单画面时,按下F1获得帮助和其他菜单,按下F2查看主题列表,按下F3更改屏幕分辨率.
 
-![](http://i.imgur.com/7Kl5E.png)
+![](/uploads/2011/03/24_17.png)
 
 **安装 主题**
 
@@ -48,7 +48,7 @@ grub2是ubuntu的默认引导工具,但是却不是最漂亮的引导工具.我�
     
     sudo cp *PathToFile*/Fortune-BURG-v03.tar.gz /boot/burg/themes
 
-![](http://i.imgur.com/vJrd3.png)
+![](/uploads/2011/03/24_18.png)
 
 根据你的安装位置和下载文件进行命令调整即可.完成之后执行一下命令.
 

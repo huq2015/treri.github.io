@@ -6,7 +6,7 @@ comment: true
 tags: [Linux]
 categories: [学习笔记, 系统相关]
 ---
-![](http://i.imgur.com/RJCx0.png)
+![](/uploads/2011/03/25_01.png)
 
 无论你是linux命令行新手还是老鸟,这些技巧都可以让您得到提升,节省时间,提升效率,增加兴趣....
 
@@ -18,19 +18,19 @@ categories: [学习笔记, 系统相关]
 
 然后你就会看到类似下图
 
-![](http://i.imgur.com/cAIa5.png)
+![](/uploads/2011/03/25_02.png)
 
 要想执行历史中的某一条命令,只要用 !加上命令前的行号就可以了.
 
     !510
 
-![](http://i.imgur.com/DrNjw.png)
+![](/uploads/2011/03/25_03.png)
 
 你也可以看一条命令是什么时候被执行的,我们来看看3条命令之前的命令是什么.
 
     !-3
 
-![](http://i.imgur.com/agDAT.png)
+![](/uploads/2011/03/25_04.png)
 
 **快速替换**
 
@@ -38,13 +38,13 @@ categories: [学习笔记, 系统相关]
 
     sudo !!
 
-![](http://i.imgur.com/19iGw.png)
+![](/uploads/2011/03/25_05.png)
 
 假设你想要运行一个命令,而此命令的参数,在上一个命令中已经有了,但是再打出来就太麻烦了,好了,直接用!$代替即可.
 
     cd !$
 
-![](http://i.imgur.com/auTJq.png)
+![](/uploads/2011/03/25_06.png)
 
 如果你已经运行了一个带有两个参数的命令,但是接下来想要使用第一个参数的话,就可以使用!^命令,这个命令在你备份一个文件,然后想再编辑原文件的时候非常有用.
 
@@ -52,17 +52,17 @@ categories: [学习笔记, 系统相关]
 
 (注意看图中的上一条命令)
 
-![](http://i.imgur.com/kiCnJ.png)
+![](/uploads/2011/03/25_07.png)
 
 接下来让我们从你历史中搜索某条特定的命令.按下Ctrl+R,当你输入的时候,就会自动搜索.你可以使用方向键找到你想要的命令.
 
-![](http://i.imgur.com/lXeyv.png)
+![](/uploads/2011/03/25_08.png)
 
 如果你知道你运行过的命令的特定的关键字,可以跳过搜索步骤,直接找到.
 
     !keyword(keyword换成你的关键字即可)
 
-![](http://i.imgur.com/oQ9gY.png)
+![](/uploads/2011/03/25_09.png)
 
 **清空历史**
 
@@ -82,7 +82,7 @@ categories: [学习笔记, 系统相关]
 
 在下面的第四行中,cd前面是空格,所以历史中忽略了
 
-![](http://i.imgur.com/h9Tbm.png)
+![](/uploads/2011/03/25_10.png)
 
 **去掉重复**
 
@@ -90,7 +90,7 @@ categories: [学习笔记, 系统相关]
 
     HISTCONTROL=ignoredups
 
-![](http://i.imgur.com/dgWel.png)
+![](/uploads/2011/03/25_10.png)
 
 如果你既想忽略空格,也想忽略重复的话,使用如下命令
 

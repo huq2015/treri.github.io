@@ -24,7 +24,7 @@ categories: [WordPress]
 
 修改版后台设置如下图：
 
-![](http://upts5a.blu.livefilestore.com/y1peu-Vj9PLra375KQoYydCSohOfYEc12d4Kln7nu1d_L6ZF29CKWUE_2speN4j5LbL2J9-hjqzPCb7hv3B_MAXDw/Mail%20to%20Commenter%E4%BF%AE%E6%94%B9%E7%89%88.png)
+![](/uploads/2011/03/30_01.png)
 
 2、根据自己的需要**修改发件人姓名及邮箱地址**
 

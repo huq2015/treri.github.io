@@ -26,4 +26,4 @@ categories: [唠唠叨叨]
 主题简洁,我也喜欢那个风格,所以就趁着兴趣好好弄弄吧. 只能在本地弄了.要不然大家连评论的地方都找不到.
 给大家看看样子
 
-[![](http://i.imgur.com/RBs6T.png)](http://i.imgur.com/RBs6T.png)
+![](/uploads/2011/06/29_01.png)

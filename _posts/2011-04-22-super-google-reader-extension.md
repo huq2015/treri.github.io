@@ -16,19 +16,19 @@ categories: [互联网络]
 看到这个扩展之后我就马上使用了一下.效果相当好啊.不需要什么设置就可以用了.
 安装后阅读界面的效果如下
 
-![](http://i.imgur.com/tfKNO.png)
+![](/uploads/2011/04/22_04.png)
 
-![](http://i.imgur.com/eooaX.png)
+![](/uploads/2011/04/22_05.png)
 
 当你遇到一个不是全文输出的条目时,只需要点击**super settings**,然后点击**Readable content**马上就加载出全部文章了.
 
 如果你点击**full entry content**的话,效果就会变成了从Greader里面去看网站原文.所有的格式都在,效果见下面
 
-![](http://i.imgur.com/iilF9.png)
+![](/uploads/2011/04/22_06.png)
 
 在google阅读器的设置界面中还有一个单独的super选单.可以进行更详细的设置,你甚至可以让他预先读取全文和图片,或者是为不同的feed设置不同的参数.
 
-![](http://i.imgur.com/N2wWu.png)
+![](/uploads/2011/04/22_07.png)
 
 怎么样,效果相当强大啊.以后就不怕摘要输出了!
 

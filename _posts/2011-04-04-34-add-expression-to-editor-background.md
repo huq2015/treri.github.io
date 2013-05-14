@@ -11,7 +11,7 @@ categories: [WordPress]
 原来是在前台的评论框里面 点击想要的表情看看是数目转义字符,然后复制到编辑器里面.可是又写了几次,感觉这样好麻烦啊.给编辑器添加表情该多好啊.所以到网上去找找.果真有人有这样的需求,所以我也顺便弄下来啦 :lol: 
 效果图
 
-![](http://i.imgur.com/7e10L.png)
+![](/uploads/2011/04/04_01.png)
 
 参考地址是[荒野无灯weblog](http://www.ihacklog.com/wordpress/wpskills/add-wp-smiley-for-html-and-rich-text-editor.html)
 

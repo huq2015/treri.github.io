@@ -16,23 +16,23 @@ categories: [WordPress]
 
 **馒头**
 
-![](http://i.imgur.com/F1WfW.jpg)
+![](/uploads/2011/04/01_01.jpg)
 
 **海绵宝宝**
 
-![](http://i.imgur.com/XPVzF.jpg)
+![](/uploads/2011/04/01_02.jpg)
 
 **阿狸**
 
-![](http://i.imgur.com/vbgd5.jpg)
+![](/uploads/2011/04/01_03.jpg)
 
 **囧囧熊**
 
-![](http://i.imgur.com/HzOdk.jpg)
+![](/uploads/2011/04/01_04.jpg)
 
 **兔斯基**
 
-![](http://i.imgur.com/rDQUn.jpg)
+![](/uploads/2011/04/01_05.jpg)
 
 原来的做法叫做替换表情,是把下载好的图片修改成原来服务器上文件夹里面的图片名字.然后上传覆盖就可以了.
 但是我想在保留原来图片的情况下,增加多套表情.所以还是要在文件上下功夫.以下的方法参考了[自由人](http://www.zenoven.com/life/other/200911737.html)的博客.在这里表示感谢.

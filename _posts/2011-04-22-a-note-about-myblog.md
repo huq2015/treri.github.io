@@ -23,14 +23,14 @@ categories: [唠唠叨叨]
 
 加载的css文件部分
 
-![](http://i.imgur.com/hGW3H.png)
+![](/uploads/2011/04/22_01.png)
 
 加载的js文件部分 
 
-![](http://i.imgur.com/4JVWi.png)
+![](/uploads/2011/04/22_02.png)
 
 加载的html部分
 
-![](http://i.imgur.com/VCPfp.png)
+![](/uploads/2011/04/22_03.png)
 
 看到这些之后是不是有点想法了?新浪微博很占地方啊.而且有时候我还发现新浪微博的连接情况不是很好,有时候根本就刷不出来,其他部分都出来了,只剩下微博部分一篇空白.所以还是要好好想象要不要这个微博啊.

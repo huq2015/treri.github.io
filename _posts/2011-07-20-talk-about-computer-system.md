@@ -33,7 +33,7 @@ Win7系统中.用过的也不少,由于感觉win7还不成熟,所以我尽量不
 
 先说那种专门的专业版,文件名是 **SW_DVD5_Win_Pro_7_32BIT_ChnSimp_Full_MLF_X15-71025.ISO**,大小2.29G
 
-[![](http://i.imgur.com/KjULR.jpg)](http://i.imgur.com/KjULR.jpg)
+![](/uploads/2011/07/20_01.jpg)
 
 为什么要向人家推荐这个呢?
 >这个是批量授权的版本 对大客户开放的 只有旗舰、企业、专业 三个版本提供（所谓的Eopen） 
@@ -46,11 +46,11 @@ Win7系统中.用过的也不少,由于感觉win7还不成熟,所以我尽量不
 
 再说说另外一个,就是**windows Thin PC**了,这个应该说是更精简的了.文件名 **ThinPC_110415_EVAL_x86fre.iso**,大小1.46G
 
-[![](http://i.imgur.com/nABFz.jpg)](http://i.imgur.com/nABFz.jpg)
+![](/uploads/2011/07/20_02.jpg)
 
 安装完成后,C盘占用3G多一点.和普通的win7系统安装完成后占用近10G来说,确实是一个真正的精简版,并且界面还小清新哦(点击看大图)
 
-[![](http://i.imgur.com/E0Yzv.jpg)](http://i.imgur.com/E0Yzv.jpg)
+![](/uploads/2011/07/20_03.jpg)
 
 但是此系统安装完成后要想正常使用的话,还需要进行一番改动.需要安装**中文语言包**.另外,此系统,没有win7的搜索组件,不能用win7自带的搜索功能.并且没有自带**.NET环境**.需要手动安装.最要命是,这个系统,么有自带的看图程序.这也是我用了两天之后换回上面的专业版的原因.
 
