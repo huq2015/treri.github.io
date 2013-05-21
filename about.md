@@ -22,9 +22,9 @@ who involved in
 > <i class="icon-qq"></i>QQ: 83692901
 
 mail 
-> <i class="icon-gmail"></i> VitoLau90#gmail.com
+> <i class="icon-mail" style="margin-left:2px"></i>i#isayme.com
 >
-> <i class="icon-gmail"></i> lwent90#gmail.com
+> <i class="icon-gmail"></i> VitoLau90#gmail.com
 
 or follow 
 > <i class="icon-twitter"></i> [@VitoLau](https://twitter.com/#!/VitoLau90)
