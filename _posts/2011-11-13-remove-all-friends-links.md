@@ -3,7 +3,7 @@ layout: post
 title: 决定去掉友情链接
 pid: 235
 comment: true
-tags: [Wordpress, 点滴]
+tags: [WordPress, 点滴]
 categories: [唠唠叨叨]
 ---
 写原因之前首先感谢经常来的朋友对我的支持了.至于为什么要去掉友情链接,我也是思考了一段时间后才决定的.正好今天有一位朋友在微博上说要和我友情链接,所以我提前动手吧.

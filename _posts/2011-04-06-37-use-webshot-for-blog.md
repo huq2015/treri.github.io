@@ -3,7 +3,7 @@ layout: post
 title: 使用网页缩略图种种..
 pid: 37
 comment: true
-tags: [PhilNa2, Wordpress, 原创]
+tags: [PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---
 今天看到[IM路人](http://imluren.com/2010/12/webshot-for-blog.html)的博客上 说网页缩略图的功能没有停止.可是我前两天去willin大师的网站上去看的时候,明明说的是已经停止服务了. :han: 今天我又到那个服务网站上一看,确实没有停止.不知道willin大师是怎么搞的.

@@ -3,7 +3,7 @@ layout: post
 title: 后台快速添加mp3按钮
 pid: 128
 comment: true
-tags: [Wordpress, 原创, 转载]
+tags: [WordPress, 原创, 转载]
 categories: [WordPress]
 ---
 接上一篇[短代码mp3player](/2011/05/shortcode-enable-mp3player.html)

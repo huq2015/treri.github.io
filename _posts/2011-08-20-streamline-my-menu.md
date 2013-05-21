@@ -3,7 +3,7 @@ layout: post
 title: 精简了导航部分
 pid: 207
 comment: true
-tags: [CSS, PhilNa2, Wordpress]
+tags: [CSS, PhilNa2, WordPress]
 categories: [WordPress]
 ---
 昨天写的是suckerfish下拉菜单的demo,今天我就试着弄 了一下,效果还行,本着折腾别人先折腾自己的精神,所以我就把本站的导航部分换掉了.

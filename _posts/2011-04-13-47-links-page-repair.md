@@ -3,7 +3,7 @@ layout: post
 title: 友情链接页面修复
 pid: 47
 comment: true
-tags: [Wordpress, 原创]
+tags: [WordPress, 原创]
 categories: [WordPress]
 ---
 一直都想做到IM路人博客上的链接页面那样的效果,也同样向luren请教了很多.但是一直没有效果.即使是同样的代码,在我的电脑上就出不来效果.

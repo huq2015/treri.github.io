@@ -3,7 +3,7 @@ layout: post
 title: 关于此主题 Coda_Za
 pid: 223
 comment: true
-tags: [Themes, Wordpress]
+tags: [Themes, WordPress]
 categories: [WordPress]
 ---
 一直就在做这个主题,但是都没有给大家说说这个主题是怎么回事.

@@ -3,7 +3,7 @@ layout: post
 title: PhilNa2-更改默认表情图片位置
 pid: 123
 comment: true
-tags: [PhilNa2, Wordpress, 原创]
+tags: [PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---
 先唠叨几句啦.下午的时候本来就写好了.可是就在粘贴到编辑器里面的时候,学校的网突然就断了,我连草稿都没存,估计又浪费了一个文章ID....

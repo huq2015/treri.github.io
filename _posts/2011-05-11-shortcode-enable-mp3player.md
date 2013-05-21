@@ -3,7 +3,7 @@ layout: post
 title: 短代码 mp3player
 pid: 127
 comment: true
-tags: [Wordpress, 原创]
+tags: [WordPress, 原创]
 categories: [Wordpress]
 ---
 代码来源

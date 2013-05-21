@@ -3,7 +3,7 @@ layout: post
 title: 这两天博客不能评论的说明
 pid: 231
 comment: true
-tags: [Wordpress, 点滴]
+tags: [WordPress, 点滴]
 categories: [唠唠叨叨]
 ---
 这两天来我博客的朋友,对不起了.因为我的一时疏忽,导致大家不能评论.

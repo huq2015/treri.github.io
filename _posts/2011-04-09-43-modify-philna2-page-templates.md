@@ -3,7 +3,7 @@ layout: post
 title: PhilNa2主题页面模板修改
 pid: 43
 comment: true
-tags: [PhilNa2, Wordpress, 原创]
+tags: [PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---
 对于这个主题的页面模板,我只能说对我的挑战很大啊.当初刚使用这个主题时候就遇到了多多的问题,

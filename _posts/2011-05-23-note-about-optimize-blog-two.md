@@ -3,7 +3,7 @@ layout: post
 title: 博客优化小记二
 pid: 143
 comment: true
-tags: [Blog, Wordpress, 优化, 点滴]
+tags: [Blog, WordPress, 优化, 点滴]
 categories: [唠唠叨叨, WordPress]
 ---
 昨天写了个优化博客的文章,将css中涉及到的背景图片什么的,用小工具合并在一起,这样就能够减少 服务器的HTTP请求,理论上可以加快载入速度.

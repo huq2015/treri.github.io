@@ -3,7 +3,7 @@ layout: post
 title: 转-去除wp头部代码中不需要的
 pid: 124
 comment: true
-tags: [Wordpress, 转载]
+tags: [WordPress, 转载]
 categories: [WordPress]
 ---
 今天没事啦.[Microhu's Blog](http://www.microhu.com/) 的新主题更新发布.下载下来看了一下.确实既简洁又好用,非常符合我的审美观.

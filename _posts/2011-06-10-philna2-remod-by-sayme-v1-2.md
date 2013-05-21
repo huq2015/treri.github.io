@@ -3,7 +3,7 @@ layout: post
 title: PhilNa2自说Me话扩展版V1.2
 pid: 165
 comment: true
-tags: [PhilNa2, Wordpress, 原创]
+tags: [PhilNa2, WordPress, 原创]
 categories: [Wordpress]
 ---
 前几天给大家分享了我修改后的PhilNa2主题.但是当时由于时间有点急,有好多地方需要大家手动修改,很不方便.
