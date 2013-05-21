@@ -3,8 +3,8 @@ layout: post
 title: 64位Debian安装感受
 pid: 2013052101
 comment: true
-keywords: "Linux"
-description: ""
+keywords: "64bitLinux"
+description: "64位Debian安装感受"
 categories: [唠唠叨叨]
 tags: [点滴]
 ---
@@ -26,4 +26,4 @@ tags: [点滴]
 
 考虑到以上问题，只好换回了32位系统，暂时只利用了3G内存。目前一切正常，没有遇到任何兼容性或者崩溃事件。
 
-用某年高考语言的一个标题，“64位Debian，想说爱你不容易”。
+用某年高考语文的一个标题，“64位Debian，想说爱你不容易”。
