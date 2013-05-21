@@ -3,7 +3,7 @@ layout: post
 title: 获取豆瓣FM加红心列表
 pid: 210
 comment: true
-tags: [DoubanFM, python]
+tags: [DoubanFM, Python]
 categories: [互联网络]
 ---
 不记得从什么时候用的豆瓣FM了,听了不少次数了,感觉还不错,听到了不少好歌.好多都是自己在别的地方听过,但是不知道名字.现在我又重新听到了.呵呵.
