@@ -3,7 +3,7 @@ layout: post
 title: PhilNa2首页文章收缩再修复
 pid: 144
 comment: true
-tags: [jQuery, PhilNa2, Wordpress, 原创]
+tags: [jQuery, PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---
 前面讲到过关于使用philna2收缩而进行的一些修改.具体请看[PhilNa2首页文章收缩及问题修复](/2011/05/home-article-toggle-problems.html)  那里面讲的是如何让文章页不收缩的方法,就是修改ID号了.

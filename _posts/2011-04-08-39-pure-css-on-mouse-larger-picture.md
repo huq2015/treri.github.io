@@ -3,7 +3,7 @@ layout: post
 title: 纯css鼠标放上去图片变大
 pid: 39
 comment: true
-tags: [Wordpress, CSS]
+tags: [WordPress, CSS]
 categories: [WordPress]
 ---
 前两天从网上找关于实现安读者墙的代码.找到了一段.放在博客上效果还可以.但是在使用的时候遇到了一点问题.

@@ -3,7 +3,7 @@ layout: post
 title: 修改philna2主题之文章几处更新
 pid: 103
 comment: true
-tags: [PhilNa2, Wordpress, 原创]
+tags: [PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---
 ## 第一个就是最重量级的更新

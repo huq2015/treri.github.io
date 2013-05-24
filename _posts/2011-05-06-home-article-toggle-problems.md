@@ -3,7 +3,7 @@ layout: post
 title: PhilNa2首页文章收缩及问题修复
 pid: 117
 comment: true
-tags: [PhilNa2, Wordpress, 原创]
+tags: [PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---
 今天终于有空写写这个了.话说这个效果最先是木木 博客上的效果,可惜现在连木木都不用了,他又换上了宽屏,看着好大气....

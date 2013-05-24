@@ -7,13 +7,13 @@
   <div class="post">
     <div id='tag_cloud'>
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}-ref" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
     {% endfor %}
     </div>
 
     <ul class="listing">
     {% for tag in site.tags %}
-      <div class="anchorouter"><a href="#{{ tag[0] }}-ref" class="anchor"><span class="icon-hand-right anchor"></span></a><li class="listing-seperator" id="{{ tag[0] }}-ref">{{ tag[0] }}</li></div>
+      <div class="anchorouter"><a href="#{{ tag[0] }}" class="anchor"><span class="icon-hand-right anchor"></span></a><li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li></div>
     {% for post in tag[1] %}
       <li class="listing-item">
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>

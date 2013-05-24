@@ -3,7 +3,7 @@ layout: post
 title: jQuery上下浮动滚动[4-22更新]
 pid: 83
 comment: true
-tags: [PhilNa2, Wordpress]
+tags: [PhilNa2, WordPress]
 categories: [WordPress]
 ---
 唉 几天没写点东西啦. 

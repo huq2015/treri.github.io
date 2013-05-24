@@ -3,7 +3,7 @@ layout: post
 title: PhilNa2使用google自定义搜索
 pid: 150
 comment: true
-tags: [Google, PhilNa2, Wordpress, 原创]
+tags: [Google, PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---
 为什么使用google自定义搜索呢?

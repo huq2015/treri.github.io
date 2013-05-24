@@ -3,7 +3,7 @@ layout: post
 title: 给wordpress添加图片渐显效果
 pid: 13
 comment: true
-tags: [Wordpress]
+tags: [WordPress]
 categories: [WordPress]
 ---
 本文参考了KuKi的懒懒窝,只不过在调用地址的地方.稍微修改了一下.呵呵
