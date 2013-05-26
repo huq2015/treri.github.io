@@ -109,7 +109,7 @@ $(function() {
             } else {
                 anchor = '';
             }
-            elem = $(fragment).addClass('nowshow');
+            elem = $(fragment).addClass('nowshow').data('timestamp','_' + (new Date()).getTime());
             obj = {
                 title: title,
                 requrl: requrl,
@@ -162,7 +162,7 @@ $(function() {
                     }
                     html = $.parseHTML(htmlData);
                     doc = $(html);
-                    elem = doc.find(self.fragment);
+                    elem = doc.find(self.fragment).data('timestamp','_' + (new Date()).getTime());
                     data = {
                         elem: elem,
                         title: state.title,
@@ -186,16 +186,23 @@ $(function() {
             self.cache[data.requrl] = data;
             document.title = state.title || data.title;
             // loadComment();
+            //console.log(oldObj.data('timestamp'))
+            //console.log(newObj.data('timestamp'))
             if (self.pop) { // from left to right
-                oldObj.css('margin-left', '0px');
-                newObj.css('margin-left', '0px').show().insertBefore(oldObj).animate({
-                    'margin-left': '680px'
-                }, 300, function() {
-                    newObj.addClass('nowshow');
-                    oldObj.hide().removeClass('nowshow');
+                if(oldObj.data('timestamp') != newObj.data('timestamp') ){//fix issue #1
+                   oldObj.css('margin-left', '0px');
+                    newObj.css('margin-left', '0px').show().insertBefore(oldObj).animate({
+                        'margin-left': '680px'
+                    }, 300, function() {
+                        newObj.addClass('nowshow');
+                        oldObj.hide().removeClass('nowshow');
+                        goAnchor(state.anchor);
+                        loadComment();
+                    }) 
+                }else{
                     goAnchor(state.anchor);
                     loadComment();
-                })
+                }
             } else { // form right to left
                 newObj.css('margin-left', '0px').show().insertAfter(oldObj);
                 oldObj.animate({
