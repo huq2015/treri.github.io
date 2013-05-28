@@ -79,10 +79,10 @@ $(function() {
     loadComment();
 
     var slide = {
-        nowPage: 0,
-        handlePage: 0,
         pop: false,
         fragment: '',
+        timestamp:false,
+        direct:false,
         cache: {},
         init: function(fragment) {
             var self = this,
@@ -91,7 +91,8 @@ $(function() {
                 mtch, requrl = '',
                 title = document.title,
                 anchor = '',
-                elem, obj = null;
+                elem, obj = null,
+                timestamp;
             self.fragment = fragment;
             mtch = regex.exec(url);
             if (mtch && mtch[1]) {
@@ -116,16 +117,21 @@ $(function() {
                 elem: elem,
             }
             self.cache[requrl] = obj;
+            timestamp = (new Date()).getTime();
             if (supportPjax) {
                 window.history.replaceState({
                     'url': url,
                     'title': title,
                     'anchor': anchor,
-                    'requrl': requrl
+                    'requrl': requrl,
+                    'timestamp':timestamp
                 }, title, url);
                 window.onpopstate = function(e) {
                     if (e.state) {
                         self.pop = true;
+                        if(self.timestamp > e.state.timestamp){
+                            self.direct = 'BACK';
+                        }
                         self.handlePop(e.state);
                     }
                 }
@@ -185,10 +191,7 @@ $(function() {
             }
             self.cache[data.requrl] = data;
             document.title = state.title || data.title;
-            // loadComment();
-            //console.log(oldObj.data('timestamp'))
-            //console.log(newObj.data('timestamp'))
-            if (self.pop) { // from left to right
+            if (self.pop && self.direct == 'BACK') { // from left to right
                 if(oldObj.data('timestamp') != newObj.data('timestamp') ){//fix issue #1
                    oldObj.css('margin-left', '0px');
                     newObj.css('margin-left', '0px').show().insertBefore(oldObj).animate({
@@ -204,25 +207,33 @@ $(function() {
                     loadComment();
                 }
             } else { // form right to left
-                newObj.css('margin-left', '0px').show().insertAfter(oldObj);
-                oldObj.animate({
-                    'margin-left': '0px'
-                }, 300, function() {
-                    newObj.css('margin-left', '680px').addClass('nowshow');
-                    oldObj.hide().removeClass('nowshow');
+                if(oldObj.data('timestamp') != newObj.data('timestamp') ){//fix issue #1
+                    newObj.css('margin-left', '0px').show().insertAfter(oldObj);
+                    oldObj.animate({
+                        'margin-left': '0px'
+                    }, 300, function() {
+                        newObj.css('margin-left', '680px').addClass('nowshow');
+                        oldObj.hide().removeClass('nowshow');
+                        goAnchor(state.anchor);
+                        loadComment();
+                    })
+                }else{
                     goAnchor(state.anchor);
                     loadComment();
-                })
+                }
             }
             if (!self.pop && supportPjax) {
                 window.history.pushState({
                     url: state.url,
                     title: state.title,
                     anchor: state.anchor,
-                    requrl: state.requrl
+                    requrl: state.requrl,
+                    timestamp:state.timestamp
                 }, state.title, state.url);
             }
             self.pop = false;
+            self.direct = false;
+            self.timestamp = state.timestamp;
         },
         bindEvent: function() {
             var self = this;
@@ -234,7 +245,7 @@ $(function() {
                     requrl, anchor, regex = /^([^#]*)(#.*)?$/,
                     mtch, state, rregex = /^http:\/\/[^\/]*([^#]*)(#.*)?$/,
                     rurl = window.location.href,
-                    rrequrl, rmtch;
+                    rrequrl, rmtch,timestamp = (new Date()).getTime();
                 mtch = regex.exec(url);
                 rmtch = rregex.exec(rurl);
                 // console.log(mtch);
@@ -261,7 +272,8 @@ $(function() {
                 state = {
                     url: url,
                     anchor: anchor,
-                    requrl: requrl
+                    requrl: requrl,
+                    timestamp:timestamp
                 }
                 if (self.cache[requrl]) {
                     // alert('has cached')
