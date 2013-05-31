@@ -78,7 +78,7 @@ $(function() {
     }
     loadComment();
 
-    var slide = {
+    var pjax = {
         pop: false,
         fragment: '',
         timestamp:false,
@@ -286,5 +286,5 @@ $(function() {
         }
 
     }
-    slide.init('div.vcontent');
+    pjax.init('div.vcontent');
 });
