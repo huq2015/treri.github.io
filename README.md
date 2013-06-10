@@ -1,4 +1,10 @@
-## 自说Me话
+     ___   ____                                     
+    |_ _| / ___|    __ _   _   _   _ __ ___     ___ 
+     | |  \___ \   / _` | | | | | | '_ ` _ \   / _ \
+     | |   ___) | | (_| | | |_| | | | | | | | |  __/
+    |___| |____/   \__,_|  \__, | |_| |_| |_|  \___|
+                           |___/                    
+## 自说Me话 ##
 New Blog of <http://ISayme.com> based on GitHub Pages.
 
 If you are seeing the old posts, only having to add '.html' to the post link you want to view. All works well.
