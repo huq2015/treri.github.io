@@ -12,7 +12,7 @@ From 2011-03-24 to now
 Using GAE(micolog) --> WordPress --> Jekyll
 ### VitoLau
 a
-> Front ender | Linuxer | Coder
+> Front ender | Linuxer | Macer | Googler | Coder
 
 who involved in 
 > <i class="icon-github"></i>[GitHub](https://github.com/VitoLau)
