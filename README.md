@@ -15,11 +15,3 @@ Have questions or want to contact me, feel free to mail i[AT]isayme.com. :-)
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
-
-     mmmmm   mmmm                             
-       #    #"   "  mmm   m   m  mmmmm   mmm  
-       #    "#mmm  "   #  "m m"  # # #  #"  # 
-       #        "# m"""#   #m#   # # #  #"""" 
-     mm#mm  "mmm#" "mm"#   "#    # # #  "#mm" 
-                           m"                 
-                          ""    
