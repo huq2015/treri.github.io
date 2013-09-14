@@ -2,7 +2,7 @@
 layout: post
 title: 侧栏最新评论滑动显示
 pid: 188
-comment: true
+comments: true
 tags: [JavaScript, WordPress]
 categories: [WordPress]
 ---

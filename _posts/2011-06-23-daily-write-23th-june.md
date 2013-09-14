@@ -2,7 +2,7 @@
 layout: post
 title: 6月23日吐槽
 pid: 174
-comment: true
+comments: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

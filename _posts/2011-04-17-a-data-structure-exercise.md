@@ -2,7 +2,7 @@
 layout: post
 title: 数据结构习题一则
 pid: 84
-comment: true
+comments: true
 tags: [C, 原创, 数据结构]
 categories: [学习笔记]
 ---

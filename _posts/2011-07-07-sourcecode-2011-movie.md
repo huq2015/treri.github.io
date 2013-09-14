@@ -2,7 +2,7 @@
 layout: post
 title: 源代码 Source Code (2011)
 pid: 184
-comment: true
+comments: true
 tags: [Movie]
 categories: [也来推荐]
 ---

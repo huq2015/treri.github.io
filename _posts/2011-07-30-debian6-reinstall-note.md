@@ -2,7 +2,7 @@
 layout: post
 title: debian6再安装小记
 pid: 197
-comment: true
+comments: true
 tags: [Debian, Linux]
 categories: [互联网络]
 ---

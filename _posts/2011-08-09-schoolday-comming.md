@@ -2,7 +2,7 @@
 layout: post
 title: 临开学小记
 pid: 201
-comment: true
+comments: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

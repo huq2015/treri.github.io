@@ -2,7 +2,7 @@
 layout: post
 title: CSS3 Brower Support mirror(2012-10-4)
 pid: 248
-comment: true
+comments: true
 tags: [CSS3]
 categories: [学习笔记]
 ---

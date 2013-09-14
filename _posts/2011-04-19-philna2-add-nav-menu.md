@@ -2,7 +2,7 @@
 layout: post
 title: PhilNa2增加自定义导航菜单
 pid: 86
-comment: true
+comments: true
 tags: [PhilNa2, WordPress]
 categories: [Wordpress]
 ---

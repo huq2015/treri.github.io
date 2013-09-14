@@ -2,7 +2,7 @@
 layout: post
 title: Anti Spam小墙貌似已经可以了
 pid: 121
-comment: true
+comments: true
 tags: [spam, 点滴]
 categories: [唠唠叨叨]
 ---

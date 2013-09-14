@@ -2,7 +2,7 @@
 layout: post
 title: 文章页实时更改文字大小新代码
 pid: 108
-comment: true
+comments: true
 tags: [PhilNa2, WordPress]
 categories: [WordPress]
 ---

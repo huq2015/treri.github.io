@@ -2,7 +2,7 @@
 layout: post
 title: wget中文乱码
 pid: 195
-comment: true
+comments: true
 tags: [C, Linux, Wget]
 categories: [互联网络]
 ---

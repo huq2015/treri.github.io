@@ -2,7 +2,7 @@
 layout: post
 title: 逛了下wp论坛
 pid: 151
-comment: true
+comments: true
 tags: [Blog, 点滴]
 categories: [唠唠叨叨]
 ---

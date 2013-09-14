@@ -2,7 +2,7 @@
 layout: post
 title: 修改数据库前缀之后
 pid: 119
-comment: true
+comments: true
 tags: [Blog, WordPress]
 categories: [唠唠叨叨]
 ---

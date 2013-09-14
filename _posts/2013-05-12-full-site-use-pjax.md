@@ -2,7 +2,7 @@
 layout: post
 title: 全站启用pjax加载
 pid: 2013051201
-comment: true
+comments: true
 keywords: ""
 description: ""
 categories: [学习笔记]

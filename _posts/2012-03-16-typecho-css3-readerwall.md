@@ -2,7 +2,7 @@
 layout: post
 title: Typecho版 css3读者墙
 pid: 243
-comment: true
+comments: true
 tags: [CSS3, Typecho, 读者墙]
 categories: [学习笔记]
 ---

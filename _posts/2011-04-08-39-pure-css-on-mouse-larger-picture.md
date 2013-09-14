@@ -2,7 +2,7 @@
 layout: post
 title: 纯css鼠标放上去图片变大
 pid: 39
-comment: true
+comments: true
 tags: [WordPress, CSS]
 categories: [WordPress]
 ---

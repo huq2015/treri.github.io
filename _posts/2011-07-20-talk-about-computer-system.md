@@ -2,7 +2,7 @@
 layout: post
 title: 电脑系统之谈顺便推荐两个win7
 pid: 191
-comment: true
+comments: true
 tags: [Windows, 原创]
 categories: [系统相关]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 决定去掉友情链接
 pid: 235
-comment: true
+comments: true
 tags: [WordPress, 点滴]
 categories: [唠唠叨叨]
 ---

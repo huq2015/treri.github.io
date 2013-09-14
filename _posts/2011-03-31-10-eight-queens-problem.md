@@ -2,7 +2,7 @@
 layout: post
 title: 初识 八皇后问题
 pid: 10
-comment: true
+comments: true
 tags: [数据结构]
 categories: [学习笔记]
 ---

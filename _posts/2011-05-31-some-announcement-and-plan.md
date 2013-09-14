@@ -2,7 +2,7 @@
 layout: post
 title: 使用主题的一点说明和计划
 pid: 158
-comment: true
+comments: true
 tags: [PhilNa2, Themes, 原创]
 categories: [唠唠叨叨]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: suckerfish下拉菜单
 pid: 206
-comment: true
+comments: true
 tags: [CSS]
 categories: [学习笔记]
 ---

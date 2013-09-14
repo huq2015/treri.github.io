@@ -2,7 +2,7 @@
 layout: post
 title: PhilNa2首页Ajax加载文章
 pid: 141
-comment: true
+comments: true
 tags: [Ajax, jQuery, PhilNa2, 原创]
 categories: [WordPress]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 代码访问随机日志
 pid: 118
-comment: true
+comments: true
 tags: [WordPress, 转载]
 categories: [WordPress]
 ---

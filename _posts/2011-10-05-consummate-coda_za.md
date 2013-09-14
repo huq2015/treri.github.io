@@ -2,7 +2,7 @@
 layout: post
 title: 完善主题coda_za
 pid: 226
-comment: true
+comments: true
 tags: [WordPress, 点滴]
 categories: [WordPress]
 ---

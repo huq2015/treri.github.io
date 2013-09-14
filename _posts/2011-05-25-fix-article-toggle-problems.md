@@ -2,7 +2,7 @@
 layout: post
 title: PhilNa2首页文章收缩再修复
 pid: 144
-comment: true
+comments: true
 tags: [jQuery, PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---

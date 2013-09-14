@@ -2,7 +2,7 @@
 layout: post
 title: 关于此主题 Coda_Za
 pid: 223
-comment: true
+comments: true
 tags: [Themes, WordPress]
 categories: [WordPress]
 ---

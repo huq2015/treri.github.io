@@ -2,7 +2,7 @@
 title: About
 layout: about
 pid: 7
-comment: true
+comments: true
 group: navigation
 ---
 {% include JB/setup %}

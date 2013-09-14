@@ -2,7 +2,7 @@
 layout: post
 title: 一段python代码显神通
 pid: 198
-comment: true
+comments: true
 tags: [Linux, Python]
 categories: [学习笔记]
 ---

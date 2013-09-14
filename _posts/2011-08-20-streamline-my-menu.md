@@ -2,7 +2,7 @@
 layout: post
 title: 精简了导航部分
 pid: 207
-comment: true
+comments: true
 tags: [CSS, PhilNa2, WordPress]
 categories: [WordPress]
 ---

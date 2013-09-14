@@ -2,7 +2,7 @@
 layout: post
 title: 解决-数据结构八皇后问题
 pid: 113
-comment: true
+comments: true
 tags: [C, 原创, 数据结构]
 categories: [学习笔记]
 ---

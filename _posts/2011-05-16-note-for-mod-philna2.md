@@ -2,7 +2,7 @@
 layout: post
 title: 数数我对PhilNa2的Mod
 pid: 134
-comment: true
+comments: true
 tags: [PhilNa2, 原创, 点滴]
 categories: [唠唠叨叨]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: wp后台编辑器添加表情
 pid: 34
-comment: true
+comments: true
 tags: [PhilNa2, WordPress]
 categories: [WordPress]
 ---

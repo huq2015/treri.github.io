@@ -2,7 +2,7 @@
 layout: post
 title: CSS3进度条
 pid: 257
-comment: true
+comments: true
 tags: [CSS3]
 categories: [学习笔记]
 ---

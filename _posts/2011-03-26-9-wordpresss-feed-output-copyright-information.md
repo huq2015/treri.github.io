@@ -2,7 +2,7 @@
 layout: post
 title: wordpress的feed输出版权信息
 pid: 9
-comment: true
+comments: true
 tags: [WordPress]
 categories: [WordPress]
 ---

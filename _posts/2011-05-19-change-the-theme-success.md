@@ -2,7 +2,7 @@
 layout: post
 title: 换主题成功
 pid: 138
-comment: true
+comments: true
 tags: [Themes, 点滴]
 categories: [唠唠叨叨]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: WP-Syntax代码框增加滑动效果
 pid: 133
-comment: true
+comments: true
 tags: [WordPress, 转载]
 categories: [WordPress]
 ---

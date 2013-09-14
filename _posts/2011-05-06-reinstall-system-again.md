@@ -2,7 +2,7 @@
 layout: post
 title: 又一次重装系统
 pid: 116
-comment: true
+comments: true
 tags: [Debian, Linux, 点滴]
 categories: [唠唠叨叨]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 流水帐一篇[4.30]
 pid: 107
-comment: true
+comments: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

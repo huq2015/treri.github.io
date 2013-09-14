@@ -2,7 +2,7 @@
 layout: post
 title: 自定义Ubuntu系统引导菜单
 pid: 17
-comment: true
+comments: true
 tags: [Linux]
 categories: [系统相关]
 ---

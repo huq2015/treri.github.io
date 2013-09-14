@@ -2,7 +2,7 @@
 layout: post
 title: 最近杂事
 pid: 204
-comment: true
+comments: true
 tags: [点滴]
 categories: [唠唠叨叨]
 ---

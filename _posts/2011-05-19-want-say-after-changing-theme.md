@@ -2,7 +2,7 @@
 layout: post
 title: 更换主题后想说说
 pid: 139
-comment: true
+comments: true
 tags: [Themes, 点滴]
 categories: [唠唠叨叨]
 ---

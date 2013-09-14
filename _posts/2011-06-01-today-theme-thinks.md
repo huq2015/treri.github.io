@@ -2,7 +2,7 @@
 layout: post
 title: 今日整理主题感想
 pid: 159
-comment: true
+comments: true
 tags: [PhilNa2, 点滴]
 categories: [唠唠叨叨]
 ---

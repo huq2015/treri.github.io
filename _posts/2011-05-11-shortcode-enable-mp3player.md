@@ -2,7 +2,7 @@
 layout: post
 title: 短代码 mp3player
 pid: 127
-comment: true
+comments: true
 tags: [WordPress, 原创]
 categories: [Wordpress]
 ---

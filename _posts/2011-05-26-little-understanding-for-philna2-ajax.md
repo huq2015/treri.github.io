@@ -2,7 +2,7 @@
 layout: post
 title: 对PhilNa2的Ajax的一丁点理解
 pid: 145
-comment: true
+comments: true
 tags: [Ajax, jQuery, PhilNa2, 原创]
 categories: [唠唠叨叨]
 ---
