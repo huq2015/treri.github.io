@@ -49,7 +49,7 @@ task :post do
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
-  rescue Exception => e
+  rescue => e
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
@@ -101,7 +101,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll serve --watch"
+  system "jekyll serve -w"
 end # task :preview
 
 # Public: Alias - Maintains backwards compatability for theme switching.
@@ -112,7 +112,7 @@ namespace :theme do
   # Public: Switch from one theme to another for your blog.
   #
   # name - String, Required. name of the theme you want to switch to.
-  #        The the theme must be installed into your JB framework.
+  #        The theme must be installed into your JB framework.
   #
   # Examples
   #
