@@ -59,7 +59,9 @@
         <a id="forkme" title="Fork me on GitHub" target="_blank" href="https://github.com/VitoLau/VitoLau.github.io"></a>
         <div id="updown">
             <span><a class="icon-angle-up" id="up" title="up"></a></span>
-            <span><a class="icon-comment" id="reply" style="display:none;" title="Reply"></a></span>
+            {% if page.comment %}
+            <span><a class="icon-comment" id="reply" title="Reply"></a></span>
+            {% endif %}
             <span><a class="icon-angle-down" id="down" class="down"></a></span>
         </div>
         <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
