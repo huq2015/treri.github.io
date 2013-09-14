@@ -6,7 +6,7 @@ comments: true
 tags: [Linux]
 categories: [系统相关]
 ---
-[![null](http://i.imgur.com/4aOcS.png "Hosted by imgur.com")](http://i.imgur.com/4aOcS.png)
+![](/uploads/2011/03/24_32.png)
 
 grub2是ubuntu的默认引导工具,但是却不是最漂亮的引导工具.我们知道ubuntu是可以高度自定义化的,这次我们就要教你怎么让你的引导工具更漂亮.
 
