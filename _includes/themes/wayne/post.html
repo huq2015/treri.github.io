@@ -9,7 +9,7 @@
         {% if page.tags %}
         <span class="tags">
             {% for tag in page.tags %}
-            <a class="pjax" href="{{site.JB.tags_path}}#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+            <a href="{{site.JB.tags_path}}#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
             {% endfor %}
         </span>
         {% endif %}
@@ -32,10 +32,10 @@
 {% if page.previous or page.next %}
 <div id="page_nav">
     {% if page.previous %}
-    <a class="pjax" href='{{page.previous.url}}'>← Prev</a>
+    <a href='{{page.previous.url}}'>← Prev</a>
     {% endif %}
     {% if page.next %}
-    <a class="pjax" href='{{page.next.url}}'>Next →</a>
+    <a href='{{page.next.url}}'>Next →</a>
     {% endif %}
 </div>
 {% endif %}
