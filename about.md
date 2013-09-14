@@ -10,12 +10,12 @@ group: navigation
 ### Blog
 From 2011-03-24 to now  
 Using GAE(micolog) --> WordPress --> Jekyll
-### VitoLau
+### Jeremial
 a
 > Front ender | Linuxer | Macer | Googler | Coder
 
 who involved in 
-> <i class="icon-github"></i>[GitHub](https://github.com/VitoLau)
+> <i class="icon-github"></i>[GitHub](https://github.com/Jeremial)
 >
 > [douban](http://www.douban.com/people/lwent/)
 >
@@ -24,11 +24,11 @@ who involved in
 mail 
 > <i class="icon-mail" style="margin-left:2px"></i>i#isayme.com
 >
-> <i class="icon-gmail"></i> VitoLau90#gmail.com
+> <i class="icon-gmail"></i> Jeremial90#gmail.com
 
 or follow 
-> <i class="icon-twitter"></i> [@VitoLau](https://twitter.com/#!/VitoLau90)
+> <i class="icon-twitter"></i> [@Jeremial90](https://twitter.com/#!/Jeremial90)
 >
-> <i class="icon-weibo"></i> [@自说Me话_](http://weibo.com/leftupme)
+> <i class="icon-weibo"></i> [@Jeremial90](http://weibo.com/leftupme)
 
 to reach me
