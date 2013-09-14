@@ -16,4 +16,4 @@ categories: [WordPress]
 - 更新帅哥美女认证
 - 其它一些小地方更新
 
-[下载链接](https://github.com/VitoLau/PhilNa2_Sayme/archive/v1.5.1.zip)
+[下载链接](https://github.com/Jeremial/PhilNa2_Sayme/archive/v1.5.1.zip)
