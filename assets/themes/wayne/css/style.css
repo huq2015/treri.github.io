@@ -317,13 +317,15 @@ div.fixnav a:hover {
   color: #c0c0c0;
   margin: 0.25em 0 1em;
 }
-
-.content .meta .tags a {
+.content .meta .tags,.content .meta .categories{
+  margin-left: 10px;
+}
+.content .meta .tags a,.content .meta .categories a {
   color: #c0c0c0;
   padding: .25em;
 }
 
-.content .meta .tags a:hover {
+.content .meta .tags a:hover,.content .meta .categories a:hover {
   color: #999999;
 }
 

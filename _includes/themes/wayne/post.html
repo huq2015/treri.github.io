@@ -6,11 +6,20 @@
         <span class="time">
             <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
         </span>
+        {% if page.categories %}
+        <span class="categories">
+          <span class="icon-bookmark" title="Categories"></span>
+          {% for category in page.categories %}
+          <a href="{{site.JB.categories_path}}#{{ category }}" title="{{ category }}">{{ category }}</a>
+          {% endfor %}
+        </span>
+        {% endif %}
         {% if page.tags %}
         <span class="tags">
-            {% for tag in page.tags %}
-            <a href="{{site.JB.tags_path}}#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
-            {% endfor %}
+          <span class="icon-tags" title="Tags"></span>
+          {% for tag in page.tags %}
+          <a href="{{site.JB.tags_path}}#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+          {% endfor %}
         </span>
         {% endif %}
     </div>
