@@ -8,7 +8,7 @@
   {{ content }}
   </div>
   {% if page.comments %}
-    <div class="ds-thread comment" data-thread-key="{{page.pid}}"></div>
+    <div class="ds-thread" data-thread-key="{{page.pid}}"></div>
     <script type="text/javascript">
         var duoshuoQuery = {short_name:'{{ site.JB.comments.duoshuo.short_name }}'};
             (function() {
@@ -21,6 +21,6 @@
             })();
     </script>
   {% else %}
-    <div class="comment"><hr /><p>评论已关闭</p></div>
+    <div id="ds-thread"><hr /><p>评论已关闭</p></div>
   {% endif %}
 </div>

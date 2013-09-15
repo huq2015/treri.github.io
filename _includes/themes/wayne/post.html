@@ -32,7 +32,7 @@
         <span class="icon-info"></span>声明:如無特別申明,文章均為博主原創并遵循 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh" title="署名-非商业性使用-相同方式共享3.0共享协议" target="_blank" rel="nofollow">BY-NC-SA-3.0</a>. 转载请注明转自<a title="{{site.tagline}}" href="{{site.production_url}}" rel="inlinks">{{site.title}} &trade;</a></p>
     </div>
     {% if page.comments %}
-        <div class="ds-thread comment" data-thread-key="{{page.pid}}"></div>
+        <div class="ds-thread" data-thread-key="{{page.pid}}"></div>
         <script type="text/javascript">
             var duoshuoQuery = {short_name:'{{ site.JB.comments.duoshuo.short_name }}'};
                 (function() {
@@ -45,7 +45,7 @@
                 })();
         </script>
     {% else %}
-        <div class="comment"><hr /><p>评论已关闭</p></div>
+        <div id="ds-thread"><hr /><p>评论已关闭</p></div>
     {% endif %}
 </div>
 

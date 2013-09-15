@@ -348,7 +348,7 @@ div.fixnav a:hover {
   background-color: #e6e6e6;
 }
 
-.comment {
+#ds-thread,#comment {
   margin-top: 2em;
 }
 

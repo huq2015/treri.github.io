@@ -50,14 +50,13 @@
         </div> <!-- main -->
         <a id="forkme" title="Fork me on GitHub" target="_blank" href="https://github.com/Jeremial/Jeremial.github.io"></a>
         <div id="updown">
-            <span><a class="icon-angle-up" id="up" title="up"></a></span>
+            <span><a class="icon-angle-up scroll" href="#main" title="up"></a></span>
             {% if page.comments %}
-            <span><a class="icon-comment" id="reply" title="Reply"></a></span>
+            <span><a class="icon-comment scroll" href="#ds-thread" id="reply" title="Reply"></a></span>
             {% endif %}
-            <span><a class="icon-angle-down" id="down" class="down"></a></span>
+            <span><a class="icon-angle-down scroll" href="#footer" title="down"></a></span>
         </div>
-        <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
-        <script type="text/javascript" src="{{ ASSET_PATH }}/js/main.js"></script>
+        <script type="text/javascript" src="{{ ASSET_PATH }}/js/smooth-scroll.js"></script>
         {% include JB/analytics %}
     </body>
 </html>
