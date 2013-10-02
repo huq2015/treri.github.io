@@ -1,4 +1,0 @@
-#!/bin/bash
-echo "switch theme $1 to $2"
-sed -i "s/$1/$2/g" `grep $1 -rl ./_layouts`
-echo 'switch theme success'

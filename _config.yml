@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:year/:month/:title.html
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "History.markdown", "CNAME"]
 pygments: true
 markdown: rdiscount
 paginate: 4
@@ -16,9 +16,12 @@ description : "Jeremial's Individual Blog. 自说Me话,一个前端开发新手�
 tagline : "I Say Me | 我说我自己 | 我说世界"
 author :
   name : Jeremial
-  email : lwent90@gmail.com
+  email : Jeremial90@gmail.com
   github : Jeremial
   twitter : Jeremial90
+  douban : lwent
+  QQ : 83692901
+  weibo : leftupme
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed

@@ -9,26 +9,26 @@ group: navigation
 <br />
 ### Blog
 From 2011-03-24 to now  
-Using GAE(micolog) --> WordPress --> Jekyll
-### Jeremial
+GAE(micolog) --> WordPress --> Jekyll
+### {{ site.author.name }}
 a
 > Front ender | Linuxer | Macer | Googler | Coder
 
-who involved in 
-> <i class="icon-github"></i>[GitHub](https://github.com/Jeremial)
+who involved in
+> <i class="icon-github"></i>[GitHub](https://github.com/{{ site.author.github }})
 >
-> [douban](http://www.douban.com/people/lwent/)
+> [douban](http://www.douban.com/people/{{ site.author.douban }}/)
 >
-> <i class="icon-qq"></i>QQ: 83692901
+> <i class="icon-qq"></i>QQ: {{ site.author.QQ }}
 
-mail 
+mail
 > <i class="icon-mail" style="margin-left:2px"></i>i#isayme.com
 >
-> <i class="icon-gmail"></i> Jeremial90#gmail.com
+> <i class="icon-gmail"></i> {{ site.author.email }}
 
-or follow 
-> <i class="icon-twitter"></i> [@Jeremial90](https://twitter.com/#!/Jeremial90)
+or follow
+> <i class="icon-twitter"></i> [@{{ site.author.twitter }}](https://twitter.com/#!/{{ site.author.twitter }})
 >
-> <i class="icon-weibo"></i> [@Jeremial90](http://weibo.com/leftupme)
+> <i class="icon-weibo"></i> [@{{ site.author.twitter }}](http://weibo.com/{{ site.author.weibo }})
 
 to reach me
