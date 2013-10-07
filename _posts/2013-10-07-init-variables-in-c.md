@@ -17,7 +17,7 @@ tags: [C]
     int a = 12;
     char b = 'a';
     float c = 12.3;
-    
+
 ### 数组
 - __字符数组__
 
