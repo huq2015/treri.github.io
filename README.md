@@ -9,7 +9,7 @@ New Blog of <http://ISayme.com> based on GitHub Pages.
 
 If you are seeing the old posts, only having to add '.html' to the post link you want to view. All works well.
 
-**If you want to fork me, please delete the directories `demo`, `resume`, `uploads` and all posts in `_posts`, thx~**
+**If you want to fork me, please delete the directories `demo`, `uploads` and all posts in `_posts`, thx~**
 
 Have questions or want to contact me, feel free to mail i[AT]isayme.com. :-)
 
