@@ -519,7 +519,7 @@ span.anchor{
 }
 
 /* webkit scroller */
-::-webkit-scrollbar-thumb{
+/*::-webkit-scrollbar-thumb{
   height:10px;
   background-color:#ccc;
 }
@@ -532,7 +532,7 @@ span.anchor{
   height: 5px;
   background: #f8f8f8;
   margin-right: 15px;
-}
+}*/
 body:before{
   content: "";
   position: fixed;
