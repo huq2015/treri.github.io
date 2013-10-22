@@ -15,39 +15,10 @@ tags: [JavaScript, CoffeeScript]
 
 所以下面的三个方法就是实现这个目的.
 
-    // CoffeeScript
-    
-    max = (a, b)->
-      if a > b then a else b
-
-    min = (a, b)->
-      if a < b then a else b
-
-    insidePolygon = (d, x, y)->
-      p1x = d[0]
-      p1y = d[1]
-      N = d.length / 2
-      counter = 0
-      for i in [0..N]
-        p2x = d[2 * (i % N)]
-        p2y = d[2 * (i % N) + 1]
-        if y > min p1y, p2y
-          if y <= max p1y, p2y
-            if x <= max p1x, p2x
-              if p1y != p2y
-                xinters = (y - p1y) * (p2x - p1x) / (p2y - p1y) + p1x
-                if p1x is p2x or x <= xinters
-                  counter++
-        p1x = p2x
-        p1y = p2y
-
-      if counter % 2 is 0
-        0
-      else
-        1
+<script src="https://gist.github.com/Jeremial/7098115.js"></script>
 
 ## 检验方法
-    
+
     // CoffeeScript
 
     // 多边形
