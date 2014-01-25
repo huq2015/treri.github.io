@@ -17,7 +17,7 @@ Have questions or want to contact me, feel free to mail i[AT]isayme.com. :-)
 
 The MIT License (MIT)
 
-Copyright (c) 2011-2013 Jeremial(jeremial90@gmail.com)
+Copyright (c) 2011-2014 Jeremial(jeremial90@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
