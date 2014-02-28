@@ -22,8 +22,6 @@ who involved in
 > <i class="icon-qq"></i>QQ: {{ site.author.QQ }}
 
 mail
-> <i class="icon-mail" style="margin-left:2px"></i>i#isayme.com
->
 > <i class="icon-gmail"></i> {{ site.author.email }}
 
 or follow
