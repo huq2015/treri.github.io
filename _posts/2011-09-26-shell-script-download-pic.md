@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 一段shell程序下载图片
 pid: 224
@@ -28,11 +28,11 @@ categories: [学习笔记]
     curl $url | sed -n 's/.*src="([^"]*[.jpg|.jpeg|.png])".*/1/gp' >$DEST
     while read line #这里是在每个图片地址前面加上行号,并显示给操作者,以便选择截取哪几行的地址
     do
-    echo ${i} ${line} 
+    echo ${i} ${line}
     ((i+=1))
     done<$DEST
     echo "输入截取开始行和结束行"
-    read start 
+    read start
     read end
     sed -n ${start},${end}p $DEST >>$DOWNLOAD #追加方式
     rm $DEST
@@ -45,7 +45,7 @@ categories: [学习笔记]
     read count
     while read line
     do
-    curl -o $count.jpg $line 
+    curl -o $count.jpg $line
     ((count+=1))
     done<$DOWNLOAD
     rm $DOWNLOAD
@@ -103,4 +103,4 @@ http://127.0.0.1/index.html的文件内容如下
 上面的输入截取开始行和结束行后,在文件夹中会有一个download文件,里面的网址会是
 http://127.0.0.1/b.jpg  
 http://127.0.0.1/abbb.jpg  
-http://127.0.0.1/ccc.jpg  
+http://127.0.0.1/ccc.jpg

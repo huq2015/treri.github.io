@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 发微(FaWave)添加twitter同步
 pid: 22
@@ -6,7 +6,7 @@ comments: true
 tags: [Twitter]
 categories: [互联网络, 学习笔记]
 ---
-[发微(FaWave)](https://chrome.google.com/extensions/detail/aicelmgbddfgmpieedjiggifabdpcnln?hl=zh-cn)，一款Chrome上的微博插件，支持多微博，真正的实时同步发送微博，多微博发送不再烦。目前支持的微博有腾讯微博(qq)、新浪微博(sina)、搜狐微博(sohu)、饭否、做啥、嘀咕(digu)、人间网、雷猴、豆瓣、Google Buzz、网易微博(163)。 
+[发微(FaWave)](https://chrome.google.com/extensions/detail/aicelmgbddfgmpieedjiggifabdpcnln?hl=zh-cn)，一款Chrome上的微博插件，支持多微博，真正的实时同步发送微博，多微博发送不再烦。目前支持的微博有腾讯微博(qq)、新浪微博(sina)、搜狐微博(sohu)、饭否、做啥、嘀咕(digu)、人间网、雷猴、豆瓣、Google Buzz、网易微博(163)。
 
 功能全面、强大，还可以批量发送图片。最初设计的时候是有twitter同步的,但是后来由于众所周知的原因,把这个功能去掉了,本文即是为此而来,我们就是要把他加上.
 

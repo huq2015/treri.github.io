@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 转-代码实现社会化分享工具
 pid: 110
@@ -33,38 +33,38 @@ categories: [他山之石]
 	function getParamsOfShareWindow(width, height) {
 		return ['toolbar=0,status=0,resizable=1,width=' + width + ',height=' + height + ',left=',(screen.width-width)/2,',top=',(screen.height-height)/2].join('');//定义好弹窗样式
 	}
-	 
+
 	function bindShareList() {
 		var link = encodeURIComponent(document.location); // 文章链接
 		var title = encodeURIComponent(document.title.substring(0,76)); // 文章标题
 		var source = encodeURIComponent('自说Me话'); // 网站名称
 		var windowName = 'share'; // 子窗口别称
 		var site = 'http://ISayMe.com/'; // 网站链接
-	 
+
 		jQuery('.twitter').click(function() {  //DOM操作html的class元素
 			var url = 'http://twitter.com/home?url=' + link + '&text=' + title;//分享网址格式
 			var params = getParamsOfShareWindow(500, 375);
 			window.open(url, windowName, params);//弹出一个窗口中打开页面
 		});
-	 
+
 		jQuery('.renren').click(function() {
 			var url = 'http://share.renren.com/share/buttonshare?link=' + link + '&title=' + title;
 			var params = getParamsOfShareWindow(626, 436);
 			window.open(url, windowName, params);
 		});
-	 
+
 		jQuery('.sina').click(function() {
 			var url = 'http://v.t.sina.com.cn/share/share.php?url=' + link + '&title=' + title;
 			var params = getParamsOfShareWindow(607, 523);
 			window.open(url, windowName, params);
 		});
-	 
+
 		jQuery('.t_qq').click(function() {
 			var url = 'http://v.t.qq.com/share/share.php?title=' + title + '&source=' + source + '&url='+ link;
 			var params = getParamsOfShareWindow(642, 468);
 			window.open(url, windowName, params);
 		});
-	 
+
 		jQuery('.qzone').click(function() {
 			var url = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title=' + title + '&url=' + link + '&site=' + site;
 			var params = getParamsOfShareWindow(634, 668);
@@ -73,7 +73,7 @@ categories: [他山之石]
 	}
 	bindShareList();//调用
 	});
-	
+
 按照相关注释修改成你的网址和网站名称后，将以上代码按照UTF-8编码保存为share.js，然后再header.php的< head>标签内或者footer.php的< /body>之前引用。
 然后，我们还得有分享样式，以下是html代码：
 
@@ -84,7 +84,7 @@ categories: [他山之石]
 	 <span><a class="renren" title="分享到人人网">人人网</a></span>
 	 <span><a class="qzone" title="分享到QQ空间">QQ空间</a></span>
 	</div>
-	
+
 将以上代码放在你需要放置的位置，比如echo_log.php的文章末尾处。
 当然还得有样式规范，以下是CSS样式代码，放在你模板的css文件即可：
 
@@ -95,7 +95,7 @@ categories: [他山之石]
 	* html .clearfix{height:1%;}
 	.clearfix{display:block;}
 	/* 清除浮动代码结束 */
-	 
+
 	/* 这是分享部分的样式代码 */
 	.share{padding:5px;}
 	.share span{float:left;margin:0 15px 0 0;}
@@ -106,13 +106,13 @@ categories: [他山之石]
 	.share .renren{background-position:0 -32px;}
 	.share .qzone{background-position:0 -48px;}
 	.share .t_qq{background-position:0 -64px;}
-	
+
 最后，是一个图标了，在附件中提供下载。当然注意CSS代码中的图标路径要匹配。
 至此，整个分享条制作完毕，感觉这样是不是舒服多了。呵呵，兼容性嘛，样式完全兼容，但是在IE6下，本来是小窗口新页面显示分享站点的却是整个页面显示了，没什么大问题。这个我只能表示让蛋疼的IE6去死吧，懒得兼容了。最后提供打包好的代码。
 
 ---
 
 说明一下.那个icon.gif,由于我的主题文件中已经有了icon.gif文件,因此如果想要再使用的话.就要改名了.我改成了icon2.gif,要不然就会一片难堪哟.呵呵.
-另外那个css部分,大家看着自己调整吧.我就不把我调整的拿出来了.想要我的话,自己看源代码. :lol: 
+另外那个css部分,大家看着自己调整吧.我就不把我调整的拿出来了.想要我的话,自己看源代码. :lol:
 
 文中提到的 附件地址.我上传到了115网盘,点击[此处](http://u.115.com/file/f02c182464)下载.

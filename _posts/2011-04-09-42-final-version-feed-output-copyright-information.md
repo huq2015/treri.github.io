@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2主题feed输出版权最终版
 pid: 42
@@ -24,7 +24,7 @@ categories: [Wordpress]
 
 最后作一下修缮工作. 首先,functions.php里面的那个函数可以光荣下岗了.直接删除.然后把*philnaFeedRelatedPosts*函数中的`{$content .= philnaRelatedPosts('limit=8&xcerpt_length=0');}`再*加个判断*,让他只在feed中显示(你应该不想在文章页也同时显示相关文章,因为文章下面已经有主题作者做好的相关文章啦.)
 
-*Update:*:jiong: 我吃饱了撑的,直接在if(is\_feed())前面添加要增加if(is\_feed()||is_single())函数不就好了吗? 想弄的童鞋别犯我这样的错误了. 其实出这样的笑话都是 一边修改一边测试的原因,怕出现问题,所以每次只改一点,才闹了这样的笑话. :lol: 
+*Update:*:jiong: 我吃饱了撑的,直接在if(is\_feed())前面添加要增加if(is\_feed()||is_single())函数不就好了吗? 想弄的童鞋别犯我这样的错误了. 其实出这样的笑话都是 一边修改一边测试的原因,怕出现问题,所以每次只改一点,才闹了这样的笑话. :lol:
 
 最后贴一下 我的philnaFeedRelatedPosts函数,大家对照着看一下,就会更明白啦.
 
@@ -40,4 +40,4 @@ categories: [Wordpress]
 	}
 	add_filter('the_content', 'philnaFeedRelatedPosts', 0);
 
-在这里感谢Japhia童鞋 童鞋了.要不是他问我,我也想不起来去鼓捣一下这个feed中的版权信息的位置. :evil: 
+在这里感谢Japhia童鞋 童鞋了.要不是他问我,我也想不起来去鼓捣一下这个feed中的版权信息的位置. :evil:

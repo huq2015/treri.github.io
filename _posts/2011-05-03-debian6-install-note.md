@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Debian6安装小记
 pid: 111
@@ -22,7 +22,7 @@ categories: [系统相关]
     chmod a+r simsun.ttc  //然后给字体增加读权限.
     fc-cache -f //刷新字体缓存
     fc-list  //查看是否已经安装上宋体了.
-    
+
 使用同样的方法,还可以给debian安装win里面的微软雅黑等等.
 这样字体乱码的问题就解决了.
 ### 第二个就是解决网络问题了.
@@ -31,13 +31,13 @@ categories: [系统相关]
 先激活网卡
 
     ifconfig eth0 up
-    
+
 然后就是安装你的网络客户端了,此处因个人而异,由于我们学校使用的是h3c客户端,所以过程就不说了.
 
 连上网络后,先输入以下命令,将原来的源改了,
 
     gedit /etc/apt/sources.list
-    
+
 因为安装的时候使用的光盘,所以源里面默认的就是从光盘中读取东西,但是光盘中的东西毕竟有限,而且我已经将光盘拿出来了.所以用以下内容替换/etc/apt/sources.list 中的那个没加注释的那一行
 
     deb http://mirrors.163.com/debian squeeze main non-free contrib
@@ -49,13 +49,13 @@ categories: [系统相关]
     deb http://http.us.debian.org/debian squeeze main contrib non-free
     deb http://non-us.debian.org/debian-non-US squeeze/non-US main contrib non-free
     deb http://security.debian.org squeeze/updates main contrib non-free
-    
+
 我使用的是163的源,感觉速度还可以.
 
 做完后进行一下apt源的更新.
 
     apt-get update
-    
+
 然后使用以下命令修复一下安装过程中的错误.
 
     apt-get -f install
@@ -71,20 +71,20 @@ categories: [系统相关]
     apt-get install sudo
     chmod u+w /etc/sudoers //给此文件增加写入权限
     gedit /etc/sudoers
-    
+
 找到
 
     root ALL=(ALL) ALL
-    
+
 一行,在下一行添加
 
-    sayme ALL=(ALL) ALL 
-    
+    sayme ALL=(ALL) ALL
+
 将sayme换成你的用户名
 然后更改文件权限,
 
     chmod 0440 /etc/sudoers
-    
+
 不做这一步你的普通用户就无法使用sudo命令.
 这样你再以普通用户身份使用sudo命令 时候就可以了.
 
@@ -94,11 +94,11 @@ categories: [系统相关]
 我是从fcitx的googlecode的项目主页上下载了deb包,然后安装的.
 
     sudo dpkg -i *.deb
-    
+
 这样就行了.为什么使用dpkg呢,因为debian里面双击deb不是默认安装的,而是使用归档管理器打开deb包.要想双击deb包安装软件的话,需要安装一个教gdebi的软件.
 
     sudo apt-get install gdebi
-    
+
 这样双击deb包,就会默认提示你安装了.
 
 基本的问题解决了,但是肯定有更多的问题等着俺啊,没办法,使用debian的时候我就做好了

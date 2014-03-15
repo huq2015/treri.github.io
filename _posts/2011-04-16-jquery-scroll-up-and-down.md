@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: jQuery上下浮动滚动[4-22更新]
 pid: 83
@@ -6,7 +6,7 @@ comments: true
 tags: [PhilNa2, WordPress]
 categories: [WordPress]
 ---
-唉 几天没写点东西啦. 
+唉 几天没写点东西啦.
 昨天到网上又转了一圈 看到了这个jQuery 上下浮动滚动.原来也看到人家的博客上有,效果不错所以就给自己也整上了.感觉还不错.呵呵
 
 下面说说折腾过程. 说来全部都是人家的东西.也就是记录一下吧.
@@ -57,7 +57,7 @@ categories: [WordPress]
      position:relative;
      width:32px;
      }
- 
+
 最后是jquery函数部分啦
 
      jQuery(document).ready(function (a) {
@@ -96,7 +96,7 @@ categories: [WordPress]
 或者是在head中添加一条类似加载jquery库的方法,加载这个js文件即可.
 
 css部分针对自己的情况再改一下吧.
-哦 用到的图片,在 [捣鼓笔记](http://www.dao-gu.com/web/updown.html)上有一个图标,我现在使用的图标是 [狼图腾](http://erick.im)博客中使用的图标,希望他不要介意啊 :evil: 
+哦 用到的图片,在 [捣鼓笔记](http://www.dao-gu.com/web/updown.html)上有一个图标,我现在使用的图标是 [狼图腾](http://erick.im)博客中使用的图标,希望他不要介意啊 :evil:
 好了.记录完毕.
 
 * * *

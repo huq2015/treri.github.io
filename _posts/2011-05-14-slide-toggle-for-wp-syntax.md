@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: WP-Syntax代码框增加滑动效果
 pid: 133
@@ -47,23 +47,23 @@ categories: [WordPress]
         overflow-y: hidden;
         expression(this.scrollWidth > this.offsetWidth ? 15 : 0);
     }
-     
+
     .wp_syntax table {
         border-collapse: collapse;
     }
-     
+
     .wp_syntax div.code, .wp_syntax td {
         vertical-align: top;
         padding: 2px 4px;
     }
-     
+
     .wp_syntax .line_numbers {
         text-align: right;
         background-color: #def;
         color: gray;
         overflow: visible;
     }
-     
+
     .wp_syntax pre {
         width: auto;
         float: none;

@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: IE浏览器中Image对象onload失效的解决办法
 pid: 256
@@ -24,7 +24,7 @@ categories: [学习笔记]
         alert(this.src);
         //other
     };
-    
+
 修改之后的代码是这样写的
 
     var img = new Image();
@@ -33,7 +33,7 @@ categories: [学习笔记]
         //other
     };
     img.src = "test.gif";
-    
+
 是的 只是把onload的定义放到了设置img src之前就行了.
 
 所以IE中img onload事件加载不了的原因是,不是因为IE浏览器不会触发onload事件，而是因为加载缓冲区的速度太快，在没有告诉它加载完要怎么办时，它已经加载完了。

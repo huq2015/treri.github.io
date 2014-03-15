@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: "[PhilNa2]some chinese please"
 pid: 120
@@ -29,13 +29,13 @@ categories: [WordPress]
 我看到主题的commentajax.php中有好多提示.而且用的是
 
     fail(__('The post is in trash box', YHL));
-    
+
 这样的格式.
 所以依葫芦画瓢,将代码更改.原来的代码中提示前面用的是wp_die,原代码如下:
 
     function scp_comment_post( $incoming_comment ) {
         $pattern = '/[一-龥]/u';
-     
+
         // 禁止全英文评论
         if(!preg_match($pattern, $incoming_comment['comment_content'])) {
             wp_die( "You should type some Chinese word (like "你好") in your comment to pass the spam-check, thanks for your patience! 您的评论中必须包含汉字!" );
@@ -43,7 +43,7 @@ categories: [WordPress]
         return( $incoming_comment );
     }
     add_filter('preprocess_comment', 'scp_comment_post');
-    
+
 我改成此主题中特有的fail的样式
 *注意:*我改成了此主题特有的格式.因此下面的代码就只有philna2主题可以使用了,*各位注意!!*
 
@@ -56,7 +56,7 @@ categories: [WordPress]
         return( $incoming_comment );
     }
     add_filter('preprocess_comment', 'scp_comment_post');
-    
+
 *具体使用方法:*将上面的代码放到functions.php中,然后就可以啦.试验一下.只输入英文字符,点击提交就会提示你要输入英文.
 
 *效果如下图*
@@ -67,6 +67,6 @@ categories: [WordPress]
 
 原插件还有后台设置神马的,现在我弄完后,也没有后台设置,评论框下面也没有提示,感觉还不错.嘿嘿.
 
-呵呵.也算是弄了一个东西.以后大家再评论的时候就不能只输入表情或者英文啦.要注意哦 :eek:  :evil: 
+呵呵.也算是弄了一个东西.以后大家再评论的时候就不能只输入表情或者英文啦.要注意哦 :eek:  :evil:
 
 *注:*本文中的代码来源 [露兜博客](http://www.ludou.org/wordpress-simple-way-to-anti-spam.html),表示感谢,同样感谢some chinese please插件的作者[冰古](http://bingu.net),因为所有的这些代码都是从some chinese please插件中提取出来的.

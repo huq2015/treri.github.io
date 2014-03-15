@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2主题修改优化细节记录
 pid: 40
@@ -43,7 +43,7 @@ categories: [Wordpress]
 * 侧边栏tab切换,具体方法点击[此处](/2011/04/philna2-sidebar-tab-switch.html)
 * 评论楼层前4层标注具体名称:沙发,藤椅,板凳,地板,添加"点击评论者头像回复评论"
 * 文章页面折叠相关文章,折叠无觅推荐.
-* 读者墙换用新代码,添加血条显示,评论最多者满血 :lol: 
+* 读者墙换用新代码,添加血条显示,评论最多者满血 :lol:
 * 去掉首页文章ajax翻页.具体的简单做法为给首页的翻页框的pagenavi的id更名,然后补充一个和pagenavi相同的css样式即可.
 * 边框以及评论者头像添加圆角效果.同时评论表情添加 hover倾斜效果.
 * 集成 [some chinese please插件](/2011/05/code-some-chinese-please.html)效果.

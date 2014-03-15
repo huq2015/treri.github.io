@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2侧栏tab切换
 pid: 105
@@ -42,7 +42,7 @@ css代码,我是在木木文章中的css代码 加以修改后使之更符合现
 
 希望大家按照自己对样式以及颜色等等的喜好进行一下修改.可能代码会有冗余,但是我能力有限,不会精简,只要能够使用我就OK了.
 
-最后一个就是 jQuery代码.	
+最后一个就是 jQuery代码.
 
     $('#tab-title span').mouseover(function(){
         $(this).addClass("selected").siblings().removeClass();

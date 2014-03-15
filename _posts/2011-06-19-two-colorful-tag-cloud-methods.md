@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 我所知道的两种彩色标签云
 pid: 171
@@ -22,7 +22,7 @@ categories: [WordPress]
     }
     add_filter('wp_tag_cloud', 'colorCloud', 1);
     ?>
-    
+
 具体使用方法就是把这段代码扔functions.php里面就行了.具体颜色值随机显示.
 
 这是最为常见的一种方法了.
@@ -48,7 +48,7 @@ categories: [WordPress]
     }
     add_filter('wp_tag_cloud', 'colorCloud', 1);
     ?>
-    
+
 第二种:就是我使用的PhilNa2中使用的方法了.这个需要在style.css中指定一下颜色值了.
 
     .tagcolor_0{color:#888;}

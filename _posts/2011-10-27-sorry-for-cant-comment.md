@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 这两天博客不能评论的说明
 pid: 231
@@ -25,7 +25,7 @@ js的问题,由于我用的jquery是比较老的1.3.2版本的,对于type的支�
 
 来验证type属性的.
 而1.6.4是用的rinput.test( this.type ) 验证.
-而rinput在上面定义过了. 
+而rinput在上面定义过了.
 
     rinput=/^(?:color|date|datetime|datetime-local|email|hidden|month|number|password|range|search|tel|text|time|url|week)$/i,
 

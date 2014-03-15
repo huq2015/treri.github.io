@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: wordpress添加AJAX评论效果(非插件版)
 pid: 12
@@ -16,9 +16,9 @@ tags: [WordPress]
 1.下载上面说的zip文件.
 
 2.下载后将里面的文件上传到当前使用的模板所在的目录里面.然后修改模板文件*head.php*.找到以下内容
-    
+
     <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
-    <?php wp_head(); ?> 
+    <?php wp_head(); ?>
 
 用下面的几行代码代替(*我前面说了.我直接把google的那个js文件下载下来放在了服务器上,所以要在调用地址那里改一下,其实.下面的那个comments-ajax.js文件也可以放在一个专门放第三方js文件的地方,这样便于以后管理.*)
 

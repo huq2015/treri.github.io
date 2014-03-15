@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 今天移植了一个主题
 pid: 215

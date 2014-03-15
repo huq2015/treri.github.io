@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: debian 6 stable蛋疼升级记
 pid: 211
@@ -71,7 +71,7 @@ IPV6嘛,分分钟的事,哈哈
 折腾完毕.
 现在系统,执行
 
-    cat /etc/debian_version 
+    cat /etc/debian_version
 显示结果
 
     wheezy/sid

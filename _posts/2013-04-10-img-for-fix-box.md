@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 固定大小的容器中图片宽高不一致处理办法
 pid: 255
@@ -42,5 +42,5 @@ categories: [学习笔记]
     <div style="width:250px;height:250px;padding:10px;border:1px solid #ccc;text-align:center;">
         <img src="a.jpg">
     </div>
-    
+
 无任何技术含量,记录一下,以后遇到类似的问题方便查找

@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 本地wordpress后台需要FTP密码解决办法
 pid: 182
@@ -26,16 +26,16 @@ wordpress 目录的权限，755就可以在ssh下输入：
 我们可以通过命令：
 
     #chown apache:apache -R [目录名] #将wordpress的目录所有权交给apache用户即可。
-    
+
 很多朋友不清楚 apache 进程所有者是那个用户。下面大家可以用这么一条命令查看。
 
     #ps -aux #在结果中我们可以看到httpd 进程 所有者为apache用户。
     apache    6180  0.0  6.4  53488 33188 ?        S    Jun19   0:47 /usr/sbin/httpd
-    
+
 经过以上的步骤操作之后，回到wordpress后台大家就可以正常的安装插件，更新程序了。
 
 不再为了wp-content 无法创建，而烦恼了。
-* * * 
+* * *
 说说俺的步骤吧.我没有弄权限,因为是本地嘛,权限本来就是正确的.
 我的解决就是用的第二步,将wordpress的用户组改掉就好了.
 
@@ -49,9 +49,9 @@ wordpress 目录的权限，755就可以在ssh下输入：
 
 这个最前面的用户名就是关键.
 按照金刚童鞋说的,将wordpress文件夹的用户组和用户改成apache服务的用户组就好了.
-    
+
     sudo chown www-data:www-data -R /var/www
-    
+
 完事了,OK!!现在去后台再安装插件就不需要 FTP的账号和密码了.HOHO~~
 
 **最后再说明一下,本人使用的环境是**Ubuntu10.04.2 .php环境是使用新利得软件包管理器安装的LAMP套装

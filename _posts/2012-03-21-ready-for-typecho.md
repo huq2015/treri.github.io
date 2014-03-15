@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 准备更换typecho
 pid: 244

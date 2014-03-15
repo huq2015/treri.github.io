@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: FakeBlogger主题初步完成
 pid: 218

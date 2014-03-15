@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2首页文章收缩再修复
 pid: 144

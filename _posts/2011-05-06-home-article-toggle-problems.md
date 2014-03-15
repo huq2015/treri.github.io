@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2首页文章收缩及问题修复
 pid: 117
@@ -22,7 +22,7 @@ categories: [WordPress]
 *首先*在style.css里面将文章部分的css代码变成隐藏(根据自己的主题调整),即
 
     #content .post_content{display:none}
-    
+
 *然后*是主角, jquery代码,来自木木的文章[\[jQuery\] 首页文章伸缩新方式新代码](http://immmmm.com/articles-telescopic-effect-new-code.html),我只是把提到的元素换成了我主题里面的对应元素(*如果您用的不是philna2主题,请到木木的博客上看源代码,然后按照自己的主题进行修改*),
 
     $('#content .post_title').click(function(){ //点击class="post-title"元素（即文章标题）触发事件
@@ -42,7 +42,7 @@ categories: [WordPress]
         return false; //阻止默认点击打开新窗口事件发生
     });
     $('#content .post_title:first').click(); //模拟用户点击第一个class="post-title"元素（即首篇文章标题）
-    
+
 这样弄完基本上就可以出现效果了,如果没有神马要求的话.就是这么简单.
 
 *但是我在使用此效果后还发现了一些问题.所以在这里一并说说,让大家少走点弯路.*
@@ -58,7 +58,7 @@ categories: [WordPress]
 在template.php文件中,将
 
     <div id="content">
-        
+
 改为如下代码
 
     <?php if(is_single() || is_page()):?>
@@ -66,7 +66,7 @@ categories: [WordPress]
             <?php else: ?>
                 <div id="content">
             <?php endif;?>
-            
+
 这样,在文章页还有独立页面,ID号是content2, jquery代码就不起作用了.
 还需要做的就是在style.css中添加*ID为content2*的css代码,和content的一样就可以了. 修改后的css为
 
@@ -83,7 +83,7 @@ categories: [WordPress]
 
 原来的效果是点击一下标题,Ajax加载文章内容.但是现在再点击标题,会出现只是跳到文章部分.但是内容并没有改变.原因就是,此Ajax加载,变更的是ID为content的内容,但是现在的文章页的ID是content2,所以会出现内容无变化的情况.对于这个的修改方法,我觉得我的方法也比较简单.就是修改此主题的函数.
 
-具体位置为 js/philna2.js 主题作者压缩了代码,所以你找个解压缩的网站,解压一下,再看下面的步骤. 
+具体位置为 js/philna2.js 主题作者压缩了代码,所以你找个解压缩的网站,解压一下,再看下面的步骤.
 解压网站推荐http://box.inote.cc/ 我感觉还不错.
 在解压后的代码中寻找
 
@@ -91,11 +91,11 @@ categories: [WordPress]
             var w = $("#pagenavi a");
             var v = $("#pagenavi");
             var x = $("#pagenavi").html();........................
-            
+
 这样的代码,然后在有content的地方,添加一个content2,变成像下面的效果
 
     var B = $("#content2,#content");
-    
+
 在下面的function j()下面好像还有一个,虽然不知道是干嘛的,但是也一并改了.没删除东西,所以请放心,不会出现错误
 
 OK,基本上改完啦.改完代码之后你可以选择再压缩,也可以不压缩,直接粘贴到原philna2.js里面替换原内容也行

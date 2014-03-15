@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 一段python代码显神通
 pid: 198
@@ -23,7 +23,7 @@ categories: [学习笔记]
     #!/usr/bin/env python
     #coding=utf-8
     import binascii,os
-     
+
     filesizes={}
     samefiles=[]
     def filesize(path):
@@ -36,7 +36,7 @@ categories: [学习笔记]
             if not filesizes.has_key(size):
                  filesizes[size]=[]
             filesizes[size].append(path)
-     
+
     def filecrc(files):
         filecrcs={}
         for file in files:
@@ -49,7 +49,7 @@ categories: [学习笔记]
         for filecrclist in filecrcs.values():
             if len(filecrclist)>1:
                samefiles.append(filecrclist)
-     
+
     if __name__ == "__main__":
         filesize("/home/oneleaf/test/")
         for sizesamefilelist in filesizes.values():
@@ -64,13 +64,13 @@ categories: [学习笔记]
 
 下面是我的测试结果(将相同的文件散布于几个文件夹中)
 
-    lwent@lwent:~$ ./name.py 
+    lwent@lwent:~$ ./name.py
     ******* same files group **********
     /home/lwent/test/2/aa.txt
     /home/lwent/test/aa.txt
     /home/lwent/test/1/test2/aa.txt
     /home/lwent/test/1/aa.txt
-    lwent@lwent:~$ 
+    lwent@lwent:~$
 
 具体有什么用处呢?
 

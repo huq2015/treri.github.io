@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: ubuntu安装dropbox失败 解决方法
 pid: 199
@@ -23,7 +23,7 @@ dropbox响当当的大名,想必大家都知道吧? 好久之前,就听说了这
 2. 安装完成后，解压缩 dropbox-linux.tar.gz 到当前目录，将解压出来的 .dropbox-dist 文件夹放入你的家目录(就是/home/你的用户名).
 .dropbox-dist文件夹是隐藏文件夹,你可以点击查看->显示隐藏文件 来查看它
 3. 点击 应用程序->互联网->Dropbox  登录你的帐号即可。
-3. 
+3.
 **注:**压缩包内dropbox-linux.tar.gz以及使用说明来自IT不倒翁,本人只是更新了其中deb包的版本,在此表示感谢.
 
 最后,我的邀请链接<http://db.tt/8YwQ8TE>

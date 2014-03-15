@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 纯css鼠标放上去图片变大
 pid: 39
@@ -72,10 +72,10 @@ categories: [WordPress]
             border:1px #666 solid;
             width:100%;
                 height:100%;
-     
+
             }
             ul#hovershow li a:hover{
-     
+
             z-index:100;
             margin: -32px 0 0 -32px;
          position: absolute;
@@ -84,9 +84,9 @@ categories: [WordPress]
             width:128px;
             height:128px;
             border:1px red solid;
-     
+
             }
-     
+
         </style>
     </head>
     <body>
@@ -99,7 +99,7 @@ categories: [WordPress]
     </ul>
     </body>
     </html>
-    
+
 我的css代码.备份一下.
 
     /*reader wall*/
@@ -125,10 +125,10 @@ categories: [WordPress]
             border:1px #666 solid;
             width:100%;
                 height:100%;
-     
+
             }
             ul#hovershow li a:hover{
-     
+
             z-index:20;
             margin: -9px 0px 0px -10px;
          position: absolute;

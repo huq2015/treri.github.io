@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 折腾之编译安装wget 1.13
 pid: 212
@@ -20,7 +20,7 @@ so,下载了源码,按照原来写过的方法,修改源码.
 
 于是乎,help一下.出来帮助了.
 
-原来这个用的是 `--without-ssl`选项.OK,加上`--without-ssl`后,`configure`通过了.于是`make`,然后程序出来了.可是竟然还不支持https.  
+原来这个用的是 `--without-ssl`选项.OK,加上`--without-ssl`后,`configure`通过了.于是`make`,然后程序出来了.可是竟然还不支持https.
 
 于是又看了一下 `--version`输出.原来ssl和https是同时被编译的.要么就编译ssl而支持https,要么就不编译ssl不支持https.
 哎,只好老实的加上ssl选项吧,看看configure错误吧.

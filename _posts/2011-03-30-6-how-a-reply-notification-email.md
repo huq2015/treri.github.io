@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 转-如何让wordpress评论者收到回复通知邮件？
 pid: 6
@@ -55,7 +55,7 @@ b、如果你使用小D提供的版本，请将直接将 replay 修改为发�
     您对《%post_title%》的评论有了新回复
 
 邮件内容：
-    
+
     %user%，您好：<br/>
     您对 《<a href="%post_link%">%post_title%</a>》的评论被%comment_author%回复了，快去看看吧^_^<br/>
     <div style="padding:5px;border:1px solid #888;">您的评论：<br />%your_comment%<div style="margin-left:5px;margin-right:5px;padding:5px;border:1px solid #ccc;">

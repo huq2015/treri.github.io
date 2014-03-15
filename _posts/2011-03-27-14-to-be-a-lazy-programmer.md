@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 做一个懒惰的程序员
 pid: 14

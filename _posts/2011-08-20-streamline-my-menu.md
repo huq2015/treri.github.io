@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 精简了导航部分
 pid: 207

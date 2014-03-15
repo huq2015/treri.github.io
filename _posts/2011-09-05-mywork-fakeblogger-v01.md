@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 移植主题FakeBlogger 0.1
 pid: 216
@@ -16,7 +16,7 @@ categories: [WordPress]
 
 这个html结构是自己写的,虽然简单,但是也算是一次尝试,css部分参考了原来的主题.
 
-__特点__: 
+__特点__:
 
 - 固定中等宽度(778px)
 - 双栏主题

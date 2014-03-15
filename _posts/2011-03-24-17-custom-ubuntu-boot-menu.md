@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 自定义Ubuntu系统引导菜单
 pid: 17
@@ -17,7 +17,7 @@ grub2是ubuntu的默认引导工具,但是却不是最漂亮的引导工具.我�
 首先添加PPA源.打开终端,输入如下命令
 
     sudo add-apt-repository ppa:bean123ch/burg && sudo apt-get update
-    
+
 ![](/uploads/2011/03/24_13.png)
 
 完成以后,打开新立德软件包管理器,搜索 burg,然后标记,以便安装.
@@ -45,7 +45,7 @@ grub2是ubuntu的默认引导工具,但是却不是最漂亮的引导工具.我�
 **安装 主题**
 
 这是burg的最好的一个特点.你可以在任何时间安装主题.仅仅需要下载一个文件,然后复制到/boot/burg/themes.首先,从<http://gnome-look.org/>下载主题.但是很遗憾的是,在gnome-look.org侧栏上并没有burg的标签,所以你需要使用搜索栏寻找主题.当然你也可以使用google来寻找主题.下载之后,复制到 /boot/burg/themes
-    
+
     sudo cp *PathToFile*/Fortune-BURG-v03.tar.gz /boot/burg/themes
 
 ![](/uploads/2011/03/24_18.png)

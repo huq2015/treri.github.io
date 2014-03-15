@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 咱也来段JavaScript功能书签(4.16更新)
 pid: 48
@@ -8,7 +8,7 @@ categories: [他山之石]
 ---
 最近不少人都在传一段用于快速填写 wp评论框信息的代码.我也一直都在使用 效果刚刚的.但是大家传的基本上都是适用于wordpress的代码.如果对方使用的不是wp的话,就会没有效果了.还好我在网上逛的时候看到了适用于其他的博客程序的代码.
 
-**具体使用方法**就是 将下面的代码中的信息修改后拖到浏览器的书签栏里面,然后再改个名字就OK啦.挺简单的哟. :evil: 
+**具体使用方法**就是 将下面的代码中的信息修改后拖到浏览器的书签栏里面,然后再改个名字就OK啦.挺简单的哟. :evil:
 
 **第一个是 wordpress的代码**
 
@@ -16,7 +16,7 @@ categories: [他山之石]
 
 **下一个是z-blog的代码.和上一个差不多,只不过就是ID变了.**
 
-	javascript:document.getElementById('inpName').value = '你的昵称'; document.getElementById('inpEmail').value = '你的邮箱'; document.getElementById('inpHomePage').value = '你的主页'; void(0) 
+	javascript:document.getElementById('inpName').value = '你的昵称'; document.getElementById('inpEmail').value = '你的邮箱'; document.getElementById('inpHomePage').value = '你的主页'; void(0)
 
 **还有一个是Typecho的代码**
 

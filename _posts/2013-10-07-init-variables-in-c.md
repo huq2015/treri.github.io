@@ -39,7 +39,7 @@ tags: [C]
             "example3", "example4"
         };
         // 初始化一个字符串数组
-        
+
         char **b = malloc(4 * sizeof(char *));
         // malloc方法需要include "stdlib.h"
         b[0] = "example5";
@@ -47,21 +47,21 @@ tags: [C]
         b[2] = "example7";
         b[3] = "example8";
         // 在知道字符串个数的情况下,初始化字符串数组
-        
+
         int c[3][5] = {
             {1, 2, 3, 4, 5},
             {6, 7, 8, 9, 10},
             {11, 12, 13, 14, 15}
         };
         // 初始化整数二维数组时,分别指定第一维和第二维的长度
-        
+
         int d[][5] = {
             {1, 2, 3, 4, 5},
             {6, 7, 8, 9, 10},
             {11, 12, 13, 14, 15}
         };
         // 不指定第一维的长度,编译器根据第二维的长度自动判断第一维长度
-        
+
         // int e[][5] = {
         int e[3][5] = {
             1, 2, 3, 4, 5,
@@ -69,7 +69,7 @@ tags: [C]
             11, 12, 13, 14, 15
         };
         // 直接当成一个一维数组
- 
+
 ### 结构体
 
         typedef struct Person{
@@ -77,12 +77,12 @@ tags: [C]
             int age;
             char *name;
         } Person;
-        
+
         Person people1;
         people1.id = 1;
         people1.age = 11;
         people1.name = "example1";
-        
+
         Person people2 = {
             .id = 5,
             .age = 14,
@@ -90,12 +90,12 @@ tags: [C]
         };
         // 类似于JavaScript中的对象字面量方法,但是需要在属性前面加`点`,
         // 赋值操作使用`等号`,而不是JavaScript中的`冒号`
-        
+
         Person *people3 = malloc(sizeof(Person));
         // 使用malloc确定指针指向的空间大小,否则会出现`segmentation fault`错误
         people3->id = 3;
         people3->age = 13;
         people3->name = "example3";
-        // 因为people3是指针,所以此处使用箭头符号`->`,而不用点号`.`    
+        // 因为people3是指针,所以此处使用箭头符号`->`,而不用点号`.`
 
 ##### 如果你也有一些个人体会或总结,欢迎在下方评论.

@@ -26,7 +26,7 @@ Tig 是一个 git 资源库浏览器,使用熟练的话,基本可以代替git的
     ./configure --prefix=/usr
     make
     sudo make install install-release-doc
-    
+
 这样就安装完了.
 
 执行`tig -v`显示如下结果
@@ -38,7 +38,7 @@ Tig 是一个 git 资源库浏览器,使用熟练的话,基本可以代替git的
 
     $ whereis tig
     tig: /usr/bin/tig /usr/share/man/man1/tig.1
-    
+
 tig官方截图
 
 1. **blame-view**
@@ -48,23 +48,23 @@ tig官方截图
 2. **diff-view**
 
     ![diff-view](/uploads/2013/07/10_02-diff-view.png)
-    
+
 3. **log-view**
-    
+
     ![log-view](/uploads/2013/07/10_03-log-view.png)
-    
+
 4. **main-view-split**
 
     ![main-view-split](/uploads/2013/07/10_04-main-view-split.png)
-    
+
 5. **main-view**
 
     ![main-view](/uploads/2013/07/10_05-main-view.png)
-    
+
 6. **rev-graph**
-    
+
     ![rev-graph](/uploads/2013/07/10_06-rev-graph.png)
-    
+
 7. **tree-view**
 
     ![tree-view](/uploads/2013/07/10_07-tree-view.png)

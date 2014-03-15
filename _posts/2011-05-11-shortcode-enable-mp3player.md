@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 短代码 mp3player
 pid: 127
@@ -20,7 +20,7 @@ categories: [Wordpress]
         return '<embed src="'.get_bloginfo('template_directory').'/swf/player.swf?soundFile='.$content.'&autostart='.$autostart.'&animation=yes&encode=no&initialvolume=80&remaining=yes&noinfo=no&buffer=5&checkpolicy=no&rtl=no&bg=E5E5E5&text=333333&leftbg=CCCCCC&lefticon=333333&volslider=666666&voltrack=FFFFFF&rightbg=B4B4B4&rightbghover=999999&righticon=333333&righticonhover=FFFFFF&track=FFFFFF&loader=009900&border=CCCCCC&tracker=DDDDDD&skip=666666" type="application/x-shockwave-flash" wmode="transparent" allowscriptaccess="always" width="290" height="30">';
         }
         add_shortcode('mp3','mp3player');
-    
+
 需要的文件就是一个swf文件,感觉效果很好.可以显示播放音乐的文件名,还可以调声音大小.
 修改后的函数以及swf文件,下载地址 点击[此处](http://u.115.com/file/e6yixs7o),下载后放到主题目录的swf文件夹就可以了.没有swf的话,新建一个也行.
 
@@ -31,4 +31,4 @@ categories: [Wordpress]
 
 ***
 
-update(5-11-23:21)刚刚看到木木的[给WordPress主题添加短代码功能](http://immmmm.com/add-shortcodes-wordpress-theme.html)里面的那个mp3函数和我现在用的这个只是return的内容不一样,这个应该就是添加短代码的格式.这样我们就可以按照这个格式添加更多的短代码了.聪明的你快去试试吧 :lol: 
+update(5-11-23:21)刚刚看到木木的[给WordPress主题添加短代码功能](http://immmmm.com/add-shortcodes-wordpress-theme.html)里面的那个mp3函数和我现在用的这个只是return的内容不一样,这个应该就是添加短代码的格式.这样我们就可以按照这个格式添加更多的短代码了.聪明的你快去试试吧 :lol:

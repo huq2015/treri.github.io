@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 修改philna2主题之文章几处更新
 pid: 103
@@ -24,7 +24,7 @@ categories: [WordPress]
     <div id="menu">
         <?php wp_nav_menu(array( 'theme_location'=>'primary','container'=> 'ul','container_class' => 'primary','menu_class'=> 'menunav')); ?>
     </div>
-		
+
 换成
 
     <?php wp_nav_menu(array( 'theme_location'=>'primary','container_class' => 'navigation')); ?>
@@ -32,12 +32,12 @@ categories: [WordPress]
 这样做完后,在[PhilNa2增加自定义导航菜单](/2011/04/philna2-add-nav-menu.html)中提到的那一大砣 css代码也可以扔掉了.
 
 **注意** 经Japhia童鞋提醒.忘记说了一定要在后台重新添加一个菜单才可以.  具体步骤: 后台菜单->新建菜单->左侧的主题位置,选择头部导航栏.做完后记得保存哦.
-感谢[Japhia](http://japhia.info)童鞋的白鼠试验 :evil: 
+感谢[Japhia](http://japhia.info)童鞋的白鼠试验 :evil:
 
 呼呼,这次就更清爽了. 这样的导航菜单才可以成为**完美**的导航菜单嘛.
 ## jQuery上下浮动滚动
 [jQuery上下浮动滚动](/2011/04/jquery-scroll-up-and-down.html)的小更新,也可以说是另外一种滑动导航了.
-灵感来源同样是木木的文章[滑动导航终结版](http://immmmm.com/sliding-navigation-final-version.html) 
+灵感来源同样是木木的文章[滑动导航终结版](http://immmmm.com/sliding-navigation-final-version.html)
 在此文章中,木木实现的效果是 导航图标静止,鼠标放在图标上就会自动慢慢上升或者下降.点击一下后快速到达顶部或底部.我感觉这个显得更朴素一点吧,但是功能并不少,所以把我使用的滑动导航就换了.
 
 将以下代码 取代 [jQuery上下浮动滚动](/2011/04/jquery-scroll-up-and-down.html) 中的相应代码.然后再修改一下导航图标对应的ID号,最后需要修改的是css文件部分.将**#updown**的position改为**fixed**,就可以固定在页面上了.其他具体的你可以试着改一下那些时间参数,让速度变得快些或者慢些
@@ -73,7 +73,7 @@ categories: [WordPress]
        $wd.scrollTop($wd.scrollTop() + 1);
        fq = setTimeout("dn()", 50);
     }
-    
+
 ## 收缩功能
 最后一个就是今天新加的效果,收缩功能.灵感同样来源于木木的博文[《WordPress 短代码之——Toggle 伸缩》](http://immmmm.com/wordpress-shortcodes-toggle.html),但是代码来源却并非此处.因为本来打算使用一下那里面的代码收缩功能,无奈本人能力有限,对文章中的代码无法领悟,不会使用,因此就作罢了.
 

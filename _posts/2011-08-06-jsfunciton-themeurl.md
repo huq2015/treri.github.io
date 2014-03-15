@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 修改js获取主题地址函数
 pid: 200
@@ -26,7 +26,7 @@ categories: [WordPress]
             }
             return url.replace('/style.css', '')
         };
-此函数可以获取到head中的一个link节点,然后判断此网址中有没有包含 style.css 
+此函数可以获取到head中的一个link节点,然后判断此网址中有没有包含 style.css
 
 如果有的话,一般就是主题文件夹的位置了.然后对获取到的网址进行修改即可.但是,我的style.css文件后面还跟了一个时间戳.如果直接拿来用的话,就会获取到`http://127.0.0.1/wp-content/themes/philna2?v=201106181049`这样的网址,显然这不是我想要的.
 

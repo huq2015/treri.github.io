@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 初识 八皇后问题
 pid: 10

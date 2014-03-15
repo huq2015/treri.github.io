@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2-更改默认表情图片位置
 pid: 123
@@ -7,7 +7,7 @@ tags: [PhilNa2, WordPress, 原创]
 categories: [WordPress]
 ---
 先唠叨几句啦.下午的时候本来就写好了.可是就在粘贴到编辑器里面的时候,学校的网突然就断了,我连草稿都没存,估计又浪费了一个文章ID....
-学校的网络都TM垃圾.一天一块钱,可是网速慢的像屎 :twisted: .....还动不动就就掉线....日子真不好过.... :roll: 
+学校的网络都TM垃圾.一天一块钱,可是网速慢的像屎 :twisted: .....还动不动就就掉线....日子真不好过.... :roll:
 
 不说了.下面是下午的时候写的.
 
@@ -24,11 +24,11 @@ categories: [WordPress]
 然后修改*philna2/app/smilies.php*,将第34行的
 
 	$path = get_bloginfo('url').'/wp-includes/images/smilies/';
-	
+
 改为如下代码
 
 	$path = get_bloginfo('template_directory').'/images/smilies/';
-	
+
 这样评论框上点击那个表情图片出现的图片就是读取的这个路径里面的了.
 然后在*functions.php*文件中添加如下代码.
 
@@ -53,8 +53,8 @@ categories: [WordPress]
 			    ':???:' => '5.gif',
 			);
 		}
-		
+
 记得将上面的那些转义字符和图片名称改成你现在使用的.
 
 这样鼓捣完应该就可以啦.以后你就可以自己增加表情图片而且不用害怕wp升级会覆盖掉你的表情了.
-现在你大可以把wp-includes里面的smilies文件夹删除了. :evil: 
+现在你大可以把wp-includes里面的smilies文件夹删除了. :evil:

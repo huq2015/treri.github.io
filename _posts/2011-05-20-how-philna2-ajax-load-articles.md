@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2首页Ajax加载文章
 pid: 141
@@ -6,7 +6,7 @@ comments: true
 tags: [Ajax, jQuery, PhilNa2, 原创]
 categories: [WordPress]
 ---
-前几天弄出来的东西,没用几天就换主题了, :jiong: 但是还是和大家分享一下.免得时间长了,我自己也忘记了. 
+前几天弄出来的东西,没用几天就换主题了, :jiong: 但是还是和大家分享一下.免得时间长了,我自己也忘记了.
 
 php响应部分代码来源于 木木的文章[AJAX动态加载文章内容](http://immmmm.com/ajax-loading-post-content.html)
 响应部分的修改来自winysky[Query_posts之自动截断](http://winysky.com/query_posts-automatic-cut-off)
@@ -82,7 +82,7 @@ jquery代码部分 框架 来源于木木的文章,部分代码来自[自由的�
 		do_action('philnaLoopStart'); /* philna hook */ //在此行下方添加内容,
 		while( have_posts() ) :
 		the_post();,
-修改后代码如下,这是为了计数用的,只让指定篇数的文章显示内容,其余的不加载.	
+修改后代码如下,这是为了计数用的,只让指定篇数的文章显示内容,其余的不加载.
 
 	if( have_posts() ) :
 		// post loop start
@@ -106,7 +106,7 @@ jquery代码部分 框架 来源于木木的文章,部分代码来自[自由的�
 同时将空格换行什么的都全部删掉(关键!!要不然无法ajax加载成功)变成如下这样的样式(以下是为了向你展示一下无空格换行之后结果)
 
 	<div class="post_content content"><?php if( is_singular() ) wp_link_pages('before=<div class="content_pages icon"><strong>'. __('Pages:', YHL).'&after=</strong></div>'); ?>
-的后面添加如下内容	
+的后面添加如下内容
 
 	<?php
 		if(is_bot() || is_single()) : the_content();

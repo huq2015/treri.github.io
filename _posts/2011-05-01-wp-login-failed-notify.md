@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 转-防止攻击 - WordPress登录邮件提醒
 pid: 109
@@ -6,7 +6,7 @@ comments: true
 tags: [转载]
 categories: [他山之石]
 ---
-首先祝大家五一快乐,劳动光荣. :lol: 
+首先祝大家五一快乐,劳动光荣. :lol:
 今天看rss订阅,无意见又看到了好东西了.是个防止自己的博客被人恶意登录的东西,可以防止别人通过穷举的方法尝试密码哦.不说了.先转过来再说.
 原文地址在*烙 印*的[防止攻击 - WordPress登录邮件提醒](http://awy.me/2011/05/prevent-attacks-wordpress-login-e-mail-alert/),这里表示感谢啦.
 
@@ -43,9 +43,9 @@ WordPress 不像Dedecms，可以任意的修改后台管理目录文件夹的文
         $headers = "$fromnContent-Type: text/html; charset=" . get_option('blog_charset') . "n";
         wp_mail( $to, $subject, $message, $headers );
     }
-     
+
     add_action('wp_login', 'wp_login_notify');
-    
+
 二、登录失败提醒
 
 第二种方法我就得比较有效，有人尝试登陆你的系统，但是没有成功，这种反复尝试的动作本身就需要被记录下来，发给博主，这样，只要有错误的登录，就会发一封邮件到自己的邮箱，将对方尝试的登录名和登录密码发送到你邮箱。将以下代码放入主题的functions.php中：
@@ -71,9 +71,9 @@ WordPress 不像Dedecms，可以任意的修改后台管理目录文件夹的文
         $headers = "$fromnContent-Type: text/html; charset=" . get_option('blog_charset') . "n";
         wp_mail( $to, $subject, $message, $headers );
     }
-     
+
     add_action('wp_login_failed', 'wp_login_failed_notify');
-    
+
 个人推荐使用第二种方法，第一种如果你经常登陆后台的话，会造成邮箱大量邮件积累。不过你要是跟我一样习惯离线使用WLW发布的话，就无所谓了。目前烙印已经加入此功能，如果有人愿意尝试穷举登陆，我不介意将他加入访问黑名单。
 
 参考来源[DH 博客](http://www.dhblog.org/?p=888)，感谢DH.huahua。

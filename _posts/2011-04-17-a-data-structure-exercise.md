@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 数据结构习题一则
 pid: 84
@@ -24,8 +24,8 @@ categories: [学习笔记]
 
 额 还想说说这个程序我认为的好处,输入多项式的同时进行排序还有合并同类项,感觉少写了很多代码,而且复用性比较高吧,多项式乘法中的排学我用了同样的方法.然后就是这个排序合并同类项时候用到的方法,很新颖(对我来说).还有就是 循环的跳出条件 对我来说太具有新意啦,搞的我刚上来怎么都弄不出来.
 
-最后还想说一句,学完 谭浩强 的书,我真的没学会什么东西...... 
-还想借[ethan](http://blog.ethansite.co.cc/vim-for-programmer)童鞋的一句话,**程序员苦逼啊！** :jiong: 
+最后还想说一句,学完 谭浩强 的书,我真的没学会什么东西......
+还想借[ethan](http://blog.ethansite.co.cc/vim-for-programmer)童鞋的一句话,**程序员苦逼啊！** :jiong:
 
 	/**************************************************************
 	多项式相乘算法,
@@ -34,14 +34,14 @@ categories: [学习笔记]
 	***************************************************************/
 	#include <stdio.h>
 	#include <malloc.h>
-	 
+
 	//多项式中的一项的结构
 	typedef struct term
 		{
 			int coef,exp;
 			struct term* next;
 		}poly,*ppoly;
-	 
+
 	//创建一个保存多项式的链表，返回指向头结点的指针。多项式按指数降序排列
 	ppoly createpoly(int i)
 		{
@@ -59,7 +59,7 @@ categories: [学习笔记]
 			printf ("请输入A的系数和指数(输入"0 0"结束):n");
 			else printf ("请输入B的系数和指数(输入"0 0"结束):n");
 			scanf ("%d%d",&coef,&exp);//初次赋值
-	 
+
 			while (coef !=0 && exp >= 0) //循环输入系数和指数,合并同类项,并按照指数降序排列
 				{	s = (ppoly)malloc (sizeof (poly) );
 					s -> coef = coef;

@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 帅哥认证用到的两个函数
 pid: 176
@@ -20,11 +20,11 @@ categories: [学习笔记]
     $handsome=explode(',',$char);
     print_r($handsome);
     ?>
-    
+
 输出结果是
 
     Array ( [0] => a@b.com [1] => c@d.com [2] => e@f.com )
-    
+
 成功的将一个字符串分隔成几部分了.这个print_r是好像是个打印数组的函数.具体的不知道,但是用这个可以看到数组的元素是什么.
 
 **2,in_array() 函数在数组中搜索给定的值.**
@@ -40,7 +40,7 @@ categories: [学习笔记]
       echo "Match not found";
     }
     ?>
-    
+
 输出结果是
 
     Match found
@@ -54,11 +54,11 @@ implode() 函数把数组元素组合为一个字符串。
     $char=implode(',',$handsome);
     echo $char;
     ?>
-    
+
 输出结果是
 
     a@b.com,c@d.com,e@f.com
-    
+
 中间都加了一个英文逗号隔开.
 
 写的都很简单,函数中的参数什么的我都没有写全,要是有童鞋感兴趣的话,可以去w3school网站去看看.我是在那里看到的这几个函数.

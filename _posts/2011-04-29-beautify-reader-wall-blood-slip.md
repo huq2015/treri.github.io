@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 读者墙血条显示
 pid: 106
@@ -43,7 +43,7 @@ categories: [WordPress]
     #readerswall img{width:40px;height:40px;display:block;}
     #readerswall .active-bg{width:40px;height:2px;_font-size:0;margin-top:5px;background:#DFDFDF; }
     #readerswall .active-degree{background:red;width:40px;height:2px;_font-size:0;}
-    
+
 如果你需要更改两个图片之间以及两行之间的间距的话,只需要更改一下**#readerswall li**的margin就可以了.我是把他们都改成了0,因为我觉得还是紧凑一点比较好.
 
 哦 忘记说了,不亦乐乎那里还有一个是jq代码的版本,但是我比较喜欢用这个php版本的,感觉服务器处理速度会更快一点.jq版本的需要用户的浏览器进行处理,感觉速度有点慢.

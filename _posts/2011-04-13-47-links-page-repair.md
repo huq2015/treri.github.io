@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 友情链接页面修复
 pid: 47
@@ -9,7 +9,7 @@ categories: [WordPress]
 一直都想做到IM路人博客上的链接页面那样的效果,也同样向luren请教了很多.但是一直没有效果.即使是同样的代码,在我的电脑上就出不来效果.
 直到今天我才知道了原因.原来是我的问题.同时要在这里向Japhia童鞋表示一下不好意思,哈哈.是我的原因才连带着他也弄不成(具体原因往下看就知道啦.)
 
-首先要说说我原来写的一篇文章.[侧栏友链3栏显示](/2011/04/33-three-column-friends-sidebar.html).问题就是出在这里啊.就是因为这个才连累了japhia童鞋.哈哈.这里鄙视一下自己. :jiong: 
+首先要说说我原来写的一篇文章.[侧栏友链3栏显示](/2011/04/33-three-column-friends-sidebar.html).问题就是出在这里啊.就是因为这个才连累了japhia童鞋.哈哈.这里鄙视一下自己. :jiong:
 
 先说解决方案吧. 在那片文章里面我说的让侧栏友链3栏显示,需要给侧栏的友链一个css样式.
 
@@ -77,7 +77,7 @@ categories: [WordPress]
 
     .linkpage ul{padding-right:10px;overflow:auto;}
 
-这句话中的padding 是填充的意思.右填充10个像素.具体效果就是友情链接标题灰色延伸到距离右边10px. 
+这句话中的padding 是填充的意思.右填充10个像素.具体效果就是友情链接标题灰色延伸到距离右边10px.
 .overflow:auto也不可少,缺少的话会是什么效果,你可以删掉试试.哈哈.保证让你好玩.
 
     .linkpage ul li {list-style-type: none;}

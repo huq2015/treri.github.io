@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: WP3.1.2-完美自动保存,禁用版本控制
 pid: 122
@@ -28,29 +28,29 @@ categories: [WordPress]
 在wp-includes/default-filters.php中，可以看到这一行：
 
     add_action( 'pre_post_update', 'wp_save_post_revision' );
-    
+
 将其注释掉，修改后，为
 
     //add_action( 'pre_post_update', 'wp_save_post_revision' );
-    
+
 2、使用插件，关闭修订版本.
 原理是，插件启用一个函数，去掉这个修订版本的钩子。
 
     remove_action ( 'pre_post_update', 'wp_save_post_revision' );
-    
+
 或者是定义修订版本选项，使其修订版本功能关闭
 
     define('WP_POST_REVISIONS',false);
-    
+
 3、配置文件添加修订版本选项，使修订版本功能关闭.
 编辑 wp-config.php 文件（博客根目录），在下面代码之前：
 
     define('ABSPATH', dirname(__FILE__).'/');
-    
+
 添加以下代码：
 
     define('WP_POST_REVISIONS',false);
-    
+
 *原文作者注，define('WP\_POST\_REVISIONS',false);的这种方法，我现在也不知道可不可用，如果有哪位童鞋使用这种方法可以停止修订版本功能的，留言告知，我好完善该文章，懒了，不想一个一个去测试了。*
 
 **SayMe:**我使用的是第一种方法.当我查看我的wp-config.php的时候,貌似里面还有第三种方法.这个应该是原来按照人家的教程修改的时候留下来的.

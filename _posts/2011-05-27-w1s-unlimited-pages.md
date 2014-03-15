@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: W1免费版无限翻页
 pid: 147
@@ -15,7 +15,7 @@ categories: [WordPress]
 原文开始
 
 ***
-使用方法： 
+使用方法：
 
 **首先**下载 jquery.infinitescroll.js and minified are now on GitHub（官方）
 或者从我的站点下载 (大小5kb)
@@ -53,7 +53,7 @@ next\_posts\_link(\_\_('MORE'))
         },function(arrayOfNewElems){
            home_js();
                 //成功后执行的自定义的函数，如页面javascript的重载
-     
+
      });
 这样应该可以实现无限滚屏，就像google reader，到底部自动ajax载入下一页。但这样有时候页面很多，而访客并不想翻页，那么需要一个点击后再加载下页的功能，就像twitter底部点击more的效果。
 那么继续在上一段js后加入：

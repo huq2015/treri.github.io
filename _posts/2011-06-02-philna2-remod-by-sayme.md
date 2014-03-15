@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2-自说Me话扩展版
 pid: 160
@@ -125,10 +125,10 @@ mail to comment插件也是,简化版,我一直在用.据邓肯http://dengken.na
 **注:**原主题版权归原作者[yinheli](http://philna.com)所有,请按照原作者的说明,保持开源
 可以提取其中的功能,但是不要拿去做商业用途.切记!!!
 
-**另外,如果有人问你关于这个扩展版主题的话,别忘记 好好夸奖一下我哦** :lol:  :eek: 
+**另外,如果有人问你关于这个扩展版主题的话,别忘记 好好夸奖一下我哦** :lol:  :eek:
 
-文中提到的mail to commet插件以及wp-syntax插件(都是已经修改过的,请用的到的下载,否则不要浪费俺滴流量~~ :love: ) 
+文中提到的mail to commet插件以及wp-syntax插件(都是已经修改过的,请用的到的下载,否则不要浪费俺滴流量~~ :love: )
 
 wp-syntax 点击[此处](/uploads/2011/06/wp-syntax.zip)下载
- 
+
 mail to comment 点击[此处](/2011/03/6-how-a-reply-notification-email.html)查看

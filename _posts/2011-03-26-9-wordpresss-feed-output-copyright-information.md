@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: wordpress的feed输出版权信息
 pid: 9
@@ -29,7 +29,7 @@ categories: [WordPress]
     return $content;}
     add_filter ('the_content', 'feed_copyright');
     //feed版权输出
-    
+
 *你可以把博客标题还有网址什么的弄成动态的函数调用,也可以直接修改成想要的地址或者是文字.*
 
 做完这些.保存一下.然后再看看文章.是不是就有了版权信息呢?再看看feed输出.也有了版权信息了吧.呵呵

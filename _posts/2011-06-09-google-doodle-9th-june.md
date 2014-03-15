@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 6月9日Google Doodle
 pid: 164
@@ -24,7 +24,7 @@ categories: [互联网络]
 请大家在留言里继续补充！
 
 > __萊斯·保羅__（Les Paul，1915年6月9日－2009年8月13日），生於[威斯康星州](http://zh.wikipedia.org/wiki/%E5%A8%81%E6%96%AF%E5%BA%B7%E6%98%9F%E5%B7%9E)沃基肖市，原名Lester William Polsfuss。[美國](http://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B)音樂家及發明家。莱斯·保罗以在吉他方面的精湛技巧而著称，他对电吉他突破性的革新彻底改变了流行音乐的音响。他於1941年研製出實心[電結他](http://zh.wikipedia.org/wiki/%E9%9B%BB%E7%B5%90%E4%BB%96)，并且發明了各種录制人声和乐器的新方法，从而一手改变了音乐的方向，有__電結他之父__之稱。他被老家威斯康辛州的乡亲们称为“沃基肖的奇才”。
-> 
+>
 > Via [维基百科](http://zh.wikipedia.org/wiki/%E8%90%8A%E6%96%AF%C2%B7%E4%BF%9D%E7%BE%85)
 
 - - -

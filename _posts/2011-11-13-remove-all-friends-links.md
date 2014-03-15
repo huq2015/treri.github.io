@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 决定去掉友情链接
 pid: 235

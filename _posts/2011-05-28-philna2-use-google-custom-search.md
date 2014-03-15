@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2使用google自定义搜索
 pid: 150
@@ -38,7 +38,7 @@ categories: [WordPress]
           </div>
       </form>
     </div>
-	
+
 3,创建页面模板
 复制一个平常的页面模板,然后对页面模板的内容进行修改.这时要用到google给你的第二段代码.
 将

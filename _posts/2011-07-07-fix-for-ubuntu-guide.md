@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 重装windows后修复Ubuntu引导项
 pid: 183
@@ -24,8 +24,8 @@ categories: [学习笔记]
 
         mount /dev/sda7 /mnt  (这里的sda7改成你的系统安装位置)
         mount /dev/sda6 /mnt/boot (如果没 /boot 单独分区这步跳过)
-        
-4. 然后输入如下内容  
+
+4. 然后输入如下内容
 
         grub-install --root-directory=/mnt /dev/sda
         (注意,root前面是两个减号,和directory前面的减号是一样的,只不过是两个,你可能看不清楚,所以我着重说一下)

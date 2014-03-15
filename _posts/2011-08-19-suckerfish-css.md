@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: suckerfish下拉菜单
 pid: 206
@@ -16,4 +16,4 @@ categories: [学习笔记]
 
 原文:《精通CSS 高能Web标准解决方案》(第二版)第112页
 
-不说了,demo点击[此处](/demo/suckerfish/suckerfish.html)吧 
+不说了,demo点击[此处](/demo/suckerfish/suckerfish.html)吧

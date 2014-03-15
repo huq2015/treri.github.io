@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 自制两个英文版kindle格式小说
 pid: 236
@@ -16,8 +16,8 @@ Mobipocket Creator 还有calibre等等.当然还有amazon官方的kindlegen.  �
 所以用了大家都用的而且是跨平台的calibre.
 
 今天就做了两个电子书练手.
-两部小说. 
-[The Dark Elf Trilogy](http://115.com/file/bhrqfflw)(黑暗精灵三部曲) 和 [The Icewind Dale Trilogy](http://115.com/file/bhrqfupx)(冰风谷三部曲) 
+两部小说.
+[The Dark Elf Trilogy](http://115.com/file/bhrqfflw)(黑暗精灵三部曲) 和 [The Icewind Dale Trilogy](http://115.com/file/bhrqfupx)(冰风谷三部曲)
 是 被遗忘的国度 系列中的比较有名的两个.
 
 前两天刚看完了中文版的 黑暗精灵三部曲,挺喜欢,想找个英文版的收着,但是网上貌似没有Free的,或者没有我感觉完美的.

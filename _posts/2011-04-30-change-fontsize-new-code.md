@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 文章页实时更改文字大小新代码
 pid: 108
@@ -31,7 +31,7 @@ categories: [WordPress]
     $('.post_content p').css('font-size', fontSize + 'px')
     });
     });</script>
-    
+
 然后是css样式,具体效果看文章页,
 
     /*change content font size*/
@@ -39,7 +39,7 @@ categories: [WordPress]
     #resizer LI {DISPLAY: inline; FLOAT: left; COLOR: #b4b4b4; MARGIN-LEFT: 5px;}
     #resizer LI A {BORDER: #c8c8c8 1px solid; TEXT-ALIGN: center;  WIDTH: 16px; DISPLAY: block; HEIGHT: 16px;}
     #resizer LI A:hover {BACKGROUND: #ebebeb; text-decoration: none;}
-    
+
 在你想要添加按钮的地方添加如下代码
 
     <ul id="resizer">
@@ -82,7 +82,7 @@ categories: [WordPress]
             return false;
             });
         });
-        
+
 然后在你想要添加按钮的地方添加如下代码就好了.
 
     <ul id="fs-change">

@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: PhilNa2自说Me话扩展版V1.2
 pid: 165
@@ -36,7 +36,7 @@ categories: [Wordpress]
 
 1.4 sidebar.php文件中的友情链接ID 你需要改成你博客中对应的目录ID,具体ID信息,请看后台链接里面的链接分类目录,将鼠标放在目录名称上边,浏览器下部的一串链接中的那个tag\_ID就是要找的ID 信息,将你不想在首页显示的分类目录的ID填写到sidebar中的那个exclude_category后面就行了.记住是填写不想在首页显示的分类ID!!
 
-- - - 
+- - -
 后台添加的选项如图所示(点击看清晰图片)
 
 ![后台选项](/uploads/2011/06/10_01.png)

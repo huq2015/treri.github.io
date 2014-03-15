@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 扩展后台侧栏小工具初记
 pid: 177
@@ -15,7 +15,7 @@ categories: [WordPress]
 下面这个是从codex.wordpress中找到的一段代码.放到functions.php中就可以在后台中生成一个输出 "hello world"的侧栏小工具.
 
 我要做的就是把他改造一下,用来放我的侧栏的那个 最新评论,最新文章,随机文章的小工具.
-  
+
     <?php
     /**
      * FooWidget Class
@@ -50,7 +50,7 @@ categories: [WordPress]
     } // class FooWidget
     // 注册 FooWidget 挂件
     add_action('widgets_init', create_function('', 'return register_widget("FooWidget");'));
-    
+
 经过多方查找,学习,模仿,终于成功了.现在的侧栏的 那个最新评论 就是用后台的小工具实现的.还可以修改标题的名字.这样多好啊.更接近傻瓜式操作了.HOHO~~
 
 具体的看图

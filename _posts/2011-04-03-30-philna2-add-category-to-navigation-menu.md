@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 把PhilNa2分类添加到导航菜单
 pid: 30

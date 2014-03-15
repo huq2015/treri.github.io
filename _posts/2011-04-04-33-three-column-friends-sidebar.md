@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 侧栏友链3栏显示
 pid: 33
@@ -32,7 +32,7 @@ categories: [WordPress]
     width:30%;//这里我也修改了
     display:block;
     }
-    
+
 把这段css放到*style.css*里面就好了.然后修改自己的*sidebar.php*,在需要的地方调用*wp\_list\_bookmarks()*函数就行了.
 
 我是在sidebar.php里面隐藏了左右两个侧栏的显示(*加判断只让它们在404页面显示,没直接删除.我怕以后还会用到*),然后再调用wp\_list\_bookmarks()函数就OK了.
@@ -69,7 +69,7 @@ categories: [WordPress]
     友情链接分类名称，也就是别名，必须用英文。不填默认显示所有链接。
     category_before
     位于链接分类之前的文字或代码。默认的设置是：
-    	<li class="”linkcat”"> 
+    	<li class="”linkcat”">
     category_after
     位于链接分类之后的文字或代码。默认的设置是：</li>
     class

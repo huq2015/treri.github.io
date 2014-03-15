@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 一个扩展DOM的函数
 pid: 230
@@ -37,9 +37,9 @@ categories: [学习笔记]
 			for(var _elem=0;_elem<_arr.length;_elem++){
 				eval("_arr[_elem]."+name+"=fn");
 			}
-		return _arr;	
+		return _arr;
 		}
-	}	
+	}
 	}
 
 测试用例

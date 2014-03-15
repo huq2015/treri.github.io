@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 博客小记一篇
 pid: 102
@@ -25,7 +25,7 @@ categories: [唠唠叨叨]
 
 ![](/uploads/2011/04/22_01.png)
 
-加载的js文件部分 
+加载的js文件部分
 
 ![](/uploads/2011/04/22_02.png)
 

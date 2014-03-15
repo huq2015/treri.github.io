@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Linux记录总结
 pid: 125
@@ -23,11 +23,11 @@ rar等格式下载后老是乱码,就是Windows和Linux编码不同引起的
 卸载rar，只留unrar
 
     sudo apt-get remove --purge rar
-    
+
 以下是我自己的看法 只安装 unrar就可以了 我就是这样解决的
 
     sudo apt-get install unrar 这样就好了
-    
+
 #### 三,Ubuntu 10.04 安装Nvidia显卡后开机花屏（分辨率低）完美解决
 转载自 [touchsola](http://hi.baidu.com/touchsola)
 
@@ -39,17 +39,17 @@ rar等格式下载后老是乱码,就是Windows和Linux编码不同引起的
     * v86d（uvesafb需要）
     * hwinfo（查看framebuffer）
 4. 步骤
-    1. 安装驱动： 
+    1. 安装驱动：
         * 方法一，Nvidia官网下载最新驱动，但是得先屏蔽掉nouveau，而且安装后会出现Nvidia巨大的Logo,我没有用 这种方法。
         * 方法二，System--&gt;Administration--&gt;Hardware Drivers，我选的是那个Recommended。
     2. 安装所需包：
 
         sudo apt-get install v86d hwinfo
-        
+
     3. 查看framebuffer
 
         sudo hwinfo --framebuffer
-        
+
         我的显示器分辨率是1280x800的所以我需要的是：1280x800-24
     4. 修改grub文件
 
@@ -104,7 +104,7 @@ rar等格式下载后老是乱码,就是Windows和Linux编码不同引起的
 6. 强制使用Framebuffer:
 
     echo FRAMEBUFFER=y | sudo tee /etc/initramfs-tools/conf.d/splash
-    
+
 7. 更新grub和initramfs:
 
     sudo update-grub2
@@ -123,7 +123,7 @@ rar等格式下载后老是乱码,就是Windows和Linux编码不同引起的
     UTC=yes
     to
     UTC=no
-    
+
 更好的办法是在安装的时候就选择关闭UTC 我安装的时候就关闭了
 #### 五,减少ubuntu开机引导多余项目
 这是在ubuntu中文论坛上看的,怕以后找不到所以现在转下来,以防以后找不到
@@ -175,10 +175,10 @@ PS:ubuntu上牛人说2最好还是保留.以防不测好恢复.
     3. 顺着屏幕上的指示跟着作4，例如
         假设 /boot 磁碟分区位在 /dev/hda
         代码:
-            
+
             #grub-install /dev/hda
         ps：我一般都是常留着我的livecd的，所以我常用的是第一种方法，很简单有效。
-          
+
 以上内容转载自<http://blog.163.com/xueyulong1988@126/blog/static/55163238200985103744248/>
 感谢似水流年  
 用livecd修复grub  
@@ -190,7 +190,8 @@ PS:ubuntu上牛人说2最好还是保留.以防不测好恢复.
     mount /dev/sda7 /mnt
     mount /dev/sda6 /mnt/boot (如果没 /boot 单独分区这步跳过)
     grub-install --root-directory=/mnt /dev/sda
-下面是百度找到的,我还没有试过  
+下面是百度找到的,我还没有试过
+
 重装windows xp操作系统后恢复Ubuntu9.04的引导启动
 下载最新版的grub4dos,从中提取出一个名为grldr的文件,把它放到XP系统盘的根目录下,修改boot.ini,在它的末尾加一句:
 
@@ -206,7 +207,7 @@ Wine下完美安装QQ 2010：
     sudo apt-get update
     sudo apt-get install wine
 2. 获取获取最新的WineTricks，WineTricks 是 Wine的其中一个开发者DanKegel写的一个安装Windows有关库和软件的小程序，非常有用。
-    下载WineTricks，在终端中输入: 
+    下载WineTricks，在终端中输入:
 
         wget http://www.kegel.com/wine/winetricks
 
@@ -216,7 +217,7 @@ Wine下完美安装QQ 2010：
     终端中输入：
 
         sh winetricks msxml3 gdiplus riched20 riched30 ie6 vcrun6 vcrun2005sp1 flash
-    
+
     接下来会出现窗口形式的安装界面，按照提示一步步装下去就行。
 4. 修改QQ的显示字体：
 
@@ -229,19 +230,19 @@ Wine下完美安装QQ 2010：
     打开“Configure Wine”,选中“应用程序”，把“QQ2010.exe”添加进去，并将“Windows 版本”设为“Windows 7”。（XP版本也行，我是设的“Windows 7”版本，未出任何问题）
     设置riched20.dll
     选中“函数库”，添加riched20.dll和riched32.dll 。
-    
+
 7. 设置权限：
 
     右键“QQ2010.exe”的属性，“权限”的“允许以程序执行文件”的勾勾上。
-    
+
 8. 开始安装：
 
     双击“QQ2010.exe”开始安装，这里跟windows下的安装过程完全相同。中间可能有错误提示，不用理会。
-    
+
 9. 开始登陆：
 
     先输入QQ号，注意，这时要用密码框旁边的软键盘输入密码，否则QQ程序会崩溃，然后最好勾上“记住密码”，不用一次一次的输入密码。
-    
+
 10. 登陆QQ空间：
 
     登上QQ后直接点击空间图标是没有反应的，这时需要换一种方式来登录。打开我的好友，右键自己的图标，点击“进入空间”。
@@ -274,7 +275,7 @@ Fedora用户，这样装
 原文地址 http://forum.ubuntu.org.cn/viewtopic.php?f=120&amp;t=27006
 症状：
 代码:
-    
+
     sudo apt-get update
     W: GPG error: http://apt.tt-solutions.com dapper Release: 由于没有公钥，下列签名无法进行验证： NO_PUBKEY 06EA41DE4F6C1E86
 解决方法：
@@ -306,14 +307,14 @@ Fedora用户，这样装
 
 于是按照说的去找 源 看到了 home:csslayer.repo
 好 下载下来 放到 /etc/yum.repos.d里面
-然后 
+然后
 
     yum makecache
-然后就可以 
+然后就可以
 
     sudo yum install fcitx
 这样就可以安装最新版本的输入法了
-装完后最好能够把自带的 ibus输入法 删除掉 
+装完后最好能够把自带的 ibus输入法 删除掉
 
     sudo yum remove ibus
 这样可能系统进入的时候 fcitx不能自动启动
@@ -345,7 +346,7 @@ Fedora用户，这样装
         sudo make install .
     5. 完成！到 “应用程序——互联网，飞信Openfetion。
 2. 方法二：ppa源安装
-    
+
         sudo apt-add-repository ppa:happyaron/ppa
         sudo apt-get update
         sudo apt-get install openfetion
@@ -353,36 +354,36 @@ Fedora用户，这样装
 
     到 http://ppa.launchpad.net/happyaron/ppa/ubuntu/pool/main/o/openfetion/下载相应的版本，双击安装。
 4. 方法四：
-    
+
         sudo gedit /etc/apt/sources.list
     1. 添加源：
-    
+
             deb http://ppa.launchpad.net/happyaron/ppa/ubuntu lucid main
-        
+
     2. 添加key：
 
             sudo apt-key adv –keyserver keyserver.ubuntu.com –recv-keys DDA4DB69
-    
+
     3. 更新
-    
+
             sudo apt-get update
 
     4. 安装
-    
+
             sudo apt-get install openfention
 
-#### 十三,fedora 面板问题 
+#### 十三,fedora 面板问题
 
 新建了一个面板，把属性设置为自动隐藏，并且显示隐藏按钮，在隐藏按钮上显示箭头。但是它就出不来了
 
 1. 先确定你新建的面板在左侧还是右侧
-2. 在fedora原有面板上点击鼠标右键 选择属性-----常规里面有一个方向，把方向选择成你第一步周里面所确定的方向 
+2. 在fedora原有面板上点击鼠标右键 选择属性-----常规里面有一个方向，把方向选择成你第一步周里面所确定的方向
 3. 把鼠标放在第一步周所确定的方向上 晃动几下 会看到一个没有内容的灰白条 把鼠标放上去 点击邮件 删除
 4. 好了 这样就删除掉新建的面板了。。。 恩 这是个bug。。。 在重复第二部把面板还原就好了。。
 
 #### 十四,[fedora13 h3c8021xclient自动配置脚本的麻烦以及解决方法](http://hi.baidu.com/weatny/blog/item/87caddeb9715d35d78f055df.html)
 
-#### 十五,fedora 13 增加菜单编辑器，方便添加删除修改菜单项< 
+#### 十五,fedora 13 增加菜单编辑器，方便添加删除修改菜单项<
 
 fedora又不自带菜单编辑器，所以只能手动安装了
 安装alacarte即可。
@@ -397,7 +398,7 @@ fedora又不自带菜单编辑器，所以只能手动安装了
     sudo apt-get install libreoffice-gnome
     sudo apt-get install libreoffice-l10n-zh-cn libreoffice-help-zh-cn
 
-#### 十七,fedora13配置sudo文件手记 
+#### 十七,fedora13配置sudo文件手记
 
 安装fedora之后就是配置sudo文件了，话说这个真不好弄，网上的人啊，都不知道新手真的需要什么。
 我找了很长时间才知道 配置这玩意是如此的简单
@@ -405,38 +406,38 @@ fedora又不自带菜单编辑器，所以只能手动安装了
 首先打开终端 输入
 
     su -
-    
-然后输入密码，接着输入 
+
+然后输入密码，接着输入
 
     visudo
-    
+
 然后按光标，往下走，找到如下代码
 
     ## Allow root to run any commands anywhere
     root ALL=(ALL) ALL
-    
+
 然后在此代码下按A,然后添加如下代码
 
     ‘你的用户名’ ALL=(ALL) ALL
-    
+
 *比如我的用户名为ripflowers，则添加代码为：*
 
     ripflowers ALL=(ALL) ALL
-    
+
 注意网上有很多地方说这样你就拥有了sudo权限，但是别急，你还没有保存呢，我就是因为这里没保存，好几次没有配置成功。还以为是网上的人说错了呢
 添加完以上代码后 按ESC键退出 ，然后 再次输入
 
-    ：wq 
-    
+    ：wq
+
 三个字符，然后按回车，是不是就回到了尼输入visudo的界面，那样就表示你成功了。
-然后验证以下身份，输入 
+然后验证以下身份，输入
 
     sudo whoami
-    
-回车后输出 
+
+回车后输出
 
     root
-    
+
 呵呵 已经是管理员权限了。
 
 以后再想执行权限高的指令时只要输入sudo 然后再输入你想要的指令就可以了

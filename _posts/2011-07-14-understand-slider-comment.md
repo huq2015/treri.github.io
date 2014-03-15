@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 侧栏评论滑动显示的一点理解
 pid: 189
@@ -31,14 +31,14 @@ categories: [WordPress]
 那段javascript代码使用方法就是,在一个上面所说的列表后,加上如下内容.
 
     <script type="text/javascript">new slider({id:'slider'});</script>
-    
+
 其中的`id:'slider'`是上面的ul标签的id号.
 
 这个应该就可以滚动了,但是还需要css来配合,将多余的部分隐藏掉.
 比如,我的demo中,一共有9个li标签,我用chrome的审查元素工具看到,每个li标签的高度是21px,因此.把5后面的都隐藏掉,于是css代码就应该是
 
     #slider{height:105px;overflow:hidden;position: relative;}
-    
+
 `overflow:hidden`这个就是让多余的都隐藏,`position:relative`这个具体作用我不清楚,但是不加的话,li标签就不会向下滑动,而是一个一个的往下蹦,看了不舒服.具体什么效果你可以试试看.
 
 关键部分好像就是这么多了,我好像也没有说什么实质性的东西.呵呵.具体的剩余的其他代码,还请去看demo源代码.

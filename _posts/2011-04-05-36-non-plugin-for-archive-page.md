@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 归档页面非插件化
 pid: 36
@@ -13,7 +13,7 @@ categories: [WordPress]
 
 我下载下来本地调用的时候,发现css样式完全错位.看来还是要鼓捣一番才行.
 
-使用此模板的前提条件是 主题加载了JQuery 库,使用PhilNa2主题的童鞋不要担心了,主题本身已经有这个库啦 :evil: 
+使用此模板的前提条件是 主题加载了JQuery 库,使用PhilNa2主题的童鞋不要担心了,主题本身已经有这个库啦 :evil:
 
 使用这个模板文件的主要思想就是 那个文件里面有两个大函数(前后各一个,中间是显示文章的函数),把它们复制到模板里面适当位置,然后再在模板的适当位置调用那个列举文章的函数就好了.
 
@@ -123,7 +123,7 @@ categories: [WordPress]
     */
     ?>
 
-再然后找到类似 
+再然后找到类似
 
     <?php content(); ?>
 
@@ -149,5 +149,5 @@ categories: [WordPress]
      function(){
      $('#archives ul li ul.archives-monthlisting').slideUp('fast');
      });
-     
+
 css 样式可以通过 #archive 来定义

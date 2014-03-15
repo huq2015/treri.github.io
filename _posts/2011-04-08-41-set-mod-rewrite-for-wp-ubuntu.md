@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 本地wordpress设置固定链接无效的解决办法
 pid: 41
@@ -8,7 +8,7 @@ categories: [学习笔记]
 ---
 由于我平常使用的是ubunu10.04系统.安装的是大名鼎鼎的LAMP(Linux+Apache+MySQL+PHP),用来本地测试wordpress以及对wordpress的修改作试验.所以对于服务器上的wordpress的修改很少有出现错误的情况.
 
-前两天 ubuntu系统突然进不去了.于是重装了一下.把从服务器上下载的备份文件导入到本地,然后一个全新的本地测试服务器就出来了 :lol: 
+前两天 ubuntu系统突然进不去了.于是重装了一下.把从服务器上下载的备份文件导入到本地,然后一个全新的本地测试服务器就出来了 :lol:
 
 可是本地的wordpress的固定链接是个问题.设置完后总是说我要更新.htaccess文件.到网上一找才知道是因为系统没有开启**Mod Rewrite**功能.因此使得固定链接的功能无效.
 
@@ -20,7 +20,7 @@ categories: [学习笔记]
 
 然后编辑 apache 的配置文件
 
-    sudo gedit /etc/apache2/sites-enabled/000-default 
+    sudo gedit /etc/apache2/sites-enabled/000-default
 
 将与wordpress存放目录相关的那两个 AllowOverride None 修改为：AllowOverride All，另外两个可以不改。
 最后重启apache,

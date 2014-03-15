@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Centos6.3 LiveCD安装手记
 pid: 249
@@ -22,7 +22,7 @@ categories: [学习笔记]
 
 	mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 
-然后新建CentOS-Base.repo文件,将如下内容放到文件中 
+然后新建CentOS-Base.repo文件,将如下内容放到文件中
 
 	# CentOS-Base.repo
 	#
@@ -31,7 +31,7 @@ categories: [学习笔记]
 	# geographically close to the client.  You should use this for CentOS updates
 	# unless you are manually picking other mirrors.
 	#
-	# If the mirrorlist= does not work for you, as a fall back you can try the 
+	# If the mirrorlist= does not work for you, as a fall back you can try the
 	# remarked out baseurl= line instead.
 	#
 	#
@@ -41,15 +41,15 @@ categories: [学习笔记]
 	#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
 	gpgcheck=1
 	gpgkey=http://mirrors.ustc.edu.cn/centos/RPM-GPG-KEY-CentOS-6
-	 
-	#released updates 
+
+	#released updates
 	[updates]
 	name=CentOS-$releasever - Updates - mirrors.ustc.edu.cn
 	baseurl=http://mirrors.ustc.edu.cn/centos/$releasever/updates/$basearch/
 	#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
 	gpgcheck=1
 	gpgkey=http://mirrors.ustc.edu.cn/centos/RPM-GPG-KEY-CentOS-6
-	 
+
 	#additional packages that may be useful
 	[extras]
 	name=CentOS-$releasever - Extras - mirrors.ustc.edu.cn
@@ -57,7 +57,7 @@ categories: [学习笔记]
 	#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
 	gpgcheck=1
 	gpgkey=http://mirrors.ustc.edu.cn/centos/RPM-GPG-KEY-CentOS-6
-	 
+
 	#additional packages that extend functionality of existing packages
 	[centosplus]
 	name=CentOS-$releasever - Plus - mirrors.ustc.edu.cn
@@ -66,7 +66,7 @@ categories: [学习笔记]
 	gpgcheck=1
 	enabled=0
 	gpgkey=http://mirrors.ustc.edu.cn/centos/RPM-GPG-KEY-CentOS-6
-	 
+
 	#contrib - packages by Centos Users
 	[contrib]
 	name=CentOS-$releasever - Contrib - mirrors.ustc.edu.cn
@@ -76,9 +76,9 @@ categories: [学习笔记]
 	enabled=0
 	gpgkey=http://mirrors.ustc.edu.cn/centos/RPM-GPG-KEY-CentOS-6
 
-然后用 
+然后用
 
-	su -c 'yum makecache' 
+	su -c 'yum makecache'
 
 更新缓存
 
@@ -87,7 +87,7 @@ categories: [学习笔记]
 
 	wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.i686.rpm
 
-然后 
+然后
 
 	su -c 'rpm -ivh rpmforge*.rpm'
 
@@ -97,7 +97,7 @@ categories: [学习笔记]
 
 	su -c 'yum install sudo'
 
-安装完成后 将/etc/sudoers 文件更改权限 
+安装完成后 将/etc/sudoers 文件更改权限
 
 	su -c 'chmod 744 /etc/sudoers'
 
@@ -108,17 +108,17 @@ categories: [学习笔记]
 
 一行,在下面添加(username改为你的用户名)
 
-	username ALL=(ALL) ALL 
+	username ALL=(ALL) ALL
 
-编辑后退出,再次更改sudoers文件权限 
+编辑后退出,再次更改sudoers文件权限
 
 	su -c 'chmod 0440 /etc/sudoers'
 
-然后用`exit`退出root权限再试试吧 
+然后用`exit`退出root权限再试试吧
 
 	sudo whoami
 
-如果正常的话,应该会返回 
+如果正常的话,应该会返回
 
 	root
 
@@ -130,20 +130,20 @@ categories: [学习笔记]
 
 	UUID=000C28CA000A356A      /media/Sys     ntfs-3g    defaults,utf8,uid=500  0	0
 
-前面的是NTFS的uuid,怎么看NTFS分区的uuid 
+前面的是NTFS的uuid,怎么看NTFS分区的uuid
 
 	cd /dev/disk/by-uuid
 	ls -al
 
 然后就可以看到不同的分区的uuid了,按照上面的例子,首先在/media目录新建你想要的文件夹,然后将各个分区写入fstab文件对应的文件夹即可
-然后执行 
+然后执行
 
-	sudo mount -a 
+	sudo mount -a
 
 即可.上面有个小地方要注意,centos默认的用户uid和Debian的不同,这里是uid=500,如果你是用的debian的话,应该改成1000,否则会造成自动挂载NTFS分区后无法将文件删除到回收站而是直接永久删除的情况
 
 #### 安装google-chrome浏览器 ####
-在/etc/yum.repo.d文件夹中,新建一个google-chrome.repo或者在CentOS-Base.repo中加入如下内容 
+在/etc/yum.repo.d文件夹中,新建一个google-chrome.repo或者在CentOS-Base.repo中加入如下内容
 
 	[google]
 	name=Google – i386
@@ -155,20 +155,20 @@ categories: [学习笔记]
 然后
 
 	yum makecache
-	sudo yum install google-chrome-stable 
+	sudo yum install google-chrome-stable
 
 即可
 
-#### 安装file-roller ####  
+#### 安装file-roller ####
 安装完centos后发现一个问题,像zip包这种东西,竟然不是双击打开,而是用archive mounter先挂载到/media目录后再打开.具体原因是centos LiveCD没有安装常用的归档管理器,那我们就安装一下吧,顺带安装一下unrar
 
 	sudo yum install file-roller unrar
 
-#### 修复bash自动补全 ####  
+#### 修复bash自动补全 ####
 安装LiveCD版后bash没有自动补全功能,所以进行一下修复
 首先到
 
-	http://www.caliban.org/files/redhat/RPMS/noarch/ 
+	http://www.caliban.org/files/redhat/RPMS/noarch/
 
 下载最新的`bash-completion-20060301-1.noarch.rpm`,
 然后安装一下,然后在~/.bashrc找个地方添加
@@ -216,7 +216,7 @@ categories: [学习笔记]
 
 
 #### 安装audacious播放器 ####
-新建一个repo文件,内容为 
+新建一个repo文件,内容为
 
 	[linuxtech]
 	#audacious install
