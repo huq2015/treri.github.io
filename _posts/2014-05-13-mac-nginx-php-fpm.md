@@ -27,7 +27,7 @@ tags: [Nginx, PHP]
         }
     }
 
-在nginx.conf中的默认配置中, 对于php-fpm的配置是有问题的. `SCRIPT_FILENAME`的配置有问题. 原配置中的值为`/scripts`, 需要修改为`$document_root`, 这样才能使路径随着上面设置的`root`进行变化, 否则当访问一个php文件时就会出现`File not found`的问题.
+在nginx.conf中的默认配置中, 对于php-fpm的配置是有问题的. `SCRIPT_FILENAME`的配置有问题. 原配置中的值为`/scripts$fastcgi_script_name`, 需要修改为`$document_root$fastcgi_script_name`, 这样才能使路径随着上面设置的`root`进行变化, 否则当访问一个php文件时就会出现`File not found`的问题.
 
 ### 2. 开启php-fpm.
 
