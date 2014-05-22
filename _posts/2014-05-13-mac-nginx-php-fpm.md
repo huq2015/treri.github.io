@@ -46,3 +46,12 @@ tags: [Nginx, PHP]
 ### 3. 添加hosts记录
 
     127.0.0.1 demo.local
+    
+如果愿意的话, 可以为nginx添加php文件的rewrite
+
+    location / {
+        if (!-e $request_filename) {
+            rewrite  ^(.*)$  /index.php?s=$1  last;
+            break;
+        }
+    }
