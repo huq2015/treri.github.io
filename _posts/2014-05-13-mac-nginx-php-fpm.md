@@ -55,3 +55,26 @@ tags: [Nginx, PHP]
             break;
         }
     }
+
+那么最终的nginx配置变为
+
+    server{
+        listen 80;
+        server_name demo.local;
+        index index.html index.htm index.php;
+        root /path/to;
+
+        location / {
+            if (!-e $request_filename) {
+                rewrite  ^(.*)$  /index.php?s=$1  last;
+                break;
+            }
+        }
+
+        location ~ \.php$ {
+            fastcgi_pass   127.0.0.1:9000;
+            fastcgi_index  index.php;
+            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+            include        fastcgi_params;
+        }
+    }
