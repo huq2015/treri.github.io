@@ -34,7 +34,7 @@ html代码如下
             <demo x-cbk1="cbk1(arg1, arg2)" x-cbk2="cbk2"></demo>
         </div>
 
-        <script src="http://cdn.staticfile.org/angular.js/1.2.16/angular.min.js"></script>
+        <script src="http://cdn.staticfile.org/angular.js/1.2.16/angular.js"></script>
         <script src="demoapp.js"></script>
     </body>
     </html>
