@@ -118,7 +118,7 @@ js部分写成这样
 
 整个代码修改为下面这样.
 
-    angular.module('demo', ['ui.router'])
+    angular.module('demo', ['ngResource', 'ui.router'])
     .config(['$stateProvider', function($stateProvider){
         $stateProvider.state('state1', {
             url: '/state1',
@@ -206,7 +206,7 @@ js部分写成这样
 
 因此, 我把整个js代码修改成这样
 
-    angular.module('demo', ['ui.router'])
+    angular.module('demo', ['ngResource', 'ui.router'])
     .config(['$stateProvider', function($stateProvider){
         $stateProvider.state('state1', {
             url: '/state1',
