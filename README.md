@@ -11,13 +11,13 @@ If you are seeing the old posts, only having to add '.html' to the post link you
 
 **If you want to fork me, please delete the directories `demo`, `uploads` and all posts in `_posts`, thx~**
 
-Have questions or want to contact me, feel free to mail jeremial90[AT]gmail.com. :-)
+Have questions or want to contact me, feel free to mail treri.liu[AT]gmail.com. :-)
 
 ## LICENSE ##
 
 The MIT License (MIT)
 
-Copyright (c) 2011-2014 Jeremial(jeremial90@gmail.com)
+Copyright (c) 2011-2014 Treri (Treri.liu@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
