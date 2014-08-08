@@ -25,8 +25,8 @@ mail
 > <i class="icon-gmail"></i> {{ site.author.email }}
 
 or follow
-> <i class="icon-twitter"></i> [@{{ site.author.twitter }}](https://twitter.com/#!/{{ site.author.twitter }})
+> <i class="icon-twitter"></i> [@{{ site.author.name }}](https://twitter.com/#!/{{ site.author.twitter }})
 >
-> <i class="icon-weibo"></i> [@{{ site.author.twitter }}](http://weibo.com/{{ site.author.weibo }})
+> <i class="icon-weibo"></i> [@{{ site.author.name }}](http://weibo.com/{{ site.author.weibo }})
 
 to reach me
