@@ -12,11 +12,11 @@ tags: [Linux, Gentoo]
 自己有一台macbook air, 还有一台台式机, 平时工作的时候用air, 所以台式机就一直空着. 一直对Linux
 很喜欢, 所以本着折腾就是乐趣的原则, 这次在台式机上安装Gentoo. 相传是比LFS容易一些的Linux.
 
-## 准备工作
+### 准备工作
 1. 下载ios镜像. 因为台式机有8G内存, 所以下载了amd64架构的mininal镜像.
 2. 提前阅读Gentoo Handbook中的Install一节, 对安装中要遇到的问题提前了解
 
-## 安装基本系统
+### 安装基本系统
 
 1. 将iso镜像刻录到U盘中. 因为原来台式机中使用是的window8, 所以很方便.
 2. 从U盘启动, 进入Gentoo LiveCD.
@@ -128,7 +128,7 @@ destop序号为3, 所以将3设置为使用
         # <fs>                  <mountpoint>    <type>          <opts>          <dump/pass>
 
         # NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
-        /dev/sda4               /               ext3            noatime         0 1
+        /dev/sda4               /               ext4            noatime         0 1
         /dev/sda3               none            swap            sw              0 0
         /dev/cdrom              /mnt/cdrom      auto            noauto,ro       0 0
         /dev/fd0                /mnt/floppy     auto            noauto          0 0
