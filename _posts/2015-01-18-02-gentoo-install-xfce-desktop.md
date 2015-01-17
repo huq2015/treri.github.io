@@ -11,8 +11,12 @@ tags: [Linux, Gentoo]
 
 接上篇安装完nvidia显卡驱动后, 这篇文章要安装xfce桌面环境.
 
+安装参考
+
 - <https://wiki.gentoo.org/wiki/Xfce>
 - <https://wiki.gentoo.org/wiki/Xfce/HOWTO>
+
+开始安装步骤
 
 1. 确认目前选择的profile为desktop, 但不是为gnome或者kde
 2. 为一些软件配置USE标记
