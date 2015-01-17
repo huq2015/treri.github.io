@@ -56,3 +56,10 @@ tags: [Linux, Gentoo]
     如果显示了内容, 说明显示驱动安装成功. 为了每次系统启动后, 显示驱动模块能够自动加载, 在`/etc/conf.d/modules`中添加显卡驱动模块
 
         modules="nvidia agpgart"
+
+11. 为`/etc/portage/make.conf`添加全局nvidia USE标记, 并更新系统
+
+        USE="-gnome -kde -minimal -qt4 dbus jpeg lock session startup-notification thunar udev X dvd alsa cdr -ipv6 -cups nvidia"
+    然后使新的全局USE生效
+
+        emerge -uD --newuse @world
