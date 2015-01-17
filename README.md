@@ -17,7 +17,7 @@ Have questions or want to contact me, feel free to mail treri.liu[AT]gmail.com. 
 
 The MIT License (MIT)
 
-Copyright (c) 2011-2014 Treri (Treri.liu@gmail.com)
+Copyright (c) 2011-2015 Treri (treri.liu@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
