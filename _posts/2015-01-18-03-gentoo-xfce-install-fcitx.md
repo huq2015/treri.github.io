@@ -31,18 +31,11 @@ tags: [Linux, Gentoo]
 
         emerge --ask fcitx fcitx-configtool
 
-5. 配置`/etc/X11/xinit/xinitrc.d/99-xinputrc`, 在启动桌面环境的时候启动fcitx
+5. 配置`~/.xinitrc`,在启动桌面环境的时候启动fcitx
 
-        #!/bin/bash
+        export XMODIFIERS="@im=fcitx"
+        export GTK_IM_MODULE="fcitx"
 
-        # This script set the "XIM" and some other environment variable,
-        # then starts fcitx automatically when loading X
-        XIM="fcitx"
-        XIM_PROGRAM="fcitx"
-        XIM_ARGS="-d"
-        XMODIFIERS="@im=fcitx"
-        GTK_IM_MODULE="fcitx"
-        export XIM XIM_PROGRAM XMODIFIERS GTK_IM_MODULE
+    并在`~/.xinitrc`的开头加入如下内容
 
-        # start xim server
-        $XIM_PROGRAM $XIM_ARGS &
+        eval "$(dbus-launch --sh-syntax --exit-with-session)"
