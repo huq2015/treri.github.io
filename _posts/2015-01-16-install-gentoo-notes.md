@@ -146,9 +146,10 @@ destop序号为3, 所以将3设置为使用
         ln -s net.lo net.enp3s0
         rc-update add net.enp3s0 default
 
-23. 安装`sys-apps/pcmciautils`
+23. 安装`sys-apps/pcmciautils`, 及`app-portage/gentoolkit`. 在gentoolkit中, 包含了euse, equary等很有用的工具, 后面会经常用到
 
         emerge --ask sys-apps/pcmciautils
+        emerge --ask app-portage/gentoolkit
 
 24. 重设root密码
 
