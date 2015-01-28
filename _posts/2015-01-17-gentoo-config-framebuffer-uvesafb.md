@@ -29,4 +29,4 @@ tags: [Linux, Gentoo]
 
 6. 生成grub.cfg
 
-        grub2-mkconfig -o /boot/grub2/grub.cfg
+        grub2-mkconfig -o /boot/grub/grub.cfg
