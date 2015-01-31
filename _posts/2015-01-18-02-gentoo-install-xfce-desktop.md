@@ -34,9 +34,15 @@ tags: [Linux, Gentoo]
         emerge --ask xfwm4 xfce4-panel
         emerge --ask x11-terms/xfce4-terminal
 
-4. 配置xorg server启动时, 默认启动xfce
+4. 配置xorg server启动时, 默认启动xfce.
 
-        echo "exec startxfce4" > ~/.xinitrc
+        rc-update add consolekit default
+        echo "exec startxfce4 --with-ck-launch" > ~/.xinitrc
+
+    如果是安装的kde桌面的话, 则改为
+
+        rc-update add consolekit default
+        echo "exec startkde --with-ck-launch" > ~/.xinitrc
 
 5. 启动xorg server, 此时应该就可以进入到xfce桌面了
 
