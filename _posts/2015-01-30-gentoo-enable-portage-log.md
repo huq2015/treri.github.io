@@ -1,6 +1,6 @@
 ---
 layout: post
-title: gentoo开启portage log
+title: Gentoo开启portage log
 pid: 2015013001
 comments: true
 keywords: ""
