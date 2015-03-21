@@ -157,7 +157,7 @@ ol, ul {
 }
 
 #header {
-  width: 760px;
+  max-width: 760px;
   margin: 0 auto;
   /*margin: 5em auto 4em auto;*/
   text-align: center;
@@ -229,7 +229,7 @@ div.fixnav a:hover {
 }
 
 .content {
-  width: 760px;
+  max-width: 760px;
   margin:0 auto;
   font-size: 1.1em;
   line-height: 1.7em;
